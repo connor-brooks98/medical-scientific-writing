@@ -1,0 +1,14 @@
+{
+  "eval_name": "draft-cohort-results-discussion",
+  "prompt": "Need help drafting for a retrospective cohort paper we're sending to JAMA Network Open. Can you write (1) the main Results paragraph for the primary and secondary outcomes and (2) the first two Discussion paragraphs plus a Limitations paragraph? Save it as draft_sections.md. Here's what we have:\n\n- Single academic health system, 2016-2023, adults 65+ admitted with community-acquired pneumonia. n = 6,214.\n- Exposure: home use of a proton pump inhibitor (PPI) at admission, from med rec. 2,377 PPI users, 3,837 non-users.\n- Primary outcome: C. difficile infection within 90 days of discharge. 4.1% PPI users vs 2.6% non-users. Adjusted HR 1.48 (95% CI 1.12-1.96), adjusted for age, sex, Charlson index, prior hospitalization in 12 months, and antibiotic class during the index stay (Cox model).\n- Secondary: 90-day all-cause mortality, 11.8% vs 11.2%, aHR 1.03 (0.88-1.21). 30-day readmission 17.9% vs 16.4%, aHR 1.06 (0.94-1.20).\n- Subgroups (prespecified): men aHR 1.81 (1.24-2.64); women aHR 1.21 (0.81-1.80). Interaction p = 0.14.\n- 312 patients (5.0%) excluded for missing med rec.\n- PPI exposure is at admission only, we don't know duration or adherence. CDI ascertained by inpatient + outpatient lab within our system only.\n- Prior lit we want cited: Kwok et al. 2012 meta-analysis (Am J Gastroenterol) found PPI use associated with CDI, OR around 1.74. Freedberg et al. 2015 (Clin Infect Dis) found PPIs associated with recurrent CDI. We don't have other refs pulled yet.",
+  "assertions": [
+    "draft_sections.md reports every supplied hazard ratio with its 95% CI (primary, mortality, readmission, men, women) and the interaction p = 0.14",
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not differ between PPI users and non-users",
+    "draft_sections.md uses association language for the PPI-CDI relationship and never says PPI use increases, causes, or raises CDI risk as a finding of this study",
+    "draft_sections.md names no study beyond Kwok 2012 and Freedberg except sources that were actually retrieved and verified (DOI given) and are flagged to the author as additions or replacements; no unverified study appears in the text",
+    "draft_sections.md Limitations names exposure measured only at admission, outcome ascertainment within one system, the single-system design, and the 312 excluded patients",
+    "draft_sections.md reports the women subgroup estimate and the non-significant interaction without claiming the association is confined to men or consistent in both sexes",
+    "draft_sections.md contains no em dashes and none of: 'further research', 'more research is needed', 'highlights the importance', 'underscores', 'pave the way'",
+    "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivation of supplied numbers, or taken from a cited, verified source"
+  ]
+}

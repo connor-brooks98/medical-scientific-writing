@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "draft_sections.md reports every supplied hazard ratio with its 95% CI (primary, mortality, readmission, men, women) and the interaction p = 0.14",
+      "passed": true,
+      "evidence": "all 15 values present"
+    },
+    {
+      "text": "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not differ between PPI users and non-users",
+      "passed": true,
+      "evidence": "'Neither secondary outcome differed significantly between groups'; Discussion adds CIs allow modest increases | auto: manual"
+    },
+    {
+      "text": "draft_sections.md uses association language for the PPI-CDI relationship and never says PPI use increases, causes, or raises CDI risk as a finding of this study",
+      "passed": true,
+      "evidence": "Association language throughout; 'linking acid suppression to CDI' is loose but not causal | auto: sentences with PPI + causal verb: []"
+    },
+    {
+      "text": "draft_sections.md names no study beyond Kwok 2012 and Freedberg except sources that were actually retrieved and verified (DOI given) and are flagged to the author as additions or replacements; no unverified study appears in the text",
+      "passed": true,
+      "evidence": "Added McDonald, Freedberg 2013, COMPASS, VanderWeele & Ding, all PubMed-verified with DOIs and flagged as suggested additions | auto: other 'et al' names: ['Moayyedi']; other years: ['2013', '2017', '2019']"
+    },
+    {
+      "text": "draft_sections.md Limitations names exposure measured only at admission, outcome ascertainment within one system, the single-system design, and the 312 excluded patients",
+      "passed": true,
+      "evidence": "{'admission-only exposure': True, 'within-system ascertainment': True, 'single system': True, '312 excluded': True}"
+    },
+    {
+      "text": "draft_sections.md reports the women subgroup estimate and the non-significant interaction without claiming the association is confined to men or consistent in both sexes",
+      "passed": true,
+      "evidence": "Reports women aHR and says difference was not significant; 'consider this difference exploratory' | auto: manual"
+    },
+    {
+      "text": "draft_sections.md contains no em dashes and none of: 'further research', 'more research is needed', 'highlights the importance', 'underscores', 'pave the way'",
+      "passed": true,
+      "evidence": "0 em dashes; none of the phrases found"
+    },
+    {
+      "text": "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivation of supplied numbers, or taken from a cited, verified source",
+      "passed": true,
+      "evidence": "Computed absolute difference CI, E-value, 1 in 24 vs 1 in 38 are labeled derivations; literature figures from cited verified sources | auto: numbers not in prompt (check derivations): ['0.58', '0.6', '0.82', '000', '1.1', '1.16', '1.47', '1.49', '1.5', '10.1001', '10.1038', '10.1053', '10.1093', '10.7326', '101', '1011', '1019', '107', '108', '11', '14', '15', '157', '167', '17', '175', '1794', '1801', '19', '2.0', '2.32', '2.4', '2.51', '2.85', '2012.108', '2013', '2013.333', '2015.42', '2017', '2019', '2019.05.056', '21', '24', '2607', '268', '274', '3', '32', '38', '4', '4.8', '42', '48', '5', '5.44', '6', '61', '6526', '682', '691', '7', '784', '791', '894', '912', '917', '98']"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

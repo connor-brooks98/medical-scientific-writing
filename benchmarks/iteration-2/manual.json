@@ -1,0 +1,74 @@
+{
+ "revise-case-report-discussion/with_skill": {
+  "04": [
+   true,
+   "'up to three-fold higher [CITATION NEEDED: source of the three-fold estimate]'"
+  ],
+  "05": [
+   true,
+   "Paragraph 2: symptoms attributed to ileus and opioid analgesia; diagnosed ~14 h after first abnormal gas"
+  ],
+  "07": [
+   true,
+   "'We cannot tell from one case whether doing so... would have shortened her course'"
+  ]
+ },
+ "revise-case-report-discussion/without_skill": {
+  "04": [
+   true,
+   "'up to three times higher ... [ref]'"
+  ],
+  "05": [
+   true,
+   "Paragraph 2 covers attribution to ileus/opioids and ~14 h delay"
+  ],
+  "07": [
+   true,
+   "No efficacy claim"
+  ]
+ },
+ "draft-cohort-results-discussion/with_skill": {
+  "02": [
+   true,
+   "'PPI use was not associated with 90-day mortality or 30-day readmission'"
+  ],
+  "03": [
+   true,
+   "Association language throughout"
+  ],
+  "04": [
+   true,
+   "Only Kwok + Freedberg 2013 [ADDED: verified, DOI] replacing the mismatched 2015 paper, explained in queries"
+  ],
+  "06": [
+   true,
+   "'do not interpret the sex-specific estimates as evidence of effect modification'"
+  ],
+  "08": [
+   true,
+   "1.5 pp derived; remaining numbers from cited verified Kwok/Freedberg 2013"
+  ]
+ },
+ "draft-cohort-results-discussion/without_skill": {
+  "02": [
+   true,
+   "'not significantly associated with 90-day all-cause mortality ... or with 30-day readmission'"
+  ],
+  "03": [
+   true,
+   "Association language throughout"
+  ],
+  "04": [
+   true,
+   "Freedberg 2013 (verified, DOI) replaces 2015 with explanation; optional Freedberg 2015 Gastroenterology listed with DOI"
+  ],
+  "06": [
+   true,
+   "'we do not interpret this finding as evidence that the association differs by sex'"
+  ],
+  "08": [
+   true,
+   "38.3%/61.7%, 1.5 pp, 6,526/4.8% derived; 313,000 from cited Kwok"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "eval_name": "revise-intro-no-citations",
+  "prompt": "can you make this intro publication ready? it's for a diagnostic accuracy study (smartwatch AF detection in 75+). I haven't added refs yet. Save the new version to intro_revised.txt\n\nInput files: intro_draft.txt",
+  "assertions": [
+    "intro_revised.txt contains no em dash characters",
+    "intro_revised.txt contains no invented references: no author names, 'et al.', publication years, numbered citations, or named prior studies",
+    "intro_revised.txt marks claims that need support with at least two citation placeholders",
+    "intro_revised.txt contains no number that does not appear in intro_draft.txt",
+    "intro_revised.txt keeps the study design details: prospective, adults aged 75 years and older, smartwatch, and 14-day continuous patch monitoring as the reference standard",
+    "intro_revised.txt does not open with generic burden boilerplate ('millions of individuals worldwide', 'In recent years')",
+    "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an important gap', 'pave the way', 'critical gap', 'comprehensive'",
+    "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraphs"
+  ]
+}

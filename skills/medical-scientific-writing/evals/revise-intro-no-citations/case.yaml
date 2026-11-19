@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: revise-intro-no-citations
+expected_outcome: |
+  intro_revised.txt is a tighter Introduction (three short paragraphs or fewer) that opens on the specific question rather than generic AF burden boilerplate, contains no invented references, studies, or statistics (claims needing support are marked with citation placeholders), states the gap specifically (accuracy in adults 75+, with the named signal-quality issues), ends with a plain aim statement that keeps the design details (prospective, adults 75+, 14-day patch reference standard), and removes the AI patterns (em dash, "promising tools", "transform the landscape", "fills an important gap", "pave the way", stacked hedges).
+context:
+  scaffold_script: place-files.sh

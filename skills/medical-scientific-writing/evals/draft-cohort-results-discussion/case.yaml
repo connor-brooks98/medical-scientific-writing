@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: draft-cohort-results-discussion
+expected_outcome: |
+  draft_sections.md contains a Results paragraph and Discussion paragraphs (two opening paragraphs plus Limitations) that report every supplied estimate with its CI, use association language rather than causal verbs, report the null mortality and readmission results and the non-significant subgroup and interaction plainly, cite only the two supplied studies (any other support appears as a placeholder), name specific limitations (exposure at admission only, within-system ascertainment, single centre, missing data) without rebuttals, and avoid AI patterns such as stated morals, "more research is needed", em dashes, and -ing tails.

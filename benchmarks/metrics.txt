@@ -1,0 +1,322 @@
+[
+ {
+  "case": "revise-case-report-discussion",
+  "run": "input (AI draft)",
+  "words": 248,
+  "pattern_hits": 20,
+  "discourse_hits": 5,
+  "em_dashes": 2,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 1,
+  "placeholders": 0,
+  "numbers_not_in_source": 0,
+  "by_pattern": {
+   "W1": 6,
+   "W2": 2,
+   "S1": 3,
+   "S2": 3,
+   "S7": 1,
+   "D1": 4,
+   "D5": 1
+  }
+ },
+ {
+  "case": "revise-intro-no-citations",
+  "run": "input (AI draft)",
+  "words": 220,
+  "pattern_hits": 13,
+  "discourse_hits": 5,
+  "em_dashes": 2,
+  "uniform_paragraphs": 1,
+  "uncited_attributions": 2,
+  "placeholders": 0,
+  "numbers_not_in_source": 0,
+  "by_pattern": {
+   "W1": 3,
+   "W2": 2,
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "D2": 1,
+   "D4": 2,
+   "D5": 1,
+   "D6": 1
+  }
+ },
+ {
+  "case": "revise-case-report-discussion",
+  "run": "iteration-1/with_skill",
+  "words": 455,
+  "pattern_hits": 1,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 5,
+  "numbers_not_in_source": 0,
+  "by_pattern": {
+   "W3": 1
+  }
+ },
+ {
+  "case": "revise-case-report-discussion",
+  "run": "iteration-1/without_skill",
+  "words": 355,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 2,
+  "numbers_not_in_source": 0,
+  "by_pattern": {}
+ },
+ {
+  "case": "draft-cohort-results-discussion",
+  "run": "iteration-1/with_skill",
+  "words": 831,
+  "pattern_hits": 1,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 3,
+  "numbers_not_in_source": 30,
+  "by_pattern": {
+   "W3": 1
+  }
+ },
+ {
+  "case": "draft-cohort-results-discussion",
+  "run": "iteration-1/without_skill",
+  "words": 993,
+  "pattern_hits": 4,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 0,
+  "numbers_not_in_source": 27,
+  "by_pattern": {
+   "W3": 3,
+   "S7": 1
+  }
+ },
+ {
+  "case": "revise-intro-no-citations",
+  "run": "iteration-1/with_skill",
+  "words": 184,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 9,
+  "numbers_not_in_source": 0,
+  "by_pattern": {}
+ },
+ {
+  "case": "revise-intro-no-citations",
+  "run": "iteration-1/without_skill",
+  "words": 429,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 11,
+  "numbers_not_in_source": 2,
+  "by_pattern": {}
+ },
+ {
+  "case": "revise-case-report-discussion",
+  "run": "iteration-2/with_skill",
+  "words": 327,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 2,
+  "numbers_not_in_source": 0,
+  "by_pattern": {}
+ },
+ {
+  "case": "revise-case-report-discussion",
+  "run": "iteration-2/without_skill",
+  "words": 439,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 3,
+  "numbers_not_in_source": 0,
+  "by_pattern": {}
+ },
+ {
+  "case": "draft-cohort-results-discussion",
+  "run": "iteration-2/with_skill",
+  "words": 745,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 7,
+  "numbers_not_in_source": 17,
+  "by_pattern": {}
+ },
+ {
+  "case": "draft-cohort-results-discussion",
+  "run": "iteration-2/without_skill",
+  "words": 1077,
+  "pattern_hits": 2,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 1,
+  "numbers_not_in_source": 13,
+  "by_pattern": {
+   "W3": 2
+  }
+ },
+ {
+  "case": "revise-intro-no-citations",
+  "run": "iteration-2/with_skill",
+  "words": 151,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 6,
+  "numbers_not_in_source": 0,
+  "by_pattern": {}
+ },
+ {
+  "case": "revise-intro-no-citations",
+  "run": "iteration-2/without_skill",
+  "words": 357,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 12,
+  "numbers_not_in_source": 3,
+  "by_pattern": {}
+ },
+ {
+  "case": "revise-case-report-discussion",
+  "run": "iteration-2-haiku/with_skill",
+  "words": 274,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 2,
+  "numbers_not_in_source": 0,
+  "by_pattern": {}
+ },
+ {
+  "case": "revise-case-report-discussion",
+  "run": "iteration-2-haiku/without_skill",
+  "words": 370,
+  "pattern_hits": 2,
+  "discourse_hits": 1,
+  "em_dashes": 0,
+  "uniform_paragraphs": 1,
+  "uncited_attributions": 0,
+  "placeholders": 1,
+  "numbers_not_in_source": 0,
+  "by_pattern": {
+   "W3": 1,
+   "D1": 1
+  }
+ },
+ {
+  "case": "draft-cohort-results-discussion",
+  "run": "iteration-2-haiku/with_skill",
+  "words": 655,
+  "pattern_hits": 0,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 2,
+  "numbers_not_in_source": 16,
+  "by_pattern": {}
+ },
+ {
+  "case": "draft-cohort-results-discussion",
+  "run": "iteration-2-haiku/without_skill",
+  "words": 1029,
+  "pattern_hits": 1,
+  "discourse_hits": 0,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 0,
+  "numbers_not_in_source": 28,
+  "by_pattern": {
+   "S7": 1
+  }
+ },
+ {
+  "case": "revise-intro-no-citations",
+  "run": "iteration-2-haiku/with_skill",
+  "words": 139,
+  "pattern_hits": 1,
+  "discourse_hits": 1,
+  "em_dashes": 0,
+  "uniform_paragraphs": 1,
+  "uncited_attributions": 0,
+  "placeholders": 5,
+  "numbers_not_in_source": 0,
+  "by_pattern": {
+   "D6": 1
+  }
+ },
+ {
+  "case": "revise-intro-no-citations",
+  "run": "iteration-2-haiku/without_skill",
+  "words": 210,
+  "pattern_hits": 2,
+  "discourse_hits": 1,
+  "em_dashes": 0,
+  "uniform_paragraphs": 0,
+  "uncited_attributions": 0,
+  "placeholders": 7,
+  "numbers_not_in_source": 9,
+  "by_pattern": {
+   "S7": 1,
+   "D4": 1
+  }
+ }
+]
+
+| Case | Run | Words | AI-pattern hits | Discourse-level hits | Em dashes | Uniform paragraphs | Uncited attributions | Placeholders |
+|---|---|---|---|---|---|---|---|---|
+| revise-case-report-discussion | input (AI draft) | 248 | 20 | 5 | 2 | 0 | 1 | 0 |
+| revise-intro-no-citations | input (AI draft) | 220 | 13 | 5 | 2 | 1 | 2 | 0 |
+| revise-case-report-discussion | iteration-1/with_skill | 455 | 1 | 0 | 0 | 0 | 0 | 5 |
+| revise-case-report-discussion | iteration-1/without_skill | 355 | 0 | 0 | 0 | 0 | 0 | 2 |
+| draft-cohort-results-discussion | iteration-1/with_skill | 831 | 1 | 0 | 0 | 0 | 0 | 3 |
+| draft-cohort-results-discussion | iteration-1/without_skill | 993 | 4 | 0 | 0 | 0 | 0 | 0 |
+| revise-intro-no-citations | iteration-1/with_skill | 184 | 0 | 0 | 0 | 0 | 0 | 9 |
+| revise-intro-no-citations | iteration-1/without_skill | 429 | 0 | 0 | 0 | 0 | 0 | 11 |
+| revise-case-report-discussion | iteration-2/with_skill | 327 | 0 | 0 | 0 | 0 | 0 | 2 |
+| revise-case-report-discussion | iteration-2/without_skill | 439 | 0 | 0 | 0 | 0 | 0 | 3 |
+| draft-cohort-results-discussion | iteration-2/with_skill | 745 | 0 | 0 | 0 | 0 | 0 | 7 |
+| draft-cohort-results-discussion | iteration-2/without_skill | 1077 | 2 | 0 | 0 | 0 | 0 | 1 |
+| revise-intro-no-citations | iteration-2/with_skill | 151 | 0 | 0 | 0 | 0 | 0 | 6 |
+| revise-intro-no-citations | iteration-2/without_skill | 357 | 0 | 0 | 0 | 0 | 0 | 12 |
+| revise-case-report-discussion | iteration-2-haiku/with_skill | 274 | 0 | 0 | 0 | 0 | 0 | 2 |
+| revise-case-report-discussion | iteration-2-haiku/without_skill | 370 | 2 | 1 | 0 | 1 | 0 | 1 |
+| draft-cohort-results-discussion | iteration-2-haiku/with_skill | 655 | 0 | 0 | 0 | 0 | 0 | 2 |
+| draft-cohort-results-discussion | iteration-2-haiku/without_skill | 1029 | 1 | 0 | 0 | 0 | 0 | 0 |
+| revise-intro-no-citations | iteration-2-haiku/with_skill | 139 | 1 | 1 | 0 | 1 | 0 | 5 |
+| revise-intro-no-citations | iteration-2-haiku/without_skill | 210 | 2 | 1 | 0 | 0 | 0 | 7 |

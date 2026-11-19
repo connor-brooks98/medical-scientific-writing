@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "skill_name": "medical-scientific-writing",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-11-19T17:48:37Z",
+    "evals_run": [
+      "draft-cohort-results-discussion",
+      "revise-case-report-discussion",
+      "revise-intro-no-citations"
+    ],
+    "runs_per_configuration": 1,
+    "model": "claude-opus-5-5"
+  },
+  "runs": [
+    {
+      "eval_id": "draft-cohort-results-discussion",
+      "eval_name": "draft-cohort-results-discussion",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 278.3,
+        "tokens": 170370,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "draft_sections.md reports every supplied hazard ratio with its 95% CI (primary, mortality, readmission, men, women) and the interaction p = 0.14",
+          "passed": true,
+          "evidence": "all 15 values present"
+        },
+        {
+          "text": "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not differ between PPI users and non-users",
+          "passed": true,
+          "evidence": "'PPI use was not associated with 90-day all-cause mortality ... or with 30-day readmission' | auto: manual"
+        },
+        {
+          "text": "draft_sections.md uses association language for the PPI-CDI relationship and never says PPI use increases, causes, or raises CDI risk as a finding of this study",
+          "passed": true,
+          "evidence": "All PPI-CDI statements use 'was associated with'; the only 'increase' is in the Faleck reference title | auto: sentences with PPI + causal verb: ['PPI use was not associated with 90-day all-cause mortality (11', '44), and McDonald et al<sup>3</sup> found that continuous PPI use was associated with recurrence within 90 days among 754 patients with health care-associated C']"
+        },
+        {
+          "text": "draft_sections.md names no study beyond Kwok 2012 and Freedberg except sources that were actually retrieved and verified (DOI given) and are flagged to the author as additions or replacements; no unverified study appears in the text",
+          "passed": true,
+          "evidence": "Added Faleck 2016, McDonald 2015, Freedberg 2013, each PubMed-verified with DOI and marked [ADDED]; replacement of Freedberg 2015 explained in author queries | auto: other 'et al' names: ['Faleck']; other years: ['2013', '2020']"
+        },
+        {
+          "text": "draft_sections.md Limitations names exposure measured only at admission, outcome ascertainment within one system, the single-system design, and the 312 excluded patients",
+          "passed": true,
+          "evidence": "{'admission-only exposure': True, 'within-system ascertainment': True, 'single system': True, '312 excluded': True}"
+        },
+        {
+          "text": "draft_sections.md reports the women subgroup estimate and the non-significant interaction without claiming the association is confined to men or consistent in both sexes",
+          "passed": true,
+          "evidence": "Reports women aHR 1.21 (0.81-1.80) and says the interaction test (P = .14) does not support a difference by sex | auto: manual"
+        },
+        {
+          "text": "draft_sections.md contains no em dashes and none of: 'further research', 'more research is needed', 'highlights the importance', 'underscores', 'pave the way'",
+          "passed": true,
+          "evidence": "0 em dashes; none of the phrases found"
+        },
+        {
+          "text": "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivation of supplied numbers, or taken from a cited, verified source",
+          "passed": true,
+          "evidence": "Derived numbers correct (38.3%, 48%, CI-read ranges); other numbers come from the cited, verified references | auto: numbers not in prompt (check derivations): ['0', '0.48', '0.58', '0.64', '0.72', '0.82', '0.83', '1.1', '1.16', '1.47', '1.5', '1.56', '10', '10.1001', '10.1038', '10.1093', '1011', '1019', '107', '108', '11', '111', '134', '14', '1641', '1648', '17', '175', '1794', '18', '1801', '19', '2.0', '2.51', '2.85', '2012.108', '2013', '2013.333', '2015.42', '2016.343', '2020', '21', '3', '3.35', '3.70', '32', '38.3', '39', '4', '4.8', '48', '5', '5.44', '6', '61', '6526', '7', '7.66', '754', '784', '791', '8', '85', '894', '9', '912', '917']"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-case-report-discussion",
+      "eval_name": "revise-case-report-discussion",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 202.7,
+        "tokens": 158839,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "revised_discussion.md contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "revised_discussion.md contains no number that does not appear in case_report_draft.md",
+          "passed": true,
+          "evidence": "numbers not in draft: []"
+        },
+        {
+          "text": "revised_discussion.md keeps the FDA recommendation to stop empagliflozin at least 3 days before surgery with its citation [5]",
+          "passed": true,
+          "evidence": "[5] present: True; FDA present: True"
+        },
+        {
+          "text": "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it is removed or marked with a citation placeholder",
+          "passed": true,
+          "evidence": "Kept as 'reported to be up to three-fold higher [CITATION NEEDED: source and comparator group...]' | auto: three-fold sentence: DKA is uncommon in patients taking these drugs [CITATION NEEDED: incidence], but the risk has been reported to be up to three-fold higher [CITATION NEEDED: source and comparator group for the three-fold estimate]."
+        },
+        {
+          "text": "revised_discussion.md discusses the delayed diagnosis, including that early symptoms were attributed to ileus or opioids",
+          "passed": true,
+          "evidence": "Second paragraph: symptoms 'attributed to postoperative ileus and opioid analgesia', ~14 hours from first abnormal gas to diagnosis | auto: ileus mentioned: True; opioid mentioned: True"
+        },
+        {
+          "text": "revised_discussion.md contains none of: 'highlights the importance', 'valuable reminder', 'further research is needed', 'high index of suspicion', 'evolving landscape', 'revolutionized'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "revised_discussion.md does not claim the single case demonstrates the effectiveness of an approach or treatment",
+          "passed": true,
+          "evidence": "No efficacy claim; adds 'From a single case, however, we cannot separate the effect of the drug...' | auto: 'demonstrat' occurrences: []"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-intro-no-citations",
+      "eval_name": "revise-intro-no-citations",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 122.5,
+        "tokens": 125335,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "intro_revised.txt contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "intro_revised.txt contains no invented references: no author names, 'et al.', publication years, numbered citations, or named prior studies",
+          "passed": true,
+          "evidence": "No named studies, authors, years, or numbered citations; all support as placeholders | auto: et al: 0, years: [], numbered cites: [] (check named studies manually)"
+        },
+        {
+          "text": "intro_revised.txt marks claims that need support with at least two citation placeholders",
+          "passed": true,
+          "evidence": "9 placeholders"
+        },
+        {
+          "text": "intro_revised.txt contains no number that does not appear in intro_draft.txt",
+          "passed": true,
+          "evidence": "numbers not in draft (outside brackets): []"
+        },
+        {
+          "text": "intro_revised.txt keeps the study design details: prospective, adults aged 75 years and older, smartwatch, and 14-day continuous patch monitoring as the reference standard",
+          "passed": true,
+          "evidence": "{'prospective': True, '75': True, 'smartwatch': True, '14-day': True, 'patch': True}"
+        },
+        {
+          "text": "intro_revised.txt does not open with generic burden boilerplate ('millions of individuals worldwide', 'In recent years')",
+          "passed": true,
+          "evidence": "none of the phrases found; first sentence: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia, and its prevalence rises with age [CITATION NEEDED: age-specific AF prevalence, including adults aged 75 years and older]."
+        },
+        {
+          "text": "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an important gap', 'pave the way', 'critical gap', 'comprehensive'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraphs",
+          "passed": true,
+          "evidence": "words excluding [placeholders] 184 vs 220; paragraphs 3"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "draft-cohort-results-discussion",
+      "eval_name": "draft-cohort-results-discussion",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 201.2,
+        "tokens": 140395,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "draft_sections.md reports every supplied hazard ratio with its 95% CI (primary, mortality, readmission, men, women) and the interaction p = 0.14",
+          "passed": true,
+          "evidence": "all 15 values present"
+        },
+        {
+          "text": "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not differ between PPI users and non-users",
+          "passed": true,
+          "evidence": "'Neither secondary outcome differed significantly between groups'; Discussion adds CIs allow modest increases | auto: manual"
+        },
+        {
+          "text": "draft_sections.md uses association language for the PPI-CDI relationship and never says PPI use increases, causes, or raises CDI risk as a finding of this study",
+          "passed": true,
+          "evidence": "Association language throughout; 'linking acid suppression to CDI' is loose but not causal | auto: sentences with PPI + causal verb: []"
+        },
+        {
+          "text": "draft_sections.md names no study beyond Kwok 2012 and Freedberg except sources that were actually retrieved and verified (DOI given) and are flagged to the author as additions or replacements; no unverified study appears in the text",
+          "passed": true,
+          "evidence": "Added McDonald, Freedberg 2013, COMPASS, VanderWeele & Ding, all PubMed-verified with DOIs and flagged as suggested additions | auto: other 'et al' names: ['Moayyedi']; other years: ['2013', '2017', '2019']"
+        },
+        {
+          "text": "draft_sections.md Limitations names exposure measured only at admission, outcome ascertainment within one system, the single-system design, and the 312 excluded patients",
+          "passed": true,
+          "evidence": "{'admission-only exposure': True, 'within-system ascertainment': True, 'single system': True, '312 excluded': True}"
+        },
+        {
+          "text": "draft_sections.md reports the women subgroup estimate and the non-significant interaction without claiming the association is confined to men or consistent in both sexes",
+          "passed": true,
+          "evidence": "Reports women aHR and says difference was not significant; 'consider this difference exploratory' | auto: manual"
+        },
+        {
+          "text": "draft_sections.md contains no em dashes and none of: 'further research', 'more research is needed', 'highlights the importance', 'underscores', 'pave the way'",
+          "passed": true,
+          "evidence": "0 em dashes; none of the phrases found"
+        },
+        {
+          "text": "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivation of supplied numbers, or taken from a cited, verified source",
+          "passed": true,
+          "evidence": "Computed absolute difference CI, E-value, 1 in 24 vs 1 in 38 are labeled derivations; literature figures from cited verified sources | auto: numbers not in prompt (check derivations): ['0.58', '0.6', '0.82', '000', '1.1', '1.16', '1.47', '1.49', '1.5', '10.1001', '10.1038', '10.1053', '10.1093', '10.7326', '101', '1011', '1019', '107', '108', '11', '14', '15', '157', '167', '17', '175', '1794', '1801', '19', '2.0', '2.32', '2.4', '2.51', '2.85', '2012.108', '2013', '2013.333', '2015.42', '2017', '2019', '2019.05.056', '21', '24', '2607', '268', '274', '3', '32', '38', '4', '4.8', '42', '48', '5', '5.44', '6', '61', '6526', '682', '691', '7', '784', '791', '894', '912', '917', '98']"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-case-report-discussion",
+      "eval_name": "revise-case-report-discussion",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 74.8,
+        "tokens": 98340,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "revised_discussion.md contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "revised_discussion.md contains no number that does not appear in case_report_draft.md",
+          "passed": true,
+          "evidence": "numbers not in draft: []"
+        },
+        {
+          "text": "revised_discussion.md keeps the FDA recommendation to stop empagliflozin at least 3 days before surgery with its citation [5]",
+          "passed": true,
+          "evidence": "[5] present: True; FDA present: True"
+        },
+        {
+          "text": "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it is removed or marked with a citation placeholder",
+          "passed": true,
+          "evidence": "Kept as 'up to three times higher ... [REF]' | auto: three-fold sentence: removed"
+        },
+        {
+          "text": "revised_discussion.md discusses the delayed diagnosis, including that early symptoms were attributed to ileus or opioids",
+          "passed": true,
+          "evidence": "Second paragraph covers attribution to ileus and opioids and the ~14 hour delay | auto: ileus mentioned: True; opioid mentioned: True"
+        },
+        {
+          "text": "revised_discussion.md contains none of: 'highlights the importance', 'valuable reminder', 'further research is needed', 'high index of suspicion', 'evolving landscape', 'revolutionized'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "revised_discussion.md does not claim the single case demonstrates the effectiveness of an approach or treatment",
+          "passed": true,
+          "evidence": "'Demonstrating the effectiveness of a multidisciplinary approach' removed; no efficacy claim | auto: 'demonstrat' occurrences: []"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-intro-no-citations",
+      "eval_name": "revise-intro-no-citations",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 6,
+        "failed": 2,
+        "total": 8,
+        "time_seconds": 82.7,
+        "tokens": 98176,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "intro_revised.txt contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "intro_revised.txt contains no invented references: no author names, 'et al.', publication years, numbered citations, or named prior studies",
+          "passed": true,
+          "evidence": "No author names, years, or numbered refs; but adds named guideline positions (ESC, USPSTF) as new claims with [REF] | auto: et al: 0, years: [], numbered cites: [] (check named studies manually)"
+        },
+        {
+          "text": "intro_revised.txt marks claims that need support with at least two citation placeholders",
+          "passed": true,
+          "evidence": "11 placeholders"
+        },
+        {
+          "text": "intro_revised.txt contains no number that does not appear in intro_draft.txt",
+          "passed": false,
+          "evidence": "numbers not in draft (outside brackets): ['30']"
+        },
+        {
+          "text": "intro_revised.txt keeps the study design details: prospective, adults aged 75 years and older, smartwatch, and 14-day continuous patch monitoring as the reference standard",
+          "passed": true,
+          "evidence": "{'prospective': True, '75': True, 'smartwatch': True, '14-day': True, 'patch': True}"
+        },
+        {
+          "text": "intro_revised.txt does not open with generic burden boilerplate ('millions of individuals worldwide', 'In recent years')",
+          "passed": true,
+          "evidence": "none of the phrases found; first sentence: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia in adults and a leading cause of cardioembolic stroke [REF]."
+        },
+        {
+          "text": "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an important gap', 'pave the way', 'critical gap', 'comprehensive'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraphs",
+          "passed": false,
+          "evidence": "words excluding [placeholders] 394 vs 220; paragraphs 4"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 201.1667,
+        "stddev": 77.9113,
+        "min": 122.5,
+        "max": 278.3
+      },
+      "tokens": {
+        "mean": 151514.6667,
+        "stddev": 23393.8496,
+        "min": 125335,
+        "max": 170370
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.9167,
+        "stddev": 0.1443,
+        "min": 0.75,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 119.5667,
+        "stddev": 70.8068,
+        "min": 74.8,
+        "max": 201.2
+      },
+      "tokens": {
+        "mean": 112303.6667,
+        "stddev": 24327.9465,
+        "min": 98176,
+        "max": 140395
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.08",
+      "time_seconds": "+81.6",
+      "tokens": "+39211"
+    }
+  },
+  "notes": [
+    "Skill v0.9 (first draft). Opus 5.5 with and without the skill. Assertions re-graded with the corrected reference/number assertions (see CHANGELOG).",
+    "Assertions near ceiling: 23/23 with skill, 21/23 without (baseline intro added two new facts and doubled in length).",
+    "With-skill case report revision grew to 455 words (baseline 355), which motivated the length rule added in v1.0."
+  ]
+}

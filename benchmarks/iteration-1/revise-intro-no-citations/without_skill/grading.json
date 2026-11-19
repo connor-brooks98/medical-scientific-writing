@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "intro_revised.txt contains no em dash characters",
+      "passed": true,
+      "evidence": "0 em dashes"
+    },
+    {
+      "text": "intro_revised.txt contains no invented references: no author names, 'et al.', publication years, numbered citations, or named prior studies",
+      "passed": true,
+      "evidence": "No author names, years, or numbered refs; but adds named guideline positions (ESC, USPSTF) as new claims with [REF] | auto: et al: 0, years: [], numbered cites: [] (check named studies manually)"
+    },
+    {
+      "text": "intro_revised.txt marks claims that need support with at least two citation placeholders",
+      "passed": true,
+      "evidence": "11 placeholders"
+    },
+    {
+      "text": "intro_revised.txt contains no number that does not appear in intro_draft.txt",
+      "passed": false,
+      "evidence": "numbers not in draft (outside brackets): ['30']"
+    },
+    {
+      "text": "intro_revised.txt keeps the study design details: prospective, adults aged 75 years and older, smartwatch, and 14-day continuous patch monitoring as the reference standard",
+      "passed": true,
+      "evidence": "{'prospective': True, '75': True, 'smartwatch': True, '14-day': True, 'patch': True}"
+    },
+    {
+      "text": "intro_revised.txt does not open with generic burden boilerplate ('millions of individuals worldwide', 'In recent years')",
+      "passed": true,
+      "evidence": "none of the phrases found; first sentence: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia in adults and a leading cause of cardioembolic stroke [REF]."
+    },
+    {
+      "text": "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an important gap', 'pave the way', 'critical gap', 'comprehensive'",
+      "passed": true,
+      "evidence": "none of the phrases found"
+    },
+    {
+      "text": "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraphs",
+      "passed": false,
+      "evidence": "words excluding [placeholders] 394 vs 220; paragraphs 4"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 2,
+    "total": 8,
+    "pass_rate": 0.75
+  }
+}

@@ -1,0 +1,86 @@
+{
+ "revise-case-report-discussion/with_skill": {
+  "04": [
+   true,
+   "Kept as 'reported to be up to three-fold higher [CITATION NEEDED: source and comparator group...]'"
+  ],
+  "05": [
+   true,
+   "Second paragraph: symptoms 'attributed to postoperative ileus and opioid analgesia', ~14 hours from first abnormal gas to diagnosis"
+  ],
+  "07": [
+   true,
+   "No efficacy claim; adds 'From a single case, however, we cannot separate the effect of the drug...'"
+  ]
+ },
+ "revise-case-report-discussion/without_skill": {
+  "04": [
+   true,
+   "Kept as 'up to three times higher ... [REF]'"
+  ],
+  "05": [
+   true,
+   "Second paragraph covers attribution to ileus and opioids and the ~14 hour delay"
+  ],
+  "07": [
+   true,
+   "'Demonstrating the effectiveness of a multidisciplinary approach' removed; no efficacy claim"
+  ]
+ },
+ "draft-cohort-results-discussion/with_skill": {
+  "02": [
+   true,
+   "'PPI use was not associated with 90-day all-cause mortality ... or with 30-day readmission'"
+  ],
+  "03": [
+   true,
+   "All PPI-CDI statements use 'was associated with'; the only 'increase' is in the Faleck reference title"
+  ],
+  "04": [
+   true,
+   "Added Faleck 2016, McDonald 2015, Freedberg 2013, each PubMed-verified with DOI and marked [ADDED]; replacement of Freedberg 2015 explained in author queries"
+  ],
+  "06": [
+   true,
+   "Reports women aHR 1.21 (0.81-1.80) and says the interaction test (P = .14) does not support a difference by sex"
+  ],
+  "08": [
+   true,
+   "Derived numbers correct (38.3%, 48%, CI-read ranges); other numbers come from the cited, verified references"
+  ]
+ },
+ "draft-cohort-results-discussion/without_skill": {
+  "02": [
+   true,
+   "'Neither secondary outcome differed significantly between groups'; Discussion adds CIs allow modest increases"
+  ],
+  "03": [
+   true,
+   "Association language throughout; 'linking acid suppression to CDI' is loose but not causal"
+  ],
+  "04": [
+   true,
+   "Added McDonald, Freedberg 2013, COMPASS, VanderWeele & Ding, all PubMed-verified with DOIs and flagged as suggested additions"
+  ],
+  "06": [
+   true,
+   "Reports women aHR and says difference was not significant; 'consider this difference exploratory'"
+  ],
+  "08": [
+   true,
+   "Computed absolute difference CI, E-value, 1 in 24 vs 1 in 38 are labeled derivations; literature figures from cited verified sources"
+  ]
+ },
+ "revise-intro-no-citations/without_skill": {
+  "02": [
+   true,
+   "No author names, years, or numbered refs; but adds named guideline positions (ESC, USPSTF) as new claims with [REF]"
+  ]
+ },
+ "revise-intro-no-citations/with_skill": {
+  "02": [
+   true,
+   "No named studies, authors, years, or numbered citations; all support as placeholders"
+  ]
+ }
+}

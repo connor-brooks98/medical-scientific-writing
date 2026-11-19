@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "revised_discussion.md contains no em dash characters",
+      "passed": true,
+      "evidence": "0 em dashes"
+    },
+    {
+      "text": "revised_discussion.md contains no number that does not appear in case_report_draft.md",
+      "passed": true,
+      "evidence": "numbers not in draft: []"
+    },
+    {
+      "text": "revised_discussion.md keeps the FDA recommendation to stop empagliflozin at least 3 days before surgery with its citation [5]",
+      "passed": true,
+      "evidence": "[5] present: True; FDA present: True"
+    },
+    {
+      "text": "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it is removed or marked with a citation placeholder",
+      "passed": true,
+      "evidence": "Kept as 'reported to be up to three-fold higher [CITATION NEEDED: source and comparator group...]' | auto: three-fold sentence: DKA is uncommon in patients taking these drugs [CITATION NEEDED: incidence], but the risk has been reported to be up to three-fold higher [CITATION NEEDED: source and comparator group for the three-fold estimate]."
+    },
+    {
+      "text": "revised_discussion.md discusses the delayed diagnosis, including that early symptoms were attributed to ileus or opioids",
+      "passed": true,
+      "evidence": "Second paragraph: symptoms 'attributed to postoperative ileus and opioid analgesia', ~14 hours from first abnormal gas to diagnosis | auto: ileus mentioned: True; opioid mentioned: True"
+    },
+    {
+      "text": "revised_discussion.md contains none of: 'highlights the importance', 'valuable reminder', 'further research is needed', 'high index of suspicion', 'evolving landscape', 'revolutionized'",
+      "passed": true,
+      "evidence": "none of the phrases found"
+    },
+    {
+      "text": "revised_discussion.md does not claim the single case demonstrates the effectiveness of an approach or treatment",
+      "passed": true,
+      "evidence": "No efficacy claim; adds 'From a single case, however, we cannot separate the effect of the drug...' | auto: 'demonstrat' occurrences: []"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

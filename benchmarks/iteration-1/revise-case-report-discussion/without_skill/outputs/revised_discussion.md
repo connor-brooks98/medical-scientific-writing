@@ -1,0 +1,11 @@
+## Discussion
+
+Euglycemic diabetic ketoacidosis (euDKA) is a rare but serious adverse effect of sodium-glucose cotransporter-2 (SGLT2) inhibitors. By promoting glycosuria, these agents lower plasma glucose and insulin requirements and favor ketogenesis, so patients can develop significant ketoacidosis while glucose remains near normal. The risk of DKA has been reported to be up to three times higher in patients taking SGLT2 inhibitors [REF]. Surgical stress, prolonged fasting, and reduced carbohydrate intake are recognized precipitants [REF]. Our patient had all three: she underwent surgery after a 14-hour preoperative fast and developed nausea and vomiting on POD 1.
+
+The absence of marked hyperglycemia likely contributed to the delay in diagnosis in this case. Her initial symptoms were attributed to postoperative ileus and opioid analgesia, and a capillary glucose of 182 mg/dL did not prompt evaluation for DKA. The venous blood gas obtained on the evening of POD 1 already showed a high anion gap metabolic acidosis (pH 7.12, bicarbonate 9 mmol/L, anion gap 24 mmol/L) with a normal lactate, but euDKA was not diagnosed until the morning of POD 2, approximately 14 hours later. In patients taking SGLT2 inhibitors who develop nausea, vomiting, or malaise, ketones should be measured regardless of the glucose level.
+
+FDA labeling recommends that empagliflozin be discontinued at least 3 days before scheduled surgery [5]. Our patient was instructed to hold metformin on the morning of surgery, but empagliflozin was not held, and her last dose was taken the morning before surgery. This likely contributed to the development of euDKA. Once the diagnosis was made, she was treated with an insulin infusion with concurrent 10% dextrose, fluid resuscitation, and potassium replacement, and the anion gap closed after 38 hours. Empagliflozin was discontinued permanently.
+
+## Conclusion
+
+Euglycemic DKA should be considered in any postoperative patient taking an SGLT2 inhibitor who develops nausea, vomiting, tachypnea, or an anion gap metabolic acidosis, even when glucose is near normal. A normal glucose does not exclude DKA, and ketones should be measured early in these patients. Holding SGLT2 inhibitors for at least 3 days before elective surgery, as recommended in FDA labeling, may reduce the risk of this complication.

@@ -1,0 +1,22 @@
+{
+  "name": "medical-scientific-writing",
+  "displayName": "Medical & Scientific Writing",
+  "version": "1.0.0",
+  "description": "Write, revise, or audit medical and scientific prose (manuscripts, case reports, abstracts, grants, reviewer responses) without AI-writing patterns, with fidelity checks on every number and citation.",
+  "author": {
+    "name": "medical-scientific-writing contributors"
+  },
+  "homepage": "https://github.com/connor-brooks98/medical-scientific-writing",
+  "repository": "https://github.com/connor-brooks98/medical-scientific-writing",
+  "license": "MIT",
+  "keywords": [
+    "medical-writing",
+    "scientific-writing",
+    "manuscripts",
+    "case-reports",
+    "ai-writing",
+    "humanizer",
+    "academic"
+  ],
+  "icon": "./.claude-plugin/icon.png"
+}

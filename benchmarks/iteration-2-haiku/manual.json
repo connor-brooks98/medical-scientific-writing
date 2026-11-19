@@ -1,0 +1,74 @@
+{
+ "revise-case-report-discussion/with_skill": {
+  "04": [
+   true,
+   "'up to three-fold [CITATION NEEDED: source and comparator group]'"
+  ],
+  "05": [
+   true,
+   "Paragraph 2: attributed to ileus and opioid analgesia; ~14 h to diagnosis"
+  ],
+  "07": [
+   true,
+   "'Whether earlier recognition would have shortened this course cannot be determined from one patient'"
+  ]
+ },
+ "revise-case-report-discussion/without_skill": {
+  "04": [
+   true,
+   "'up to threefold higher ... [ref needed]'"
+  ],
+  "05": [
+   true,
+   "Paragraph 3: attributed to ileus and opioids; ~14 h"
+  ],
+  "07": [
+   true,
+   "No efficacy claim; but keeps 'Further study is needed' and a specialty triad (not covered by assertion 06's exact phrases)"
+  ]
+ },
+ "draft-cohort-results-discussion/with_skill": {
+  "02": [
+   true,
+   "'PPI use was not associated with 90-day all-cause mortality ... or 30-day readmission'"
+  ],
+  "03": [
+   true,
+   "Association language throughout"
+  ],
+  "04": [
+   true,
+   "Freedberg 2013 and a 2014 review, both [ADDED: verified, DOI], replacing an unfindable citation, explained in queries"
+  ],
+  "06": [
+   true,
+   "'These data do not establish a sex difference'"
+  ],
+  "08": [
+   true,
+   "All numbers supplied or from cited verified sources; 4.8% derived"
+  ]
+ },
+ "draft-cohort-results-discussion/without_skill": {
+  "02": [
+   true,
+   "'This association was not accompanied by differences in 90-day mortality or 30-day readmission'"
+  ],
+  "03": [
+   true,
+   "Association language"
+  ],
+  "04": [
+   true,
+   "Freedberg 2013 verified with DOI, flagged in notes"
+  ],
+  "06": [
+   true,
+   "'interpret the sex-stratified estimates as hypothesis-generating rather than as evidence of effect modification'"
+  ],
+  "08": [
+   true,
+   "38.3%/61.7% derived; event counts 97/100 labeled as implied example"
+  ]
+ }
+}

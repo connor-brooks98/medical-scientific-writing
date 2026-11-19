@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "intro_revised.txt contains no em dash characters",
+      "passed": true,
+      "evidence": "0 em dashes"
+    },
+    {
+      "text": "intro_revised.txt contains no invented references: no author names, 'et al.', publication years, numbered citations, or named prior studies",
+      "passed": true,
+      "evidence": "No named studies, authors, years, or numbered citations; all support as placeholders | auto: et al: 0, years: [], numbered cites: [] (check named studies manually)"
+    },
+    {
+      "text": "intro_revised.txt marks claims that need support with at least two citation placeholders",
+      "passed": true,
+      "evidence": "9 placeholders"
+    },
+    {
+      "text": "intro_revised.txt contains no number that does not appear in intro_draft.txt",
+      "passed": true,
+      "evidence": "numbers not in draft (outside brackets): []"
+    },
+    {
+      "text": "intro_revised.txt keeps the study design details: prospective, adults aged 75 years and older, smartwatch, and 14-day continuous patch monitoring as the reference standard",
+      "passed": true,
+      "evidence": "{'prospective': True, '75': True, 'smartwatch': True, '14-day': True, 'patch': True}"
+    },
+    {
+      "text": "intro_revised.txt does not open with generic burden boilerplate ('millions of individuals worldwide', 'In recent years')",
+      "passed": true,
+      "evidence": "none of the phrases found; first sentence: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia, and its prevalence rises with age [CITATION NEEDED: age-specific AF prevalence, including adults aged 75 years and older]."
+    },
+    {
+      "text": "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an important gap', 'pave the way', 'critical gap', 'comprehensive'",
+      "passed": true,
+      "evidence": "none of the phrases found"
+    },
+    {
+      "text": "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraphs",
+      "passed": true,
+      "evidence": "words excluding [placeholders] 184 vs 220; paragraphs 3"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

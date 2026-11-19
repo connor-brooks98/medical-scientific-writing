@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "draft_sections.md reports every supplied hazard ratio with its 95% CI (primary, mortality, readmission, men, women) and the interaction p = 0.14",
+      "passed": true,
+      "evidence": "all 15 values present"
+    },
+    {
+      "text": "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not differ between PPI users and non-users",
+      "passed": true,
+      "evidence": "'PPI use was not associated with 90-day all-cause mortality ... or 30-day readmission' | auto: manual"
+    },
+    {
+      "text": "draft_sections.md uses association language for the PPI-CDI relationship and never says PPI use increases, causes, or raises CDI risk as a finding of this study",
+      "passed": true,
+      "evidence": "Association language throughout | auto: sentences with PPI + causal verb: ['PPI use was not associated with 90-day all-cause mortality (11']"
+    },
+    {
+      "text": "draft_sections.md names no study beyond Kwok 2012 and Freedberg except sources that were actually retrieved and verified (DOI given) and are flagged to the author as additions or replacements; no unverified study appears in the text",
+      "passed": true,
+      "evidence": "Freedberg 2013 and a 2014 review, both [ADDED: verified, DOI], replacing an unfindable citation, explained in queries | auto: other 'et al' names: []; other years: ['2013', '2014']"
+    },
+    {
+      "text": "draft_sections.md Limitations names exposure measured only at admission, outcome ascertainment within one system, the single-system design, and the 312 excluded patients",
+      "passed": true,
+      "evidence": "{'admission-only exposure': True, 'within-system ascertainment': True, 'single system': True, '312 excluded': True}"
+    },
+    {
+      "text": "draft_sections.md reports the women subgroup estimate and the non-significant interaction without claiming the association is confined to men or consistent in both sexes",
+      "passed": true,
+      "evidence": "'These data do not establish a sex difference' | auto: manual"
+    },
+    {
+      "text": "draft_sections.md contains no em dashes and none of: 'further research', 'more research is needed', 'highlights the importance', 'underscores', 'pave the way'",
+      "passed": true,
+      "evidence": "0 em dashes; none of the phrases found"
+    },
+    {
+      "text": "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivation of supplied numbers, or taken from a cited, verified source",
+      "passed": true,
+      "evidence": "All numbers supplied or from cited verified sources; 4.8% derived | auto: numbers not in prompt (check derivations): ['0.58', '0.82', '1.16', '1.47', '10', '10.1016', '10.1038', '11', '14', '2.51', '2.85', '2012.108', '2013', '2013.333', '2014', '2014.08.008', '3', '39', '4', '4.8', '5', '5.44', '6', '6526', '7', '8', '85', '894', '9']"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

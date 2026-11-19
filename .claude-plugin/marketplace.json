@@ -1,0 +1,14 @@
+{
+  "name": "medical-scientific-writing",
+  "description": "A writing skill for medical and scientific manuscripts that removes AI-writing patterns.",
+  "owner": {
+    "name": "medical-scientific-writing contributors"
+  },
+  "plugins": [
+    {
+      "name": "medical-scientific-writing",
+      "source": "./",
+      "description": "Write, revise, or audit medical and scientific prose without AI-writing patterns."
+    }
+  ]
+}

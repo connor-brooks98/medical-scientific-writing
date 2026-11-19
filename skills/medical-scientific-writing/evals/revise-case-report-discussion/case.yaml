@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: revise-case-report-discussion
+expected_outcome: |
+  A revised Discussion and Conclusion in revised_discussion.md that keeps every fact and citation from the draft, invents no new numbers or references, removes the stated morals and generic coda, replaces the em dash, flags the uncited "up to three-fold" statistic with a placeholder, brings the diagnostic delay (symptoms attributed to ileus and opioids, about 14 hours to diagnosis) into the Discussion, and does not claim the single case demonstrates effectiveness.
+context:
+  scaffold_script: place-files.sh
