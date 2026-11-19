@@ -10,19 +10,74 @@ It works with Claude (claude.ai, Claude Desktop, Claude Code) and with any agent
 
 ## Contents
 
-- [Why structure matters more than vocabulary](#why-structure-matters-more-than-vocabulary)
-- [What the skill does](#what-the-skill-does)
-- [Before and after](#before-and-after)
-- [Benchmark results](#benchmark-results)
 - [Install](#install)
+- [Why Structure Matters More Than Vocabulary](#why-structure-matters-more-than-vocabulary)
+- [What the Skill Does](#what-the-skill-does)
+- [Before and After](#before-and-after)
+- [Benchmark Results](#benchmark-results)
 - [Usage](#usage)
-- [Repository layout](#repository-layout)
-- [Sources and credits](#sources-and-credits)
+- [Repository Layout](#repository-layout)
+- [Sources and Credits](#sources-and-credits)
+- [Disclaimer](#disclaimer)
 - [License](#license)
 
 ---
 
-## Why structure matters more than vocabulary
+## Install
+
+The skill is the folder [`skills/medical-scientific-writing/`](skills/medical-scientific-writing/). There's no package registry to publish to: GitHub is the distribution point, and every route below installs from this repository or its release zip.
+
+### Claude Code (plugin marketplace)
+
+This repository is its own plugin marketplace.
+
+```bash
+claude plugin marketplace add connor-brooks98/medical-scientific-writing
+claude plugin install medical-scientific-writing@medical-scientific-writing
+```
+
+Or inside a session:
+
+```
+/plugin marketplace add connor-brooks98/medical-scientific-writing
+/plugin install medical-scientific-writing@medical-scientific-writing
+```
+
+Update later with `claude plugin update medical-scientific-writing@medical-scientific-writing`.
+
+### Claude Code (manual)
+
+```bash
+git clone https://github.com/connor-brooks98/medical-scientific-writing.git
+mkdir -p ~/.claude/skills
+cp -r medical-scientific-writing/skills/medical-scientific-writing ~/.claude/skills/
+```
+
+### claude.ai and Claude Desktop
+
+1. Download `medical-scientific-writing.zip` from the [latest release](https://github.com/connor-brooks98/medical-scientific-writing/releases/latest), or from [`dist/`](dist/).
+2. Make sure code execution and file creation are turned on in your settings.
+3. Go to **Customize > Skills**, click **+**, choose **Create skill > Upload a skill**, and select the zip.
+
+Skills you enable on claude.ai also load in Claude Code when you sign in with the same account.
+
+### Other agents (Codex, Cursor, Gemini CLI, OpenCode, GitHub Copilot, ...)
+
+Use the open-source [`skills` CLI](https://github.com/vercel-labs/skills), which installs `SKILL.md` skills from GitHub into whichever agents it detects:
+
+```bash
+npx skills add connor-brooks98/medical-scientific-writing
+```
+
+This is the closest thing to `npm install`. The CLI runs through npx, but the skill itself is fetched from GitHub; it is not an npm package.
+
+### Any chat interface
+
+Upload `SKILL.md` and the files in `references/` with your text, and ask the model to apply the skill. The checker script is optional; the skill does the checks by hand when it can't run code.
+
+---
+
+## Why Structure Matters More Than Vocabulary
 
 Most "humanizer" tools swap words: *delve* for *examine*, em dashes for commas. The skill's design starts from a 2026 study of AI-written fiction: Russell et al., [*StoryScope: Investigating idiosyncrasies in AI fiction*](https://arxiv.org/abs/2604.03136), from the University of Maryland and Google DeepMind. The authors compared 10,272 human stories with 51,336 AI "mirror" stories written to the same prompts by five models. They found:
 
@@ -43,7 +98,7 @@ The study is about fiction, so this skill translates its findings into the scien
 
 So the skill fixes the argument first, then the sentences, then the words.
 
-## What the skill does
+## What the Skill Does
 
 **Three jobs**, picked from the request:
 
@@ -75,7 +130,7 @@ So the skill fixes the argument first, then the sentences, then the words.
 
 **Reference material** for IMRaD sections, CARE case reports, reviews, grants, cover letters, reviewer responses, lay summaries, statistical reporting, reporting guidelines (CONSORT, STROBE, PRISMA, STARD, TRIPOD+AI, and others), and plain-English writing.
 
-## Before and after
+## Before and After
 
 Both "after" texts below are unedited outputs of Claude Opus 5.5 using the skill. [`examples/README.md`](examples/README.md) has the full set with change notes, and the same tasks run without the skill are in [`benchmarks/`](benchmarks/).
 
@@ -156,7 +211,7 @@ The full text is in [`benchmarks/iteration-2/revise-intro-no-citations/with_skil
 | S1 -ing tail | "Time to antibiotics fell from 94 to 61 minutes, highlighting the effectiveness of decision support." | "Time to antibiotics fell from 94 to 61 minutes." |
 | S6 Hedge stack | "may suggest that X could potentially have a possible beneficial effect" | "suggest that X may reduce falls in [population]" |
 
-## Benchmark results
+## Benchmark Results
 
 ### Method
 
@@ -233,58 +288,6 @@ The skill reads its reference files and runs the checker, so each task costs a l
 
   Treat these results as evidence that the skill does what it claims on these tasks, not as proof of a general effect size. Contributions of new test cases and blinded human ratings are welcome.
 
-## Install
-
-The skill is the folder [`skills/medical-scientific-writing/`](skills/medical-scientific-writing/). There's no package registry to publish to: GitHub is the distribution point, and every route below installs from this repository or its release zip.
-
-### Claude Code (plugin marketplace)
-
-This repository is its own plugin marketplace.
-
-```bash
-claude plugin marketplace add connor-brooks98/medical-scientific-writing
-claude plugin install medical-scientific-writing@medical-scientific-writing
-```
-
-Or inside a session:
-
-```
-/plugin marketplace add connor-brooks98/medical-scientific-writing
-/plugin install medical-scientific-writing@medical-scientific-writing
-```
-
-Update later with `claude plugin update medical-scientific-writing@medical-scientific-writing`.
-
-### Claude Code (manual)
-
-```bash
-git clone https://github.com/connor-brooks98/medical-scientific-writing.git
-mkdir -p ~/.claude/skills
-cp -r medical-scientific-writing/skills/medical-scientific-writing ~/.claude/skills/
-```
-
-### claude.ai and Claude Desktop
-
-1. Download `medical-scientific-writing.zip` from the [latest release](https://github.com/connor-brooks98/medical-scientific-writing/releases/latest), or from [`dist/`](dist/).
-2. Make sure code execution and file creation are turned on in your settings.
-3. Go to **Customize > Skills**, click **+**, choose **Create skill > Upload a skill**, and select the zip.
-
-Skills you enable on claude.ai also load in Claude Code when you sign in with the same account.
-
-### Other agents (Codex, Cursor, Gemini CLI, OpenCode, GitHub Copilot, ...)
-
-Use the open-source [`skills` CLI](https://github.com/vercel-labs/skills), which installs `SKILL.md` skills from GitHub into whichever agents it detects:
-
-```bash
-npx skills add connor-brooks98/medical-scientific-writing
-```
-
-This is the closest thing to `npm install`. The CLI runs through npx, but the skill itself is fetched from GitHub; it is not an npm package.
-
-### Any chat interface
-
-Upload `SKILL.md` and the files in `references/` with your text, and ask the model to apply the skill. The checker script is optional; the skill does the checks by hand when it can't run code.
-
 ## Usage
 
 The skill triggers on its own for manuscript work. Some prompts that work well:
@@ -303,7 +306,7 @@ Run the checker yourself on any revision:
 python3 skills/medical-scientific-writing/scripts/check_patterns.py revised.txt --original original.txt
 ```
 
-## Repository layout
+## Repository Layout
 
 ```
 .claude-plugin/              plugin + marketplace manifests (Claude Code)
@@ -320,7 +323,7 @@ dist/                        zip for claude.ai / Claude Desktop upload
 
 To rerun the test cases with Claude Code: `cd skills/medical-scientific-writing && claude plugin eval . --allow-tools Write,Edit,Bash --scaffold`. These are billed model runs.
 
-## Sources and credits
+## Sources and Credits
 
 The skill combines and reconciles these sources. Where they conflict, [`references/source-notes.md`](skills/medical-scientific-writing/references/source-notes.md) records the decision and the reason. For example, the em dash, "Notably", and "add personality" rules are resolved there.
 
