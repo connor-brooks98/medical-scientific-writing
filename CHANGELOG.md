@@ -4,6 +4,8 @@
 
 First public release.
 
+- Packaging: the claude.ai / Claude Desktop zip (`dist/medical-scientific-writing.zip`, also attached to the release) has `SKILL.md`, `references/`, and `scripts/` at the top level of the archive, as the uploader requires.
+
 - Revise, Draft, and Audit workflows with integrity rules (no invented facts, design-matched verbs, symmetric reporting, no significance spin, disclosure reminder).
 - 33 patterns across three layers (discourse D1-D11, sentence S1-S13, word W1-W9), plus the swap test and over-correction guards.
 - References: pattern catalog with medical before/after examples, section guide (IMRaD, CARE case reports, reviews, grants, reviewer responses, lay summaries), evidence and reporting, clarity toolkit, source notes.

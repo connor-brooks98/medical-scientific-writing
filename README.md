@@ -55,9 +55,11 @@ cp -r medical-scientific-writing/skills/medical-scientific-writing ~/.claude/ski
 
 ### claude.ai and Claude Desktop
 
-1. Download `medical-scientific-writing.zip` from the [latest release](https://github.com/connor-brooks98/medical-scientific-writing/releases/latest), or from [`dist/`](dist/).
+1. Download `medical-scientific-writing.zip` from the [latest release](https://github.com/connor-brooks98/medical-scientific-writing/releases/latest), or from [`dist/medical-scientific-writing.zip`](dist/medical-scientific-writing.zip) (click **Download raw file**).
 2. Make sure code execution and file creation are turned on in your settings.
 3. Go to **Customize > Skills**, click **+**, choose **Create skill > Upload a skill**, and select the zip.
+
+> **Don't use GitHub's green "Code > Download ZIP" button for this.** That zip wraps the whole repository in a folder, so the uploader can't find `SKILL.md` and rejects it with "The archive must contain a .claude-plugin/plugin.json manifest, or a top-level SKILL.md". The release zip has `SKILL.md` at its top level, which is what the uploader needs.
 
 Skills you enable on claude.ai also load in Claude Code when you sign in with the same account.
 
