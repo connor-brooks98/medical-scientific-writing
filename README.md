@@ -25,11 +25,11 @@ It works with Claude (claude.ai, Claude Desktop, Claude Code) and with any agent
 
 ## Install
 
-The skill is the folder [`skills/medical-scientific-writing/`](skills/medical-scientific-writing/). There's no package registry to publish to: GitHub is the distribution point, and every route below installs from this repository or its release zip.
+[`skills/medical-scientific-writing/`](skills/medical-scientific-writing/).
 
 ### Claude Code (plugin marketplace)
 
-This repository is its own plugin marketplace.
+Install from Claude Code plugin marketplace.
 
 ```bash
 claude plugin marketplace add connor-brooks98/medical-scientific-writing
@@ -68,8 +68,6 @@ Use the open-source [`skills` CLI](https://github.com/vercel-labs/skills), which
 ```bash
 npx skills add connor-brooks98/medical-scientific-writing
 ```
-
-This is the closest thing to `npm install`. The CLI runs through npx, but the skill itself is fetched from GitHub; it is not an npm package.
 
 ### Any chat interface
 
