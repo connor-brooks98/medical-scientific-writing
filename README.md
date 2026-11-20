@@ -6,7 +6,7 @@ It works with Claude (claude.ai, Claude Desktop, Claude Code) and with any agent
 
 It brings together seven open skills and one research paper:
 
-- the [StoryScope](https://arxiv.org/abs/2604.03136) study of AI-written text
+- the  [StoryScope](https://arxiv.org/abs/2604.03136) study of AI-written text
 - [blader/humanizer](https://github.com/blader/humanizer)
 - [humanizer_academic](https://github.com/matsuikentaro1/humanizer_academic)
 - [scientific-paper-writer](https://github.com/eniktab/scientific-paper-writer)
@@ -102,7 +102,7 @@ Upload `SKILL.md` and the files in `references/` with your text, and ask the mod
 
 ## Why Structure Matters More Than Vocabulary
 
-Most "humanizer" tools swap words: *delve* for *examine*, em dashes for commas. The skill's design starts from a 2026 study of AI-written fiction: Russell et al., [*StoryScope: Investigating idiosyncrasies in AI fiction*](https://arxiv.org/abs/2604.03136), from the University of Maryland and Google DeepMind. The authors compared 10,272 human stories with 51,336 AI "mirror" stories written to the same prompts by five models. They found:
+Most "humanizer" tools swap words: *delve*  for  *examine*, em dashes for commas. The skill's design starts from a 2026 study of AI-written fiction: Russell et al., [*StoryScope: Investigating idiosyncrasies in AI fiction*](https://arxiv.org/abs/2604.03136), from the University of Maryland and Google DeepMind. The authors compared 10,272 human stories with 51,336 AI "mirror" stories written to the same prompts by five models. They found:
 
 - AI text could be identified from **discourse-level choices alone** (93.2% macro-F1 with style features removed).
 - **Removing surface artifacts barely changed detection.** After an editing system stripped cliché and purple prose, structure-based detection fell only from 95.5% to 93.9%.
