@@ -1,0 +1,11 @@
+I revised the Discussion to distinguish association from causation and removed unsupported inferences about missing data and feasibility.
+
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia undergoing hip fracture surgery, mobilization within 24 hours was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and a shorter length of stay (median 8 vs 11 days). These findings support further investigation of early mobilization in this population but do not establish that it caused the observed differences.
+
+The associations may reflect differences between patients mobilized early and those mobilized later. For example, patients who were healthier or more mobile before surgery may have been more likely to mobilize early and to recover more quickly. Adjustment may not fully account for these differences. Preoperative ambulatory status was not recorded for 18% of patients, limiting our ability to assess its influence; missing status should not be interpreted as evidence that these patients were nonambulatory.
+
+Delirium incidence was similar in the early and later mobilization groups (31% vs 29%). This finding does not rule out an effect of mobilization timing on delirium or other cognitive outcomes. Nor do the mortality and delirium findings alone establish the safety of early mobilization. Further research is needed to assess adverse events, feasibility across levels of dementia severity, and the effects of mobilization timing on recovery.
+<<<END FILE>>>

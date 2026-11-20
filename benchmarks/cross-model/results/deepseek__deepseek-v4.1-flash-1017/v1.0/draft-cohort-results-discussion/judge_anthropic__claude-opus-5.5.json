@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"Ninety-day mortality and 30-day readmission were similar in the two groups\" and \"Mortality and readmission did not differ between groups\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use at admission was associated with a higher rate of CDI\"; the acid-suppression mechanism is framed as \"the usual explanation offered\", not as a finding of this study"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al and Freedberg et al are named; a missing detail uses \"[CITATION NEEDED: ...]\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81-1.80) among women (P for interaction = 0.14)\"; \"we do not interpret this as a difference by sex\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All figures match the task; the only derived number, the 1.5-point absolute difference, correctly equals 4.1 \u2212 2.6; OR 1.74 is attributed to Kwok"
+ },
+ "_cost": 0.028536
+}

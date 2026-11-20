@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "R1C2 opens with \"We considered both endpoints during trial design.\" and R2C1 opens with \"The trial enrolled only patients...\". Both are background; the decisions (\"We kept...\", \"We revised...\") come later."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Every change in the revised letter appears in the draft: the follow-up numbers in Figure 1 and Results, the rationale added to Methods, the revised Discussion, and the single-center limitation. No new revision is described."
+ },
+ "_cost": 0.014428
+}

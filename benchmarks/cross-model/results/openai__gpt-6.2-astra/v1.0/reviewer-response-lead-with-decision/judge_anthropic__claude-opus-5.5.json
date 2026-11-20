@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "R1C1 opens with background (\"The original submission reported only the overall loss to follow-up.\"), and R1C2 opens with \"We considered both endpoints during trial design.\" Only R2C1 opens with an action (\"We revised the Discussion...\")."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Every change in the revised letter appears in the draft: group-specific counts in Figure 1 and the Results, the endpoint rationale in the Methods, the narrowed Discussion conclusions, and the single-center limitation. No new revisions are introduced."
+ },
+ "_cost": 0.014528
+}

@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"We found no clear association with 90-day all-cause mortality or 30-day readmission.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use was associated with a higher hazard of CDI\"; discontinuation is framed only as \"a separate question\", not as a finding."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Kwok et al is the only prior study named; Freedberg was omitted and no other study is named."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81-1.80) in women (P = .14 for interaction)\"; \"the interaction test did not support a conclusion that the association differed by sex.\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The only derived number, \"1.5 percentage points\", equals 4.1-2.6. The 1.74 is attributed to Kwok. All other numbers are supplied in the task."
+ },
+ "_cost": 0.02154
+}

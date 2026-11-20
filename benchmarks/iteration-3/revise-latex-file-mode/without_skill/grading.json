@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "results.tex contains exactly the same multiset of \\label, \\ref, and \\cite commands (with identical keys) as the original",
+      "passed": true,
+      "evidence": "missing {}; extra {}"
+    },
+    {
+      "text": "the equation environment in results.tex is byte-identical to the original",
+      "passed": true,
+      "evidence": "equation byte-identical"
+    },
+    {
+      "text": "results.tex keeps the unspaced LaTeX en-dash ranges 0.56--0.86 and 0.70--1.21",
+      "passed": true,
+      "evidence": "ranges kept"
+    },
+    {
+      "text": "results.tex prose contains no spaced --- or -- used as a dash",
+      "passed": true,
+      "evidence": "0 spaced dashes"
+    },
+    {
+      "text": "results.tex contains none of: 'It is important to note', 'highlighting', 'underscoring', 'remarkably', 'crucial', 'serves as a testament', 'Furthermore'",
+      "passed": true,
+      "evidence": "none of the phrases found"
+    },
+    {
+      "text": "every number in the original results.tex appears in the revised results.tex",
+      "passed": true,
+      "evidence": "lost []"
+    },
+    {
+      "text": "results.tex has balanced braces and the same \\begin/\\end pairs as the original",
+      "passed": true,
+      "evidence": "braces balanced=True; begin/end same=True"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

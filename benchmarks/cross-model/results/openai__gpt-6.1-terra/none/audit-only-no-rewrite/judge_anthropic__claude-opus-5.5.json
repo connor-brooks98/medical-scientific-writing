@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit has only numbered findings and bullets. It has no replacement paragraphs, and the user's request not to rewrite is honored."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Item 1 under \"Main issues\" is the first and top-tier finding: \"the next sentence says early norepinephrine 'prevents death.' Adjustment does not establish causation\"."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"'Studies have shown that early norepinephrine improves survival' needs support\"; also \"claims about the existing early-vasopressor evidence\" need a source."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"broad, generic language\u2014'pivotal challenge,' 'evolving landscape,' and 'growing interest'\"."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"the heavily qualified 'may potentially be associated with worse outcomes in some patients.'\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit treats the retrospective result as correctly reporting \"an association\" and does not ask to change the \"was associated with\" wording."
+ },
+ "07": {
+  "passed": false,
+  "evidence": "Only \"Main issues\" implies priority. \"Support and context\" and \"Style and structure\" are topical groupings, not severity labels or a ranked tiering, so most findings have no assigned severity."
+ },
+ "_cost": 0.027892
+}

@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Reviewer 1, Comment 1 and Reviewer 2, Comment 1 open with only \u201cWe agree.\u201d The actions appear in the second sentences."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The letter reports the same CONSORT and Results additions, retained 90-day endpoint and Methods rationale, and Discussion changes. The citation placeholder does not claim a new revision."
+ },
+ "_cost": 0.0050935
+}

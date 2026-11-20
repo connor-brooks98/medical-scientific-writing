@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "The three responses open with actions: \u201cWe have added,\u201d \u201cWe have kept,\u201d and \u201cWe have limited.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "All reported changes were already in the draft: group-level follow-up counts, the endpoint rationale in Methods, narrower Discussion conclusions, and the single-center limitation."
+ },
+ "_cost": 0.0038
+}

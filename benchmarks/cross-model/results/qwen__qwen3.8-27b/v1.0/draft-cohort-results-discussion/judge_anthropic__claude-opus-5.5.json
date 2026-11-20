@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"Ninety-day all-cause mortality ... and 30-day readmission ... were not associated with PPI use.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Uses \"was associated with a higher hazard of CDI\" throughout. Causal wording appears only as a conditional: \"would increase susceptibility if the association is causal.\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are Kwok et al [1] and Freedberg et al [2], both marked [CITATION NEEDED]."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Reports \"women (aHR, 1.21; 95% CI, 0.81-1.80)\" and \"P = .14\", and states \"a sex difference cannot be concluded from this prespecified comparison.\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numbers are supplied in the task or derived from them (48% from aHR 1.48). The 1.74 figure is attributed to Kwok. No invented counts appear."
+ },
+ "_cost": 0.028276
+}

@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\"The risk of diabetic ketoacidosis has been reported to be increased up to threefold in patients receiving SGLT2 inhibitors.\" The claim is kept with no citation or placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"nausea, vomiting, and abdominal discomfort were initially attributed to ileus and opioid analgesia... diagnosis was made... approximately 14 hours after the first abnormal blood gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The 'demonstrating the effectiveness of a multidisciplinary approach' claim was removed. The output says treatment \"resulted in closure of the anion gap after 38 hours\" and \"This case supports the need for perioperative protocols,\" which is not an effectiveness claim."
+ },
+ "_cost": 0.0177
+}

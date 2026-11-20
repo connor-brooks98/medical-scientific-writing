@@ -1,0 +1,194 @@
+# Audit: introduction.txt
+
+Scope: two-paragraph introduction, ~150 words. Reviewed for scientific accuracy,
+logical coherence, evidence support, statistical reporting, and structure.
+No rewriting performed, per request.
+
+Severity key: **[BLOCKER]** undermines the paper's credibility, fix before anything else ·
+**[MAJOR]** substantive gap or error · **[MINOR]** style/precision.
+
+---
+
+## 1. Blocking issues
+
+### 1.1 Causal claim from observational data [BLOCKER]
+> "Early norepinephrine therefore prevents death in septic shock."
+
+This is the single most serious problem. The preceding sentence reports an
+**adjusted odds ratio from a retrospective single-center cohort**. That design
+cannot license "prevents death," and "therefore" makes the inferential leap
+explicit rather than hedged. Specific threats you have not addressed:
+
+- **Confounding by indication.** Clinicians start vasopressors early for reasons
+  (profound hypotension, high lactate, obvious vasoplegia) that are themselves
+  prognostic. Adjustment handles measured covariates only; severity granularity
+  in chart-abstracted data is usually coarse.
+- **Time-zero / immortal-time problems.** How is "shock onset" anchored, and is
+  it the same anchor for both groups? If "late" patients must survive past hour 1
+  to be classifiable as late, and "early" patients must survive long enough to be
+  recognized and treated, the groups are not aligned at a common eligibility
+  moment. This can bias in either direction and is the classic failure mode of
+  time-to-treatment analyses.
+- **Definitional circularity.** Under Sepsis-3, septic shock is *defined* partly
+  by vasopressor requirement. "Time to vasopressor among septic shock patients"
+  is therefore entangled with how and when the cohort was identified. You need
+  to state the operational time zero explicitly.
+- **Co-intervention.** Early-vasopressor patients likely differ in fluid volume
+  and timing. The exposure is not "norepinephrine" but "a resuscitation
+  strategy," which is a different question.
+
+Also: an OR is not a risk ratio, and "prevents death" implies an absolute effect
+you have not reported.
+
+### 1.2 Self-contradiction about the gap [BLOCKER]
+Paragraph 1 asserts the question is **settled** ("Studies have shown that early
+norepinephrine improves survival"). Paragraph 2 then invokes a **"critical gap"**
+and an **"important gap in the literature."** Both cannot be true. If the effect
+is established, there is nothing to fill; if there is a gap, paragraph 1 is
+overstated. As written, a reviewer stops here.
+
+Compounding this: the gap is **never named**. "This critical gap" has no
+antecedent — no sentence anywhere identifies what is unknown.
+
+### 1.3 Equipoise [BLOCKER, if the prospective study is randomized]
+Declaring that early norepinephrine "prevents death" removes the justification
+for randomizing patients to delayed initiation. If your prospective study is
+interventional, this sentence argues against its own ethics. If it is an
+observational prospective cohort, say so — right now the design is unspecified.
+
+---
+
+## 2. Evidence and citation problems
+
+### 2.1 Zero references [MAJOR]
+Not one citation in the entire introduction, including for: global mortality
+burden, "studies have shown," and your own institutional cohort. Every empirical
+claim here is currently unsourced.
+
+### 2.2 The evidence base is misrepresented as uniform [MAJOR]
+"Studies have shown that early norepinephrine improves survival" flattens a
+genuinely contested literature. Before rewriting, reconcile with (verify details
+yourself — do not cite from this audit):
+
+- **CENSER** (Permpikul et al., AJRCCM 2019): randomized early norepinephrine;
+  primary endpoint was shock control at 6 h, not mortality; mortality benefit
+  was not established.
+- **CLOVERS** (NEJM 2023): restrictive-fluids/early-vasopressor vs liberal-fluids
+  strategy; no significant mortality difference. This is the most direct
+  counterweight to your framing and its absence is conspicuous.
+- **Bai et al.** (Crit Care 2014) and similar retrospective timing analyses:
+  associational, subject to §1.1.
+- **SEPSISPAM** and MAP-target trials: adjacent but not the same question —
+  don't conflate timing with target.
+- **Surviving Sepsis Campaign 2021**: relevant recommendation strength and
+  evidence quality should be stated, not implied.
+
+A credible intro says the signal is consistent in observational data and
+equivocal in trials, and locates the gap *there*. That is a real gap and a
+stronger motivation than the one currently asserted.
+
+### 2.3 Undefined exposure [MAJOR]
+"Early" is never defined in the literature framing, then silently becomes
+"<1 hour" in your cohort. Thresholds vary widely across studies (1 h, 6 h,
+"before fluids complete"). State the heterogeneity — it is part of the gap.
+
+### 2.4 Burden claim is vague and imprecise [MINOR→MAJOR without a citation]
+"Sepsis remains a leading cause of death worldwide" — sepsis is a syndrome
+underlying deaths, not a standard cause-of-death ranking category. If you want
+a burden figure, use a citable estimate (e.g., GBD sepsis-related mortality) and
+attribute it. Currently: no number, no source, no population.
+
+---
+
+## 3. Statistical and reporting problems
+
+| Item | Problem |
+|---|---|
+| aOR 0.78 (0.64–0.94) | No adjustment covariates listed; reader cannot judge residual confounding |
+| Effect measure | OR presented as if it were a risk reduction; no absolute mortality in either arm, no risk difference |
+| n = 2,914 | No enrollment window, no inclusion/exclusion, no flow from screened to analyzed |
+| "within 1 hour of shock onset" | Comparator undefined — late vs never? What cutoff? Continuous or dichotomized, and why 1 h? |
+| "shock onset" | Retrospective determination method unstated (chart abstraction? Sepsis-3? first MAP <65 post-fluid?) |
+| Missing data | Not mentioned; timing variables are frequently missing non-randomly |
+| Outcome | 28-day mortality source (in-hospital vs registry linkage) unstated; loss to follow-up unaddressed |
+| Generalizability | Single center, "our institution," no case-mix context |
+
+**[MAJOR] Placement:** this entire block is a *result*. Results do not belong in
+an introduction. Either (a) it is prior published work — cite it and compress to
+one clause of motivation, or (b) it is unpublished preliminary data — move it to
+methods/results or a clearly labeled rationale statement per journal policy. As
+written, the reader cannot tell whether the retrospective cohort and the
+"prospective study" are the same project, sequential projects, or a nested
+design. Tense shifts ("was associated" → "we designed") deepen the confusion.
+
+---
+
+## 4. Structural problems
+
+- **No funnel.** Standard shape is burden → what's known → what's contested →
+  specific unresolved question → objective/hypothesis. Yours is generic
+  assertion → own results → boosterism. The gap and the aim are both absent.
+- **No objective statement.** The intro never says what the study will do.
+  Missing: design, population, exposure/comparator, primary outcome, hypothesis,
+  and why prospective measurement fixes the specific limitation of prior work
+  (that last link is your strongest available argument and it's unmade).
+- **Redundancy.** Sentence 3 ("early NE improves survival") and sentence 4
+  ("delayed therapy may be associated with worse outcomes") are the same claim
+  in mirror image. One of them is doing no work.
+- **No mechanism, no counterargument.** Nothing on *why* early norepinephrine
+  might help (shorter time-weighted hypotension exposure, less fluid
+  accumulation, recruitment of unstressed volume) or *why it might not*
+  (extravasation, digital/limb ischemia, arrhythmia, masking under-resuscitation,
+  peripheral vs central access). A one-sided intro reads as advocacy.
+
+---
+
+## 5. Line-level language notes
+
+| Quote | Issue | Severity |
+|---|---|---|
+| "a pivotal challenge in the evolving landscape of critical care" | Empty. "Evolving landscape" carries no information; delete-worthy | MINOR |
+| "there has been growing interest" | Weasel construction; interest is not evidence. Name what changed | MINOR |
+| "may potentially be associated with worse outcomes in some patients" | Quadruple hedge (may / potentially / associated / some). Unfalsifiable and unreadable | MAJOR |
+| "therefore prevents death" | Unhedged causal claim two sentences after a quadruple hedge — **calibration is inverted**: strongest hedge on the weakest-risk claim, zero hedge on the strongest-risk claim | BLOCKER |
+| "this critical gap" | No antecedent | BLOCKER |
+| "comprehensive prospective study" | "Comprehensive" is self-praise, not a design | MINOR |
+| "not only fill an important gap... but also pave the way for improved outcomes" | Stock closer, promises benefit the study cannot deliver, duplicates "critical gap" | MAJOR |
+| "sepsis" / "septic shock" | Used interchangeably; they are not. Fix the population and hold it | MAJOR |
+| "Studies have shown" | Unattributed authority | MAJOR |
+
+---
+
+## 6. What to keep
+
+- The topic is genuinely important and the timing question is live.
+- The pivot from literature to your own data is the right *instinct* — the
+  problem is placement and claim strength, not the idea.
+- The 1-hour threshold is a concrete, defensible operationalization worth
+  foregrounding once you justify it.
+- Length is appropriate for a short intro; the fix is substitution, not expansion.
+
+---
+
+## 7. Pre-rewrite checklist
+
+Content the rewritten intro must contain (your prose, your ordering):
+
+1. Burden, with a number and a citation, correctly framed.
+2. Population defined once (sepsis vs septic shock; Sepsis-3 or not) and used consistently.
+3. What is known — observational timing signal, cited.
+4. What is contested — trial-level equivocation, cited, including the negative strategy trial.
+5. Why prior work is limited — name confounding by indication and time-zero misalignment explicitly.
+6. The gap, stated as a specific answerable question.
+7. Mechanistic rationale plus the countervailing risk, briefly.
+8. Objective + design + comparator + primary outcome + hypothesis.
+9. Why prospective design addresses limitation (5).
+10. Own retrospective data: cited-and-compressed, or removed.
+
+Verification tasks before you write:
+
+- Confirm n, aOR, CI, covariate set, and time-zero definition against the source analysis.
+- Pull and read CENSER and CLOVERS directly; do not rely on secondhand summaries (including this one).
+- Check current SSC recommendation wording and evidence grade.
+- Confirm the target journal's policy on preliminary data in introductions.
+- Confirm whether the prospective study is randomized; if so, resolve §1.3 first.

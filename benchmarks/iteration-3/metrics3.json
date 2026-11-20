@@ -1,0 +1,156 @@
+{
+ "revise-case-report-discussion/with_skill": {
+  "words_in": 248,
+  "words_out": 308,
+  "length_change_pct": 24,
+  "similarity": 0.384,
+  "pattern_hits_in": 21,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 2,
+  "numbers_lost": []
+ },
+ "revise-case-report-discussion/without_skill": {
+  "words_in": 248,
+  "words_out": 409,
+  "length_change_pct": 65,
+  "similarity": 0.36,
+  "pattern_hits_in": 21,
+  "pattern_hits_out": 1,
+  "em_dashes_out": 0,
+  "placeholders_out": 1,
+  "numbers_lost": []
+ },
+ "revise-intro-no-citations/with_skill": {
+  "words_in": 220,
+  "words_out": 124,
+  "length_change_pct": -44,
+  "similarity": 0.549,
+  "pattern_hits_in": 13,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 7,
+  "numbers_lost": []
+ },
+ "revise-intro-no-citations/without_skill": {
+  "words_in": 220,
+  "words_out": 304,
+  "length_change_pct": 38,
+  "similarity": 0.388,
+  "pattern_hits_in": 13,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 8,
+  "numbers_lost": []
+ },
+ "preserve-clean-human-abstract/with_skill": {
+  "words_in": 230,
+  "words_out": 230,
+  "length_change_pct": 0,
+  "similarity": 1.0,
+  "pattern_hits_in": 0,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 0,
+  "numbers_lost": []
+ },
+ "preserve-clean-human-abstract/without_skill": {
+  "words_in": 230,
+  "words_out": 230,
+  "length_change_pct": 0,
+  "similarity": 1.0,
+  "pattern_hits_in": 0,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 0,
+  "numbers_lost": []
+ },
+ "revise-discussion-staging-strawman/with_skill": {
+  "words_in": 199,
+  "words_out": 174,
+  "length_change_pct": -13,
+  "similarity": 0.465,
+  "pattern_hits_in": 11,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 5,
+  "numbers_lost": []
+ },
+ "revise-discussion-staging-strawman/without_skill": {
+  "words_in": 199,
+  "words_out": 382,
+  "length_change_pct": 92,
+  "similarity": 0.312,
+  "pattern_hits_in": 11,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 1,
+  "numbers_lost": []
+ },
+ "revise-latex-file-mode/with_skill": {
+  "words_in": 136,
+  "words_out": 101,
+  "length_change_pct": -26,
+  "similarity": 0.76,
+  "pattern_hits_in": 11,
+  "pattern_hits_out": 1,
+  "em_dashes_out": 0,
+  "placeholders_out": 1,
+  "numbers_lost": []
+ },
+ "revise-latex-file-mode/without_skill": {
+  "words_in": 136,
+  "words_out": 97,
+  "length_change_pct": -29,
+  "similarity": 0.847,
+  "pattern_hits_in": 11,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 0,
+  "numbers_lost": []
+ },
+ "reviewer-response-lead-with-decision/with_skill": {
+  "words_in": 374,
+  "words_out": 248,
+  "length_change_pct": -34,
+  "similarity": 0.675,
+  "pattern_hits_in": 3,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 1,
+  "numbers_lost": []
+ },
+ "reviewer-response-lead-with-decision/without_skill": {
+  "words_in": 374,
+  "words_out": 221,
+  "length_change_pct": -41,
+  "similarity": 0.633,
+  "pattern_hits_in": 3,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 0,
+  "placeholders_out": 0,
+  "numbers_lost": []
+ },
+ "author-sample-voice/with_skill": {
+  "words_in": 101,
+  "words_out": 68,
+  "length_change_pct": -33,
+  "similarity": 0.563,
+  "pattern_hits_in": 10,
+  "pattern_hits_out": 0,
+  "em_dashes_out": 2,
+  "placeholders_out": 1,
+  "numbers_lost": []
+ },
+ "author-sample-voice/without_skill": {
+  "words_in": 101,
+  "words_out": 86,
+  "length_change_pct": -15,
+  "similarity": 0.615,
+  "pattern_hits_in": 10,
+  "pattern_hits_out": 1,
+  "em_dashes_out": 1,
+  "placeholders_out": 0,
+  "numbers_lost": []
+ }
+}

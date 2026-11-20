@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit gives findings, sentence-level notes, and a checklist, but no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Under \u201cMajor issues,\u201d the audit calls \u201cEarly norepinephrine therefore prevents death in septic shock\u201d too strong for a retrospective association."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cA growing body of evidence\u201d is flagged as \u201cvague and unsupported without citations.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\u201cPivotal challenge in the evolving landscape of critical care\u201d is flagged as \u201cvague and clich\u00e9d.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\u201cMay potentially be associated\u201d is flagged as \u201credundant hedging.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit says the \u201cassociation is appropriately worded here.\u201d"
+ },
+ "07": {
+  "passed": false,
+  "evidence": "The \u201cMajor issues\u201d heading labels one section, but the \u201cSentence-level audit notes\u201d include findings without severity or priority labels."
+ },
+ "_cost": 0.0077335
+}

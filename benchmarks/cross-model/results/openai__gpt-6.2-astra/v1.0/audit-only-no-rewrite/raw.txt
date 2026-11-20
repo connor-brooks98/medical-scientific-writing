@@ -1,0 +1,25 @@
+<<<FILE: audit.md>>>
+# Introduction audit
+
+The main problem is the jump from the retrospective estimate to “therefore prevents death.” The estimate is the most informative part of the introduction, but it does not establish that earlier treatment caused lower mortality. The final sentence then promises to close a gap without stating what the prospective study will test.
+
+| Location | Quoted text | Pattern ID | Severity | Suggested fix |
+|---|---|---|---|---|
+| ¶1, sentences 1–2 | “a leading cause of death worldwide”; “a pivotal challenge in the evolving landscape of critical care”; “there has been growing interest” | D6, W1 | Major | Get to the timing decision in septic shock sooner. Neither the global burden nor the claim about research interest explains why the first hour matters. If the burden claim stays, cite it. |
+| ¶1, sentence 3 | “Studies have shown that early norepinephrine improves survival in septic shock.” | D2, S6 | Critical | Identify and cite the studies. Give their designs, definitions of “early,” comparators, and mortality endpoints. Use a causal verb only if the evidence supports it. As written, the sentence presents the survival question as settled. |
+| ¶1, sentence 4 | “a growing body of evidence suggests that delayed vasopressor therapy may potentially be associated with worse outcomes in some patients” | D2, D9, S5, S6 | Major | Decide whether this is distinct evidence or the preceding claim in reverse. If distinct, cite the source and specify the delay, population, and outcome. Clarify whether the evidence concerns norepinephrine or vasopressors as a class. “May potentially” adds no useful qualification. |
+| ¶2, sentence 1 | “within 1 hour of shock onset was associated with lower 28-day mortality” | S13 | Major | Retain the timing threshold, endpoint, adjusted estimate, and CI. Name the actual reference group: the reader cannot tell whether it included only patients treated later or also patients who never received norepinephrine. Identify how shock onset was recognized if that definition matters to the comparison. |
+| ¶2, sentence 2 | “Early norepinephrine therefore prevents death in septic shock.” | S6, D3 | Critical | Remove the causal conclusion. Adjustment does not rule out differences in illness severity or other care related to both treatment timing and mortality. The CI quantifies uncertainty around the estimated association; it does not resolve confounding. |
+| ¶2, sentence 3 | “To address this critical gap”; “a comprehensive prospective study” | D4, S13 | Major | State what remains unknown after the institutional analysis and how the new study addresses it. Specify whether investigators will assign treatment timing or observe it, what groups they will compare, and which outcome they will assess. Prospective observation alone does not establish causality. |
+| ¶2, sentence 3 | “will not only fill an important gap in the literature but also pave the way for improved outcomes” | D5, S3 | Major | End on the study question. Filling a gap repeats the opening of the sentence, and conducting a study does not itself improve patient outcomes. |
+
+### Five revisions to make first
+
+1. Remove “therefore prevents death”; keep the retrospective finding as an association.
+2. Verify the evidence behind “improves survival.” Whether it comes from a randomized or observational comparison changes both the wording and the gap you can claim.
+3. Supply the reference group for the adjusted odds ratio. Keep the 1-hour threshold tied to shock onset.
+4. Replace the closing promise with the unresolved question and the prospective study’s design, comparison, and endpoint. Do not assume these match the retrospective analysis.
+5. Cut the generic opening and keep the delayed-treatment sentence only if it adds evidence the early-treatment sentence does not cover.
+<<<END FILE>>>
+
+I’ve left the introduction unchanged. I’d resolve the comparator and the causal claim before working on the prose: those two decisions determine what question the final sentence can credibly pose.

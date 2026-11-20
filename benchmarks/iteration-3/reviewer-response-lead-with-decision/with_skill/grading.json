@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "response_revised.md is at least 25% shorter than response_draft.md in words",
+      "passed": true,
+      "evidence": "words 258 vs 377 (32% shorter)"
+    },
+    {
+      "text": "response_revised.md keeps every page and line reference from the draft (page 9 lines 182\u2013184, page 6 lines 121\u2013125, page 14 lines 301\u2013306, page 15 lines 322\u2013325) and Figure 1",
+      "passed": true,
+      "evidence": "all refs kept"
+    },
+    {
+      "text": "response_revised.md keeps the loss-to-follow-up numbers (14, 4.1%, 17, 5.0%)",
+      "passed": true,
+      "evidence": "kept"
+    },
+    {
+      "text": "response_revised.md contains none of: 'insightful', 'thought-provoking', 'excellent', 'sincerely thank', 'grateful'",
+      "passed": true,
+      "evidence": "none of the phrases found"
+    },
+    {
+      "text": "the first sentence of each of the three responses states the decision or action (added, kept, revised), not background or thanks",
+      "passed": true,
+      "evidence": "'We agree and have added...', 'We have kept the 90-day endpoint...', 'We agree that the original wording...' | auto: manual: first sentence of each response"
+    },
+    {
+      "text": "response_revised.md describes no revision that the draft did not describe",
+      "passed": true,
+      "evidence": "Same three changes as the draft; adds one [CITATION NEEDED] placeholder, no new revision | auto: manual: no invented changes"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  }
+}

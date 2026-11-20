@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.1-terra",
+ "provider_model": "openai/gpt-6.1-terra",
+ "config": "v1.1",
+ "case": "revise-intro-no-citations",
+ "seconds": 11.8,
+ "prompt_tokens": 27549,
+ "completion_tokens": 602,
+ "cost_usd": 0.0049291,
+ "finish_reason": "stop",
+ "files_returned": [
+  "intro_revised.txt"
+ ]
+}

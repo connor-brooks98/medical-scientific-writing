@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"Prior studies have reported up to a three-fold higher risk of DKA ... [CITATION NEEDED: named study, design, population, comparator, and risk estimate]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"The diagnosis was delayed at two points. On POD 1, nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Effectiveness claim removed; output states \"From a single case, we cannot determine whether earlier ketone testing would have prevented intensive care admission\""
+ },
+ "_cost": 0.019872
+}

@@ -1,0 +1,40 @@
+I treated this as a journal case-report Discussion and Conclusion and left the case presentation as written. The revision is longer than the draft because the diagnostic delay, the metformin contrast, and the limits of a single case were put back in.
+
+Most journals and ICMJE expect AI-assisted writing to be disclosed at submission. This edit does not remove that obligation.
+
+<<<FILE: revised_discussion.md>>>
+## Discussion
+
+Our patient developed euglycemic diabetic ketoacidosis (euglycemic DKA) after an uncomplicated laparoscopic cholecystectomy. Sodium-glucose cotransporter-2 (SGLT2) inhibitors, used for type 2 diabetes, heart failure, and chronic kidney disease, increase urinary glucose excretion, lower insulin requirements, and increase ketone production. Surgical stress, prolonged fasting, and reduced carbohydrate intake can precipitate ketoacidosis in patients taking these drugs, including when glucose is not markedly elevated. Euglycemic DKA associated with SGLT2 inhibitors is described as rare but potentially life-threatening [CITATION NEEDED: incidence and mortality figures for that description].
+
+The risk of diabetic ketoacidosis has been reported as up to three-fold higher in patients receiving SGLT2 inhibitors [CITATION NEEDED: source, population, and comparator for the three-fold estimate]. The US Food and Drug Administration (FDA) recommends that empagliflozin be discontinued at least 3 days before scheduled surgery [5]. She was instructed to hold metformin on the morning of surgery, but empagliflozin was continued. Her last dose was the morning before surgery, and she fasted for 14 hours. Continuing empagliflozin until the morning before surgery likely contributed to her euglycemic DKA, together with the 14-hour fast and surgical stress. One case cannot separate those contributions.
+
+The surgical team attributed her nausea, vomiting, and abdominal discomfort on postoperative day (POD) 1 to postoperative ileus and opioid analgesia. Capillary glucose was 182 mg/dL. That evening she was tachypneic (respiratory rate 28/min). A venous blood gas showed pH 7.12, bicarbonate 9 mmol/L, and an anion gap of 24 mmol/L, with lactate 1.4 mmol/L and serum beta-hydroxybutyrate 6.8 mmol/L. Euglycemic DKA was diagnosed on the morning of POD 2, approximately 14 hours after that gas.
+
+After transfer to the intensive care unit, she was treated with an intravenous insulin infusion with concurrent 10% dextrose, fluid resuscitation, and potassium replacement. The anion gap closed after 38 hours. Empagliflozin was discontinued permanently, and she was discharged on POD 6 taking metformin and basal insulin. This case does not show whether earlier treatment would have changed her course.
+
+## Conclusion
+
+Euglycemic DKA followed elective laparoscopic cholecystectomy in a patient whose last dose of empagliflozin was the morning before surgery, rather than at least 3 days earlier as the FDA recommends [5]. Glucose was 182 mg/dL, and the diagnosis was made approximately 14 hours after the first abnormal gas. This case suggests that nausea, vomiting, or tachypnea after surgery in a patient who took empagliflozin the morning before should prompt a blood gas and a ketone measurement, even when glucose is not markedly elevated, rather than attribution to postoperative ileus and opioids alone. This case does not show whether stopping empagliflozin at least 3 days before surgery would have prevented the ketoacidosis.
+<<<END FILE>>>
+
+**What changed**
+
+- Discourse: Opened on this operation instead of the “landscape of diabetes management.” Cut the morals (high index of suspicion, comprehensive protocols, clinicians must work together) and the “further research” ending. The close is now the missed 3-day hold, the 14-hour delay, and one action tied to this presentation.
+- Discourse: Put back the detour the draft had flattened. Symptoms were attributed to ileus and opioids, glucose was 182 mg/dL, and euglycemic DKA was diagnosed approximately 14 hours after the first abnormal gas. “Prompt recognition” does not fit that timeline, so it is gone. So is the claim that a multidisciplinary approach was shown to work; the case does not describe that team.
+- Discourse: Kept “likely contributed” as your interpretation, then stated separately that one case cannot separate the short hold, the 14-hour fast, and surgical stress. The uncited “three-fold” risk and “rare but potentially life-threatening” stay only as placeholders.
+- Sentence: Removed the “, highlighting / underscoring / demonstrating” tails, “represents,” and “serve as.” Named the surgical team for the misattribution.
+- Word: Removed garnered, evolving landscape, revolutionized, perfect storm, Notably, Furthermore, and the em dash. Did not call 182 mg/dL a normal glucose.
+
+**Fidelity**
+
+Numbers, units, and citation [5] match the draft. No new statistics or references. HbA1c, BMI, the metformin dose, and lisinopril stay in the case presentation, which was not rewritten. The discussion is longer because that delay, the metformin-versus-empagliflozin contrast, and the single-case limits were restored.
+
+**Placeholders and author queries**
+
+- [CITATION NEEDED: source, population, and comparator for the three-fold estimate]. Do not leave “up to three-fold” in the submission without that source.
+- [CITATION NEEDED: incidence and mortality figures for “rare but potentially life-threatening”]. Delete the sentence if you cannot support it.
+- Confirm or soften “likely contributed.” It is an interpretation, not something one case can establish.
+- The conclusion’s suggestion (blood gas and ketones for nausea, vomiting, or tachypnea) is also an interpretation. Abdominal discomfort was part of what the team attributed to ileus; I left it out of the action sentence so the lesson would not cover ordinary postoperative pain. Add it if you want it there.
+- The draft conclusion said normal glucose does not exclude DKA. The measured value was 182 mg/dL, so that wording was not kept. I did not add a numeric definition of euglycemic DKA; none was in the draft.
+- “Malaise” was in the draft discussion but not in the case, so it is not in the revision.

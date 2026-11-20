@@ -1,0 +1,14 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "provider_model": "deepseek/deepseek-v4.1-flash-1017",
+ "config": "v1.0",
+ "case": "reviewer-response-lead-with-decision",
+ "seconds": 10.2,
+ "prompt_tokens": 25121,
+ "completion_tokens": 2219,
+ "cost_usd": 0.0057573,
+ "finish_reason": "stop",
+ "files_returned": [
+  "response_revised.md"
+ ]
+}

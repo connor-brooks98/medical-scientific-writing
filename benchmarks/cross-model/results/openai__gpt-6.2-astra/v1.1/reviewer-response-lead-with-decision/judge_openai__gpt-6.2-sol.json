@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "The three responses begin with actions: \u201cWe added group-specific losses,\u201d \u201cWe retained the 90-day primary endpoint,\u201d and \u201cWe revised the Discussion.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The draft already describes all reported changes: adding group-specific counts, retaining the 90-day endpoint and adding its rationale, narrowing the conclusions, and noting the single-center limitation."
+ },
+ "_cost": 0.003846
+}

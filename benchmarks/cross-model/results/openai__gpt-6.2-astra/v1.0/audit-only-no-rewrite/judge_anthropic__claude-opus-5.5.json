@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Findings are a table of quotes, pattern IDs, severities and fixes. Neither audit.md nor the chat message contains a replacement paragraph; the chat says \"I've left the introduction unchanged.\""
+ },
+ "02": {
+  "passed": true,
+  "evidence": "The row for \"Early norepinephrine therefore prevents death in septic shock.\" is marked Critical, the highest level used, with \"Remove the causal conclusion.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"Studies have shown...\" is flagged D2, S6 with \"Identify and cite the studies.\" \"a growing body of evidence...\" is flagged with \"cite the source.\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Flags \"a leading cause of death worldwide\", \"a pivotal challenge in the evolving landscape of critical care\" and \"there has been growing interest\". Fix given: \"Get to the timing decision... sooner.\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Flags the sentence (D9, S5) and states \"'May potentially' adds no useful qualification.\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The row quoting the phrase asks only to add the reference group and says \"Retain the timing threshold, endpoint, adjusted estimate, and CI\". Revision 1 says \"keep the retrospective finding as an association.\" The association wording is not targeted for change."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every table row has a Severity value (Critical or Major), and a ranked \"Five revisions to make first\" list is also given."
+ },
+ "_cost": 0.028308
+}

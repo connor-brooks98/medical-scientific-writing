@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "No full replacement paragraphs; the audit offers only short examples such as \u201cWe aimed to determine whether \u2026\u201d."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding 16 rates \u201cEarly norepinephrine therefore prevents death\u201d as Critical, the highest severity, and calls it \u201cgeneralized from a single retrospective association.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Finding 6 flags \u201cStudies have shown\u201d as \u201cUnnamed studies, no citation.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding 1 calls \u201cSepsis remains a leading cause of death worldwide\u201d a \u201cGeneric opener.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Finding 10 labels \u201cmay potentially be associated with\u201d as \u201cStacked hedges.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit says \u201cwas associated with lower 28-day mortality\u201d is \u201cthe correct wording for a retrospective analysis\u201d and directs the author to keep it."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The Severity column assigns Critical, Major, or Minor to every numbered finding (1\u201322)."
+ },
+ "_cost": 0.010561
+}

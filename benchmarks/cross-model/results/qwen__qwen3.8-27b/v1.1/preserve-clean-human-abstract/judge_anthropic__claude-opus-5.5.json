@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": true,
+  "evidence": "Chat says \"this draft is clean\" and \"there is no pattern here that an expert reviewer would read as machine-generated\"; only two sentences in Conclusions were changed."
+ },
+ "_cost": 0.010864
+}

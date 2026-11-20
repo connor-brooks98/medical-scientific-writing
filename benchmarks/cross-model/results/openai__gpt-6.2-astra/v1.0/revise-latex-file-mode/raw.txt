@@ -1,0 +1,21 @@
+<<<FILE: results.tex>>>
+\section{Results}
+\label{sec:results}
+
+A total of 2,418 patients met the inclusion criteria (Figure~\ref{fig:flow}). After propensity-score matching, baseline characteristics were well balanced between groups (Table~\ref{tab:baseline}) \cite{austin2011introduction}.
+
+The primary outcome occurred in 142 patients (11.7\%) in the intervention group and 198 patients (16.4\%) in the control group (hazard ratio [HR] 0.69; 95\% CI 0.56--0.86; $p = 0.001$). The direction of the association was consistent across all prespecified subgroups (Figure~\ref{fig:forest}).
+
+The adjusted model was
+\begin{equation}
+  \log h_i(t) = \log h_0(t) + \beta_1 \text{Treatment}_i + \boldsymbol{\gamma}^\top \mathbf{x}_i ,
+  \label{eq:cox}
+\end{equation}
+where $\mathbf{x}_i$ denotes the vector of baseline covariates listed in Table~\ref{tab:baseline} \cite{cox1972regression, therneau2000modeling}.
+
+All-cause mortality was 7.9\% in the intervention group and 8.6\% in the control group (HR 0.92; 95\% CI 0.70--1.21).
+<<<END FILE>>>
+
+I preserved every numerical result, citation key, label, and cross-reference. The equation is unchanged. I removed the causal interpretation of the subgroup findings and the claim of overall safety; the mortality confidence interval includes both lower and higher hazards.
+
+Before submission, check that every subgroup estimate in the forest plot points in the reported direction. If you assessed secondary outcomes other than mortality, report those results as well. Follow your journal’s policy on disclosure of AI-assisted editing.

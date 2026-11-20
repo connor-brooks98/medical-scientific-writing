@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Only diagnosis and a checklist of required content (\"your prose, your ordering\"); no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"### 1.1 Causal claim from observational data [BLOCKER]\" \u2014 BLOCKER is the top severity level."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"'Studies have shown' | Unattributed authority | MAJOR\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"'a pivotal challenge in the evolving landscape of critical care' | Empty\"; also flags \"there has been growing interest\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"Quadruple hedge (may / potentially / associated / some). Unfalsifiable and unreadable\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Never calls \"was associated\" an overclaim. It appears only in a tense-shift note (\"'was associated' \u2192 'we designed'\"), not as a wording change."
+ },
+ "07": {
+  "passed": false,
+  "evidence": "Section 3 table rows (e.g., \"No adjustment covariates listed\") and Section 4 structural bullets (\"No funnel\", \"No objective statement\", \"Redundancy\") have no severity labels."
+ },
+ "_cost": 0.037948
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-sol",
+ "provider_model": "openai/gpt-6.2-sol",
+ "config": "v1.1",
+ "case": "revise-case-report-discussion",
+ "seconds": 5.0,
+ "prompt_tokens": 28052,
+ "completion_tokens": 657,
+ "cost_usd": 0.0767,
+ "finish_reason": "stop",
+ "files_returned": [
+  "revised_discussion.md"
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "\u201cScope: findings only, no rewrite\u201d; no replacement paragraphs appear."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Row 9 assigns \u201cCritical,\u201d the highest severity, and explains: \u201cCausal verb from a single-centre retrospective association.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cBoth literature claims (\u2018studies have shown\u2019, \u2018a growing body of evidence\u2019) are unattributed.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Row 1 calls the opening a \u201cGeneric disease-burden opener\u201d that \u201ccould begin any critical care paper.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Row 6 explicitly flags a \u201cstacked hedge (\u2018may potentially\u2019).\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Row 8 says of the retrospective-result sentence: \u201cThe verb is correct; keep it.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The Severity column labels every finding (rows 1\u201313) as Minor, Major, or Critical."
+ },
+ "_cost": 0.007956
+}

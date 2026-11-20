@@ -1,0 +1,34 @@
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of hip fracture surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and shorter length of stay (median 8 vs 11 days). Delirium incidence did not differ between groups (31% vs 29%) [DATA NEEDED: adjusted estimate and 95% CI, or p value, for delirium], although this study could not rule out other cognitive effects.
+
+Table [DATA NEEDED: table number] compares our findings with previous cohorts [CITATION NEEDED: brief prose synthesis of key prior cohorts, naming designs, populations, and main estimates]. Among all patients, [DATA NEEDED: percentage and n/N] were mobilized within 24 hours; early physiotherapy was therefore feasible for most patients, including those with severe dementia [DATA NEEDED: stratified proportion for severe dementia, or delete clause if unmeasured].
+
+Because this was a retrospective cohort, residual confounding by baseline frailty, dementia severity, or acute illness may explain part of the observed associations. Patients in better clinical condition are more likely both to be mobilized within 24 hours and to survive, so observational estimates may overstate any effect of early mobilization. Preoperative ambulatory status was also unrecorded for 18% of patients, which limits adjustment for prefracture function [DATA NEEDED: how missing ambulatory status was handled in the adjusted model].
+
+Mobilization within 24 hours was associated with lower 30-day mortality and shorter length of stay, without a difference in delirium. Prospective cohorts that record prefracture mobility and dementia severity, or randomized trials of early mobilization protocols, are needed to determine whether early mobilization reduces mortality and length of stay in patients with dementia.
+<<<END FILE>>>
+
+I revised this as a standard biomedical manuscript Discussion for a retrospective cohort study and saved the updated text to `discussion_revised.md`.
+
+### What changed
+
+- **Discourse and structure (D1, D2, D3, D5, D6, D8, D10, D11):** Removed the generic opener ("At its core..."), the epigram ("Mobility is the currency of recovery in older adults"), the stated moral ("This illustrates the importance..."), and the defensive straw-man framing ("This is not to say...", "One might argue..."). Separated the mixed final paragraph into distinct moves: comparison with prior cohorts and feasibility, limitations with expected direction of bias, and conclusion. Replaced the vague, causally overstated coda ("Overall, early mobilization appears to be beneficial") with a conclusion calibrated to observational data and specific next-study designs. The revision is slightly longer than the original outside placeholders (214 vs 199 words) to state the confounding-by-indication qualification required by the retrospective design.
+- **Evidence and methodological calibration (D8, S1, S6):** Removed the unsupported inference that unrecorded preoperative ambulatory status in 18% of patients meant those patients were "likely nonambulatory"; framed the 18% missingness instead as a limitation on confounding adjustment.
+- **Sentences (S1, S3, S8, S11):** Eliminated the negative parallelism ("does not mean... It means..."), signposting ("The key point is..."), and the participial `-ing` tail (", suggesting that..."), and smoothed the staccato rhythm of the second and third paragraphs.
+- **Words (W4, W5):** Cut filler ("At its core, the central question", "Overall") and standardized outcome wording (`length of stay`).
+
+### Fidelity
+
+All original numbers (`1,146`, `24 hours`, `30-day`, `6.2%`, `9.8%`, `0.61`, `95% CI, 0.39–0.95`, `8`, `11`, `31%`, `29%`, `18%`), all reported findings (including the null delirium result), and the reference to the comparison table are preserved; no new data or citations were introduced.
+
+### Placeholders and author queries
+
+1. **`[DATA NEEDED: adjusted estimate and 95% CI, or p value, for delirium]`** — Add the statistical comparison for delirium (31% vs 29%) so the null result is reported with the same rigor as mortality. Consider also adding IQRs and an adjusted estimate or test for length of stay (median 8 vs 11 days) if reported in Results.
+2. **`[DATA NEEDED: table number]` and `[CITATION NEEDED: brief prose synthesis of key prior cohorts...]`** — Replace "The table below" with the manuscript's table number and add 2 to 4 sentences in prose summarizing the main prior cohorts (designs, populations, and estimates) and how your results compare.
+3. **`[DATA NEEDED: percentage and n/N]` and `[DATA NEEDED: stratified proportion for severe dementia...]`** — The claims that early mobilization was feasible for "most patients" and that patients with severe dementia could participate need the actual proportions from Results. If dementia severity was not stratified, remove the severe-dementia clause.
+4. **`[DATA NEEDED: how missing ambulatory status was handled in the adjusted model]`** — State whether the 18% missingness was handled by multiple imputation, a missing-indicator category, or complete-case analysis. Also confirm that you have no chart-validation evidence supporting the original "likely nonambulatory" assumption; if you do, state that evidence directly.
+5. **Confirm proposed framing:** The confounding-by-indication explanation (paragraph 3) and the suggested next-study designs (paragraph 4) are standard editorial interpretations drawn from the study design; adjust them to reflect what your regression model actually adjusted for and what you want to recommend. Also check whether "early physiotherapy" and "early mobilization" refer to the same exposure in your Methods; if so, use one term throughout.
+
+*Disclosure note:* If this manuscript is headed for journal submission, most journals and ICMJE guidelines require disclosing AI-assisted writing or editing.

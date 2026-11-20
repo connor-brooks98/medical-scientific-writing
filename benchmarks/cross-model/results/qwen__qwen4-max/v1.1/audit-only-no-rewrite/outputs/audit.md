@@ -1,0 +1,55 @@
+# Audit: introduction.txt
+
+Scope: audit only, no rewrite. Roughly 170 words, two paragraphs. Pattern IDs refer to the medical-writing pattern catalog (D = discourse, S = sentence, W = word). Severity: **Critical** = misleads the reader (wrong verb for the design, unsupported claim, internal contradiction); **Major** = impairs clarity or credibility; **Minor** = style.
+
+## Findings
+
+| # | Location | Quoted text | Pattern | Severity | Suggested fix |
+|---|---|---|---|---|---|
+| 1 | ¶1, sent. 1 | "Sepsis remains a leading cause of death worldwide" | D6 | Major | Generic opener; it could start any critical care paper. Start with the specific question (when to start norepinephrine in septic shock) within the first sentence or two. Keep a burden figure only if it is specific and cited. |
+| 2 | ¶1, sent. 1 | "representing a pivotal challenge in the evolving landscape of critical care" | S1, S2 | Major | -ing tail plus copula avoidance; it carries no information about this study. Delete rather than replace. |
+| 3 | ¶1, sent. 1 | "pivotal", "evolving landscape" | W1 | Minor | Both are watched vocabulary; they disappear with the tail in #2. |
+| 4 | ¶1, sent. 1 | "a leading cause of death worldwide" (no citation) | D2 | Major | Uncited epidemiological claim. Add [CITATION NEEDED: global sepsis incidence/mortality estimate and source] or drop the claim. |
+| 5 | ¶1, sent. 2 | "In recent years, there has been growing interest in the role of early vasopressor initiation." | D6, W4 | Major | Fails the swap test; "there has been" is a clutter opening. Replace with what is actually known or contested about timing, with a citation. |
+| 6 | ¶1, sent. 3 | "Studies have shown that early norepinephrine improves survival in septic shock." | D2 + evidence-matched verb | Critical | Unnamed studies, no citation, causal verb of unknown design. Name the study or studies (design, population, n, effect with 95% CI). If the evidence is observational, the verb must be "was associated with lower mortality", not "improves survival". As written this is an unsupported efficacy claim. |
+| 7 | ¶1, sent. 3 vs ¶2, sent. 3 | "improves survival" … "To address this critical gap" | D3, D4 (logic) | Critical | The introduction asserts the question is answered and then asserts a critical gap, without ever naming the gap. Decide what is genuinely unresolved (timing threshold? confounding by indication in retrospective data? a specific population?) and state it as a named gap type: knowledge, methodological, or population. |
+| 8 | ¶1, sent. 4 | "Furthermore" | W5 | Minor | Additive connective doing no logical work; the sentence restates the previous one (see #11). |
+| 9 | ¶1, sent. 4 | "a growing body of evidence suggests" | D2 | Major | Second unnamed-evidence sentence in four lines. Name the studies and what they found, or delete. |
+| 10 | ¶1, sent. 4 | "may potentially be associated with" | S6 | Major | Stacked hedges. One hedge, sized to the design: "was associated with" for observational data. |
+| 11 | ¶1, sent. 4 (whole) | "delayed vasopressor therapy … worse outcomes in some patients" | D9 | Major | This is sentence 3 stated in reverse (early helps / delay harms). Say it once, in the stronger and better-supported direction. |
+| 12 | ¶1, sent. 4 | "worse outcomes in some patients" | S13 | Major | Missing outcome, comparator, and condition. Which outcome (28-day mortality?), delayed relative to what threshold, in which patients? |
+| 13 | ¶2, sent. 1 vs sent. 3 | "In a retrospective analysis of 2,914 patients … at our institution" … "we designed a comprehensive prospective study" | Internal consistency | Critical | The reader cannot tell whether the 2,914-patient analysis is your prior work or the present study, and the design labels conflict (retrospective vs prospective). State explicitly which it is. This is the single most damaging problem in the paragraph. |
+| 14 | ¶2, sent. 1 | "In a retrospective analysis of 2,914 patients … (adjusted odds ratio, 0.78; 95% CI, 0.64–0.94)." | Section structure | Major | An Introduction does not present results. If this is the current study, the estimate belongs in the Abstract and Results. If it is your prior work, cite it and keep only the finding needed to motivate the question. |
+| 15 | ¶2, sent. 1 | "norepinephrine started within 1 hour of shock onset" | S13, reporting | Major | Comparator is implied, not stated (within 1 hour vs later than 1 hour?), and "shock onset" is undefined. If the estimate is kept anywhere, it also needs the adjustment covariates and the event rates in each group, not the OR alone. |
+| 16 | ¶2, sent. 2 | "Early norepinephrine therefore prevents death in septic shock." | Integrity rule 3, S6, W2 | Critical | Causal, unqualified, and generalized from a single retrospective association. An adjusted OR of 0.78 in one institution supports "was associated with lower 28-day mortality" in that cohort, nothing more. "Therefore" also implies the association establishes causation. Delete or restate to match the design; confounding by indication (sicker patients get pressors later, or earlier) is the obvious competing explanation and is not acknowledged anywhere. |
+| 17 | ¶2, sent. 3 | "To address this critical gap" | D4 | Major | Study-as-hero framing referring to a gap never named. Replace with the actual question. |
+| 18 | ¶2, sent. 3 | "a comprehensive prospective study" | W1, S13 | Major | "Comprehensive" is vague self-praise, and the design is unspecified. Give design, setting, population, comparator, primary outcome, and hypothesis. |
+| 19 | ¶2, sent. 3 | "will not only fill an important gap in the literature but also pave the way for improved outcomes" | S3, D5, D1 | Major | Negative parallelism plus a promise-shaped coda. Neither half carries information. Replace with the aim sentence ("We aimed to determine whether …") and the hypothesis. |
+| 20 | ¶2, sent. 3 | "critical gap" … "important gap in the literature" | D9 | Minor | The same claim twice in one sentence. |
+| 21 | Whole introduction | (absent) | Section guide | Major | There is no aim, hypothesis, or statement of how the design addresses the gap. At ~170 words you are well under a typical 400 to 700-word Introduction, so the fix is added specificity, not compression. |
+| 22 | ¶1, sent. 3 vs ¶2, sent. 1 | "improves survival" vs "28-day mortality" | S5 | Minor | One label per outcome throughout. Pick the outcome you actually measured and keep it. |
+
+## Leave alone (do not over-correct)
+
+- "was associated with lower 28-day mortality" in ¶2, sent. 1 is the correct wording for a retrospective analysis. Keep that phrasing even as you fix the sentence around it.
+- The en dash in "0.64–0.94" is correct AMA typography for a CI range, as are the comma after "adjusted odds ratio" and the hyphen in "28-day". No em dashes appear; do not introduce any.
+- Sentence lengths already vary (roughly 9 to 44 words). Rhythm is not a problem here; do not chop sentences to create variation.
+- Numeral formatting (2,914; 1 hour) is fine.
+
+## The five revisions that would most improve this introduction
+
+1. **Resolve the design contradiction (#13, #14).** Decide and state whether the 2,914-patient analysis is prior work (cite it, keep one motivating clause) or the present study (move the estimate to Abstract and Results). Nothing else in the paragraph can be judged until this is settled.
+2. **Remove the causal overclaim (#16) and match every verb to its design (#6).** "Prevents death" and "improves survival" both outrun a retrospective association. This is the finding a reviewer will quote back at you.
+3. **Name the gap, then state the aim (#7, #17, #18, #19, #21).** Replace the final sentence with: the specific unresolved question, the design and population you will use, the primary outcome, and the hypothesis. Consider naming confounding by indication as the limitation of the existing evidence, since that is what a prospective design would address.
+4. **Replace the two vague evidence sentences with named, cited specifics (#6, #9, #11, #12).** One or two studies with design, n, timing contrast, and effect estimate will do more work than "studies have shown" plus "a growing body of evidence", and it removes the reverse restatement.
+5. **Cut the first sentence and a half (#1, #2, #5).** Open on the timing question in septic shock rather than on global burden.
+
+## Placeholders and author queries
+
+- [CITATION NEEDED: global sepsis mortality/incidence estimate, if the burden claim is kept] (#4)
+- [CITATION NEEDED: named studies supporting an effect of early norepinephrine on mortality, with design, population, n, and effect estimate] (#6, #9)
+- [CITATION NEEDED: the 2,914-patient analysis, if it is your prior published work] (#14)
+- [DATA NEEDED: comparator and definition of "shock onset" for the 1-hour threshold; adjustment covariates; 28-day mortality rates in each group] (#15)
+- [DATA NEEDED: design, setting, population, primary outcome, and hypothesis of the prospective study] (#18, #21)
+- Query: is "improves survival" (#6) based on randomized evidence? If yes, name the trial and the verb can stay causal for that trial's endpoint; if the evidence is observational, the verb must change.
+- Query: the claim that a prospective study will "pave the way for improved outcomes" is not supportable by any design described here; confirm you want it replaced with the aim rather than softened.

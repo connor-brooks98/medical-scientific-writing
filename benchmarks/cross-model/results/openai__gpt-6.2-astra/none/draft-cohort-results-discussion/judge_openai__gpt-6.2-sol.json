@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "The draft says the adjusted estimates were \u201cclose to the null,\u201d but does not plainly state that mortality and readmission did not differ or were not associated with PPI use."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "The draft says PPI use \u201cwas associated with a higher hazard of CDI\u201d and does not claim causation."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior study cited in the draft is the \u201cmeta-analysis by Kwok et al.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The estimate was \u201c1.21 (95% CI, 0.81-1.80) among women\u201d; the interaction test \u201cdid not provide clear evidence that the association differed by sex\u201d (P = .14)."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The cohort statistics match the supplied values, the \u201c1.5 percentage points\u201d equals 4.1% minus 2.6%, and the odds ratio of 1.74 is attributed to Kwok et al."
+ },
+ "_cost": 0.007191
+}

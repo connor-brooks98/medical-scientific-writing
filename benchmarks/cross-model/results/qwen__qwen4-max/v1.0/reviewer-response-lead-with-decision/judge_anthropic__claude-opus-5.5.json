@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "R1C1 opens \"We have added group-specific loss to follow-up...\"; R1C2 opens \"...and kept 90 days\"; R2C1 opens \"We agree that the original wording extended the findings too broadly.\" That is a stated concession, not background or thanks, though the change itself comes in a later sentence."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Every change in the letter already appears in the draft: the group loss-to-follow-up numbers in Figure 1 and Results, the Methods rationale at lines 121\u2013125, the narrowed Discussion, and the single-center limitation. No new revisions or analyses are claimed."
+ },
+ "_cost": 0.023548
+}

@@ -1,0 +1,11 @@
+{
+  "eval_name": "author-sample-voice",
+  "prompt": "Rewrite new_paragraph.txt so it sounds like me. I attached an excerpt from our last paper so you can see how I write. Save it as new_paragraph_revised.txt.\n\nInput files: my_previous_paper.txt, new_paragraph.txt",
+  "assertions": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample",
+    "new_paragraph_revised.txt contains none of: 'Notably', 'highlight', 'crucial', 'underscoring', 'pivotal', 'paradigm shift', 'testament', 'Furthermore', 'Interestingly'",
+    "every number in new_paragraph.txt appears in new_paragraph_revised.txt and no new numbers are added",
+    "new_paragraph_revised.txt does not contain 'not only'",
+    "new_paragraph_revised.txt may keep causal language ('reduced') for the randomized primary result; it does not add hedges such as 'may have reduced' to that result"
+  ]
+}

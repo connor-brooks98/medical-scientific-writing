@@ -172,6 +172,7 @@ No hype ("groundbreaking"), no flattery of the journal, no full summary of the p
 ## 12. Responses to reviewers
 
 - One brief thank-you at the top. Then every comment, numbered, quoted or paraphrased exactly, each followed by a response.
+- Lead each response with the decision ("We agree and have added...", "We have not made this change because..."), then only the reasoning or evidence the reviewer lacks. The reviewer already knows their own comment; restating the problem and walking through the diagnosis before the answer buries it. The same applies to emails to co-authors and editors.
 - Each response says what was changed and where (section and line numbers), and quotes the new text when it is short.
 - When you disagree, give the scientific reason and evidence, and offer a compromise where possible (a clarifying sentence, a sensitivity analysis, a limitation).
 - Name the actor: "We have added...", "We reanalysed...", not "The revised manuscript now addresses...".

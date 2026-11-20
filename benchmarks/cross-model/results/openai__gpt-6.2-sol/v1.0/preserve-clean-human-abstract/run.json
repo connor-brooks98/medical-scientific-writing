@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-sol",
+ "provider_model": "openai/gpt-6.2-sol",
+ "config": "v1.0",
+ "case": "preserve-clean-human-abstract",
+ "seconds": 8.1,
+ "prompt_tokens": 25082,
+ "completion_tokens": 884,
+ "cost_usd": 0.0126163,
+ "finish_reason": "stop",
+ "files_returned": [
+  "abstract_final.txt"
+ ]
+}

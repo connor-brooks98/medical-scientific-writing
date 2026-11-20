@@ -1,0 +1,24 @@
+<<<FILE: abstract_final.txt>>>
+Importance: Short sleep has been associated with cardiovascular disease, but its association with incident atrial fibrillation (AF) in older adults is uncertain.
+
+Objective: To examine whether self-reported sleep duration is associated with incident AF in adults aged 65 years or older.
+
+Design, Setting, and Participants: This prospective cohort study enrolled 4,912 community-dwelling adults without AF at 4 US sites between 2009 and 2012. Follow-up continued through 2022.
+
+Exposure: Self-reported habitual sleep duration, categorized as 6 hours or less, 7 to 8 hours (reference), or 9 hours or more.
+
+Main Outcomes and Measures: Incident AF, ascertained from study electrocardiograms, hospital discharge codes, and Medicare claims.
+
+Results: During a median follow-up of 9.8 years, 781 participants developed AF. Compared with participants who reported 7 to 8 hours of sleep, those who reported 6 hours or less had a higher hazard of AF (adjusted hazard ratio, 1.29; 95% CI, 1.08–1.54). For participants who reported 9 hours or more, the adjusted hazard ratio was 1.07 (95% CI, 0.86–1.33) relative to the same reference group. After additional adjustment for obstructive sleep apnea symptoms, the hazard ratio for 6 hours or less was 1.18 (95% CI, 0.98–1.42).
+
+Conclusions and Relevance: In this cohort of older adults, participants who reported 6 hours or less of sleep had a higher hazard of incident AF than those who reported 7 to 8 hours. After adjustment for obstructive sleep apnea symptoms, the association was weaker and the 95% CI included 1.
+<<<END FILE>>>
+
+**What changed**
+- Split the enrollment and follow-up details so the study timeline is easier to read.
+- Made the sleep comparisons explicit and reported the long-sleep estimate without implying that the study ruled out an association.
+- Ended with the result after adjustment for sleep apnea symptoms rather than a question about treatments the cohort did not test.
+
+**Fidelity:** All study numbers, confidence intervals, outcome sources, and findings are preserved. The original contained no citations.
+
+**Before submission:** Confirm whether the investigators enrolled participants for this study or analyzed an existing cohort. If the latter, use “This analysis included” rather than “This prospective cohort study enrolled.” No wording can guarantee how a reviewer or detector will classify an abstract. Check JAMA Cardiology’s current disclosure instructions for AI-assisted editing.

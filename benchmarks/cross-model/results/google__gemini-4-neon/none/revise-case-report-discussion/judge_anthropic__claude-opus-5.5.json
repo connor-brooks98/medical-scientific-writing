@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\"Prior studies have reported up to a threefold increase in the risk of DKA\" is kept with no citation or placeholder. The chat message only suggests adding one later."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia\" ... \"not diagnosed until the morning of POD 2\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The 'demonstrating the effectiveness of a multidisciplinary approach' claim was removed. The treatment is only described factually: \"The anion gap closed after 38 hours\"."
+ },
+ "_cost": 0.018492
+}

@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "The \u201cup to a three-fold increase\u201d estimate is followed by \u201c[CITATION NEEDED: incidence of euDKA and source, population, and comparator for the DKA risk estimate].\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The team \u201cinitially attributed\u201d the symptoms to \u201cpostoperative ileus and opioid analgesia\u201d; diagnosis came \u201capproximately 14 hours after the first abnormal blood gas.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The output reports that \u201cThe anion gap closed after 38 hours\u201d without claiming that the case demonstrates treatment effectiveness."
+ },
+ "_cost": 0.005921
+}

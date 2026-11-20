@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: revise-discussion-staging-strawman
+expected_outcome: |
+  discussion_revised.md removes the staging, aphorism, strawman, split negative parallel, closer, self-description, and gap-filling guess while keeping every number and the statistical 'associated with' wording, and without inferring the missing ambulatory status.
+context:
+  scaffold_script: place-files.sh

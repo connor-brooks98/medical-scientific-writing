@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-sol",
+ "provider_model": "openai/gpt-6.2-sol",
+ "config": "v1.0",
+ "case": "revise-intro-no-citations",
+ "seconds": 6.8,
+ "prompt_tokens": 25005,
+ "completion_tokens": 671,
+ "cost_usd": 0.0102938,
+ "finish_reason": "stop",
+ "files_returned": [
+  "intro_revised.txt"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "Only hedged wording: \"The confidence intervals for the associations with 90-day mortality and 30-day readmission included no difference.\" It never plainly says these outcomes did not differ or were not associated with PPI use."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use was associated with CDI\" and \"associated with a higher hazard of CDI\". There is no causal or 'increases risk' language."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al. and Freedberg et al. are named, both with [CITATION NEEDED] placeholders. No other study is named."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81-1.80) among women; the interaction test did not indicate a difference by sex (P = 0.14)\". The draft does not claim effect modification by sex."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numbers (6214, 2377, 3837, 312, 5.0%, rates, aHRs/CIs, P = 0.14, OR ~1.74) match the supplied data or the cited studies."
+ },
+ "_cost": 0.023832
+}

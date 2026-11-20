@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "The second response opens with background: \u201cMost readmissions after heart failure hospitalization occur within the first 90 days.\u201d The third opens with \u201cWe agree,\u201d but does not state the change until the next sentence."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The draft already describes adding loss-to-follow-up counts by group, keeping the 90-day endpoint and adding its rationale to the Methods, narrowing the Discussion conclusions, and adding the single-center limitation."
+ },
+ "_cost": 0.003946
+}

@@ -1,0 +1,16 @@
+[file returned: new_paragraph_revised.txt]
+
+I treated `new_paragraph.txt` as a Discussion paragraph for a cluster-randomized trial manuscript and matched the sentence rhythm, directness, and spaced em-dash punctuation of your 2023 Discussion excerpt (saving the revision to `new_paragraph_revised.txt`).
+
+**What changed**
+- **Discourse (D1, D5, D9):** Removed the opening moral ("highlight the crucial importance... underscoring its pivotal role") and the promotional claim ("paradigm shift in transitions of care") so the paragraph opens directly with the trial's primary result and ends on the concrete implication.
+- **Sentences (S1, S2, S3, S8):** Cut two `-ing` tails ("underscoring...", "representing..."), the negative parallel ("not only statistically significant but also clinically meaningful"), and copula avoidance ("serves as a testament"). Varied sentence length across 33, 18, and 8 words (excluding the placeholder) to match your excerpt's cadence, keeping one spaced em dash (` — `) consistent with your style.
+- **Words (W1, W2, W5):** Removed the three additive/attention openers ("Notably", "Furthermore", "Interestingly") and AI-favored evaluative vocabulary ("highlight", "crucial", "pivotal", "testament"), trimming the paragraph from 107 to 59 words (outside the placeholder).
+
+**Fidelity**
+- All numbers (12 hospitals, 30 days, 14.2%, 10.6%, -3.6 percentage points, 95% CI -5.9 to -1.3, 10 or more medications, -6.1 percentage points) and both findings are preserved unchanged, with no new data added.
+
+**Placeholders and author queries**
+- `[DATA NEEDED: 95% CI and interaction P value]`: Please add the 95% CI for the -6.1 percentage point subgroup risk difference and the interaction test (or note if this subgroup was exploratory). If the CIs overlap or the interaction is not statistically significant, consider softening "The effect was larger" to "The reduction was numerically larger."
+- **"Clinically meaningful":** Removed because no minimal clinically important threshold was stated. If your trial prespecified a threshold for clinical importance, state it explicitly alongside the -3.6 percentage point reduction.
+- **Disclosure note:** If this paragraph is headed for journal submission, remember that most journals and ICMJE require disclosing AI-assisted writing or editing.

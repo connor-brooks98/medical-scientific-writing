@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit contains findings, quoted fragments and a checklist; no replacement paragraphs. It says \"Don't rewrite\" was respected."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Listed first under \"## 2. Critical Scientific & Logical Flaws\" as \"Unjustified Causal Leap (Observational Data \u2192 Causation)\", which is the top tier."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Sentence 3: \"Missing citations; overstates causality\". 3B: \"You reference unnamed studies\". 'a growing body of evidence' is flagged as clich\u00e9 filler with \"missing citations\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Flags \"representing a pivotal challenge in the evolving landscape of critical care\" and \"In recent years, there has been growing interest in...\" as clich\u00e9 filler."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "4B, \"Excessive Stacked Hedging\": \"stacks five qualifiers in one clause\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Sentence 5 is called \"the most concrete sentence\". Critiques target citation and limitations, not the 'associated with' wording, and the checklist endorses framing \"as associative\"."
+ },
+ "07": {
+  "passed": false,
+  "evidence": "Only section 2 is labeled \"Critical\". Sections 3 and 4 are topical categories and the sentence-by-sentence audit has no severity labels, so not every finding has an assigned severity."
+ },
+ "_cost": 0.037512
+}

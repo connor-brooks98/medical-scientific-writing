@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit states \"No rewrite below; suggested fixes are directions only\". Findings give only directions, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"Early norepinephrine therefore prevents death in septic shock.\" is marked S6, D8, Critical, the highest level used: \"retrospective cohort does not show that norepinephrine prevents death\"."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"Studies have shown...\" is marked D2 Critical: \"Name the studies... Otherwise the claim is unsupported\". The \"growing body of evidence\" sentence is noted as one that \"cites nothing\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"Sepsis remains a leading cause of death worldwide\" is flagged D6 Major. \"evolving landscape\" and \"growing interest\" are also flagged."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"'Suggests', 'may', and 'potentially' are stacked hedges\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"Keep 'was associated with'; that verb matches a retrospective analysis\". It also appears under Leave as is. The only requested change is to add the reference group and covariates, not to change the wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every row in the findings table has a Severity value: Critical, Major, or Minor."
+ },
+ "_cost": 0.024956
+}

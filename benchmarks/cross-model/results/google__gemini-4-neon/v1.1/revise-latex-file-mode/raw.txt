@@ -1,0 +1,34 @@
+<<<FILE: results.tex>>>
+\section{Results}
+\label{sec:results}
+
+A total of 2,418 patients met the inclusion criteria (Figure~\ref{fig:flow}). After propensity-score matching \cite{austin2011introduction}, baseline characteristics were balanced between groups (Table~\ref{tab:baseline}).
+
+The primary outcome occurred in 142 patients (11.7\%) in the intervention group and 198 patients (16.4\%) in the control group (hazard ratio [HR] 0.69; 95\% CI 0.56--0.86; $p = 0.001$). This association was consistent across all prespecified subgroups (Figure~\ref{fig:forest}).
+
+The adjusted model was specified as
+\begin{equation}
+  \log h_i(t) = \log h_0(t) + \beta_1 \text{Treatment}_i + \boldsymbol{\gamma}^\top \mathbf{x}_i ,
+  \label{eq:cox}
+\end{equation}
+where $\mathbf{x}_i$ denotes the vector of baseline covariates listed in Table~\ref{tab:baseline} \cite{cox1972regression, therneau2000modeling}.
+
+Among secondary outcomes, all-cause mortality did not differ significantly between the intervention and control groups (7.9\% versus 8.6\%; HR 0.92; 95\% CI 0.70--1.21).
+<<<END FILE>>>
+
+Edited `results.tex` in place, reading this as a propensity-score-matched observational study.
+
+**What changed**
+- **Discourse (D1, D3, D8, D10):** Removed editorializing and Results-section interpretation ("highlighting the robustness...", "underscoring the crucial role of early intervention", "serves as a testament to the overall safety of the strategy"). Corrected the framing of all-cause mortality: because the 95% CI crosses 1.00 (0.70--1.21), describing it as "a similar pattern" to the primary outcome or as evidence of "overall safety" overstated a null result.
+- **Sentence (S1, S2, S6, S11):** Removed the two `-ing` tails, copula avoidance ("serves as"), and signposting ("It is important to note that", "Baseline characteristics are presented in Table..."). Changed "this effect" to "This association" to match an observational propensity-score-matched design.
+- **Word and marks (W1, W3, W5, W6):** Removed promotional and AI-favored wording (`highlighting`, `robustness`, `Notably`, `remarkably`, `underscoring`, `crucial`, `Furthermore`, `testament`) and replaced the punctuation dashes (`---` and ` -- `) while keeping the en dashes inside numeric CI ranges (`0.56--0.86`, `0.70--1.21`).
+
+**Fidelity**
+All numbers, percentages, HRs, 95% CIs, the $p$ value, LaTeX labels (`sec:results`, `eq:cox`), cross-references (`fig:flow`, `tab:baseline`, `fig:forest`), citations (`austin2011introduction`, `cox1972regression`, `therneau2000modeling`), and the equation are preserved unchanged.
+
+**Author queries**
+- **Methods material in Results:** Equation~\ref{eq:cox} and the statistical citations (`cox1972regression`, `therneau2000modeling`, and `austin2011introduction`) were left in place so no cross-references or bibliography entries break, but model specification usually belongs in Methods rather than Results.
+- **Secondary outcomes:** The original text referred to "secondary outcomes" in the plural but reported only all-cause mortality. Add any other prespecified secondary outcomes if analyzed, and consider reporting event counts ($n$) and an exact $p$ value for all-cause mortality to match the primary outcome.
+- **Balance and subgroup metrics:** Consider stating the balance threshold for Table~\ref{tab:baseline} (for example, maximum standardized mean difference) and interaction $p$ values for Figure~\ref{fig:forest} if available.
+- **Study design:** If these data come from a randomized trial rather than an observational cohort, "This association" in paragraph 2 can be changed back to "This effect".
+- If this manuscript is intended for journal submission, note that most journals and ICMJE guidelines require disclosing AI-assisted writing or editing.

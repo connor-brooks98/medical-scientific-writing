@@ -1,0 +1,14 @@
+{
+ "model": "google/gemini-4-neon",
+ "provider_model": "google/gemini-4-neon",
+ "config": "v1.1",
+ "case": "revise-discussion-staging-strawman",
+ "seconds": 106.4,
+ "prompt_tokens": 28235,
+ "completion_tokens": 12379,
+ "cost_usd": 0.27039,
+ "finish_reason": "stop",
+ "files_returned": [
+  "discussion_revised.md"
+ ]
+}

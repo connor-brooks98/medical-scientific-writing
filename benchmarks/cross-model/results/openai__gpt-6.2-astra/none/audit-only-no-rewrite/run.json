@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-astra",
+ "provider_model": "openai/gpt-6.2-astra",
+ "config": "none",
+ "case": "audit-only-no-rewrite",
+ "seconds": 14.4,
+ "prompt_tokens": 349,
+ "completion_tokens": 570,
+ "cost_usd": 0.025592,
+ "finish_reason": "stop",
+ "files_returned": [
+  "audit.md"
+ ]
+}

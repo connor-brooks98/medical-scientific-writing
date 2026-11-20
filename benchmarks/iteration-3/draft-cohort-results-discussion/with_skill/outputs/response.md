@@ -1,0 +1,26 @@
+I saved the draft as `draft_sections.md`. It has one Results paragraph, two Discussion paragraphs, a Limitations subsection (JAMA Network Open puts Limitations under Discussion), and a two-item reference list. Word counts, not counting placeholders: Results 153, Discussion 322, Limitations 228.
+
+How it's set up:
+- **Results** gives the primary outcome, then both null secondary outcomes, then the sex subgroups, all with the same plain wording. The sex interaction is reported as not statistically significant (P for interaction = .14).
+- **Discussion paragraph 1** states the main finding with its absolute difference. It reports the mortality and readmission nulls along with what their upper confidence limits still allow. It also says we don't read the men vs women difference as effect modification.
+- **Discussion paragraph 2** compares your estimate with Kwok et al, including their PPI plus antibiotic finding, which matters because everyone in your cohort had CAP. It then covers the recurrent-CDI literature, where your Freedberg citation needs attention (query 1).
+- **Limitations** covers exposure misclassification, in-system-only CDI ascertainment, residual confounding, the 312 exclusions, and single-system generalizability. Each one says which way it would likely bias the HR.
+- All wording is associational ("was associated with"). Formatting follows AMA style ("aHR, 1.48; 95% CI, 1.12-1.96"; "P = .14"; "vs").
+
+**Author queries (please read query 1 first)**
+
+1. **The Freedberg citation doesn't support the sentence you wanted.** I looked it up on PubMed. Freedberg et al 2015 in *Clin Infect Dis* is a pediatric nested case-control study of *incident* CDI with acid suppression (ages 0-17; aOR 7.66) ([doi:10.1093/cid/civ432](https://doi.org/10.1093/cid/civ432)). Freedberg's recurrence study is in *Am J Gastroenterol* 2013, and it found **no** association between PPIs given during CDI treatment and recurrence among 894 inpatients (HR 0.82, 95% CI 0.58-1.16) ([doi:10.1038/ajg.2013.333](https://doi.org/10.1038/ajg.2013.333)). I cited the 2013 paper for what it actually reports, marked it `[ADDED: verified]`, and set it beside Kwok's 3-study pooled recurrence OR. If you want a source that supports a PPI and recurrence association, Tariq et al 2017 is listed under candidates below.
+2. **Kwok et al checked out** ([doi:10.1038/ajg.2012.108](https://doi.org/10.1038/ajg.2012.108)). The pooled OR is 1.74, with a 95% CI of 1.47-2.85, from 39 of 42 included studies (30 case-control, 12 cohort), and I² = 85%. The CI is lopsided around 1.74, but that is how the PubMed abstract prints it. Check it against the full text before you quote it.
+3. **Exclusion denominator.** 2,377 + 3,837 = 6,214, so 6,214 is the cohort after exclusions. 312 is 5.0% of 6,214 but 4.8% of 6,526 (6,214 + 312). The usual convention is to give the percentage of the screened population. Please confirm which you mean. I left the exclusion out of Results because it belongs in the participant-flow sentence or figure.
+4. **Numbers I calculated myself.** The "1.5 percentage points" in Discussion is a crude difference (4.1% minus 2.6%). The "about 20% higher" comes from the upper CI limits of 1.21 and 1.20. Please replace the first with your risk difference and its 95% CI, or delete it.
+5. **Placeholders to fill:** CDI event counts per group (JAMA wants No. (%)); the risk-difference CI; how many patients got antibiotics during the index stay; the CDI assay and whether it changed between 2016 and 2023 (PCR-only testing also picks up colonization); and which confounders were unmeasured (frailty, long-term care residence, prior CDI, antibiotics after discharge). There is also one `[CITATION NEEDED]` for prior PPI-CDI studies limited to older adults or patients with pneumonia.
+6. **Likely reviewer question.** With about 11% of patients dying within 90 days, death competes with both CDI and readmission. If you have a Fine-Gray or cause-specific hazards sensitivity analysis, add one sentence to Results. If you don't, consider running one.
+7. Table and figure citations are left out of the text. Add them where you report results.
+
+**Candidates for the author to verify (from PubMed, not in the text)**
+- Faleck et al 2016, *Am J Gastroenterol*: an ICU cohort of 18,134 patients. PPIs were not associated with ICU-onset CDI in patients who did not get antibiotics (aHR 1.56, 95% CI 0.72-3.35), and were associated with lower risk in patients who did (aHR 0.64, 0.48-0.83). This is a disagreeing study that fits your antibiotic point. [doi:10.1038/ajg.2016.343](https://doi.org/10.1038/ajg.2016.343)
+- Tariq et al 2017, *JAMA Intern Med*: a meta-analysis of 16 observational studies. Acid suppression was associated with recurrent CDI (OR 1.52, 95% CI 1.20-1.94; adjusted studies OR 1.38, 1.08-1.76). [doi:10.1001/jamainternmed.2017.0212](https://doi.org/10.1001/jamainternmed.2017.0212)
+
+**Assumptions:** The mortality and readmission models used the same covariates as the CDI model. The interaction P comes from a product term in the Cox model. CAP, PPI, CDI, and aHR are defined earlier in the manuscript. You're reporting under STROBE.
+
+JAMA Network Open, like ICMJE, requires you to disclose AI-assisted writing, usually in the Methods or Acknowledgments.

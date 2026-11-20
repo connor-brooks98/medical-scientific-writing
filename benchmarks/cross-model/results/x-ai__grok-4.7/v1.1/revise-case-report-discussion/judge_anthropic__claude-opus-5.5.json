@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"has been reported to be increased up to three-fold... [CITATION NEEDED: source of the three-fold estimate, with population and comparator]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"the surgical team attributed her nausea, vomiting, and abdominal discomfort to postoperative ileus and opioid analgesia\"; \"approximately 14 hours after the first abnormal gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Multidisciplinary/effectiveness claim removed. The text instead says: \"We cannot tell from one case whether earlier recognition would have shortened the 38 hours\""
+ },
+ "_cost": 0.019168
+}

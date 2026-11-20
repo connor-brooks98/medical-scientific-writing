@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\u201cup to threefold higher [CITATION NEEDED: risk estimate, comparator, and study population]\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Diagnosis came \u201capproximately 14 hours after the first blood gas showed metabolic acidosis\u201d; symptoms were initially attributed to \u201cpostoperative ileus and opioid analgesia.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "\u201cThe anion gap closed after 38 hours of treatment\u201d reports the observed outcome without claiming that the case proves treatment effectiveness."
+ },
+ "_cost": 0.0057185
+}

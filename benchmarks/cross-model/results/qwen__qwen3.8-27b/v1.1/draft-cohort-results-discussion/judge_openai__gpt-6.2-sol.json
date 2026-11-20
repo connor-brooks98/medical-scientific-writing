@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "Ninety-day all-cause mortality ... and 30-day readmission ... were similar in the two groups."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Home PPI use at admission was associated with a higher hazard of CDI."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are Kwok et al [REF: Kwok 2012] and Freedberg et al [REF: Freedberg 2015]."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "In women (adjusted HR, 1.21; 95% CI, 0.81\u20131.80) ... the prespecified interaction P value of 0.14 does not establish a difference between sexes."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All reported study numbers are supplied in the task; the approximate OR of 1.74 is attributed to Kwok et al."
+ },
+ "_cost": 0.007421
+}

@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit contains findings and revision instructions, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Rated Critical: \u201cAn adjusted retrospective association does not show that norepinephrine prevents death.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cDo not leave this as an unnamed consensus\u201d and \u201ccites nothing.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\u201cThe sentence could open any sepsis paper.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\u201cstacks hedges (\u2018suggests,\u2019 \u2018may,\u2019 \u2018potentially,\u2019 \u2018in some patients\u2019)\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201cKeep the verb \u2018was associated with\u2019 and the estimate.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every finding in the table has a Severity entry of Major or Critical."
+ },
+ "_cost": 0.0067075
+}

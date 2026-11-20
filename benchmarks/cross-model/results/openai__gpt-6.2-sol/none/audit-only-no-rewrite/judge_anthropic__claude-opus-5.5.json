@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "No replacement paragraphs. Findings only give guidance, e.g. \"Identify the specific uncertainty the study is designed to address.\""
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Item 1 under \"Highest priority\": \"The causal conclusion exceeds the evidence... It does not establish that early norepinephrine 'prevents death.'\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"'Studies have shown that early norepinephrine improves survival' needs citations and more precision about study design\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"The opening is broad and generic. The global mortality claim needs a source. 'Pivotal challenge in the evolving landscape of critical care' adds little\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"'suggests \u2026 may potentially be associated \u2026 in some patients' stacks qualifiers without locating the uncertainty\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit treats the association as the correct finding (\"found an association\"). It asks only for the comparison group, not for a change to the 'associated with' wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every finding sits in one of two ranked tiers: \"Highest priority\" (numbered 1\u20133) and \"Clarity and style\"."
+ },
+ "_cost": 0.02376
+}

@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "provider_model": "qwen/qwen3.8-27b",
+ "config": "v1.0",
+ "case": "draft-cohort-results-discussion",
+ "seconds": 258.5,
+ "prompt_tokens": 26290,
+ "completion_tokens": 21639,
+ "cost_usd": 0.05467038,
+ "finish_reason": "stop",
+ "files_returned": [
+  "draft_sections.md"
+ ]
+}

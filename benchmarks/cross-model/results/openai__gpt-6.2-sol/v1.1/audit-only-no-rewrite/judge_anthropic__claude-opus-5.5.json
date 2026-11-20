@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Audit is a table of findings with fixes such as 'Remove the causal conclusion.' It contains no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "'Early norepinephrine therefore prevents death in septic shock.' is rated Critical, the highest level used, with the note 'Adjustment ... do not rule out residual confounding.'"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "'Studies have shown...' is rated Critical: 'Cite the studies that directly address survival.' 'a growing body of evidence...' gets 'Specify the drug...'"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The opening sentence ('evolving landscape') is flagged Major: 'Open with the decision the study examines.' 'growing interest' is also flagged."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "On 'may potentially be associated with worse outcomes in some patients': 'use one hedge sized to the study design'."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Says 'Keep the association language, estimate, and confidence interval'. The requested changes concern the comparator and provenance, not the wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every table row has a Severity value (Critical or Major)."
+ },
+ "_cost": 0.023472
+}

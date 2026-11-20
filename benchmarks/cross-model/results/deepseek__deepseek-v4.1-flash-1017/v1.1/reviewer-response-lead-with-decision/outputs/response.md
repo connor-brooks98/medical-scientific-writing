@@ -1,0 +1,19 @@
+Read the draft as a reviewer-response letter (three comments, two reviewers). The bloat was almost all in the framing: per-comment thank-yous, generic pedagogy about why the issue matters, and throat-clearing before each decision. The three revision actions and every number, page, and line reference are unchanged.
+
+[file returned: response_revised.md]
+
+**What changed**
+
+- **Discourse (D1, D5, D10):** cut the three per-comment thank-yous down to one line at the top, and deleted the generic run-ups ("Loss to follow-up is indeed an important consideration in any longitudinal study…", "The choice of endpoint is a crucial aspect of trial design…", "Generalizability is a key concern for any single-center trial"). Each response now opens with the decision.
+- **Discourse (D2):** the readmission-timing claim in Comment 2 is a specific, checkable estimate with no source. Flagged with a placeholder rather than left bare or invented.
+- **Sentences (S1, S3, S7):** removed the "which has greatly helped us to improve the quality of our manuscript" tail and the "Upon reflection… Therefore…" staging; split the long Comment 1 sentence so the numbers land at the end.
+- **Words (W1, W2, W3, W8):** dropped "sincerely", "insightful and valuable", "excellent and thought-provoking", "important and valid", "crucial", "carefully". Kept "We agree" and "We are grateful" → "We thank" once at the top.
+- **Length:** roughly 330 words to 200.
+
+**Fidelity:** all three revision actions are intact (loss to follow-up added to the CONSORT diagram and Results; 90-day endpoint kept with rationale added to Methods; Discussion narrowed and single-center limitation added). Every number, percentage, figure, page, and line reference is unchanged: 14 (4.1%), 17 (5.0%), Figure 1, page 9 lines 182–184, page 6 lines 121–125, page 14 lines 301–306, page 15 lines 322–325. The en dashes in the line ranges are numeric-range typography and were kept. One fact was preserved that a tighter draft could have lost: the endpoint was chosen at the design stage, which tells the reviewer it was prespecified rather than data-driven.
+
+**Placeholders and author queries**
+
+- `[CITATION NEEDED: proportion of readmissions within 90 days]` — the "most readmissions occur within 90 days" claim needs a source in the letter and in the Methods text you added. If the Methods paragraph already cites one, name it here and I will drop the placeholder.
+- Confirm "treated at academic centers" is the exact scope you used in the revised Discussion. I kept your wording, but "academic centers" (plural) sits oddly beside a single-center trial; if the revised text says "at our center", the letter should match it.
+- If AI tools were used in drafting this letter or the revision, most journals and ICMJE require disclosure. Check the journal's policy and add the statement once, in the cover letter or the designated section.

@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains a findings table and a revision checklist, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Rated Critical (the highest severity): \u201cDelete this causal overclaim. A retrospective observational analysis cannot establish that norepinephrine \u2018prevents\u2019 death.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cReplace \u2018Studies have shown\u2019 and \u2018a growing body of evidence\u2019 with cited studies, their designs, populations, and outcomes.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "For \u201cSepsis remains a leading cause of death worldwide,\u201d the audit says, \u201cCut this generic preamble.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\u201cRemove the stacked hedges (\u2018suggests ... may potentially be associated with\u2019).\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit calls \u201cwas associated with\u201d an \u201cevidence-matched verb\u201d and says the sentence structure is \u201cworth keeping.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every finding has an entry in the \u201cSeverity\u201d column: Critical, Major, or Minor."
+ },
+ "_cost": 0.008076
+}

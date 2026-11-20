@@ -1,0 +1,30 @@
+I treated this as the Discussion of a retrospective cohort and kept the wording observational. The revised section is in `discussion_revised.md`.
+
+What changed:
+- **Discourse:** Cut the staged question, the aphorism, the moral, the reply to an objection no one raised, and the closing restatement that early mobilization “appears to be beneficial.” The section now opens with the three results, including the null delirium comparison in the same plain form as the mortality result.
+- **Discourse:** Replaced the generic ending with one specific next study: randomized timing of mobilization, patients with dementia, 30-day mortality.
+- **Sentence:** Named delayed mobilization as the comparator so the percentages have a referent, and removed the announcement of a table that was not in the text.
+- **Word and integrity:** Deleted the guess that the 18% without preoperative ambulatory status were nonambulatory. Missingness is stated as missingness. The expected direction of confounding by indication is labeled as a possibility, not a finding. The association was not upgraded to a causal verb.
+
+Fidelity: All figures are unchanged: 1,146; 24 hours; 6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95; median 8 vs 11 days; delirium 31% vs 29%; 18% missing ambulatory status. No numbers or citations were added.
+
+Placeholders and author queries:
+- No prior-cohort estimates were in the source, so the comparison was not written. [DATA NEEDED: figures from that table, with citations]
+- “Feasible for most patients” had no numerator. [DATA NEEDED: proportion mobilized within 24 hours] if that claim should return.
+- Delirium is still “31% vs 29%” with no group labels, because the source did not assign them. Confirm the order before labeling.
+- Confirm that “delayed mobilization” is the right name for the comparator.
+- The confounding paragraph is an interpretation. Soften or cut it if the model already adjusted for preoperative mobility.
+- No dementia-severity results were supplied, so the claim about severe dementia was removed.
+- “Could not detect” cognitive effects was removed because no power calculation was supplied. [DATA NEEDED: power or smallest detectable delirium difference] if you want that limitation quantified.
+
+If you submit this, most journals and ICMJE expect disclosure of AI-assisted writing.
+
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of hip fracture surgery was associated with lower 30-day mortality than delayed mobilization (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95). Length of stay was also shorter with mobilization within 24 hours (median 8 vs 11 days). Delirium incidence did not differ between groups (31% vs 29%).
+
+Patients mobilized within 24 hours may already have been more mobile before surgery than those mobilized later, because mobilization was not randomized. If so, the comparison would be biased toward lower mortality with mobilization within 24 hours, even if that timing had no effect. Preoperative ambulatory status was not recorded for 18% of patients.
+
+A trial that randomizes patients with dementia to mobilization within 24 hours of hip fracture surgery or to delayed mobilization, with 30-day mortality as the primary outcome, would be needed to test whether the association is causal.
+<<<END FILE>>>

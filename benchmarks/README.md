@@ -7,6 +7,8 @@ Every run behind the numbers in the top-level README.
 | `iteration-1/` | v0.9 (first draft) | Claude Opus 5.5 | 3 cases × (with skill, without skill) |
 | `iteration-2/` | v1.0 | Claude Opus 5.5 | 3 cases × (with skill, without skill) |
 | `iteration-2-haiku/` | v1.0 | Claude Haiku 5.5 | 3 cases × (with skill, without skill) |
+| `iteration-3/` | v1.1 | Claude Opus 5.5 | 9 cases × (with skill, without skill) |
+| `cross-model/` | none, v1.0, v1.1 | 8 models via OpenRouter | 9 cases × 3 configurations; see [`cross-model/README.md`](cross-model/README.md) |
 
 Each run folder holds:
 - `outputs/`: the file the task asked for, plus `response.md`, the model's full reply to the user.
@@ -20,7 +22,8 @@ Each run was a fresh agent session given the same user prompt. "With skill" runs
 ## Reproduce the grading
 
 ```bash
-python3 benchmarks/tools/grade.py benchmarks/iteration-2      # writes grading.json per run
+python3 benchmarks/tools/grade.py benchmarks/iteration-2      # writes grading.json per run (cases 1-3)
+python3 benchmarks/tools/grade3.py benchmarks/iteration-3     # all 9 cases; reads manual.json for judged assertions
 python3 benchmarks/tools/metrics.py benchmarks/iteration-1 benchmarks/iteration-2 benchmarks/iteration-2-haiku
 ```
 
@@ -35,7 +38,7 @@ claude plugin eval . --allow-tools Write,Edit,Bash --scaffold
 
 ## Limitations
 
-- **Small sample:** three cases, one run per configuration per round.
+- **Small sample:** one run per configuration per case and round.
 - **Same author:** the assertions and the pattern lexicon were written by the skill's author.
 - **Near ceiling:** for a strong model, the assertions mostly pass with or without the skill.
 - **No human rating:** no blinded human rating has been done.

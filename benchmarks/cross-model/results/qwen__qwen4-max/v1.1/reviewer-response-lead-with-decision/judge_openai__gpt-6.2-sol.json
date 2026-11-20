@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "The three responses open with \u201cWe have added,\u201d \u201cWe have kept,\u201d and \u201cWe agree and have narrowed the conclusions.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The same changes are reported: group-specific follow-up counts, the endpoint rationale, narrower conclusions, and the single-center limitation. \u201c[CITATION NEEDED]\u201d is a query, not a reported revision."
+ },
+ "_cost": 0.004971
+}

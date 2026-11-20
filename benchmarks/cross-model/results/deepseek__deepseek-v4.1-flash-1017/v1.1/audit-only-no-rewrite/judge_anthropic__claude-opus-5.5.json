@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "No replacement paragraphs. The fixes give directions, e.g. \"Delete; replace with the specific aim\". The only phrasings offered are short ones such as \"has been associated with\"."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding 14, \"Early norepinephrine therefore prevents death\", is rated Critical, which is the highest severity the audit uses: \"A bare causal claim from a single-centre adjusted OR\"."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Finding 6, \"Unnamed studies and a causal verb with no citation\". Finding 7, \"an unnamed body of evidence\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding 1 says the opener \"Passes the swap test: it could open any sepsis paper\". Finding 2 flags \"evolving landscape\". Finding 4 flags \"growing interest\"."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Finding 8, \"Two hedges stacked on one claim\". Finding 9 on \"in some patients\": \"weakens the claim without saying anything\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Listed under What to keep: \"correctly calibrated to the design. Do not convert this to a causal verb\"."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "All 19 findings rows have a Severity column with a value (Critical/Major/Minor)."
+ },
+ "_cost": 0.027724
+}

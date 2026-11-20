@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cIt was not associated with 90-day all-cause mortality ... or 30-day readmission.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use was associated with CDI\u201d; the HR \u201cshould not be interpreted as the effect of starting or stopping\u201d a PPI."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are \u201cKwok et al\u201d and \u201cFreedberg et al.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201c1.21 (95% CI, 0.81-1.80) in women (interaction P = 0.14). Those subgroup results do not establish a difference by sex.\u201d"
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All cohort and outcome figures match the supplied values; \u201capproximately 1.74\u201d is attributed to Kwok et al."
+ },
+ "_cost": 0.007035
+}

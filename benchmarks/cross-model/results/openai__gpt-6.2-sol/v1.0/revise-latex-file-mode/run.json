@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-sol",
+ "provider_model": "openai/gpt-6.2-sol",
+ "config": "v1.0",
+ "case": "revise-latex-file-mode",
+ "seconds": 10.0,
+ "prompt_tokens": 25071,
+ "completion_tokens": 570,
+ "cost_usd": 0.0094488,
+ "finish_reason": "stop",
+ "files_returned": [
+  "results.tex"
+ ]
+}

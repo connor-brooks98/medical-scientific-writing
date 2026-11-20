@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Two of the three responses open with background rather than the action taken: R1C1 starts \"The original submission reported only overall loss to follow-up.\" and R2C1 starts \"The trial enrolled only patients with heart failure with reduced ejection fraction at a single academic center.\" Only R1C2 opens with the decision (\"retained the 90-day primary endpoint\")."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Every change described appears in the draft: by-group counts in Figure 1 and Results; endpoint rationale in Methods lines 121\u2013125; Discussion narrowed at lines 301\u2013306; limitation added at lines 322\u2013325. No new revisions or analyses."
+ },
+ "_cost": 0.016528
+}

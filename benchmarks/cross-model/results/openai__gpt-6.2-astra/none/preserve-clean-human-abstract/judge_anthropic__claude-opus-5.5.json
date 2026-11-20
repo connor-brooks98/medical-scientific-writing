@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": false,
+  "evidence": "The chat message says only \"I tightened the wording and preserved the reported estimates\" and never tells the author that the abstract already had few or no AI-writing patterns. The output also rewrote most sections, e.g., Exposure, Results, and Conclusions."
+ },
+ "_cost": 0.008316
+}

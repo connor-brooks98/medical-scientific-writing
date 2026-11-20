@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "No replacement paragraphs. The only phrasings are short examples inside findings, e.g. \"We aimed to determine whether \u2026\"."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "#16 \"Early norepinephrine therefore prevents death in septic shock.\" is marked Critical, the highest severity level the audit defines."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "#6 flags \"Studies have shown\" as \"Unnamed studies, no citation\". #9 flags \"a growing body of evidence suggests\" as \"Second unnamed-evidence sentence\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "#1 calls the opener a \"Generic opener; it could start any critical care paper\". #2 and #5 flag \"evolving landscape\" and \"In recent years...growing interest\"."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "#10 flags \"may potentially be associated with\" as \"Stacked hedges\". #12 flags \"in some patients\" as missing outcome, comparator, and condition."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Under \"Leave alone\": \"'was associated with lower 28-day mortality'... is the correct wording... Keep that phrasing\"."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The findings table has a Severity column, and all 22 findings carry a Critical, Major, or Minor label."
+ },
+ "_cost": 0.028864
+}

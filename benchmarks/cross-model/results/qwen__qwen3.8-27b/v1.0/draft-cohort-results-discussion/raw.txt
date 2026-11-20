@@ -1,0 +1,38 @@
+
+
+Drafting job (you gave me data, not text to revise), aimed at JAMA Network Open. I wrote the three requested blocks in AMA/JAMA style: *P* values without leading zero, "95% CI" with comma, hyphenated ranges, aHR defined at first use, person-first language. Everything below the line is the file; queries and assumptions follow after it.
+
+<<<FILE: draft_sections.md>>>
+# Draft sections: PPI use at admission and *Clostridioides difficile* infection after community-acquired pneumonia
+
+Target: JAMA Network Open. Sections: Results (primary and secondary outcomes), Discussion (paragraphs 1 and 2), Limitations.
+
+## Results
+
+After 312 patients (5.0%) were excluded for missing medication reconciliation data, 6,214 adults aged 65 years and older admitted with community-acquired pneumonia (CAP) to a single academic health system between 2016 and 2023 formed the analytic cohort: 2,377 were home users of a proton pump inhibitor (PPI) at admission, ascertained from medication reconciliation, and 3,837 were non-users. *Clostridioides difficile* infection (CDI) within 90 days of discharge occurred in 4.1% of PPI users and 2.6% of non-users. Home PPI use was associated with a higher hazard of CDI (adjusted hazard ratio [aHR], 1.48; 95% CI, 1.12-1.96) in a Cox model adjusted for age, sex, Charlson comorbidity index, hospitalization within the prior 12 months, and antibiotic class during the index admission. Ninety-day all-cause mortality (11.8% vs 11.2%; aHR, 1.03; 95% CI, 0.88-1.21) and 30-day readmission (17.9% vs 16.4%; aHR, 1.06; 95% CI, 0.94-1.20) were not associated with PPI use. In prespecified subgroup analyses for the primary outcome, the association was of greater magnitude in men (aHR, 1.81; 95% CI, 1.24-2.64) than in women (aHR, 1.21; 95% CI, 0.81-1.80); the interaction *P* value was .14.
+
+## Discussion
+
+In this cohort of 6,214 adults aged 65 years and older hospitalized with community-acquired pneumonia, home PPI use at admission was associated with a 48% higher hazard of CDI within 90 days of discharge (aHR, 1.48; 95% CI, 1.12-1.96), but with no association with 90-day all-cause mortality or 30-day readmission. The magnitude is of similar order to the pooled odds ratio of 1.74 reported by Kwok et al [1] in a 2012 meta-analysis of PPI use and CDI, and the present cohort extends the association to incident infection following a pneumonia admission. A pneumonia hospitalization concentrates two established risk factors for CDI, advanced age and inpatient antibiotics, in a single time window, which makes it a plausible setting in which acid suppression would increase susceptibility if the association is causal. Freedberg et al [2] found PPI use associated with recurrent CDI rather than incident infection; the two observational findings together are consistent with a role for acid suppression across the course of CDI, although neither establishes causality.
+
+The point estimate for the primary outcome was larger in men than in women, but the interaction was not statistically significant (*P* = .14), and a sex difference cannot be concluded from this prespecified comparison. One plausible mechanism is that acid suppression removes the gastric barrier to ingested *C difficile* spores; that mechanism would operate on infection acquisition and would not be expected to change short-term mortality or readmission directly. The 95% confidence interval for the mortality hazard ratio (0.88-1.21) is compatible with a modest increase or a modest decrease in 90-day mortality, so the null finding neither confirms nor excludes an effect. Pharmacy records of dose and duration would distinguish chronic from recent use, and a randomized strategy of PPI discontinuation around a pneumonia admission, with incident CDI as the primary outcome, would test the causal question directly.
+
+## Limitations
+
+Several features of the design limit the strength of inference. Exposure was measured once, at admission, from medication reconciliation, without dose, duration, or adherence; if the resulting misclassification was nondifferential, the hazard ratio is biased toward the null, and chronic and recent users are pooled. CDI was detected only within our health system, so infections diagnosed after transfer to another system were missed, which would also bias the estimate toward the null if nondifferential. The cohort is a single retrospective sample at one academic health system, and adjustment for age, sex, comorbidity, prior hospitalization, and index antibiotics cannot account for PPI indication or other unmeasured confounders, which could explain part or all of the association. The 312 patients (5.0%) excluded for missing medication reconciliation may have differed from included patients in unmeasured ways; the direction of any selection bias is unknown. The findings identify an association between home PPI use and incident CDI in older adults hospitalized for pneumonia, not evidence that discontinuing a PPI would change the risk.
+
+## Citations (as supplied by the authors; to be verified and numbered)
+
+1. Kwok et al. Am J Gastroenterol. 2012. Meta-analysis: PPI use associated with CDI; pooled odds ratio approximately 1.74. [CITATION NEEDED: full bibliographic details (authors, title, volume, pages, DOI) and the exact pooled estimate]
+2. Freedberg et al. Clin Infect Dis. 2015. PPI use associated with recurrent CDI. [CITATION NEEDED: full bibliographic details and the exact endpoint and estimate]
+<<<END FILE>>>
+
+Placeholders and author queries:
+
+- **Arithmetic inconsistency (please resolve before submission):** 312 excluded (5.0%) does not reconcile with the analytic N. 6,214 + 312 = 6,526, and 312/6,526 = 4.8%, not 5.0%. Confirm the screened N or the percentage and I will update the opening sentence of Results.
+- **CDI event counts:** JAMA Results typically give numerators. Please supply the CDI counts by group (4.1% of 2,377 and 2.6% of 3,837 should round consistently with them) and I will insert "x of 2,377 (y%)".
+- **Subgroup assumption:** I treated the sex subgroup aHRs (1.81; 1.21) as being for the primary outcome (CDI). Confirm.
+- **Citations:** both references are in the text exactly as you supplied them; I had no way to verify them here, so please check volume, pages, DOI, the exact Kwok pooled OR, and the Freedberg endpoint before numbering.
+- **Nomenclature:** I used *Clostridioides difficile* (current taxonomy, JAMA style) in place of "C. difficile"; revert if you prefer.
+
+Assumptions: JAMA Network Open AMA style (P = .14, "95% CI," hyphenated ranges, no em dashes); the 48% in the first Discussion sentence is derived from the aHR of 1.48; the Limitations paragraph is written to sit inside the Discussion, after your strengths paragraph. One housekeeping note: JAMA Network Open and ICMJE require a statement on AI-assisted writing if you used it in preparation, so whatever you decide, make sure that disclosure is in the final manuscript.

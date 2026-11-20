@@ -1,0 +1,13 @@
+I kept all the numbers and revised the Discussion to distinguish observed associations from conclusions about safety, benefit, and feasibility. I also removed the unsupported assumption about patients with missing mobility data.
+
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia who underwent hip fracture surgery, mobilization within 24 hours of surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and a shorter hospital stay (median 8 vs 11 days) compared with later mobilization. These associations do not establish that early mobilization improved outcomes. Patients who mobilized earlier may have been healthier or more clinically stable after surgery, and adjustment may not have fully accounted for these differences.
+
+Observed delirium incidence was similar in the early and later mobilization groups (31% vs 29%). This comparison does not establish that delirium risk was equivalent or that early mobilization is safe across all patients with dementia. The overall findings also do not establish whether early mobilization was feasible for patients with severe dementia.
+
+The table below places these findings in the context of previous cohorts. Preoperative ambulatory status was not recorded for 18% of patients. Missing documentation should not be interpreted as evidence that these patients were nonambulatory before the fracture. Because prefracture mobility may influence both the timing of postoperative mobilization and subsequent outcomes, incomplete documentation limits interpretation of the observed associations.
+
+Further research should document prefracture mobility and reasons for delayed mobilization, assess safety outcomes directly, and examine feasibility across levels of dementia severity.
+<<<END FILE>>>

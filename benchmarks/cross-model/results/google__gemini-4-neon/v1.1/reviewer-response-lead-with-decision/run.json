@@ -1,0 +1,14 @@
+{
+ "model": "google/gemini-4-neon",
+ "provider_model": "google/gemini-4-neon",
+ "config": "v1.1",
+ "case": "reviewer-response-lead-with-decision",
+ "seconds": 73.5,
+ "prompt_tokens": 28492,
+ "completion_tokens": 8126,
+ "cost_usd": 0.207366,
+ "finish_reason": "stop",
+ "files_returned": [
+  "response_revised.md"
+ ]
+}

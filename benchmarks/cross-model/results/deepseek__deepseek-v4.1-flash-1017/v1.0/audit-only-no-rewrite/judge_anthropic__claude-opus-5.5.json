@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Header says 'Audit only: no rewrite is proposed'; the fixes give direction only, e.g. 'State the association with its estimate, or drop the sentence.'"
+ },
+ "02": {
+  "passed": true,
+  "evidence": "#16 'Early norepinephrine therefore prevents death in septic shock' is marked **Critical**, the top level used: 'A retrospective single-centre association cannot support \"prevents\"'."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "#4 'Studies have shown...' Critical: 'No study named... no citation'; #6 'a growing body of evidence suggests' Critical: 'Unnamed evidence with no citation.'"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "#1 'Sepsis remains a leading cause of death worldwide' could open any sepsis paper; #2 flags 'evolving landscape'; #3 flags 'In recent years, there has been growing interest'."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "#7 'may potentially be associated with' is flagged as 'Two or three hedges stacked on one claim'; #8 flags 'worse outcomes in some patients'."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "'What works' says 'was associated with lower 28-day mortality' is correct. #12 objects to the sentence's placement, not its wording ('keep the numbers intact')."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The findings table has a Severity column with a level for every finding #1\u2013#23 (Critical/Major/Minor)."
+ },
+ "_cost": 0.03228
+}

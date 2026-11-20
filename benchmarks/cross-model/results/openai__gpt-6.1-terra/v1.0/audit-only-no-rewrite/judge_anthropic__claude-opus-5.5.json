@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "audit.md has only a findings table and a priority list with suggested fixes. It contains no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"Early norepinephrine therefore prevents death in septic shock.\" is rated \"Critical\", the highest level used, with the fix \"the preceding retrospective association does not establish prevention of death.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"Studies have shown...\" is tagged D2, S6 with the fix \"Identify and cite the studies\". \"a growing body of evidence\" is tagged D2, S6, S13 with \"Identify the evidence\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Sentence 1 is flagged D6, W1 with \"Remove the generic framing\". Sentence 2, \"In recent years... growing interest\", is also flagged."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The fix reads \"Remove stacked hedges and the vague qualification 'some patients.'\""
+ },
+ "06": {
+  "passed": false,
+  "evidence": "\"norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality\" gets its own row (S13, Major). This flags the correctly hedged phrase as a problem instead of leaving it unmentioned or noting it is correct."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every table row has a Severity value (Major or Critical)."
+ },
+ "_cost": 0.030584
+}

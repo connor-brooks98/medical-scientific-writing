@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "Ninety-day mortality and 30-day readmission were similar in the two groups."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "PPI use at admission was associated with a higher rate of CDI within 90 days of discharge."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al and Freedberg et al are named as prior studies."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Women (1.21; 95% CI, 0.81-1.80) ... the interaction P value was 0.14 ... we do not interpret this as a difference by sex."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "Reported numbers match the task; the 1.5-percentage-point difference equals 4.1% minus 2.6%, and the pooled OR of 1.74 is attributed to Kwok et al."
+ },
+ "_cost": 0.0083225
+}

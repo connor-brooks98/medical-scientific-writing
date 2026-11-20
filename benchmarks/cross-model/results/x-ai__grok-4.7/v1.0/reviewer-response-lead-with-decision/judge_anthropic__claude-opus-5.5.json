@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "Each response opens with a decision or action: \"We have added the number...\", \"We kept the 90-day primary endpoint.\", \"We agree that the original wording extended the findings too broadly.\" None opens with background or thanks."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Only the draft's actions appear: by-group loss to follow-up added (Figure 1, p9 l182\u2013184), 90-day rationale added to Methods (p6 l121\u2013125), Discussion limited (p14 l301\u2013306), and single-center limitation added (p15 l322\u2013325). Nothing new is added."
+ },
+ "_cost": 0.016552
+}

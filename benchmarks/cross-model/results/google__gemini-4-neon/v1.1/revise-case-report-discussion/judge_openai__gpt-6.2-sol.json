@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "The claim \u201cup to a threefold higher risk of DKA\u201d is followed by a [CITATION NEEDED] placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Symptoms \u201cwere attributed to postoperative ileus and opioid analgesia\u201d; DKA \u201cwas not diagnosed until the morning of POD 2.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The revision reports that \u201cthe anion gap closed after 38 hours\u201d without claiming that the case demonstrates treatment effectiveness."
+ },
+ "_cost": 0.0074635
+}

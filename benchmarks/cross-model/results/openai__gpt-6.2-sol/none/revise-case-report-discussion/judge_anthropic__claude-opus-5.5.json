@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\"Studies have reported an up to threefold increase in DKA risk among patients receiving these agents.\" is kept with no citation or placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"nausea, vomiting, and abdominal discomfort on postoperative day 1 were initially attributed to ileus and opioid analgesia\"; diagnosis \"approximately 14 hours after the first abnormal blood gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The output only states that \"The anion gap closed after 38 hours of treatment\" and makes no claim that the case demonstrates effectiveness."
+ },
+ "_cost": 0.014744
+}

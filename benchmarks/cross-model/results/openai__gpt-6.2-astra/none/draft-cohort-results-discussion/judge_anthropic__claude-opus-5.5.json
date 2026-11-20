@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "Hedged rather than plain: \"close to the null, although their confidence intervals did not exclude modest differences in either direction\"; never states the outcomes did not differ or were not associated."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use was associated with a higher hazard of CDI\"; also \"These data do not establish that discontinuing PPI therapy would reduce postdischarge CDI.\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al is cited in the draft (reference 1); Freedberg appears only in the chat message, and no other study is named."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Reports \"1.21 (95% CI, 0.81-1.80) among women\" and \"did not provide clear evidence that the association differed by sex (P for interaction = .14)\"."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All figures are supplied in the task; \"1.5 percentage points\" = 4.1-2.6; OR 1.74 is attributed to Kwok; the bibliographic details belong to the Kwok citation."
+ },
+ "_cost": 0.024472
+}

@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains an audit table and revision priorities, with no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Rated Critical, the highest severity used: \u201cthe preceding retrospective association does not establish prevention of death.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "For \u201cStudies have shown,\u201d the audit says: \u201cIdentify and cite the studies\u201d and \u201cthe introduction supplies no evidence for it.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "For paragraph 1, sentence 1: \u201cRemove the generic framing.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\u201cRemove stacked hedges and the vague qualification \u2018some patients.\u2019\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The finding asks to \u201cIdentify the comparator\u201d and clarify methods, not to change the association wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every finding has a Severity entry: Major or Critical."
+ },
+ "_cost": 0.005591
+}

@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": false,
+  "evidence": "The chat lists edits under \u201cWhat changed\u201d but never says the original abstract had few or no AI-writing patterns or needed only light edits."
+ },
+ "_cost": 0.003276
+}

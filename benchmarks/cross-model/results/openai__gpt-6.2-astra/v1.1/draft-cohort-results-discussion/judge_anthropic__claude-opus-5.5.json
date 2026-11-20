@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"We found no clear association between PPI use and either 90-day all-cause mortality or 30-day readmission.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Uses \"was associated with a higher hazard of CDI\" and \"The observed difference in CDI risk\"; no causal verbs such as increases or causes are used for this study's finding."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al 2012 is named, with a [CITATION NEEDED] note. Freedberg was omitted and no other study is named."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81\u20131.80) in women. The interaction test did not provide evidence that the association differed by sex (P for interaction = .14)\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All figures match the task. \"1.5 percentage points\" is correctly derived as 4.1\u22122.6, and 1.74 is attributed to Kwok as supplied."
+ },
+ "_cost": 0.022536
+}

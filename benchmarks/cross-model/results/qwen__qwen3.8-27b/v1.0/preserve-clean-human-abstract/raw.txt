@@ -1,0 +1,31 @@
+
+
+Bottom line: I went through the abstract line by line against the patterns that actually get text flagged, and I found nothing to fix. The file below is your text verbatim, character for character. Making gratuitous edits to clean prose is itself a tell, so the correct "revision" here is no revision.
+
+What I checked, and why it passes:
+
+- Discourse: the null finding (9 hours or more, HR 1.07, CI crossing 1) and the OSA attenuation are reported with the same plainness as the positive result. No moral ("this highlights the importance of..."), no promise coda ("paves the way"), and the ending names the specific next design ("would require trials") instead of "further research is needed."
+- Evidence-matched verbs: "associated with" and "attenuated" throughout, correct for a cohort. No causal verbs for observational data, no stacked hedges.
+- Specificity (the swap test): every sentence carries this study's own numbers, population, and window. None of it could be pasted into a different paper unchanged.
+- Surface: no AI vocabulary (no "underscore," "pivotal," "robust," "landscape"), no -ing interpretation tails, no "Additionally/Notably/Importally" openers, no em dashes (the dashes inside the CIs are standard range marks, not decorative), and the tense architecture is correct for a JAMA structured abstract.
+- Fidelity: all values survive intact in the output: 4,912 participants, 4 US sites, 2009 to 2012, follow-up through 2022, 9.8 years median, 781 AF cases, 1.29 (1.08-1.54), 1.07 (0.86-1.33), 1.18 (0.98-1.42).
+
+One optional author call, not a copyedit: after OSA adjustment the CI is 0.98 to 1.42, which includes 1.00. "Attenuated" is already honest. If you want to state the null outright (for example, "attenuated and no longer statistically significant"), that is a claim for you to make, and I did not add it.
+
+One disclosure sentence: JAMA and ICMJE require disclosure of AI-assisted writing. Since I reviewed this text, even with zero changes, you can note in your submission that an AI tool was used for language review. I can't promise any detector's output, but the choices this abstract avoids are exactly the ones detectors and skeptical reviewers key on.
+
+<<<FILE: abstract_final.txt>>>
+Importance: Short sleep has been associated with cardiovascular disease, but its relationship with incident atrial fibrillation (AF) in older adults is uncertain.
+
+Objective: To examine whether self-reported sleep duration is associated with incident AF in adults aged 65 years or older.
+
+Design, Setting, and Participants: This prospective cohort study used data from 4,912 community-dwelling adults without AF at baseline who were enrolled at 4 US sites between 2009 and 2012 and followed up through 2022.
+
+Exposure: Self-reported habitual sleep duration, categorized as 6 hours or less, 7 to 8 hours (reference), and 9 hours or more.
+
+Main Outcomes and Measures: Incident AF, ascertained from study electrocardiograms, hospital discharge codes, and Medicare claims.
+
+Results: During a median follow-up of 9.8 years, 781 participants developed AF. Compared with 7 to 8 hours, sleeping 6 hours or less was associated with a higher hazard of AF (adjusted hazard ratio, 1.29; 95% CI, 1.08–1.54), whereas sleeping 9 hours or more was not (adjusted hazard ratio, 1.07; 95% CI, 0.86–1.33). The association for short sleep was attenuated after adjustment for obstructive sleep apnea symptoms (adjusted hazard ratio, 1.18; 95% CI, 0.98–1.42).
+
+Conclusions and Relevance: In this cohort of older adults, short sleep was associated with incident AF, but the association was weaker after accounting for symptoms of sleep apnea. Whether treating sleep apnea or extending sleep lowers AF risk would require trials.
+<<<END FILE>>>

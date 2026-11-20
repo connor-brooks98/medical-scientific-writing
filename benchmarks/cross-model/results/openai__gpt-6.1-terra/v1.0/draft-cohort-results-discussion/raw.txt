@@ -1,0 +1,17 @@
+<<<FILE: draft_sections.md>>>
+## Results
+
+Among 6214 adults aged 65 years or older admitted with community-acquired pneumonia from 2016 to 2023, 2377 used a proton pump inhibitor (PPI) at admission and 3837 did not. Within 90 days of discharge, *Clostridioides difficile* infection occurred in 4.1% of PPI users and 2.6% of nonusers (adjusted hazard ratio [aHR], 1.48; 95% CI, 1.12-1.96). The model was adjusted for age, sex, Charlson comorbidity index, hospitalization in the preceding 12 months, and antibiotic class during the index stay. Ninety-day all-cause mortality was 11.8% among PPI users and 11.2% among nonusers (aHR, 1.03; 95% CI, 0.88-1.21). Thirty-day readmission was 17.9% among PPI users and 16.4% among nonusers (aHR, 1.06; 95% CI, 0.94-1.20). In prespecified subgroup analyses, the aHR for *C difficile* infection was 1.81 (95% CI, 1.24-2.64) among men and 1.21 (95% CI, 0.81-1.80) among women; the interaction was not statistically significant (P = .14).
+
+## Discussion
+
+In this retrospective cohort of older adults admitted with community-acquired pneumonia, home PPI use at admission was associated with a higher rate of *C difficile* infection within 90 days of discharge. The estimates for 90-day mortality and 30-day readmission were closer to the null, with confidence intervals that included both lower and higher rates among PPI users. The association with *C difficile* infection differed numerically by sex, but the interaction test did not provide evidence that the association differed between men and women.
+
+The association with *C difficile* infection is consistent with the meta-analysis by Kwok et al., which reported an approximately 1.74-fold higher odds of infection among PPI users [CITATION NEEDED: verify reference and estimate]. Freedberg et al. also reported an association between PPI use and recurrent *C difficile* infection [CITATION NEEDED: verify reference and outcome]. Recurrent infection is a different outcome from the infection outcome examined here, and differences in populations and study designs limit direct comparison of the estimates.
+
+## Limitations
+
+This study has limitations. Its single-health-system setting may limit applicability to other populations. PPI exposure was measured from medication reconciliation at admission; duration of use and adherence were unknown. *C difficile* infection was ascertained through inpatient and outpatient laboratory testing within the health system, so infections identified elsewhere may have been missed. A total of 312 patients (5.0%) were excluded because medication reconciliation was missing; whether their exclusion introduced selection bias is unknown. Although the Cox model adjusted for measured characteristics, confounding by PPI indication or other unmeasured factors may remain. These limitations preclude a causal interpretation of the association.
+<<<END FILE>>>
+
+**Author queries:** Please verify both references and the Kwok estimate; I could not check them here. Also confirm that 6214 is the analyzed cohort after the 312 exclusions, and specify the time origins for mortality and readmission. Check JAMA Network Open’s AI-disclosure requirements before submission.

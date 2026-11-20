@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains audit findings, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "The first finding under \u201cMain issues\u201d flags \u201cprevents death\u201d and explains that \u201cAdjustment does not establish causation.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cStudies have shown that early norepinephrine improves survival\u201d is flagged as needing support from appropriately designed studies."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The audit calls \u201cevolving landscape\u201d and \u201cgrowing interest\u201d \u201cbroad, generic language.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The audit calls \u201cmay potentially be associated with worse outcomes in some patients\u201d \u201cheavily qualified.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit says the analysis \u201creports an association\u201d and objects to the subsequent \u201cprevents death\u201d claim, not the association wording."
+ },
+ "07": {
+  "passed": false,
+  "evidence": "\u201cSupport and context\u201d and \u201cStyle and structure\u201d are topic headings, not explicit priority tiers; their findings have no severity labels."
+ },
+ "_cost": 0.0056275
+}

@@ -1,0 +1,13 @@
+
+
+I revised the section to make the tone more clinical, reduce causal overstatement, and remove the unsupported inference that missing preoperative ambulatory status implies those patients were nonambulatory. All numbers are retained.
+
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+The central question in this study was whether early mobilization is safe after hip fracture surgery in patients with dementia. Mobility is particularly important in older adults after hip fracture, and safe early mobilization may influence both recovery and outcomes. In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and shorter length of stay (median 8 vs 11 days). These findings support the potential benefit of early mobilization in this vulnerable population.
+
+They do not imply that delayed mobilization is inherently harmful. It is reasonable to question whether patients with more advanced dementia can participate in early mobilization, but the results suggest that a substantial proportion of patients with dementia were able to do so within 24 hours. Delirium incidence did not differ between groups (31% vs 29%), indicating that early mobilization was not associated with increased delirium in this cohort. At the same time, the absence of a difference in delirium should not be interpreted as proof that early mobilization has no cognitive effects; it indicates that the present study did not detect such differences.
+
+Preoperative ambulatory status was not recorded for 18% of patients, and their pre-fracture mobility therefore could not be inferred from the available data. This limitation affects the ability to characterize the functional baseline of the cohort and to identify subgroups in whom early mobilization may be more difficult. Overall, however, the findings suggest that early mobilization after hip fracture surgery is feasible for most patients with dementia and is associated with improved short-term outcomes.
+<<<END FILE>>>

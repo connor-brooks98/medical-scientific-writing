@@ -1,0 +1,14 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "provider_model": "deepseek/deepseek-v4.1-flash-1017",
+ "config": "v1.1",
+ "case": "revise-discussion-staging-strawman",
+ "seconds": 36.8,
+ "prompt_tokens": 27437,
+ "completion_tokens": 6886,
+ "cost_usd": 0.00343765,
+ "finish_reason": "stop",
+ "files_returned": [
+  "discussion_revised.md"
+ ]
+}

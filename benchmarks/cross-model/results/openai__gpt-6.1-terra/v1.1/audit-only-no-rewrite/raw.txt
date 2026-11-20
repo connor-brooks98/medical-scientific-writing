@@ -1,0 +1,24 @@
+<<<FILE: audit.md>>>
+# Introduction audit
+
+| Location | Quoted text | Pattern | Severity | Suggested fix |
+|---|---|---|---|---|
+| Paragraph 1, sentence 1 | “a leading cause of death worldwide” | D6: Generic preamble; missing support | Major | Decide whether the global burden is needed to motivate this question. If retained, support the specific claim with an appropriate source. |
+| Paragraph 1, sentence 1 | “a pivotal challenge in the evolving landscape of critical care” | W1: Inflated, nonspecific language | Minor | Identify what is challenging about vasopressor timing in septic shock, or remove the phrase. |
+| Paragraph 1, sentence 2 | “there has been growing interest” | D6: Generic preamble | Major | Move directly to what is known about early norepinephrine and what remains uncertain. |
+| Paragraph 1, sentence 3 | “Studies have shown that early norepinephrine improves survival in septic shock” | D2: Unspecified evidence; possible causal overclaim | Critical | Cite the studies and check their designs, populations, comparators, and mortality findings. The sentence asserts a causal survival benefit without identifying evidence that supports it. |
+| Paragraph 1, sentence 4 | “a growing body of evidence suggests” | D2: Vague allusion | Major | Identify and cite the evidence for delayed vasopressor therapy and specify the outcomes and patient groups. |
+| Paragraph 1, sentence 4 | “may potentially be associated with worse outcomes in some patients” | S6: Stacked hedging; S13: Missing detail | Major | Use uncertainty consistent with the cited evidence and specify the outcomes and patients. “Delayed” also needs a meaningful time reference or comparator. |
+| Paragraph 2, sentence 1 | “norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality” | S13: Missing comparator and context | Major | State what early initiation was compared with. Clarify whether this is a previously published analysis or preliminary work for the proposed study. Identify the adjustment variables in the appropriate section and consider how confounding and the timing of exposure classification could affect the association. |
+| Paragraph 2, sentence 2 | “Early norepinephrine therefore prevents death in septic shock” | S6: Causal overclaim | Critical | Remove the causal conclusion drawn from the retrospective association. The adjusted odds ratio and confidence interval do not, by themselves, establish that early treatment prevented deaths. |
+| Paragraph 2, sentence 3 | “To address this critical gap” | D4: Unspecified gap | Major | Define the actual knowledge or methodological gap. The preceding text does not explain what the prospective study needs to resolve. |
+| Paragraph 2, sentence 3 | “a comprehensive prospective study that will not only fill an important gap in the literature but also pave the way for improved outcomes” | D4, D5, S3, W2: Study-as-solution framing and promotional language | Major | State the study objective, population, exposure or intervention, comparator, and primary outcome. “Prospective” alone does not establish the design, and the expected study should not be described as guaranteeing improved outcomes. |
+
+## Five highest-priority revisions
+
+1. Remove the claim that the retrospective association establishes prevention of death.
+2. Verify and cite the evidence for a survival benefit and for harms associated with delayed treatment.
+3. Specify the comparator and status of the institutional retrospective analysis; assess possible confounding and timing-related bias.
+4. Define the unresolved question and explain why the proposed prospective design addresses it.
+5. Replace the final promotional sentence with a specific study objective and enough design detail to understand the question.
+<<<END FILE>>>

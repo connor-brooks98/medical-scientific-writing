@@ -1,0 +1,20 @@
+[file returned: discussion_revised.md]
+
+I revised the Discussion for a retrospective cohort manuscript and saved it as `discussion_revised.md` (151 words outside placeholders, down from 198).
+
+**What changed**
+- **Discourse (D1, D2, D5, D9):** Opened directly with the primary associations and null delirium result; cut the paragraph-final moral ("This illustrates the importance...") and the vague closing verdict ("Overall, early mobilization appears to be beneficial"), replacing the ending with a specific prospective follow-up tied to this study's gaps; flagged the unreferenced comparison to "previous cohorts" for named studies and citations.
+- **Sentences (S3, S11, S14, S15):** Removed staging and aphoristic run-ups ("At its core, the central question...", "Mobility is the currency of recovery...", "The key point is..."), strawman rebuttals ("This is not to say...", "One might argue..."), the split negative parallelism on delirium ("does not mean... It means..."), and table signposting ("The table below compares...").
+- **Words and fidelity (W5, W8):** Removed the gap-filling guess that patients with missing preoperative ambulatory status were "likely nonambulatory," stating instead what the record lacks and the resulting risk of confounding by prefracture function; removed "Overall."
+
+**Fidelity**
+All original numbers and findings are preserved unchanged (`1,146`, `24 hours`, `30-day`, `6.2% vs 9.8%`, `0.61`, `95% CI, 0.39–0.95`, `median 8 vs 11 days`, `31% vs 29%`, `18%`).
+
+**Placeholders and author queries**
+- `[DATA NEEDED: clarify whether cognitive outcomes beyond delirium were unmeasured or whether delirium comparisons were underpowered]` — the original stated that the study "could not detect" cognitive effects without explaining why.
+- `[DATA NEEDED: proportion mobilized within 24 hours, and proportion in patients with severe dementia if analyzed]` — needed to support "feasible for most patients" and the original claim about participation in severe dementia (removed as an unsupported rebuttal until backed by data).
+- `[DATA NEEDED: summarize how these mortality, length-of-stay, and delirium estimates compare with the previous cohorts, citing named studies] (Table [X])` — replace `[X]` with the table number and add the key comparison directly in the text.
+- `[DATA NEEDED: state how missing ambulatory status was handled in the adjusted model]` — clarify whether missing values were imputed, excluded, or coded as a separate category, and confirm the expected direction of bias.
+- **Closing sentence:** The final sentence proposing a prospective cohort is an editorial suggestion to replace the generic coda; confirm, adapt, or delete it to match your view.
+
+If this manuscript is headed for submission, note that most journals and ICMJE require disclosure of AI-assisted writing.

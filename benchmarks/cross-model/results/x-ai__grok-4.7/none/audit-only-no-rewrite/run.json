@@ -1,0 +1,14 @@
+{
+ "model": "x-ai/grok-4.7",
+ "provider_model": "x-ai/grok-4.7",
+ "config": "none",
+ "case": "audit-only-no-rewrite",
+ "seconds": 61.3,
+ "prompt_tokens": 1581,
+ "completion_tokens": 3753,
+ "cost_usd": 0.023952,
+ "finish_reason": "stop",
+ "files_returned": [
+  "audit.md"
+ ]
+}

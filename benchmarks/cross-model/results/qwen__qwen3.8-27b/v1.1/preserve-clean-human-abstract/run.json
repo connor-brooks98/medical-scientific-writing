@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "provider_model": "qwen/qwen3.8-27b",
+ "config": "v1.1",
+ "case": "preserve-clean-human-abstract",
+ "seconds": 27.9,
+ "prompt_tokens": 28873,
+ "completion_tokens": 11426,
+ "cost_usd": 0.04727085,
+ "finish_reason": "stop",
+ "files_returned": [
+  "abstract_final.txt"
+ ]
+}

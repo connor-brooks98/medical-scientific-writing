@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-sol",
+ "provider_model": "openai/gpt-6.2-sol",
+ "config": "none",
+ "case": "revise-discussion-staging-strawman",
+ "seconds": 3.0,
+ "prompt_tokens": 447,
+ "completion_tokens": 350,
+ "cost_usd": 0.004394,
+ "finish_reason": "stop",
+ "files_returned": [
+  "discussion_revised.md"
+ ]
+}

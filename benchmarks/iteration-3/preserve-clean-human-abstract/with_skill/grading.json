@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), showing light-touch editing",
+      "passed": true,
+      "evidence": "similarity 1.000"
+    },
+    {
+      "text": "abstract_final.txt word count is within 10% of abstract.txt",
+      "passed": true,
+      "evidence": "words 230 vs 230"
+    },
+    {
+      "text": "every number in abstract.txt appears in abstract_final.txt and no new numbers are added",
+      "passed": true,
+      "evidence": "lost []; added []"
+    },
+    {
+      "text": "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many occurrences as in abstract.txt)",
+      "passed": true,
+      "evidence": "'associated with' 4 vs 4"
+    },
+    {
+      "text": "abstract_final.txt keeps the three en-dash confidence-interval ranges (1.08\u20131.54, 0.86\u20131.33, 0.98\u20131.42) exactly",
+      "passed": true,
+      "evidence": "all three present"
+    },
+    {
+      "text": "abstract_final.txt contains no [CITATION NEEDED] or [DATA NEEDED] placeholders",
+      "passed": true,
+      "evidence": "0 placeholders"
+    },
+    {
+      "text": "the response tells the author the abstract had few or no AI-writing patterns rather than presenting a heavy rewrite",
+      "passed": true,
+      "evidence": "'I went through the abstract and didn't change anything ... Changing it just to look busy would make it worse.' | auto: manual: response says abstract was largely clean"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

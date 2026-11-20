@@ -1,0 +1,33 @@
+I reviewed your abstract for discourse-, sentence-, and word-level AI patterns and saved it unchanged to `abstract_final.txt`. It already reads like a clean, human-written *JAMA Cardiology* abstract, and rewriting it would risk introducing awkward over-corrections without improving it.
+
+<<<FILE: abstract_final.txt>>>
+Importance: Short sleep has been associated with cardiovascular disease, but its relationship with incident atrial fibrillation (AF) in older adults is uncertain.
+
+Objective: To examine whether self-reported sleep duration is associated with incident AF in adults aged 65 years or older.
+
+Design, Setting, and Participants: This prospective cohort study used data from 4,912 community-dwelling adults without AF at baseline who were enrolled at 4 US sites between 2009 and 2012 and followed up through 2022.
+
+Exposure: Self-reported habitual sleep duration, categorized as 6 hours or less, 7 to 8 hours (reference), and 9 hours or more.
+
+Main Outcomes and Measures: Incident AF, ascertained from study electrocardiograms, hospital discharge codes, and Medicare claims.
+
+Results: During a median follow-up of 9.8 years, 781 participants developed AF. Compared with 7 to 8 hours, sleeping 6 hours or less was associated with a higher hazard of AF (adjusted hazard ratio, 1.29; 95% CI, 1.08–1.54), whereas sleeping 9 hours or more was not (adjusted hazard ratio, 1.07; 95% CI, 0.86–1.33). The association for short sleep was attenuated after adjustment for obstructive sleep apnea symptoms (adjusted hazard ratio, 1.18; 95% CI, 0.98–1.42).
+
+Conclusions and Relevance: In this cohort of older adults, short sleep was associated with incident AF, but the association was weaker after accounting for symptoms of sleep apnea. Whether treating sleep apnea or extending sleep lowers AF risk would require trials.
+<<<END FILE>>>
+
+### What changed
+No text edits were made; rewriting working prose can create over-correction tells of its own.
+- **Discourse layer:** No generic preamble, stated moral, advocacy, or promotional coda. You report the null result for 9 hours or more and the attenuation after adjusting for obstructive sleep apnea symptoms plainly, and you close with the specific design needed ("trials") rather than "further research is needed."
+- **Sentence layer:** Natural sentence-length variation (11 to 38 words in Results; 25 and 13 words in Conclusions), no participial `-ing` tails, no negative parallelism, no stacked hedges, and evidence-matched verbs ("was associated with") for an observational cohort. Note that "was associated with" and logical connectives like "whereas" are correct scientific phrasing and should not be stripped out.
+- **Word and punctuation layer:** No AI-favored vocabulary, filler phrases, evaluative adjectives, significance spin (the 95% CI of 0.98–1.42 is reported neutrally as attenuated/weaker), or em dashes. The en dashes inside your 95% CI ranges (`1.08–1.54`) are standard numeric-range typography, not an AI tell.
+
+### Fidelity
+All numbers, confidence intervals, dates, categories, abbreviations, and findings are preserved verbatim.
+
+### Placeholders and author queries
+No `[DATA NEEDED]` or `[CITATION NEEDED]` placeholders are needed for the claims as written. A few optional *JAMA Cardiology* submission checks (not AI issues) you may want to verify before uploading:
+- **Baseline demographics and rates:** *JAMA Cardiology* typically asks for mean (SD) or median (IQR) age and sex distribution at the start of Results, and often welcomes absolute incidence rates (e.g., per 1,000 person-years) alongside adjusted hazard ratios and a brief note on what the primary model adjusted for.
+- **Minor term consistency:** Results refers to "obstructive sleep apnea symptoms," whereas Conclusions refers to "symptoms of sleep apnea" and "sleep apnea." That is completely natural, though you can repeat "obstructive sleep apnea" in Conclusions if you prefer strict term matching.
+- **JAMA typography:** AMA/JAMA house style typically uses hyphens in CI ranges (`1.08-1.54`) and omits commas in 4-digit numbers (`4912`), though copy editors adjust these automatically.
+- **Detectors and disclosure:** Automated AI detectors can still produce false positives on clean human prose, so no tool can guarantee a detector score. Because you wrote the draft yourself and no prose was edited here, there is no AI-generated text to disclose, though keep in mind that *JAMA* journals and ICMJE require disclosure if you use AI assistance for writing or editing elsewhere in the manuscript.

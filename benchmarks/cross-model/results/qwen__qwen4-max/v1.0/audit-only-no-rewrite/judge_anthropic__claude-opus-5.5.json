@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "No replacement paragraphs. Fixes are actions only, e.g. \"Delete the causal claim\". File closes: \"No text was rewritten\"."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding #1 quotes \"Early norepinephrine therefore prevents death in septic shock.\" at severity \"Critical\" (the top level). It notes \"A single retrospective adjusted odds ratio cannot support 'prevents death'\"."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "#2: \"Studies have shown...\" flagged as \"an unattributed causal claim\". #6: \"a growing body of evidence...\" flagged with \"Name the evidence and cite it\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "#10 flags \"leading cause of death worldwide... evolving landscape\" as failing the swap test. #11 flags \"In recent years, there has been growing interest\" as carrying no information."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "#6 lists \"S6 (stacked hedges)\" and says \"suggests that... may potentially be associated with\" is three hedges. It also calls \"some patients\" uncheckable."
+ },
+ "06": {
+  "passed": false,
+  "evidence": "#9 quotes \"lower 28-day mortality (adjusted odds ratio...)\" and says \"An odds ratio describes odds, not mortality risk; ... or reword the outcome claim\", so it flags the wording for change."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The Findings table has a Severity column with a level for all 16 findings (Critical/Major/Minor)."
+ },
+ "_cost": 0.035964
+}

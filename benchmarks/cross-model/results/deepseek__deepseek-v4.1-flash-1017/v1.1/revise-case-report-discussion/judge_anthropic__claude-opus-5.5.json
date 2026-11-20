@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"The risk of DKA is reported to be up to three-fold higher... [CITATION NEEDED: the study, its comparator, and the population studied]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"nausea, vomiting, and abdominal discomfort on POD 1 were attributed to ileus and opioid analgesia... diagnosis was made the next morning, about 14 hours after the first abnormal gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Multidisciplinary claim removed; output states \"One case cannot show whether measuring ketones... would have led to earlier treatment\""
+ },
+ "_cost": 0.020564
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-sol",
+ "provider_model": "openai/gpt-6.2-sol",
+ "config": "none",
+ "case": "reviewer-response-lead-with-decision",
+ "seconds": 6.7,
+ "prompt_tokens": 671,
+ "completion_tokens": 349,
+ "cost_usd": 0.004832,
+ "finish_reason": "stop",
+ "files_returned": [
+  "response_revised.md"
+ ]
+}

@@ -75,6 +75,12 @@ CANDIDATES = [
     (r"\bdeeper understanding\b", "W1", "deeper understanding"),
     (r"\bnavigat(?:e|es|ed|ing) the\b", "W1", "navigate (figurative?)"),
     (r"\bunlock(?:s|ed|ing)?\b", "W1", "unlock"),
+    (r"\bbolster(?:s|ed|ing)?\b", "W1", "bolster"),
+    (r"\benduring\b", "W1", "enduring"),
+    (r"\benhanc(?:e|es|ed|ing)\b", "W1", "enhance"),
+    (r"\balign(?:s|ed)? with\b", "W1", "align with"),
+    (r"\bdeep dive\b", "W1", "deep dive"),
+    (r"\bquietly\b", "W1", "quietly"),
     # W2 inflation and evaluation
     (r"\bgroundbreaking\b", "W2", "groundbreaking"),
     (r"\bremarkabl[ey]\b", "W2", "remarkable"),
@@ -126,6 +132,7 @@ CANDIDATES = [
     # S3 negative parallelism
     (r"\bnot (?:only|merely|just|simply)\b", "S3", "negative parallelism"),
     (r"\bit(?:'s| is) not (?:about|just)\b", "S3", "it's not about"),
+    (r"\b(?:does|do|did) not (?:mean|imply|suggest) that[^.]{0,120}\.\s+(?:It|This|Rather, it) (?:means|implies|suggests)\b", "S3", "split negative parallel"),
     # S7 clause chaining
     (r",\s+and (?:this|it|these|that)\b", "S7", ", and this/it"),
     # S11 signposting
@@ -133,11 +140,25 @@ CANDIDATES = [
     (r"\b(?:as mentioned (?:above|earlier|previously)|as previously (?:discussed|mentioned|noted))\b", "S11", "as mentioned above"),
     (r"\b(?:let us|let's) (?:now )?(?:turn|consider|explore|examine|dive)\b", "S11", "let us turn"),
     (r"\b(?:in other words|put differently|that is to say|simply put|essentially),", "D9", "paraphrastic restatement"),
+    # S14 staging and aphorism
+    (r"\b(?:the (?:key|central|critical|real|crucial|fundamental) (?:question|issue|point|insight) (?:is|was|remains))\b", "S14", "staged run-up"),
+    (r"\b(?:at its core|what really matters|here's the thing|the thing is|the hard part is|the part that matters)\b", "S14", "staged run-up"),
+    (r"\b(?:is|are) the (?:new )?(?:currency|language|lifeblood|backbone|cornerstone|bedrock) of\b", "S14", "aphorism"),
+    # S15 arguing with no one
+    (r"\b(?:this is not to (?:say|suggest)|to be clear|one might (?:argue|be tempted)|it (?:may|might) be tempting to|a naive approach would be|we do not (?:suggest|claim|argue) that)\b", "S15", "arguing with no one"),
+    # W8 gap-filling guesses
+    (r"\b(?:not (?:documented|reported|available|recorded)),? (?:suggesting|indicating|implying)\b", "W8", "gap-filling guess"),
+    (r"\b(?:it is believed that|(?:he|she|they|the patient) (?:likely|probably) (?:had|was|were|did|grew))\b", "W8", "gap-filling guess"),
+    # S11 document self-description
+    (r"\b(?:the (?:table|figure) below (?:shows|compares|summari[sz]es)|this (?:paper|article|section) is organi[sz]ed)\b", "S11", "self-description"),
+    # D9 closing verdicts
+    (r"(?:^|[.!?]\s+)(?:Overall|Ultimately|In essence),", "D9", "closing verdict (restates?)"),
+    (r"(?:^|[.!?]\s+)This (?:illustrates|demonstrates|shows|highlights) (?:the|how|that)\b", "D9", "closer naming what a finding showed"),
     # S12 false range
     (r"\b(?:ranging|range|spans?|spanning) from [^.]{3,60}? to\b", "S12", "from X to Y (meaningful scale?)"),
     # D1 stated moral
     (r"\b(?:highlights?|underscores?|emphasi[sz]es?|illustrates?|reinforces?) the (?:importance|need|critical|crucial|vital|significance|value|role)\b", "D1", "stated moral"),
-    (r"\bthis case (?:highlights|illustrates|underscores|demonstrates|emphasi[sz]es|reminds|serves)\b", "D1", "this case highlights"),
+    (r"\bthis case (?:highlights|illustrates|underscores|demonstrates|emphasi[sz]es|reminds|serves|shows)\b", "D1", "this case highlights"),
     (r"\bserves? as an? (?:important |valuable |timely |stark )?(?:reminder|testament|example)\b", "D1", "serves as a reminder"),
     (r"\bhigh index of suspicion\b", "D1", "high index of suspicion (specific action?)"),
     (r"\bclinicians (?:should|must) (?:be aware|remain vigilant|maintain|consider)\b", "D1", "clinicians should be aware"),
@@ -424,7 +445,7 @@ def check(revised, original=None):
             ctx = revised[max(0, m.start() - 45): m.end() + 35]
             by_id.setdefault(pid, []).append((label, snippet(ctx, 95)))
     order = ["STAT", "D1", "D2", "D4", "D5", "D6", "D8", "D9", "D11",
-             "S1", "S2", "S3", "S7", "S11", "S12", "W1", "W2", "W3", "W4", "W7", "W8", "W9"]
+             "S1", "S2", "S3", "S7", "S11", "S12", "S14", "S15", "W1", "W2", "W3", "W4", "W7", "W8", "W9"]
     if not by_id:
         out.append("  none")
     for pid in order:

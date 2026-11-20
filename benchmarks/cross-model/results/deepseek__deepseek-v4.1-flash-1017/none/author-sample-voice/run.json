@@ -1,0 +1,14 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "provider_model": "deepseek/deepseek-v4.1-flash-1017",
+ "config": "none",
+ "case": "author-sample-voice",
+ "seconds": 7.0,
+ "prompt_tokens": 484,
+ "completion_tokens": 996,
+ "cost_usd": 0.00055608,
+ "finish_reason": "stop",
+ "files_returned": [
+  "new_paragraph_revised.txt"
+ ]
+}

@@ -1,0 +1,13 @@
+## Discussion
+
+Euglycemic diabetic ketoacidosis (euDKA) is a rare but potentially life-threatening complication of sodium-glucose cotransporter-2 (SGLT2) inhibitor therapy [CITATION NEEDED: reported frequency of euDKA among SGLT2 inhibitor users]. SGLT2 inhibitors promote glycosuria, lower insulin requirements, and enhance ketogenesis, so ketoacidosis can develop without marked hyperglycemia. Reported DKA risk is up to three-fold higher with these drugs [CITATION NEEDED: source of the three-fold risk estimate]. It is the absence of marked hyperglycemia that makes euDKA easy to miss in the postoperative period, when nausea and vomiting have other plausible explanations.
+
+On postoperative day 1, the surgical team attributed her nausea, vomiting, and abdominal discomfort to postoperative ileus and opioid analgesia; the capillary glucose was 182 mg/dL. On the evening of postoperative day 1 she became tachypneic, with a respiratory rate of 28/min. A venous blood gas showed a pH of 7.12, a bicarbonate of 9 mmol/L, and an anion gap of 24 mmol/L. The lactate was 1.4 mmol/L, and the serum beta-hydroxybutyrate was 6.8 mmol/L. The diagnosis of euDKA was made on the morning of postoperative day 2, approximately 14 hours after the first abnormal gas.
+
+The FDA recommends that empagliflozin be discontinued at least 3 days before scheduled surgery [5]. In this patient the drug was continued until the day before surgery, and it likely contributed to the development of euDKA. From a single case, the relative contributions of the continued dose, the 14-hour preoperative fast, and the postoperative nausea and vomiting cannot be separated.
+
+She was treated in the intensive care unit with an intravenous insulin infusion, concurrent 10% dextrose, fluid resuscitation, and potassium replacement. The anion gap closed after 38 hours. She was discharged on postoperative day 6 on metformin and basal insulin; empagliflozin was discontinued permanently. Whether holding SGLT2 inhibitors before scheduled surgery reduces the rate of euDKA is a question for prospective cohorts [CITATION NEEDED: any existing studies of perioperative SGLT2 inhibitor management].
+
+## Conclusion
+
+In this patient, euDKA developed on postoperative day 1, and the diagnosis was made approximately 14 hours after the first abnormal gas. The capillary glucose was 182 mg/dL, and the early symptoms were attributed to postoperative ileus and opioid analgesia. In postoperative patients taking an SGLT2 inhibitor, nausea, vomiting, or malaise should prompt ketone measurement even when the glucose is not markedly elevated, and the drug should be held before scheduled surgery as the FDA recommends [5].

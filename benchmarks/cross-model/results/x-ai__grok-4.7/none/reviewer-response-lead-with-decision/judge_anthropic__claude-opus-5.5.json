@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Reviewer 2 response opens with background, not the action taken: \"The trial enrolled only patients with heart failure with reduced ejection fraction at a single academic center.\" The revision itself comes only in the second sentence."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Every change in the revised letter (CONSORT/Results additions, Methods rationale, Discussion revision, single-center limitation) appears in the draft. No new revisions or analyses are introduced."
+ },
+ "_cost": 0.0129
+}

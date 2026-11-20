@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"has been reported to be up to three-fold higher... [CITATION NEEDED: risk estimate and comparator]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"these symptoms were attributed to ileus and opioid analgesia\"; \"diagnosed on the morning of POD 2, approximately 14 hours after the first abnormal blood gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The \"demonstrating the effectiveness of a multidisciplinary approach\" claim was removed. Treatment is described only factually: \"The anion gap closed after 38 hours.\""
+ },
+ "_cost": 0.015236
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-astra",
+ "provider_model": "openai/gpt-6.2-astra",
+ "config": "none",
+ "case": "revise-discussion-staging-strawman",
+ "seconds": 6.4,
+ "prompt_tokens": 447,
+ "completion_tokens": 334,
+ "cost_usd": 0.016936,
+ "finish_reason": "stop",
+ "files_returned": [
+  "discussion_revised.md"
+ ]
+}

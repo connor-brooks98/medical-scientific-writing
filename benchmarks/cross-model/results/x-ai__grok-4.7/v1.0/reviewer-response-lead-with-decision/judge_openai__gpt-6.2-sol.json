@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "The third response opens with \u201cWe agree that the original wording extended the findings too broadly,\u201d without stating what was changed."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The letter reports only changes already in the draft: group-level follow-up counts, the 90-day endpoint rationale, narrower conclusions, and the single-center limitation."
+ },
+ "_cost": 0.00448
+}

@@ -1,0 +1,30 @@
+The abstract is already specific and matched to a cohort design. I did not rewrite it. Cosmetic “humanizing” would only add a second, machine-cleaned style.
+
+<<<FILE: abstract_final.txt>>>
+Importance: Short sleep has been associated with cardiovascular disease, but its relationship with incident atrial fibrillation (AF) in older adults is uncertain.
+
+Objective: To examine whether self-reported sleep duration is associated with incident AF in adults aged 65 years or older.
+
+Design, Setting, and Participants: This prospective cohort study used data from 4,912 community-dwelling adults without AF at baseline who were enrolled at 4 US sites between 2009 and 2012 and followed up through 2022.
+
+Exposure: Self-reported habitual sleep duration, categorized as 6 hours or less, 7 to 8 hours (reference), and 9 hours or more.
+
+Main Outcomes and Measures: Incident AF, ascertained from study electrocardiograms, hospital discharge codes, and Medicare claims.
+
+Results: During a median follow-up of 9.8 years, 781 participants developed AF. Compared with 7 to 8 hours, sleeping 6 hours or less was associated with a higher hazard of AF (adjusted hazard ratio, 1.29; 95% CI, 1.08–1.54), whereas sleeping 9 hours or more was not (adjusted hazard ratio, 1.07; 95% CI, 0.86–1.33). The association for short sleep was attenuated after adjustment for obstructive sleep apnea symptoms (adjusted hazard ratio, 1.18; 95% CI, 0.98–1.42).
+
+Conclusions and Relevance: In this cohort of older adults, short sleep was associated with incident AF, but the association was weaker after accounting for symptoms of sleep apnea. Whether treating sleep apnea or extending sleep lowers AF risk would require trials.
+<<<END FILE>>>
+
+Reading: structured JAMA Cardiology original-investigation abstract; prospective cohort. Headings left as required.
+
+**What changed**
+- Discourse: nothing to cut. The gap is specific (incident AF, adults 65 or older). Long sleep (hazard ratio 1.07) and the attenuated short-sleep estimate are both in Results. The close names two interventions and a trial, not a generic call for more research.
+- Sentences: association language matches the design. No -ing tails, stacked hedges, or uniform sentence length in Results (about 11, 41, and 21 words).
+- Words: no stock AI vocabulary, filler openers, or em dashes. En dashes in the confidence intervals are range marks and stay.
+
+**Fidelity:** Unchanged. All counts, hazard ratios, intervals, and both the null and attenuated findings are as in your draft.
+
+**Placeholders and author queries:** None. “Weaker” matches the drop from 1.29 to 1.18; the interval after sleep-apnea symptoms (0.98 to 1.42) is already in Results, so the conclusion does not need a significance label.
+
+I cannot tell you this will pass an AI detector. If you later use AI to edit the submitted text, JAMA and ICMJE expect that use to be disclosed.

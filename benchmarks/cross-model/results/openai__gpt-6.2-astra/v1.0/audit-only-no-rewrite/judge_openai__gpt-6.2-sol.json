@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains an audit table and a revision checklist, with no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "The \u201ctherefore prevents death\u201d finding is rated \u201cCritical,\u201d the highest severity used, and says \u201cRemove the causal conclusion.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "For \u201cStudies have shown,\u201d the audit says \u201cIdentify and cite the studies.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The audit quotes \u201ca pivotal challenge in the evolving landscape of critical care\u201d and recommends \u201cCut the generic opening.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\u201c\u2018May potentially\u2019 adds no useful qualification.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201cKeep the retrospective finding as an association.\u201d The audit asks for the reference group, not a change to the association wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every finding in the table has a severity rating of \u201cMajor\u201d or \u201cCritical.\u201d"
+ },
+ "_cost": 0.0059285
+}

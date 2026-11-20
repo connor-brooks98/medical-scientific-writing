@@ -1,0 +1,32 @@
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of hip fracture surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and shorter length of stay (median 8 vs 11 days). Delirium incidence did not differ between groups (31% vs 29%) [DATA NEEDED: adjusted estimate with 95% CI for the delirium comparison, and how delirium was ascertained]. That result does not exclude a smaller difference in delirium, or an effect on cognition that delirium incidence would not capture.
+
+These estimates are open to confounding by indication: patients mobilized within 24 hours are likely to be those well enough to mobilize, and adjustment cannot fully remove that difference. Preoperative ambulatory status was not recorded for 18% of patients [DATA NEEDED: how missing ambulatory status was handled in the adjusted model]. Those 18% cannot be assumed to have been nonambulatory before the fracture, so confounding by baseline function remains.
+
+Table [DATA NEEDED: table number] compares these estimates with previous cohorts [CITATION NEEDED: the cohorts compared, with their designs, populations, and adjusted estimates]. Whether early mobilization is feasible in severe dementia is not answered here [DATA NEEDED: proportion mobilized within 24 hours, overall and by dementia severity]. A trial randomizing the timing of first mobilization in patients with dementia, with delirium and 30-day mortality as outcomes, would separate the effect of mobilization from the selection of patients able to mobilize early.
+<<<END FILE>>>
+
+Here is the revised section. What was reading off was mostly structural: the paragraph ended in morals rather than findings, the null delirium result was argued with instead of reported, and one sentence turned missing data into a clinical fact.
+
+**What changed**
+
+- **Discourse (D1, D5, D9):** cut "At its core, the central question...", "Mobility is the currency of recovery...", "This illustrates the importance...", "The key point is...", and "Overall, early mobilization appears to be beneficial." The section now opens with the answer and ends with a specific next study rather than a verdict.
+- **Discourse (D3, D8, D10):** removed the imagined-reviewer rebuttal ("One might argue that patients with severe dementia cannot participate... but our findings suggest otherwise"); no severity-stratified data were supplied, so feasibility in severe dementia is now an open question with a placeholder. The delirium null stands in the first paragraph, stated plainly, without the "does not mean... it means" construction.
+- **Critical inference fix:** the original read missing preoperative ambulatory status (18%) as evidence those patients were nonambulatory. Missingness cannot support that. It is now a limitation, and I added one sentence naming confounding by indication, which the observational design requires and the original omitted entirely. This is the only substantive content added; it accounts for the revision being about the same length rather than shorter.
+- **Sentences (S3, S6, S11):** removed the negative-parallelism pairs and the signposting; kept "was associated with" for both observational estimates and removed the causal drift of "beneficial."
+- **Discourse (D2):** the table comparison had no named cohorts, no estimates, and no table number; flagged rather than filled.
+
+**Fidelity:** all numbers preserved unchanged (1,146; 24 hours; 30-day; 6.2% vs 9.8%; aOR 0.61, 95% CI 0.39–0.95; median 8 vs 11 days; 31% vs 29%; 18%), including the null delirium result. Nothing was added except the confounding-by-indication qualification and placeholders.
+
+**Placeholders and author queries**
+
+1. Five placeholders in the text: delirium estimate/CI and ascertainment method; handling of missing ambulatory status; table number; the compared cohorts and their estimates; proportion mobilized within 24 hours overall and by dementia severity.
+2. **Length of stay and mortality interact.** Earlier deaths shorten stay. Was length of stay analyzed among survivors or with death as a competing event? If not, the 8 vs 11 days needs a qualifier, and I left it unqualified only because I have no information on the analysis.
+3. **"Did not differ" for delirium needs a test behind it.** Please supply the estimate and CI, and say whether this comparison was prespecified and what difference the sample could detect. Without that, the sentence risks reading as evidence of safety.
+4. **The opening framed the question as safety**, but mortality and length of stay are benefit outcomes; delirium is the safety-relevant one. Confirm that framing matches your Introduction and Abstract.
+5. **Limitations are thin for a retrospective cohort.** Setting (single vs multicentre), adjustment covariates, and how mobilization timing was recorded would let the confounding sentence be specific rather than general.
+6. The confounding-by-indication sentence and the proposed trial are my interpretation, not facts from your draft. Confirm, soften, or delete them; the claim is yours.
+
+One submission note: most journals and ICMJE require disclosure of AI-assisted writing, so include that statement per the journal's policy.

@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "The draft says the confidence intervals \u201cincluded no difference,\u201d but does not plainly state that mortality and readmission did not differ or were not associated with PPI use."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use at admission was associated with a higher hazard of CDI\u201d; the draft makes no causal claim."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are Kwok et al. (2012) and Freedberg et al. (2015)."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The draft reports \u201c1.21 (95% CI, 0.81-1.80) among women\u201d and says the interaction test \u201cdid not indicate a difference by sex (P = 0.14).\u201d"
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numerical values are supplied in the task, including \u201c312 patients (5.0%)\u201d and Kwok et al.\u2019s \u201codds ratio, approximately 1.74.\u201d"
+ },
+ "_cost": 0.006486
+}

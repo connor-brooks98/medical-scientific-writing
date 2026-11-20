@@ -1,0 +1,18 @@
+## Results
+
+Among 6214 adults aged 65 years or older hospitalized with community-acquired pneumonia, 2377 (38.3%) had home PPI use documented at admission and 3837 (61.7%) did not. Within 90 days of discharge, CDI was documented in 4.1% of PPI users and 2.6% of nonusers. After adjustment for age, sex, Charlson Comorbidity Index, prior hospitalization, and antibiotic class during the index stay, PPI use was associated with a higher hazard of CDI (adjusted hazard ratio [aHR], 1.48; 95% CI, 1.12-1.96). Ninety-day all-cause mortality was 11.8% among PPI users and 11.2% among nonusers (aHR, 1.03; 95% CI, 0.88-1.21); 30-day readmission was 17.9% and 16.4%, respectively (aHR, 1.06; 95% CI, 0.94-1.20). In prespecified sex subgroups, the aHR for CDI was 1.81 (95% CI, 1.24-2.64) among men and 1.21 (95% CI, 0.81-1.80) among women; the interaction was not statistically significant (*P* = .14).
+
+## Discussion
+
+In this retrospective cohort of older adults hospitalized with community-acquired pneumonia, home PPI use at admission was associated with a higher hazard of CDI within 90 days of discharge. The observed associations with 90-day mortality and 30-day readmission were closer to the null, with confidence intervals spanning 1. Although the estimated association with CDI was larger among men than women, the interaction test did not provide clear evidence that the association differed by sex. These observational findings do not establish that PPI use caused CDI.
+
+Our findings are consistent with a meta-analysis by Kwok et al. that reported an association between PPI use and CDI (pooled odds ratio, approximately 1.74).¹ Freedberg et al. also reported an association between PPI use and recurrent CDI.² The latter study addressed recurrence, whereas our outcome was CDI documented within 90 days of discharge; differences in populations and outcomes limit direct comparison. Further research is needed to determine whether the observed association reflects a causal effect of PPI exposure or residual differences between patients who do and do not receive PPIs.
+
+## Limitations
+
+This study has limitations. Its retrospective, single-health-system design limits generalizability and leaves the findings susceptible to residual confounding, including confounding by indication and differences in factors not captured by the adjustment variables. PPI use was measured from medication reconciliation at admission; duration, adherence, and subsequent exposure were unknown, introducing potential exposure misclassification. CDI ascertainment relied on inpatient and outpatient laboratory testing within the health system, so infections diagnosed elsewhere may have been missed. Additionally, 312 patients were excluded because of missing medication reconciliation, which could introduce selection bias.
+
+## Reference details to verify
+
+1. Kwok et al. Meta-analysis of PPI use and CDI. *American Journal of Gastroenterology*. 2012.
+2. Freedberg et al. Study of PPI use and recurrent CDI. Citation details, including year and journal, should be verified before submission.

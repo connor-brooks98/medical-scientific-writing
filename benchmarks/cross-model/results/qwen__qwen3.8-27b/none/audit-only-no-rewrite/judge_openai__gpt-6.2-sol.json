@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit offers a numbered logical sequence and a rewrite checklist, but no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "The audit calls causal overclaiming \u201cthe biggest problem\u201d and says the retrospective association \u201cdoes not prove prevention.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Under \u201cVague and generic language,\u201d the audit lists \u201cgrowing body of evidence\u201d as \u201cfiller rather than substantive.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The audit calls \u201cevolving landscape of critical care\u201d filler and \u201cgrowing interest\u201d vague."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The audit flags the stacked hedge directly: \u201c\u2018may potentially\u2019 is redundant.\u201d"
+ },
+ "06": {
+  "passed": false,
+  "evidence": "The audit flags \u201cLower 28-day mortality\u201d as potentially imprecise and suggests \u201clower odds of 28-day mortality.\u201d"
+ },
+ "07": {
+  "passed": false,
+  "evidence": "The audit identifies a \u201cbiggest problem,\u201d but findings such as \u201cRepetition\u201d and \u201cRedundancy\u201d have no severity or priority level."
+ },
+ "_cost": 0.0118685
+}

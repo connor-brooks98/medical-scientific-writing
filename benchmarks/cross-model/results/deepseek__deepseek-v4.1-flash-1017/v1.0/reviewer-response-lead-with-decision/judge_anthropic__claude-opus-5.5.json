@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "The Reviewer 1, Comment 2 response opens with \"We considered both endpoints during the design phase.\" That is background, not the decision. The decision to keep the 90-day endpoint is never stated up front; the only action appears last: \"We have added this rationale to the Methods.\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Every action in the revised letter appears in the draft: per-group numbers in CONSORT/Results, rationale added to Methods, Discussion narrowed, single-center limitation added. No new revisions or analyses are introduced."
+ },
+ "_cost": 0.01744
+}

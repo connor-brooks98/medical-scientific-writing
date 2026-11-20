@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit contains findings and a checklist, but no full replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\u201cCausal claim from observational data [BLOCKER]\u201d says the retrospective design \u201ccannot license \u2018prevents death.\u2019\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "The line-level notes label \u201cStudies have shown\u201d as \u201cUnattributed authority.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The audit says \u201c\u2018Evolving landscape\u2019 carries no information.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The line-level notes call the phrase a \u201cQuadruple hedge (may / potentially / associated / some).\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit challenges \u201ctherefore prevents death,\u201d not the wording \u201cwas associated with lower 28-day mortality.\u201d"
+ },
+ "07": {
+  "passed": false,
+  "evidence": "Findings such as \u201cNo funnel\u201d and \u201cRedundancy\u201d have no severity label or ranked tier."
+ },
+ "_cost": 0.010996
+}

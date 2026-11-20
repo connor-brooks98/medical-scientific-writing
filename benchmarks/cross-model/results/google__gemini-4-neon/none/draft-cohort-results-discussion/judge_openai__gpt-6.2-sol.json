@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use was not associated with 90-day all-cause mortality or 30-day hospital readmission.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use at admission was associated with a higher hazard of 90-day CDI.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only studies named are Kwok et al (2012) and Freedberg et al (2015); other citations are marked \u201c[Ref].\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Women: \u201caHR, 1.21; 95% CI, 0.81-1.80\u201d; the interaction was not statistically significant (\u201cP = .14 for interaction\u201d)."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The derived values (38.3%, 61.7%, and 48% higher hazard) are correct; the pooled odds ratio of approximately 1.74 is attributed to Kwok et al. Other study figures match the task."
+ },
+ "_cost": 0.008636
+}

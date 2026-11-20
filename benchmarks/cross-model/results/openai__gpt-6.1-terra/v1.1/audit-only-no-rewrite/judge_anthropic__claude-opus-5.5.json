@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit contains only a findings table and a priority list. No replacement paragraphs appear, and the fixes are instructions such as \"State the study objective, population...\""
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"Early norepinephrine therefore prevents death in septic shock\" is labeled \"S6: Causal overclaim\" with severity \"Critical\", the highest level used."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"Studies have shown...\" is flagged as \"D2: Unspecified evidence\" and \"a growing body of evidence suggests\" as \"D2: Vague allusion\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"a leading cause of death worldwide\" is flagged as \"D6: Generic preamble\", \"evolving landscape\" as \"Inflated, nonspecific language\", and \"there has been growing interest\" as \"D6: Generic preamble\"."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"may potentially be associated with worse outcomes in some patients\" is flagged as \"S6: Stacked hedging\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The sentence is quoted, but only for a \"Missing comparator and context\". The audit asks to state the comparator and does not object to the associational phrasing \"was associated with\"."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every table row has a Severity value (Critical, Major, or Minor), and a ranked list of the \"Five highest-priority revisions\" is also included."
+ },
+ "_cost": 0.027828
+}

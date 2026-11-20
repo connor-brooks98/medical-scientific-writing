@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "\u201cWe considered both endpoints during trial design\u201d gives background, and \u201cWe agree\u201d does not state what changed."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The draft already describes the group-specific follow-up counts, the retained 90-day endpoint and added Methods rationale, and the narrowed Discussion and single-center limitation."
+ },
+ "_cost": 0.0036025
+}

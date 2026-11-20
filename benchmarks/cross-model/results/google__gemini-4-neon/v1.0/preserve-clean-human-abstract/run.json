@@ -1,0 +1,14 @@
+{
+ "model": "google/gemini-4-neon",
+ "provider_model": "google/gemini-4-neon",
+ "config": "v1.0",
+ "case": "preserve-clean-human-abstract",
+ "seconds": 84.7,
+ "prompt_tokens": 25736,
+ "completion_tokens": 9275,
+ "cost_usd": 0.216333,
+ "finish_reason": "stop",
+ "files_returned": [
+  "abstract_final.txt"
+ ]
+}

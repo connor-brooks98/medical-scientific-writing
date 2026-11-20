@@ -1,0 +1,26 @@
+Here is the revised Discussion and Conclusion, saved as `revised_discussion.md`.
+
+### Key changes made
+- **Removed AI boilerplate and clichés:** Cut filler phrasing ("evolving landscape," "revolutionized," "perfect storm," "garnered increasing attention," "serves as a valuable reminder," "Further research is needed") and repetitive participial transitions ("highlighting," "underscoring," "demonstrating").
+- **Anchored the Discussion to your actual case:** Tied the physiology and perioperative risk factors directly to your patient's timeline (metformin held while empagliflozin was continued, 14-hour fast, misattribution to ileus/opioids on POD 1, reassuring glucose of 182 mg/dL, and the 14-hour gap after the initial VBG).
+- **Fixed a factual mismatch with the Case Presentation:** The original draft claimed *"Prompt recognition... led to complete resolution,"* which contradicted the documented misattribution on POD 1 and the ~14-hour diagnostic delay after the first abnormal blood gas. The revision reflects the actual clinical course.
+- **Tightened the Conclusion:** Kept it to three direct, clinically actionable sentences aligned with your case.
+
+### Quick note before submission
+I kept your existing `[5]` citation on the FDA recommendation and did not invent any new references. You will likely want to add citations for the threefold DKA risk statement and the SGLT2 inhibitor mechanism/perioperative precipitants before submitting to a journal.
+
+<<<FILE: revised_discussion.md>>>
+## Discussion
+
+Euglycemic diabetic ketoacidosis (euDKA) is an uncommon but potentially life-threatening complication of sodium-glucose cotransporter-2 (SGLT2) inhibitor therapy. Because SGLT2 inhibitors are widely prescribed for type 2 diabetes mellitus, heart failure, and chronic kidney disease, clinicians across medical and surgical specialties should be familiar with this presentation. Prior studies have reported up to a threefold increase in the risk of DKA among patients receiving SGLT2 inhibitors. By promoting glycosuria, these agents reduce insulin requirements and enhance ketogenesis. In the perioperative setting, surgical stress, prolonged fasting, and reduced carbohydrate intake act as precipitating factors that can trigger ketoacidosis without marked hyperglycemia.
+
+The FDA recommends discontinuing empagliflozin at least 3 days before scheduled surgery [5]. In our patient, preoperative instructions addressed metformin, which was held on the morning of surgery, but empagliflozin was continued until the morning before the procedure. Together with surgical stress and a 14-hour preoperative fast, continued empagliflozin exposure likely precipitated euDKA in this case.
+
+Diagnostic delay is a major pitfall in postoperative euDKA because early symptoms resemble routine surgical recovery and marked hyperglycemia is absent. On POD 1, our patient's nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia, while a capillary glucose of 182 mg/dL did not raise suspicion for DKA. Even after tachypnea developed and an evening venous blood gas showed severe high-anion-gap metabolic acidosis (pH 7.12, bicarbonate 9 mmol/L, anion gap 24 mmol/L) with a normal lactate (1.4 mmol/L), euDKA (serum beta-hydroxybutyrate 6.8 mmol/L) was not diagnosed until the morning of POD 2, approximately 14 hours after the first abnormal gas. Measuring ketones is therefore essential in any patient taking an SGLT2 inhibitor who develops nausea, vomiting, malaise, or unexplained metabolic acidosis, regardless of blood glucose level.
+
+Once diagnosed, our patient was managed in the intensive care unit with an intravenous insulin infusion, concurrent 10% dextrose, fluid resuscitation, and potassium replacement. The anion gap closed after 38 hours, empagliflozin was permanently discontinued, and she was discharged on POD 6. Preventing similar events requires consistent perioperative medication-hold protocols coordinated among surgical, anesthesia, and prescribing teams.
+
+## Conclusion
+
+Postoperative euDKA should remain on the differential diagnosis for any patient taking an SGLT2 inhibitor who develops nausea, vomiting, malaise, or unexplained metabolic acidosis, as normal or mildly elevated glucose levels do not exclude DKA. Adhering to the FDA-recommended 3-day preoperative hold for empagliflozin requires clear coordination across surgical, anesthesia, and medical teams. Prompt ketone testing in symptomatic postoperative patients can help prevent delays in diagnosis and treatment.
+<<<END FILE>>>

@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "Kept with placeholder: \"up to threefold ... [CITATION NEEDED: source, comparator, population, and risk estimate]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"Her initial nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia... diagnosis was made approximately 14 hours after the first abnormal blood gas.\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "No effectiveness claim. The output only states the course: \"The anion gap closed after 38 hours\"; the multidisciplinary-approach claim was removed."
+ },
+ "_cost": 0.01494
+}

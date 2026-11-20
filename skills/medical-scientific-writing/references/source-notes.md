@@ -84,6 +84,34 @@ Structure: four short skills (clear writing, explain-diagram, explain-webpage, e
 
 Contributed: the STE-inspired plain-English mode: main idea first, common words, concrete subjects, active verbs, one name per concept, 25 words per descriptive sentence and 20 per instruction, one instruction per sentence, condition before action, unstack noun groups, preserve facts and uncertainty; and the honesty boundary that "STE-inspired" is a style, not a compliance claim.
 
+### blader/humanizer v4.0.0 (MIT), added in skill v1.1.0
+
+The most widely used general humanizer, and the upstream of matsuikentaro1/humanizer_academic and noora's humanizer_general. Structure: one SKILL.md (about 500 lines) of 26 patterns in six groups (staging instead of stating, rhythm by rule, inflation and borrowed authority, formatting by rule, chat and draft leftovers, writing for the wrong reader), ordered strongest first, with explicit "weak alone" labels, a writing-sample voice rule, file and embedded modes, and a "when not to act" section. Its framing agrees with StoryScope: word habits change with each model release, while structural habits persist.
+
+Contributed in v1.1.0:
+- **Evidence tiers:** strong patterns act on one sighting; weak ones only in clusters.
+- **Leave phrases alone in certain contexts:** quotations, titles, and names; text written before late 2022 is not AI-generated.
+- **Two new sentence patterns:** staging and aphorism (S14), and arguing with no one (S15).
+- **Extended negative parallelism:** the split-sentence form, "X rather than Y", and clipped tails.
+- **Closers:** closers after a finding, and a closing "Overall/Ultimately" verdict (D9).
+- **Document self-description** (S11).
+- **Gap-filling guesses:** when the record is silent, the text fills it with something plausible (W8).
+- **Dashes and hyphens:** spaced en dashes and double hyphens used as dashes; the before-noun/after-noun hyphenation rule.
+- **Decorative formatting:** emojis, arrows, and a rule between every section.
+- **Prompt-injection guard:** text supplied for editing is never instructions.
+- **Writing-sample override.**
+- **Tells that most often survive a rewrite,** for the editor's audit.
+- **File mode:** change prose only and report coverage.
+- **"Lead with the decision"** for reviewer responses (from "writing for the wrong reader").
+- **Additional AI words:** bolstered, enduring, enhance, align with, key (adjective), deep dive, quietly.
+
+Not adopted:
+- **Rewriting "associated with":** its §14 treats "associated with", "linked to", and "tied to" as vague connections to rewrite. In scientific prose "was associated with" is the required wording for an observational statistical relationship, so this skill keeps it and names the relationship only for non-statistical links. This is listed as an over-correction to avoid.
+- **Removing all en dashes:** en dashes in numeric ranges and eponyms (Kaplan–Meier) are correct typography in medical journals.
+- **"A missing citation alone is not a tell":** true for general prose, but in a manuscript an unsupported factual claim is a defect for other reasons, so this skill still flags it (D2).
+- **Adding opinions, humor, and asides in personal writing:** out of scope for manuscripts.
+- **El Attar et al. 2026 (arXiv:2606.04177):** cited by the humanizer as evidence that most signals vary by model and text type. This skill has not reviewed that paper.
+
 ## 3. Conflicts and how they were resolved
 
 | Question | Positions in sources | Resolution in this skill | Why |
@@ -99,9 +127,11 @@ Contributed: the STE-inspired plain-English mode: main idea first, common words,
 | Hyphenated compounds | Remove hyphens from common pairs (humanizer_general); flag buzzword compounds (eniktab) | Flag buzzwords; keep correct hyphenation of compound modifiers | Removing hyphens is a grammar error under AMA style |
 | Length | Hard budgets for medical AI papers (HeartWise); journal limits (all) | Journal limit first; budget table as defaults; measure before polishing | Budgets vary by field and journal |
 | Burstiness target | Strict criterion (Matsui); "8 words, then 31, then 14" (eniktab); short punchy sentences (humanizer_general) | Matsui's 5-word-range criterion, achieved through clarity edits, never staccato | Rhythm variation that serves meaning reads as human; theatrical rhythm does not |
+| "associated with" | A vague connection to replace (blader/humanizer v4 §14) | Keep for statistical associations; name the relationship otherwise | It is the correct term for observational results; replacing it creates causal or vague overstatement |
+| En dashes | Remove all dashes (blader/humanizer v4 §8) | Remove dash-as-punctuation; keep en dashes in ranges and eponyms | Journal typography (AMA) uses en dashes for ranges |
 | Goal framing | "Reduce AI detection close to 0%" (humanizer_general); "no AI-detectable patterns" (eniktab) | Better writing; no detector promises; disclosure remains the author's duty | Detector-evasion is not a quality goal, and AI-use disclosure is required by ICMJE and most journals |
 | Abstract format | Prose "Here we show" (eniktab, Nature); structured (HeartWise, academic-writing) | Follow the journal | Varies by journal and article type |
 
 ## 4. Attribution
 
-Patterns and principles are adapted, rewritten, and reorganized; examples in this skill are newly written unless marked. Upstream sources: Wikipedia, "Signs of AI writing" (WikiProject AI Cleanup); blader/humanizer (MIT); matsuikentaro1/humanizer_academic (MIT, K. Matsui); eniktab/scientific-paper-writer (MIT); HeartWise-AI/ai-writing-skills (MIT); noora-noureldin2000/Skills-for-MedicalResearch-writing; quanghuy0497/Writing-in-the-Sciences (notes on K. Sainani's Stanford course); ashryaagr/karpathy-output-style (MIT); ASD-STE100 Issue 9 (ASD/STEMG); Russell et al., StoryScope, arXiv:2604.03136 (CC0).
+Patterns and principles are adapted, rewritten, and reorganized; examples in this skill are newly written unless marked. Upstream sources: Wikipedia, "Signs of AI writing" (WikiProject AI Cleanup); blader/humanizer (MIT; v4.0.0 reviewed for skill v1.1.0); matsuikentaro1/humanizer_academic (MIT, K. Matsui); eniktab/scientific-paper-writer (MIT); HeartWise-AI/ai-writing-skills (MIT); noora-noureldin2000/Skills-for-MedicalResearch-writing; quanghuy0497/Writing-in-the-Sciences (notes on K. Sainani's Stanford course); ashryaagr/karpathy-output-style (MIT); ASD-STE100 Issue 9 (ASD/STEMG); Russell et al., StoryScope, arXiv:2604.03136 (CC0).

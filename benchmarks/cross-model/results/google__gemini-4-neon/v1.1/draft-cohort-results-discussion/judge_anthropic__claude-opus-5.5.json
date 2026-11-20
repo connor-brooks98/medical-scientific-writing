@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"PPI use was not associated with 90-day all-cause mortality ... or 30-day readmission\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Uses \"was associated with a higher hazard of 90-day CDI\"; mechanism sentence uses \"may allow\" and is not stated as a study finding."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al and Freedberg et al are named; other references appear as \"[CITATION NEEDED: ...]\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81\u20131.80) in women... interaction test was not statistically significant (P = .14); these data do not establish a sex-specific difference\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All figures (6214, 2377, 3837, 4.1%, 2.6%, HRs/CIs, 312, 5.0%, 2016\u20132023, Kwok OR ~1.74) are from the task; missing counts are left as \"[DATA NEEDED: n]\"."
+ },
+ "_cost": 0.029104
+}

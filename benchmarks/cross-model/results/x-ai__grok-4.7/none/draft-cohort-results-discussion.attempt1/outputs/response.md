@@ -1,0 +1,3 @@
+Draft sections are below in `draft_sections.md`. I stayed inside the numbers you supplied, used association language rather than causal language, and left the Kwok and Freedberg citations incomplete so they can be finished from the source papers.
+
+Two checks before you drop this in: event counts are not back-calculated, because 4.1% of 2,377 and 2.6% of 3,837 are not integers. Also, 2,377 + 3,837 = 6,214, so the 312 excluded patients are not inside that analyzed n — confirm what denominator the 5.0% uses. The sex subgroup is reported, but the interaction P = .14 is not treated as effect modification.

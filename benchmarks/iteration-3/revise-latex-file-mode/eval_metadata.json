@@ -1,0 +1,13 @@
+{
+  "eval_name": "revise-latex-file-mode",
+  "prompt": "this is my results section in latex. clean up the writing but DON'T break any of my latex. edit the file in place (results.tex).\n\nInput files: results.tex",
+  "assertions": [
+    "results.tex contains exactly the same multiset of \\label, \\ref, and \\cite commands (with identical keys) as the original",
+    "the equation environment in results.tex is byte-identical to the original",
+    "results.tex keeps the unspaced LaTeX en-dash ranges 0.56--0.86 and 0.70--1.21",
+    "results.tex prose contains no spaced --- or -- used as a dash",
+    "results.tex contains none of: 'It is important to note', 'highlighting', 'underscoring', 'remarkably', 'crucial', 'serves as a testament', 'Furthermore'",
+    "every number in the original results.tex appears in the revised results.tex",
+    "results.tex has balanced braces and the same \\begin/\\end pairs as the original"
+  ]
+}

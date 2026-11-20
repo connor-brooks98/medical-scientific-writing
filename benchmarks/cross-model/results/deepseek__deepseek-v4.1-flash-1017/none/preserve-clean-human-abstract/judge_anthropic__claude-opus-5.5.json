@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": false,
+  "evidence": "The message says \"I've lightly edited the abstract to keep it precise, natural,\" which describes light edits. It never tells the author that the original already had few or no AI-writing patterns, so it does not address their worry."
+ },
+ "_cost": 0.013924
+}

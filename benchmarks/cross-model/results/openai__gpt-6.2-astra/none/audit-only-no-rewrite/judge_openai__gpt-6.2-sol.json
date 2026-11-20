@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains audit findings and revision advice, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\u201cThe causal conclusion exceeds the evidence\u201d; the revision priority says to \u201ccalibrate the mortality claim first.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cStudies have shown that early norepinephrine improves survival\u201d is flagged as \u201can uncited causal claim.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\u201cEvolving landscape\u201d and \u201cgrowing interest\u201d are flagged as phrases that \u201cadd emphasis without giving readers a clinical or evidentiary reason to care.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The audit identifies \u201cseveral layers of qualification: \u2018may potentially be associated\u2019 and \u2018in some patients.\u2019\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit calls the sentence reporting the association \u201cappropriately cautious.\u201d"
+ },
+ "07": {
+  "passed": false,
+  "evidence": "The closing \u201cRevision priority\u201d note names what to address first but does not assign a severity or priority level to every finding."
+ },
+ "_cost": 0.0058935
+}

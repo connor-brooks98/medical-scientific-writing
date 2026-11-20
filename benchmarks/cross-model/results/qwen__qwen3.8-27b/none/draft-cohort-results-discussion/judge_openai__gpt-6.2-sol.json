@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cno statistically significant associations with 90-day all-cause mortality ... or 30-day readmission\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cwas associated with an increased hazard\u201d and \u201cdoes not establish that PPI use caused the infections\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al (2012) and Freedberg et al (2015) are named."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201cwomen (aHR, 1.21; 95% CI, 0.81-1.80), but the interaction term was not statistically significant (P = .14)\u201d"
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numbers are supplied, correctly derived (1.5 percentage points; 48% higher hazard), or attributed to the permitted studies."
+ },
+ "_cost": 0.0069035
+}

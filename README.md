@@ -4,6 +4,28 @@ An agent skill for writing, revising, and auditing medical and scientific prose:
 
 It works with Claude (claude.ai, Claude Desktop, Claude Code) and with any agent that reads `SKILL.md` skills (Codex, Cursor, Gemini CLI, OpenCode, and others).
 
+It brings together seven open skills and one research paper:
+
+- the [StoryScope](https://arxiv.org/abs/2604.03136) study of AI-written text
+- [blader/humanizer](https://github.com/blader/humanizer)
+- [humanizer_academic](https://github.com/matsuikentaro1/humanizer_academic)
+- [scientific-paper-writer](https://github.com/eniktab/scientific-paper-writer)
+- [ai-writing-skills](https://github.com/HeartWise-AI/ai-writing-skills)
+- [Skills-for-MedicalResearch-writing](https://github.com/noora-noureldin2000/Skills-for-MedicalResearch-writing)
+- [Writing-in-the-Sciences](https://github.com/quanghuy0497/Writing-in-the-Sciences)
+- [karpathy-output-style](https://github.com/ashryaagr/karpathy-output-style)
+
+[Sources and Credits](#sources-and-credits) says what came from each.
+
+**Results across 9 test cases and 8 models from 5 providers** (OpenAI, Google, xAI, DeepSeek, Qwen):
+- Pass rate on the graded checks rose from 84% without the skill to 93% with v1.0 and 97% with v1.1.
+- v1.1 scored at least as well as v1.0 on every model.
+- Every model's revisions came out shorter with the skill than without it.
+- No revision lost a number from the original.
+- Separate Claude Opus 5.5 and Haiku 5.5 runs showed the same pattern.
+
+[Details below](#benchmark-results).
+
 > **What this is not.** It is not a detector-evasion tool and makes no promises about AI-detector scores. It improves writing quality. Disclosing AI assistance is still the author's job: ICMJE and most journals require it, and the skill reminds the author once per submission-bound task.
 
 ---
@@ -18,6 +40,7 @@ It works with Claude (claude.ai, Claude Desktop, Claude Code) and with any agent
 - [Usage](#usage)
 - [Repository Layout](#repository-layout)
 - [Sources and Credits](#sources-and-credits)
+- [Caveats](#caveats)
 - [Disclaimer](#disclaimer)
 - [License](#license)
 
@@ -108,10 +131,10 @@ So the skill fixes the argument first, then the sentences, then the words.
 | Data, notes, or a request for new text | **Draft**: writes from an outline that lists the inconvenient results first, so they don't get dropped |
 | A draft plus "review" or "audit" | **Audit**: a findings table with severity ratings and the five most valuable fixes |
 
-**Three layers of patterns**, 33 in all, each with medical before/after examples in [`references/pattern-catalog.md`](skills/medical-scientific-writing/references/pattern-catalog.md):
+**Three layers of patterns**, 35 in all, each with medical before/after examples in [`references/pattern-catalog.md`](skills/medical-scientific-writing/references/pattern-catalog.md):
 
 - **Discourse (D1 to D11):** stated morals, vague allusions, tidy causal stories, the study as hero, reassuring endings, generic openings, uniform paragraph architecture, advocacy and asymmetric reporting, restatement, padding, template scaffolding. Plus the *swap test*: if a sentence could appear unchanged in a different paper, it says nothing about this one.
-- **Sentence (S1 to S13):** -ing tails, "serves as", "not only... but", reflexive triads, synonym cycling, stacked or missing hedges, ", and this" chains, uniform rhythm, smothered verbs, hidden actors, signposting, false ranges, over-compressed meaning.
+- **Sentence (S1 to S15):** -ing tails, "serves as", "not only... but", reflexive triads, synonym cycling, stacked or missing hedges, ", and this" chains, uniform rhythm, smothered verbs, hidden actors, signposting, false ranges, over-compressed meaning, staged run-ups and aphorisms, arguing with objections no one raised.
 - **Word (W1 to W9):** AI vocabulary, inflation, ornamental adverbs, filler, rationed connectives, em dashes and formatting, AI-favored word choices, chatbot residue, buzzword compounds.
 
 **Integrity rules that override style:**
@@ -132,11 +155,50 @@ So the skill fixes the argument first, then the sentences, then the words.
 
 ## Before and After
 
-Both "after" texts below are unedited outputs of Claude Opus 5.5 using the skill. [`examples/README.md`](examples/README.md) has the full set with change notes, and the same tasks run without the skill are in [`benchmarks/`](benchmarks/).
+Every "after" below is an unedited model output from the benchmark runs. The inputs are AI-styled drafts written for testing. Full outputs for every model and configuration are in [`benchmarks/`](benchmarks/).
 
-### Case report Discussion and Conclusion (euglycemic DKA after cholecystectomy)
+### 1. A Discussion that argues with no one (Claude Opus 5.5, skill v1.1)
+
+This case tests the patterns added in v1.1:
+- **Staged run-up:** "At its core, the central question..."
+- **Aphorism:** "Mobility is the currency of recovery"
+- **Rebutting objections nobody raised:** "This is not to say...", "One might argue..."
+- **Split negative:** "does not mean X. It means Y."
+- **Closing verdicts:** "The key point is...", "Overall..."
+- **Gap-filling guess:** treating missing data as evidence
 
 <details open>
+<summary><b>Before</b>: AI-styled draft (199 words)</summary>
+
+> At its core, the central question of this study was whether early mobilization is safe after hip fracture surgery in patients with dementia. Mobility is the currency of recovery in older adults. In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and shorter length of stay (median 8 vs 11 days). This illustrates the importance of early mobilization in this vulnerable population.
+>
+> This is not to say that delayed mobilization is always harmful. One might argue that patients with severe dementia cannot participate in early physiotherapy, but our findings suggest otherwise. Delirium incidence did not differ between groups (31% vs 29%). A lack of difference in delirium does not mean that early mobilization has no cognitive effects. It means that our study could not detect them.
+>
+> The table below compares our findings with previous cohorts. Information on preoperative ambulatory status was not recorded for 18% of patients, suggesting that these patients were likely nonambulatory before the fracture. The key point is that early mobilization was feasible for most patients. Overall, early mobilization appears to be beneficial.
+
+</details>
+
+<details open>
+<summary><b>After</b>: with the skill (174 words, not counting placeholders)</summary>
+
+> In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of hip fracture surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and shorter length of stay (median 8 vs 11 days).
+>
+> Delirium incidence did not differ between groups (31% vs 29%). This null result does not exclude a cognitive effect of early mobilization; the 95% CI for the difference [DATA NEEDED: risk difference or odds ratio for delirium, with 95% CI] shows how large an effect in either direction these data can rule out. Of the 1,146 patients, [DATA NEEDED: n (%)] were mobilized within 24 hours, including [DATA NEEDED: n/N (%)] of those with severe dementia.
+>
+> Table [X] compares these estimates with previous cohorts [CITATION NEEDED: the cohorts shown in the table]. Preoperative ambulatory status was not recorded for 18% of patients [DATA NEEDED: how missing ambulatory status was handled in the adjusted model]. If patients who walked before the fracture were both mobilized earlier and less likely to die, incomplete adjustment for ambulatory status would exaggerate the association between early mobilization and lower mortality. On the safety question that motivated this study, mobilization within 24 hours was not associated with higher mortality or more delirium in patients with dementia.
+
+</details>
+
+**What changed:**
+- **Removed:** the aphorism, both strawman rebuttals, and the closing verdicts.
+- **Missing data:** the "likely nonambulatory" guess is gone. In its place is a real limitation: which way the missing data would bias the result.
+- **Unsupported claims:** "feasible for most patients" and the severe-dementia claim had no numbers behind them, so both became placeholders.
+- **Ending:** the causal "appears to be beneficial" became an associational answer to the safety question the study asked.
+- **Kept:** all nine numbers.
+
+### 2. Case report Discussion and Conclusion (Claude Opus 5.5, skill v1.1)
+
+<details>
 <summary><b>Before</b>: AI-styled draft (248 words)</summary>
 
 > **Discussion**
@@ -153,52 +215,53 @@ Both "after" texts below are unedited outputs of Claude Opus 5.5 using the skill
 
 </details>
 
-<details open>
-<summary><b>After</b>: with the skill (327 words)</summary>
+<details>
+<summary><b>After</b>: with the skill (308 words)</summary>
 
 > **Discussion**
 >
-> On the first day after laparoscopic cholecystectomy, our patient developed euglycemic diabetic ketoacidosis (euDKA), an uncommon but life-threatening complication of sodium-glucose cotransporter-2 (SGLT2) inhibitor therapy [CITATION NEEDED: incidence and outcome data for euDKA with SGLT2 inhibitors]. The risk of DKA has been reported to be up to three-fold higher in patients taking these drugs [CITATION NEEDED: source of the three-fold estimate]. SGLT2 inhibitors, used in type 2 diabetes, heart failure, and chronic kidney disease, promote glycosuria, reduce insulin requirements, and enhance ketogenesis, so ketoacidosis can develop while glucose is only modestly raised. Surgical stress, prolonged fasting, and reduced carbohydrate intake are recognized precipitants; our patient had surgery after a 14-hour fast and was vomiting on POD 1.
+> Euglycemic diabetic ketoacidosis (euDKA) is a rare but potentially life-threatening complication of sodium-glucose cotransporter-2 (SGLT2) inhibitors, which are used in type 2 diabetes, heart failure, and chronic kidney disease. By causing glycosuria, these drugs lower insulin requirements and promote ketogenesis, so ketoacidosis can develop without marked hyperglycemia. The risk of DKA has been reported to be up to three-fold higher in patients taking an SGLT2 inhibitor [CITATION NEEDED: source of the three-fold estimate]. Surgical stress, prolonged fasting, and reduced carbohydrate intake are recognized precipitants [CITATION NEEDED: perioperative precipitants of SGLT2 inhibitor-associated DKA].
 >
-> The diagnosis was delayed. Her nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia, and without marked hyperglycemia (capillary glucose 182 mg/dL) there was no prompt to look for ketoacidosis. The venous blood gas that evening showed an anion-gap acidosis (pH 7.12, anion gap 24 mmol/L, lactate 1.4 mmol/L), but euDKA was diagnosed approximately 14 hours later. Measuring ketones in a patient taking an SGLT2 inhibitor who presents with nausea, vomiting, or malaise identifies ketoacidosis regardless of the glucose value. We cannot tell from one case whether doing so when her symptoms began would have shortened her course.
+> Our patient had two risk factors before the operation began. She was told to hold metformin on the morning of surgery, but empagliflozin was continued until the day before surgery, and she then fasted for 14 hours. The FDA recommends stopping empagliflozin at least 3 days before scheduled surgery [5]. Continuing the drug this close to surgery likely contributed to her euDKA, although a single case cannot separate its effect from that of fasting and surgical stress.
 >
-> The FDA recommends that empagliflozin be discontinued at least 3 days before scheduled surgery [5]. Our patient was instructed to hold metformin on the morning of surgery, but empagliflozin was continued until the day before surgery; taking it inside the recommended window likely contributed to euDKA. She recovered with an insulin infusion and concurrent 10% dextrose; the anion gap closed after 38 hours.
+> The diagnosis was delayed. Her nausea, vomiting, and abdominal discomfort on POD 1 were attributed to postoperative ileus and opioid analgesia, and her capillary glucose was 182 mg/dL. A venous gas obtained that evening, after she became tachypneic, showed an anion gap acidosis (pH 7.12, anion gap 24 mmol/L) with a lactate of 1.4 mmol/L. The diagnosis of euDKA was made approximately 14 hours later, on the morning of POD 2 (beta-hydroxybutyrate 6.8 mmol/L). After insulin and dextrose were started, the anion gap closed after 38 hours.
 >
 > **Conclusion**
 >
-> A modestly raised glucose, such as this patient's 182 mg/dL, does not exclude DKA in patients taking SGLT2 inhibitors, and postoperative nausea, vomiting, or malaise in these patients should prompt ketone measurement even when another cause seems likely. Preoperative instructions should address SGLT2 inhibitors as explicitly as this patient's instructions addressed metformin, using the FDA's 3-day discontinuation interval [5].
+> In this patient, euDKA after laparoscopic cholecystectomy followed continuation of empagliflozin until the day before surgery, and her early symptoms were attributed to ileus and opioids. A capillary glucose of 182 mg/dL did not exclude DKA. For patients taking an SGLT2 inhibitor, preoperative instructions should state when to stop the drug, and postoperative nausea, vomiting, or malaise should prompt measurement of ketones.
 
 </details>
 
 **What changed:**
-- **Removed:** the morals and the "further research is needed" coda.
-- **Corrected:** the draft's claim of "prompt recognition", which the case itself contradicts. The 14-hour diagnostic delay is now the teaching point.
-- **Flagged:** the uncited "three-fold" statistic gets a placeholder instead of being kept as fact.
-- **Bounded:** what one case can show is now stated.
-- **Preserved:** every number and the reference [5].
+- **Removed:** the morals and the "further research is needed" ending.
+- **Corrected:** the draft claimed "prompt recognition", which the case itself contradicts. The 14-hour diagnostic delay, taken from the Case Presentation, is now the teaching point.
+- **Flagged:** the uncited "three-fold" figure now carries a placeholder.
+- **Bounded:** the text now says what a single case can't show.
+- **Kept:** reference [5] and every number.
 
-### Introduction for a diagnostic-accuracy study (no references yet)
+### 3. Same model, with and without the skill (Qwen4 Max)
 
-<details>
-<summary><b>Before</b>: AI-styled draft (220 words)</summary>
+Each model got the same introduction to make publication-ready. Without the skill, Qwen4 Max more than doubled it, from 220 to 536 words, adding guideline claims and screening-strategy arguments the author never made. With skill v1.1, it returned 213 words that open on the population, mark every claim needing support, and end on the aim:
 
-> Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia and represents a major global health burden, affecting millions of individuals worldwide. In recent years, there has been growing interest in the role of wearable devices in the detection and management of AF. Smartwatches equipped with photoplethysmography (PPG) and single-lead electrocardiography (ECG) have emerged as promising tools that could potentially transform the landscape of arrhythmia screening.
+> Atrial fibrillation (AF), the most common sustained cardiac arrhythmia, is most prevalent in adults aged 75 years and older, who also carry the highest risk of AF-related stroke [CITATION NEEDED: age-specific AF prevalence and stroke risk]. ...
 >
-> Studies have shown that smartwatch-based algorithms can detect AF with high sensitivity and specificity. Furthermore, a growing body of evidence suggests that early detection of AF may lead to improved outcomes, including reduced stroke risk. However, the accuracy of these devices in older adults—who bear the greatest burden of AF—remains poorly understood. Moreover, older adults often have comorbidities such as tremor, peripheral vascular disease, and frequent ectopy that may affect signal quality, highlighting the need for population-specific validation.
->
-> To address this critical gap, we conducted a comprehensive prospective study to evaluate the diagnostic accuracy of a commercially available smartwatch for detecting AF in adults aged 75 years and older, using 14-day continuous patch monitoring as the reference standard. This study not only fills an important gap in the literature but also provides valuable insights that will inform clinical practice and pave the way for future research in this rapidly evolving field.
+> We prospectively evaluated a commercially available smartwatch [DATA NEEDED: device model and algorithm version] for detecting AF in adults aged 75 years and older, using 14-day continuous patch monitoring as the reference standard. We aimed to estimate sensitivity and specificity for AF over the 14-day monitoring period.
 
-</details>
+### 4. What v1.1 added over v1.0
 
-<details>
-<summary><b>After</b>: with the skill (151 words of prose)</summary>
+**Writing like the author (Grok 4.7).** The author supplied an excerpt from their own paper, which uses em dashes ("confined to patients discharged on weekdays — a pattern we did not anticipate"), and asked for a new paragraph in their voice. v1.0 applied its default no-em-dash rule anyway. v1.1 lets the author's sample override the defaults:
 
-The full text is in [`benchmarks/iteration-2/revise-intro-no-citations/with_skill/outputs/intro_revised.txt`](benchmarks/iteration-2/revise-intro-no-citations/with_skill/outputs/intro_revised.txt) and is reproduced in [`examples/README.md`](examples/README.md#2-introduction-with-no-references-yet). In short:
-- **Cut:** the generic burden opener and the closing "fills an important gap / pave the way" sentence. The intro now ends on the aim.
-- **Replaced:** every vague "studies have shown" with a specific placeholder. No reference was invented.
-- **Sharpened:** "poorly understood" now says which age groups earlier studies enrolled.
+| | Last sentence of the revised paragraph |
+|---|---|
+| v1.0 | "Second, the effect was larger in patients taking 10 or more medications (risk difference, -6.1 percentage points)." |
+| v1.1 | "Second, the effect was larger in patients taking 10 or more medications — risk difference, -6.1 percentage points." |
 
-</details>
+**Reviewer responses lead with the decision (Claude Opus 5.5).**
+
+| | Response to "report the number lost to follow-up in each group" |
+|---|---|
+| Before (draft) | "We sincerely thank the reviewer for this insightful and valuable comment, which has greatly helped us to improve the quality of our manuscript. Loss to follow-up is indeed an important consideration in any longitudinal study... Therefore, we have now added..." |
+| After (v1.1) | "We agree and have added the number of patients lost to follow-up in each group to the CONSORT diagram (Figure 1) and to the Results (page 9, lines 182–184): 14 patients (4.1%) in the intervention group and 17 patients (5.0%) in the control group." |
 
 ### Pattern snippets
 
@@ -210,83 +273,136 @@ The full text is in [`benchmarks/iteration-2/revise-intro-no-citations/with_skil
 | D8 Advocacy | "Although performance was slightly lower in women (0.84 vs 0.90), this is unlikely to be clinically meaningful." | "AUROC was lower in women than in men (0.84 vs 0.90)." |
 | S1 -ing tail | "Time to antibiotics fell from 94 to 61 minutes, highlighting the effectiveness of decision support." | "Time to antibiotics fell from 94 to 61 minutes." |
 | S6 Hedge stack | "may suggest that X could potentially have a possible beneficial effect" | "suggest that X may reduce falls in [population]" |
+| S14 Staging | "At its core, the central question of this study was whether..." | (deleted; the paragraph opens on the finding) |
+| S15 Strawman | "One might argue that patients with severe dementia cannot participate, but our findings suggest otherwise." | "Of the 1,146 patients, [DATA NEEDED: n (%)] were mobilized within 24 hours, including [DATA NEEDED: n/N (%)] of those with severe dementia." |
+
+[`examples/README.md`](examples/README.md) has more examples from v1.0 with change notes.
 
 ## Benchmark Results
 
-### Method
+The skill was tested in three passes. Every output, grade, judge verdict, and script is in [`benchmarks/`](benchmarks/).
 
-- **Test cases:** three, defined in [`skills/medical-scientific-writing/evals/`](skills/medical-scientific-writing/evals/):
-  1. Rewrite an AI-styled case report Discussion and Conclusion.
-  2. Draft Results, Discussion, and Limitations for a retrospective cohort from bullet-point data. The data include null secondary outcomes and a non-significant subgroup interaction.
-  3. Rewrite an AI-styled Introduction that has no references.
-- **Setup:** each case was run in a fresh agent session with the skill and again without it, with the same model and the same prompt.
-- **Grading:** 23 pass/fail assertions (fidelity, invented facts, specific patterns, reporting nulls, association language), plus objective counts from the checker's pattern lexicon.
-- **Rounds:**
-  - Round 1 used the first draft of the skill (v0.9).
-  - Its results led to two fixes: a length rule, and a clearer rule for adding references the model has checked in PubMed.
-  - Round 2 used v1.0 on Claude Opus 5.5 and on the smaller Claude Haiku 5.5.
+| Pass | Skill versions | Models | Cases | Runs |
+|---|---|---|---|---|
+| 1 | v1.0 vs no skill (after a v0.9 pilot) | Claude Opus 5.5, Claude Haiku 5.5 | 3 | 18 (6 of them in the v0.9 pilot) |
+| 2 | v1.1 vs no skill | Claude Opus 5.5 | 9 | 18 |
+| 3 | v1.1 vs v1.0 vs no skill | 8 models via OpenRouter (below) | 9 | 216 |
 
-All outputs, grades, timings, and the grading and metrics scripts are in [`benchmarks/`](benchmarks/).
+### The test cases
 
-### 1. AI-pattern phrases: draft vs revision
+Each case is a realistic request with a set of pass/fail assertions, 63 in total, defined in [`skills/medical-scientific-writing/evals/`](skills/medical-scientific-writing/evals/).
 
-Counts of the checker's AI-pattern phrases. The "Discourse" column counts discourse-level phrases (stated morals, vague attributions, "fills the gap", "further research is needed", generic openers).
+| Case | What it tests |
+|---|---|
+| Case report Discussion | Rewrite an AI-styled draft without inventing facts; flag an uncited statistic; restore the diagnostic delay the draft glossed over |
+| Cohort Results + Discussion | Draft from bullet-point data with null secondary outcomes and a non-significant subgroup interaction; one supplied reference doesn't support the claim made about it |
+| Introduction, no references | Tighten without inventing citations; end on the aim |
+| Clean human abstract | **Over-editing check:** a well-written human abstract should come back almost untouched |
+| Staging and strawman Discussion | The v1.1 patterns: staged run-ups, aphorisms, rebutting objections nobody raised, closing verdicts, guessing at missing data |
+| LaTeX file, edited in place | Every `\cite`, `\ref`, `\label` and the equation kept byte-identical; prose fixed |
+| Reviewer response | Lead each reply with the decision, cut the flattery, and describe no change the authors didn't make |
+| Author's own voice | Match a writing sample from the author, including the em dashes the default rules would remove |
+| Audit only | Produce a findings table without rewriting; rate the causal overclaim as the most severe; leave correct "associated with" alone |
 
-| Case | Text | Words | Pattern phrases | Discourse | Em dashes |
-|---|---|---|---|---|---|
-| Case report | **AI-styled draft (before)** | 248 | **20** | **5** | 2 |
-| | Opus + skill (after) | 327 | **0** | **0** | 0 |
-| | Opus, no skill | 439 | 0 | 0 | 0 |
-| | Haiku + skill | 274 | **0** | **0** | 0 |
-| | Haiku, no skill | 370 | 2 | 1 | 0 |
-| Introduction | **AI-styled draft (before)** | 220 | **13** | **5** | 2 |
-| | Opus + skill (after) | 151 | **0** | **0** | 0 |
-| | Opus, no skill | 357 | 0 | 0 | 0 |
-| | Haiku + skill | 139 | 1 | 1 | 0 |
-| | Haiku, no skill | 210 | 2 | 1 | 0 |
+### Pass 1: v1.0 on Claude (3 cases)
 
-### 2. Pass rate on the 23 assertions
-
-| Round | Model | With skill | Without skill |
-|---|---|---|---|
-| 1 (skill v0.9) | Opus 5.5 | 23/23 (100%) | 21/23 (91%) |
-| 2 (skill v1.0) | Opus 5.5 | 23/23 (100%) | 22/23 (96%) |
-| 2 (skill v1.0) | Haiku 5.5 | 23/23 (100%) | 22/23 (96%) |
-
-Every baseline failure came from the Introduction case. In round 1, the model without the skill added two facts that were not in the draft and doubled its length. In round 2, it again ran longer than the draft.
-
-### 3. Length of the finished text (words of prose)
-
-| Case | Opus + skill | Opus, no skill | Change | Haiku + skill | Haiku, no skill | Change |
-|---|---|---|---|---|---|---|
-| Case report revision | 327 | 439 | −26% | 274 | 370 | −26% |
-| Cohort Results/Discussion draft | 745 | 1,077 | −31% | 655 | 1,029 | −36% |
-| Introduction revision | 151 | 357 | −58% | 139 | 210 | −34% |
-
-### 4. Cost
-
-| Model | Extra time per task | Extra tokens per task |
+| Model | With skill v1.0 | Without skill |
 |---|---|---|
-| Opus 5.5 | +82 s | +36k |
-| Haiku 5.5 | +51 s | +45k |
+| Claude Opus 5.5 | 23/23 | 22/23 |
+| Claude Haiku 5.5 | 23/23 | 22/23 |
 
-The skill reads its reference files and runs the checker, so each task costs a little more.
+Revisions with the skill took the AI-styled drafts from 20 and 13 pattern phrases down to 0, and came out 26–58% shorter than revisions without it. Each task took 51–82 seconds longer and used 36–45k more tokens, because the skill reads its references and runs its checker.
 
-### What the numbers show, and what they don't
+### Pass 2: v1.1 on Claude Opus 5.5 (9 cases)
 
-- **Against an AI-styled draft, the improvement is large.** Revisions with the skill (v1.0, Opus) brought the pattern phrases from 20 and 13 down to 0. Every number and citation survived.
-- **Against the same strong model without the skill, the improvement is real but modest.** Opus 5.5 on its own already strips most surface tells and reports null results honestly. The skill's consistent, measurable advantages:
-  - **Tighter text:** 26 to 58% fewer words, with identical fidelity results.
-  - **Revisions that don't balloon:** without the skill, both Opus Introduction rewrites ran 60 to 95% longer than the draft. They added claims the author never made (guideline positions, screening-trial results, an "approximately fivefold" stroke risk), each with a reference placeholder. Some of that may be useful content, but a revision shouldn't add it unasked.
-  - **More consistent placeholders** in place of invented support.
-- **Smaller models gain more at the discourse level.** Without the skill, Haiku ended the case report with a "further study is needed" coda and a surgeons-anesthesiologists-prescribers "should agree" sentence. With the skill, it ended on the clinical lesson. With the skill, Haiku did keep one generic opener in the Introduction, so smaller models follow the guidance less completely.
-- **Limitations of this benchmark:**
-  - Three cases, one run per configuration per round.
-  - The assertions were written by the skill's author and sit near ceiling for a strong model.
-  - The pattern counts use the skill's own lexicon.
-  - No blinded human rating has been done yet.
+| | With skill v1.1 | Without skill |
+|---|---|---|
+| Assertions passed | **63/63** | 62/63 |
 
-  Treat these results as evidence that the skill does what it claims on these tasks, not as proof of a general effect size. Contributions of new test cases and blinded human ratings are welcome.
+Words in the finished text:
+
+| Case | Draft | With skill | Without skill |
+|---|---|---|---|
+| Clean human abstract | 230 | 230 (unchanged) | 230 (unchanged) |
+| Case report Discussion | 248 | 308 | 409 |
+| Introduction | 220 | 124 | 304 |
+| Staging/strawman Discussion | 199 | 174 | 382 |
+| LaTeX Results | 136 | 101 | 97 |
+| Reviewer response | 374 | 248 | 221 |
+| Author's voice paragraph | 101 | 68 | 86 |
+
+- **No over-editing:** both configurations returned the clean abstract byte-identical and told the author it was already fine.
+- **No ballooning:** without the skill, Opus expanded three of the seven revisions by 38–92%, mostly by adding interpretation and limitations nobody asked for.
+- **v1.1 is tighter than v1.0:** on the two cases both versions ran, v1.1's output was shorter (case report 327 → 308 words, introduction 151 → 124).
+
+### Pass 3: eight models from five providers, three configurations
+
+Models, all accessed through OpenRouter:
+
+| Provider | Models |
+|---|---|
+| OpenAI | GPT-6.2 Sol, GPT-6.2 Astra, GPT-6.1 Terra |
+| Google | Gemini 4 Neon |
+| xAI | Grok 4.7 |
+| DeepSeek | DeepSeek V4.1 Flash |
+| Qwen | Qwen4 Max, Qwen 3.8 27B (a popular local model) |
+
+These models can't load Claude skills. Each one got `SKILL.md` and the reference files as its system prompt, with no tools, so it couldn't run the checker script or search the literature. That makes this a harder test than the Claude passes.
+
+**Assertions passed (of 63):**
+
+| Model | No skill | Skill v1.0 | Skill v1.1 |
+|---|---|---|---|
+| GPT-6.2 Sol | 53 | 57 | 60 |
+| GPT-6.2 Astra | 52 | 56 | 60 |
+| GPT-6.1 Terra | 54 | 58 | 61 |
+| Gemini 4 Neon | 57 | 62 | 62 |
+| Grok 4.7 | 52 | 61 | 62 |
+| DeepSeek V4.1 Flash | 51 | 60 | 60 |
+| Qwen4 Max | 51 | 56 | 62 |
+| Qwen 3.8 27B | 51 | 58 | 61 |
+| **All models** | **421/504 (84%)** | **468/504 (93%)** | **488/504 (97%)** |
+
+**By case (all 8 models):**
+
+| Case | No skill | v1.0 | v1.1 |
+|---|---|---|---|
+| Case report Discussion | 44/56 | 55/56 | 56/56 |
+| Cohort Results + Discussion | 57/64 | 61/64 | 62/64 |
+| Introduction, no references | 51/64 | 64/64 | 63/64 |
+| Clean human abstract | 38/56 | 47/56 | 50/56 |
+| Staging and strawman Discussion | 57/64 | 57/64 | **63/64** |
+| LaTeX file, edited in place | 54/56 | 56/56 | 56/56 |
+| Reviewer response | 39/48 | 40/48 | **44/48** |
+| Author's own voice | 34/40 | 34/40 | **38/40** |
+| Audit only | 47/56 | 54/56 | 56/56 |
+
+The v1.1 gains came on the three cases that test what v1.1 added (in bold), which suggests they come from the new rules rather than noise.
+
+**Length, leftover patterns, and over-editing:**
+
+| Model | Median length change on revisions: none / v1.0 / v1.1 | Leftover AI-pattern phrases: none / v1.0 / v1.1 | Clean-abstract similarity: none / v1.0 / v1.1 |
+|---|---|---|---|
+| GPT-6.2 Sol | −22% / −31% / −31% | 1 / 0 / 0 | 0.77 / 0.80 / 0.79 |
+| GPT-6.2 Astra | −19% / −25% / −32% | 0 / 2 / 0 | 0.78 / 0.80 / 0.80 |
+| GPT-6.1 Terra | −29% / −33% / −36% | 5 / 2 / 0 | 0.93 / 0.95 / 0.96 |
+| Gemini 4 Neon | −18% / −33% / −32% | 2 / 2 / 1 | 1.00 / 1.00 / 1.00 |
+| Grok 4.7 | 0% / −40% / −29% | 4 / 2 / 0 | 0.85 / 1.00 / 0.98 |
+| DeepSeek V4.1 Flash | −2% / −18% / −19% | 12 / 0 / 1 | 0.98 / 0.93 / 0.97 |
+| Qwen4 Max | +82% / −22% / −26% | 6 / 0 / 0 | 0.84 / 0.88 / 0.88 |
+| Qwen 3.8 27B | +10% / −30% / −30% | 15 / 5 / 2 | 0.91 / 1.00 / 0.97 |
+
+"Similarity" is the difflib character ratio between the clean human abstract and the returned version, where 1.00 means untouched. Leftover phrases are summed over the seven revision cases.
+
+### How the outputs were judged
+
+- **Script-graded checks:** 45 of the 63 assertions per run are checked by script ([`benchmarks/tools/`](benchmarks/tools/)). Examples: numbers kept, no invented numbers, LaTeX commands byte-identical, word counts, and banned phrases.
+- **Judged checks:** the other 18 need reading. Examples: does the audit rate "prevents death" as the most severe problem, does each reviewer reply open with the decision, does the cohort draft name a study the author didn't supply.
+- **Two blind judges:** in pass 3, those 18 were graded by two judges from different providers, Claude Opus 5.5 and GPT-6.2 Sol. Each judge saw the task, the input files, and the output, but never the model name or configuration.
+- **Strict pass rule:** an assertion passes only if **both** judges pass it.
+- **Agreement:** the judges agreed on 417 of 432 verdicts (96.5%). Most disagreements were GPT-6.2 Sol failing replies that open with "We agree." and name the change in the next sentence.
+- **Script checks alone give the same ordering:** 87% no skill, 94% v1.0, 97% v1.1.
+- **In passes 1 and 2,** the judged checks were graded by hand with quoted evidence, recorded in each round's `manual.json`.
 
 ## Usage
 
@@ -315,9 +431,13 @@ skills/medical-scientific-writing/
   references/                pattern catalog, section guide, evidence & reporting,
                              clarity toolkit, source notes
   scripts/check_patterns.py  mechanical checker (Python 3, standard library)
-  evals/                     test cases (runnable with `claude plugin eval`)
-examples/                    before/after examples with change notes
-benchmarks/                  every run's outputs, grades, timings, and scripts
+  evals/                     9 test cases (runnable with `claude plugin eval`)
+examples/                    more before/after examples with change notes
+benchmarks/
+  iteration-1, -2, -2-haiku  pass 1: v0.9 pilot and v1.0 on Claude Opus and Haiku
+  iteration-3/               pass 2: v1.1 on Claude Opus, 9 cases
+  cross-model/               pass 3: 8 models x 3 configurations, judge verdicts, harness
+  tools/                     grading and metrics scripts
 dist/                        zip for claude.ai / Claude Desktop upload
 ```
 
@@ -327,15 +447,34 @@ To rerun the test cases with Claude Code: `cd skills/medical-scientific-writing 
 
 The skill combines and reconciles these sources. Where they conflict, [`references/source-notes.md`](skills/medical-scientific-writing/references/source-notes.md) records the decision and the reason. For example, the em dash, "Notably", and "add personality" rules are resolved there.
 
-- Russell J, Rajendhran R, Pham CM, Iyyer M, Wieting J. *StoryScope: Investigating idiosyncrasies in AI fiction.* arXiv:2604.03136 (CC0)
-- [matsuikentaro1/humanizer_academic](https://github.com/matsuikentaro1/humanizer_academic) (MIT), based on [blader/humanizer](https://github.com/blader/humanizer) and Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
-- [eniktab/scientific-paper-writer](https://github.com/eniktab/scientific-paper-writer) (MIT)
-- [HeartWise-AI/ai-writing-skills](https://github.com/HeartWise-AI/ai-writing-skills) (MIT)
-- [noora-noureldin2000/Skills-for-MedicalResearch-writing](https://github.com/noora-noureldin2000/Skills-for-MedicalResearch-writing)
-- [quanghuy0497/Writing-in-the-Sciences](https://github.com/quanghuy0497/Writing-in-the-Sciences), notes on Kristin Sainani's Stanford course *Writing in the Sciences*
-- [ashryaagr/karpathy-output-style](https://github.com/ashryaagr/karpathy-output-style) (MIT), with ASD-STE100 Simplified Technical English, Issue 9
+| Source | What it contributed |
+|---|---|
+| Russell J, Rajendhran R, Pham CM, Iyyer M, Wieting J. [*StoryScope: Investigating idiosyncrasies in AI fiction.*](https://arxiv.org/abs/2604.03136) arXiv:2604.03136 (CC0) | The discourse layer (D1 to D7) and the swap test |
+| [blader/humanizer](https://github.com/blader/humanizer) (MIT), built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) | Upstream of the humanizer patterns. v4.0.0 was reviewed for v1.1.0 and contributed evidence tiers, staging and aphorisms, arguing with no one, split negatives, gap-filling guesses, and the author-sample override |
+| [matsuikentaro1/humanizer_academic](https://github.com/matsuikentaro1/humanizer_academic) (MIT) | The strict fidelity rule and `[DATA NEEDED]` placeholders, calibrated hedging, connective-preserving edits, the sentence-rhythm criterion, and the design of the checker script |
+| [eniktab/scientific-paper-writer](https://github.com/eniktab/scientific-paper-writer) (MIT) | Integrity rules (verified citations only), outline-then-prose drafting, IMRaD tense and voice, Introduction and Discussion moves, grant, cover-letter, and reviewer-response templates |
+| [HeartWise-AI/ai-writing-skills](https://github.com/HeartWise-AI/ai-writing-skills) (MIT) | The advocacy check, symmetric reporting, limitations without rebuttal, the length and density check, and the clinical-meaning check |
+| [noora-noureldin2000/Skills-for-MedicalResearch-writing](https://github.com/noora-noureldin2000/Skills-for-MedicalResearch-writing) | Gap and purpose-statement formulas, CARE case reports, ICMJE requirements including AI disclosure, a five-pass clarity audit, and overclaiming checks |
+| [quanghuy0497/Writing-in-the-Sciences](https://github.com/quanghuy0497/Writing-in-the-Sciences) | Notes on Kristin Sainani's Stanford course *Writing in the Sciences*: cutting clutter, active voice and strong verbs, paragraph structure, and writing for lay readers |
+| [ashryaagr/karpathy-output-style](https://github.com/ashryaagr/karpathy-output-style) (MIT), with ASD-STE100 Simplified Technical English, Issue 9 | The plain-English mode for lay summaries |
 
 The patterns were rewritten and reorganized, and all examples were newly written. No source text was copied wholesale.
+
+## Caveats
+
+- **GPT-6.2 models changed the most.** GPT-6.2 Sol and GPT-6.2 Astra rewrote the clean human abstract in every configuration, including with v1.1, to a similarity of about 0.8. They restructured sentences and swapped out the correct statistical phrase "associated with" (4 occurrences down to 2 for Astra and 3 for Sol with v1.1), even though v1.1 has a rule protecting it. No numbers were lost, but they did not do the light touch a clean draft needs. With the skill, Gemini 4 Neon, Grok 4.7, DeepSeek V4.1 Flash, Qwen 3.8 27B, and GPT-6.1 Terra left it nearly untouched (similarity 0.96 to 1.00). If you use a GPT-6.2 model, check its edits against your original.
+- **The skill doesn't fix everything.** v1.1 still missed 16 of 504 checks across the eight models. The most common misses:
+  - GPT-6.2 over-editing the clean abstract (5);
+  - reviewer replies that open with "We agree." or background before stating the decision (4);
+  - the author's em dashes dropped by GPT-6.1 Terra and Qwen 3.8 27B (2);
+  - GPT-6.x drafts hedging the null secondary outcomes instead of stating them plainly (2).
+- **One run per cell.** Each model, configuration, and case ran once. A one- or two-assertion difference for a single model is within noise; the totals and the per-case pattern are more reliable.
+- **The author wrote the tests.** The skill's author wrote the cases and assertions, and the leftover-pattern counts use the skill's own phrase list. No blinded human editors have rated the outputs yet.
+- **One judge is a Claude model,** the same family that helped write the skill. That's why a second judge from another provider was used and both had to agree. The script-graded checks alone show the same ordering.
+- **Pass 3 used no tools.** The OpenRouter models got the skill as a system prompt and couldn't run the checker or search PubMed. The Claude passes ran as agents with tools. Results across passes aren't directly comparable.
+- **Format failures were retried.** Four of 216 runs didn't return their file on the first try (Grok 4.7 twice, Qwen 3.8 27B twice) and got one retry. The first attempts are kept in `benchmarks/cross-model/results/` as `*.attempt1`.
+- **One grader was fixed after the run.** The case-report check for the FDA recommendation now also accepts "US Food and Drug Administration". GPT-6.2 Sol spelled it out in all three configurations.
+- **Model names and prices change.** The models were current on OpenRouter on 2026-11-20. Pass 3 cost $18.58 in API credit, judging included.
 
 ## Disclaimer
 

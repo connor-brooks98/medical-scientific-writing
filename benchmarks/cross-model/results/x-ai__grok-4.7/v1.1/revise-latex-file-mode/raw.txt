@@ -1,0 +1,28 @@
+I treated this as a Results section from a propensity-score matched comparison and edited only the prose. Commands, labels, citations, and the equation are unchanged.
+
+<<<FILE: results.tex>>>
+\section{Results}
+\label{sec:results}
+
+In total, 2,418 patients met the inclusion criteria (Figure~\ref{fig:flow}). Baseline characteristics were well balanced between groups after propensity-score matching (Table~\ref{tab:baseline}) \cite{austin2011introduction}.
+
+The primary outcome occurred in 142 patients (11.7\%) in the intervention group and 198 patients (16.4\%) in the control group (hazard ratio [HR] 0.69; 95\% CI 0.56--0.86; $p = 0.001$). The hazard ratio was consistent across all prespecified subgroups (Figure~\ref{fig:forest}).
+
+The adjusted model was specified as
+\begin{equation}
+  \log h_i(t) = \log h_0(t) + \beta_1 \text{Treatment}_i + \boldsymbol{\gamma}^\top \mathbf{x}_i ,
+  \label{eq:cox}
+\end{equation}
+where $\mathbf{x}_i$ denotes the vector of baseline covariates listed in Table~\ref{tab:baseline} \cite{cox1972regression, therneau2000modeling}.
+
+All-cause mortality, a secondary outcome, was 7.9\% in the intervention group and 8.6\% in the control group (HR 0.92; 95\% CI 0.70--1.21).
+<<<END FILE>>>
+
+**What changed**
+- Discourse: Cut the signposting (“It is important to note,” “are presented in”) and the morals about robustness, early intervention, and safety. Those claims do not belong in Results.
+- Evidence: Mortality is reported as a secondary outcome with its estimate and interval. The interval includes 1, so “similar pattern” and “overall safety” were overstatements, not a second result.
+- Sentences and words: Removed the -ing tails, “serves as a testament,” “Notably,” “Furthermore,” and the ornamental “remarkably.” The prose em dash and the spaced dash before “a finding” are gone. En dashes in the confidence intervals stay.
+
+**Fidelity:** Numbers, units, the p value, citations, labels, figure and table references, and equation~\ref{eq:cox} are unchanged. No result was dropped.
+
+**Author queries:** I read 7.9% versus 8.6% as intervention versus control, matching the order in the primary-outcome sentence. If other secondary outcomes were estimated, add each estimate; I did not invent them. The early-intervention implication, if you still want it, belongs in the Discussion with a specific action. Most journals and ICMJE expect disclosure of AI-assisted editing at submission.

@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": false,
+  "evidence": "The message says only \"I revised the abstract for clarity and natural phrasing while preserving the reported findings.\" It never tells the author that the original already had few or no AI-writing patterns or that the edits were light."
+ },
+ "_cost": 0.008984
+}

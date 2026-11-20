@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains findings and revision recommendations, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\u201cEarly norepinephrine therefore prevents death in septic shock\u201d is labeled Critical, the highest severity: \u201cA retrospective observational association ... cannot establish prevention.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cReplace \u2018a growing body of evidence\u2019 with named, cited studies.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "For \u201cSepsis remains a leading cause of death worldwide,\u201d the audit says, \u201cCut the boilerplate opener.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The audit labels the phrase \u201cstacked hedging\u201d and recommends reducing \u201csuggests,\u201d \u201cmay,\u201d and \u201cpotentially\u201d to a single hedge."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit calls \u201cwas associated with\u201d the \u201cright evidence-matched verb\u201d; it asks for a comparator, not a change to that wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every row in the Findings table has a Severity entry: Critical, Major, or Minor."
+ },
+ "_cost": 0.0094835
+}

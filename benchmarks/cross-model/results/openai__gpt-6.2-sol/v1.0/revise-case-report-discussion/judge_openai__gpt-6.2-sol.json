@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "The threefold risk estimate is followed by \u201c[CITATION NEEDED: study, population, and comparator for the threefold risk estimate].\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Diagnosis occurred \u201capproximately 14 hours after the first blood gas showed acidosis\u201d; the team initially attributed symptoms to \u201cpostoperative ileus and opioid analgesia.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "\u201cThe anion gap closed after 38 hours\u201d reports the outcome without claiming the case demonstrates treatment effectiveness."
+ },
+ "_cost": 0.005686
+}

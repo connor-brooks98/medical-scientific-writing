@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-sol",
+ "provider_model": "openai/gpt-6.2-sol",
+ "config": "v1.0",
+ "case": "draft-cohort-results-discussion",
+ "seconds": 11.6,
+ "prompt_tokens": 25099,
+ "completion_tokens": 1165,
+ "cost_usd": 0.0154688,
+ "finish_reason": "stop",
+ "files_returned": [
+  "draft_sections.md"
+ ]
+}

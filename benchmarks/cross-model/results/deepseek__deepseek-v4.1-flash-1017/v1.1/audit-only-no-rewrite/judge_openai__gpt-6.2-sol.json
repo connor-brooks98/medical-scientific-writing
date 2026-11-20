@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains findings and revision directions, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding 14 is Critical, the highest severity: 'A bare causal claim from a single-centre adjusted OR.'"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Finding 6 flags 'Unnamed studies and a causal verb with no citation.'"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding 1 says the opening 'could open any sepsis paper.'"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Finding 8 flags 'may potentially be associated with' as 'Two hedges stacked on one claim.'"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The 'What to keep' section calls 'was associated with lower 28-day mortality' correctly calibrated to the design."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The Severity column assigns Minor, Major, or Critical to all 19 findings."
+ },
+ "_cost": 0.0096425
+}

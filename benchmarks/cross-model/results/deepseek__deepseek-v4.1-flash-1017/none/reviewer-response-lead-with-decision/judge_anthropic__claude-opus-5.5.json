@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "Each response opens with a decision: \"We now report loss to follow-up by group...\", \"We retained the 90-day primary endpoint.\", \"We agree.\" None opens with background or thanks."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Every change in the revised letter (CONSORT and Results additions, Methods rationale, Discussion limits, single-center limitation) appears in the draft with the same page and line numbers. No new changes are described."
+ },
+ "_cost": 0.015116
+}

@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "The Comment 2 response opens with background, \"The 90-day endpoint was chosen at the design stage.\" The decision (\"We have kept it\") only appears in the second sentence."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "All described changes match the draft: per-group loss to follow-up added to Figure 1 and the Results; 90-day endpoint kept with rationale added to Methods; Discussion narrowed; single-center limitation added. The citation placeholder is a query, not a described revision."
+ },
+ "_cost": 0.02024
+}

@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen4-max",
+ "provider_model": "qwen/qwen4-max",
+ "config": "none",
+ "case": "revise-discussion-staging-strawman",
+ "seconds": 72.6,
+ "prompt_tokens": 487,
+ "completion_tokens": 3715,
+ "cost_usd": 0.0165756,
+ "finish_reason": "stop",
+ "files_returned": [
+  "discussion_revised.md"
+ ]
+}

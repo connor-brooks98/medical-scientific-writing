@@ -1,0 +1,12 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "provider_model": "qwen/qwen3.8-27b",
+ "config": "v1.1",
+ "case": "revise-case-report-discussion",
+ "seconds": 282.4,
+ "prompt_tokens": 29311,
+ "completion_tokens": 24000,
+ "cost_usd": 0.06068092,
+ "finish_reason": "length",
+ "files_returned": []
+}

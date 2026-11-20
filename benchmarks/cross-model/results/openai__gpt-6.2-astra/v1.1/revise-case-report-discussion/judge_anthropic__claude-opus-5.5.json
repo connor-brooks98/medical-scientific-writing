@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"up to a three-fold increase in the risk of DKA [CITATION NEEDED: incidence of euDKA and source...]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"initially attributed the patient's nausea, vomiting, and abdominal discomfort to postoperative ileus and opioid analgesia... diagnosis... made on the morning of POD 2, approximately 14 hours after the first abnormal blood gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The revision only reports outcomes (\"The anion gap closed after 38 hours\") and does not claim that any approach was effective."
+ },
+ "_cost": 0.01654
+}

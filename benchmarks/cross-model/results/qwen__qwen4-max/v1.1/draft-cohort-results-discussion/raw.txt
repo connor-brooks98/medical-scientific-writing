@@ -1,0 +1,34 @@
+<<<FILE: draft_sections.md>>>
+# Draft sections
+
+## Results
+
+The analytic cohort included 6214 adults aged 65 years or older admitted with community-acquired pneumonia from 2016 through 2023, of whom 2377 were using a proton pump inhibitor (PPI) at admission and 3837 were not (Table 1). We excluded 312 patients (5.0%) because medication reconciliation was missing. *Clostridioides difficile* infection (CDI) within 90 days of discharge was diagnosed in 4.1% of PPI users and 2.6% of nonusers [DATA NEEDED: event counts per group], an absolute difference of 1.5 percentage points. In a Cox model adjusted for age, sex, Charlson comorbidity index, hospitalization in the previous 12 months, and antibiotic class during the index stay, home PPI use was associated with CDI (adjusted hazard ratio [aHR], 1.48; 95% CI, 1.12-1.96) (Table 2). Neither secondary outcome was associated with PPI use: 90-day all-cause mortality was 11.8% in users and 11.2% in nonusers (aHR, 1.03; 95% CI, 0.88-1.21), and 30-day readmission was 17.9% and 16.4% (aHR, 1.06; 95% CI, 0.94-1.20). In prespecified subgroup analyses, the estimate for CDI was higher in men (aHR, 1.81; 95% CI, 1.24-2.64) than in women (aHR, 1.21; 95% CI, 0.81-1.80), although the test for interaction was not significant (*P* for interaction = .14).
+
+## Discussion
+
+Among older adults hospitalized with community-acquired pneumonia at a single academic health system, home PPI use at admission was associated with CDI within 90 days of discharge, and the association remained after adjustment for antibiotic class during the index stay. The absolute difference was 1.5 percentage points, or about 15 additional CDI cases per 1000 patients if the association is causal. PPI use was not associated with 90-day mortality or 30-day readmission, and the upper confidence limits of 1.21 and 1.20 are inconsistent with large relative increases in either outcome. The higher estimate in men is not supported by the interaction test (*P* = .14), and the interval in women included 1.0, so a sex-specific effect remains unestablished in these data.
+
+The magnitude of our estimate is similar to the pooled association reported by Kwok et al in a 2012 meta-analysis of observational studies of PPI use and CDI (OR, approximately 1.74) [CITATION: Kwok et al, Am J Gastroenterol 2012; verify effect measure and value against the paper]. The comparison is imprecise: those studies enrolled general medical populations rather than older adults with pneumonia, adjusted for different covariates, and reported odds ratios rather than hazard ratios. Freedberg et al found PPI use associated with recurrent CDI [CITATION: Freedberg et al, Clin Infect Dis 2015; verify], which concerns patients with a previous episode and therefore a higher baseline risk than an unselected pneumonia cohort [DATA NEEDED: whether prior CDI was an exclusion criterion]. Two explanations fit our data. Gastric acid suppression may alter the intestinal microbiota and permit colonization, but we measured neither microbiota nor gastric acidity, so that mechanism is untested here. Alternatively, PPI use may mark patients with greater comorbidity, frailty, or health care contact, and the Charlson index does not capture frailty or functional status.
+
+## Limitations
+
+Several limitations affect interpretation. PPI exposure was recorded only at admission, so dose, duration, adherence, and any inpatient prescribing were unknown [DATA NEEDED: whether inpatient PPI orders were available]; misclassification of continued use would most likely be nondifferential and would bias the estimate toward the null. CDI was ascertained from inpatient and outpatient laboratory results within our system, so infections diagnosed elsewhere were missed, and the direction of that bias depends on whether care seeking outside the system differed by PPI use. The cohort came from one academic health system, where PPI prescribing and CDI testing practices may differ from those in community hospitals. Residual confounding is likely, because we did not adjust for the indication for PPI therapy, antibiotic dose or duration, or frailty. Excluding 312 patients with missing medication reconciliation could introduce selection bias if missingness was related to both PPI use and CDI risk [DATA NEEDED: comparison of excluded and included patients]. Secondary outcomes and subgroup analyses were not adjusted for multiplicity [DATA NEEDED: confirm whether any correction was applied], and death within 90 days was a competing event for CDI [DATA NEEDED: whether death was censored or modeled as a competing risk].
+<<<END FILE>>>
+
+Here are the three sections. A few notes on what I did and what I need from you.
+
+**Choices I made**
+- Observational design, so every claim uses "was associated with"; the two null secondary outcomes get the same sentence structure and prominence as the primary result, and the sex subgroup is reported with the nonsignificant interaction attached rather than as a finding in men.
+- JAMA Network Open formatting: no leading zero on *P* values, semicolon before "95% CI", hyphen in CI ranges, four-digit numbers without commas, italics for the organism. Table 1 (baseline) and Table 2 (outcomes) are provisional numbering; change to match your tables.
+- Two numbers are arithmetic from your data, not new data: the 1.5-percentage-point absolute difference and its translation to ~15 excess CDI cases per 1000, which I conditioned on causality. Delete if you'd rather not carry absolute effects in the Discussion opening.
+
+**Author queries**
+1. **The 5.0% does not reconcile.** 312/6214 = 5.0%, but 312 exclusions from a screened pool implies 6526 screened, which gives 4.8%. Please confirm the screened denominator and which percentage belongs in the text; I left your figure in place.
+2. CDI event counts per group (JAMA expects n/N alongside percentages).
+3. Whether patients with prior CDI were excluded — this determines how you compare with Freedberg.
+4. Whether inpatient PPI orders were available, whether any multiplicity correction was applied, how death was handled in the Cox model, and whether you can compare excluded vs included patients. Each is a placeholder in Limitations; if the answer is "not done," the sentence stays as written.
+5. Both citations are yours and I could not verify them here. Please check the Kwok pooled estimate (measure and value) and the Freedberg outcome definition against the papers before submission, and add the reference numbers.
+6. The mechanism sentence and the confounding-by-indication sentence are interpretations, not results. Keep, soften, or cut as you see fit.
+
+One reminder: JAMA Network Open requires disclosure of AI-assisted writing in the manuscript, so note this drafting assistance in your submission.

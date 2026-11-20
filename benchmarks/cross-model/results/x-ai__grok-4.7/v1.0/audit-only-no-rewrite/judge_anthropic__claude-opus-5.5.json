@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit contains only a findings table and a revision list. No replacement paragraphs, e.g. \"Name the decision the study is about: when norepinephrine is started, compared with what, in whom.\""
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"Early norepinephrine therefore prevents death in septic shock.\" is tagged S6, D3, D8 at \"Critical\", the highest level used, with \"An adjusted retrospective association does not show that norepinephrine prevents death.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"Studies have shown...\" is tagged D2 (unnamed evidence): \"Do not leave this as an unnamed consensus\". \"a growing body of evidence\" is also tagged D2, with \"cites nothing\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"leading cause of death worldwide... evolving landscape\" is tagged D6: \"The sentence could open any sepsis paper\". \"growing interest\" is also tagged D6."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"stacks hedges (\"suggests,\" \"may,\" \"potentially,\" \"in some patients\") on an undefined outcome\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"Keep the verb 'was associated with' and the estimate\" and \"Leave the association sentence's verb and the odds ratio... as they are.\" The only issue raised is the missing reference group and covariates, not this wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The table has a Severity column, and every row is labeled Critical or Major."
+ },
+ "_cost": 0.028096
+}

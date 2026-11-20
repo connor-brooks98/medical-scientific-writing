@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "Hedged rather than plain: \"adjusted estimates for 90-day all-cause mortality and 30-day readmission were close to 1, with confidence intervals that included 1\". It never says they did not differ or were not associated."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"documented home PPI use at admission was associated with a higher hazard of CDI\"; elsewhere it says \"observed association\". It contains no causal claim."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al. and Freedberg et al. are named, both with [CITATION NEEDED] placeholders."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Reports \"1.21 (95% CI, 0.81-1.80) among women (P = .14 for interaction)\" and says \"the interaction test did not establish a difference by sex\"."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numbers come from the task (6214, 2377, 3837, 4.1%, 2.6%, HRs/CIs, 312, 5.0%, 2016-2023). The 1.74 figure is attributed to Kwok as \"approximately 1.74\"."
+ },
+ "_cost": 0.02368
+}

@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "The first two responses open with background: \u201cThe original submission reported only the overall loss to follow-up\u201d and \u201cWe considered both endpoints during trial design.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "All reported actions match the draft: added group-specific counts, retained the 90-day endpoint and added its rationale, narrowed the conclusions, and noted the single-center limitation."
+ },
+ "_cost": 0.0038535
+}

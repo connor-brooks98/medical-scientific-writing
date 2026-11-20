@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-astra",
+ "provider_model": "openai/gpt-6.2-astra",
+ "config": "none",
+ "case": "reviewer-response-lead-with-decision",
+ "seconds": 4.4,
+ "prompt_tokens": 671,
+ "completion_tokens": 323,
+ "cost_usd": 0.018288,
+ "finish_reason": "stop",
+ "files_returned": [
+  "response_revised.md"
+ ]
+}

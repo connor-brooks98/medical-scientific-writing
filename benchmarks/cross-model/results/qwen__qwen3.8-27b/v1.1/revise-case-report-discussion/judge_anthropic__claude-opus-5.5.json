@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"has been reported to be up to three-fold higher ... [CITATION NEEDED: source for the up to three-fold risk estimate]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"The delay reflected two features... were attributed to postoperative ileus and opioid analgesia\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Multidisciplinary claim removed; states only \"The acidosis resolved with intravenous insulin and 10% dextrose\" and \"A single case cannot separate the contribution...\""
+ },
+ "_cost": 0.019376
+}

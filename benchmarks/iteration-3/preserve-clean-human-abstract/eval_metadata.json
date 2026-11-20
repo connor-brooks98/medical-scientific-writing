@@ -1,0 +1,13 @@
+{
+  "eval_name": "preserve-clean-human-abstract",
+  "prompt": "I wrote this abstract myself but I'm paranoid it'll get flagged as AI by reviewers. Can you go through it and fix anything that sounds AI-written before I submit to JAMA Cardiology? Save the final version to abstract_final.txt.\n\nInput files: abstract.txt",
+  "assertions": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), showing light-touch editing",
+    "abstract_final.txt word count is within 10% of abstract.txt",
+    "every number in abstract.txt appears in abstract_final.txt and no new numbers are added",
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many occurrences as in abstract.txt)",
+    "abstract_final.txt keeps the three en-dash confidence-interval ranges (1.08\u20131.54, 0.86\u20131.33, 0.98\u20131.42) exactly",
+    "abstract_final.txt contains no [CITATION NEEDED] or [DATA NEEDED] placeholders",
+    "the response tells the author the abstract had few or no AI-writing patterns rather than presenting a heavy rewrite"
+  ]
+}

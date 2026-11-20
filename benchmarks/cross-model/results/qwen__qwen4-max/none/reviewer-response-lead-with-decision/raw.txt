@@ -1,0 +1,24 @@
+<<<FILE: response_revised.md>>>
+# Response to Reviewers
+
+**Reviewer 1, Comment 1:** The authors should report the number of patients lost to follow-up in each group.
+
+**Response:** We have added loss to follow-up by group to the CONSORT diagram (Figure 1) and the Results (page 9, lines 182–184): 14 patients (4.1%) in the intervention group and 17 patients (5.0%) in the control group.
+
+**Reviewer 1, Comment 2:** Please justify the choice of a 90-day primary endpoint rather than a 1-year endpoint.
+
+**Response:** We have kept the 90-day endpoint and added the rationale to the Methods (page 6, lines 121–125). Most readmissions after heart failure hospitalization occur within the first 90 days, and the intervention was designed to act during that transition period. A 1-year endpoint would have required a larger sample size than our funding allowed.
+
+**Reviewer 2, Comment 1:** The discussion overstates the generalizability of the findings to all patients with heart failure.
+
+**Response:** We agree. The trial enrolled only patients with heart failure with reduced ejection fraction at a single academic center. We have revised the Discussion to limit our conclusions to that population (page 14, lines 301–306) and added the single-center design as a limitation (page 15, lines 322–325).
+<<<END FILE>>>
+
+Cut it from ~430 to ~200 words. Everything I removed was framing, not content:
+
+- The thank-you openers ("insightful and valuable," "excellent and thought-provoking") and the generic preamble sentences about attrition bias, endpoint design, and generalizability being important. Reviewers know; the sentences carried no information about your study.
+- Hedging lead-ins like "Upon reflection, we agree that this information would be helpful" and "In our original submission, we reported overall loss to follow-up but did not break it down by group" — the change itself says this.
+
+Every substantive item is preserved verbatim: the counts and percentages, all page/line citations, Figure 1, the three reasons for the 90-day endpoint, and the exact scope of the generalizability fix. No described revision was added, dropped, or altered.
+
+Two things worth your call: I kept a bare "We agree" on Reviewer 2's comment since conceding the point plainly reads better than a paragraph of gratitude, but drop it if your PI prefers responses that open directly with the action. And I retained "patients with heart failure with reduced ejection fraction" in full rather than switching to HFrEF, since the abbreviation isn't defined in this letter — worth checking it matches the manuscript's usage.

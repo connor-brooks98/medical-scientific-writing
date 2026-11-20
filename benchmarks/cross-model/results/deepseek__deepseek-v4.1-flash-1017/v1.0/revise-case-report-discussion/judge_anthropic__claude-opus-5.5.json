@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"up to three-fold higher in patients taking these drugs [CITATION NEEDED: source of the three-fold estimate]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"on POD 1, when her symptoms were attributed to ileus and opioid analgesia... about 14 hours after the first abnormal gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Multidisciplinary claim removed; output states \"one patient cannot establish it\" and makes no effectiveness claim for the treatment."
+ },
+ "_cost": 0.020232
+}

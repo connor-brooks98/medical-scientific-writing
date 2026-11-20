@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen4-max",
+ "provider_model": "qwen/qwen4-max",
+ "config": "none",
+ "case": "author-sample-voice",
+ "seconds": 42.2,
+ "prompt_tokens": 480,
+ "completion_tokens": 2212,
+ "cost_usd": 0.0101403,
+ "finish_reason": "stop",
+ "files_returned": [
+  "new_paragraph_revised.txt"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "provider_model": "qwen/qwen3.8-27b",
+ "config": "v1.1",
+ "case": "audit-only-no-rewrite",
+ "seconds": 88.0,
+ "prompt_tokens": 28683,
+ "completion_tokens": 15149,
+ "cost_usd": 0.0436091,
+ "finish_reason": "stop",
+ "files_returned": [
+  "audit.md"
+ ]
+}

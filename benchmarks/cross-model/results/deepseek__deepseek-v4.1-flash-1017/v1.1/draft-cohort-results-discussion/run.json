@@ -1,0 +1,14 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "provider_model": "deepseek/deepseek-v4.1-flash-1017",
+ "config": "v1.1",
+ "case": "draft-cohort-results-discussion",
+ "seconds": 70.8,
+ "prompt_tokens": 27543,
+ "completion_tokens": 14301,
+ "cost_usd": 0.008968338,
+ "finish_reason": "stop",
+ "files_returned": [
+  "draft_sections.md"
+ ]
+}

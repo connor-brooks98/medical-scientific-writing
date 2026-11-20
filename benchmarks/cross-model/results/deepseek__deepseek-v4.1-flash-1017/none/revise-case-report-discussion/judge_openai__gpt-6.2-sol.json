@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\u201cThe risk of diabetic ketoacidosis has been reported to be increased up to threefold\u201d appears without a citation or placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Symptoms were \u201cinitially attributed to ileus and opioid analgesia,\u201d and diagnosis came \u201capproximately 14 hours after the first abnormal blood gas.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The output reports \u201cclosure of the anion gap after 38 hours\u201d without claiming that the case establishes treatment effectiveness."
+ },
+ "_cost": 0.0057935
+}

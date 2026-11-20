@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Response 2 opens with background: \u201cWe considered both endpoints during the design phase.\u201d Response 3 opens with \u201cWe agree,\u201d without stating what changed."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The draft already describes the additions to the CONSORT diagram, Results, and Methods, the narrowed Discussion conclusions, and the single-center limitation."
+ },
+ "_cost": 0.0047225
+}

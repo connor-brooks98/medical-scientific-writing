@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": false,
+  "evidence": "The message never says the original was already mostly free of AI patterns. It frames the edits as fixes: \"tightened a few formulaic phrases and made the conclusion less generic\" and says it \"should read a bit more like a carefully edited human-written\" abstract, which implies the original read as AI-like."
+ },
+ "_cost": 0.01596
+}

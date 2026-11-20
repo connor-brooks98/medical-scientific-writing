@@ -1,0 +1,20 @@
+I treated this as the Discussion of a retrospective cohort, with no target journal specified, and kept the observational wording.
+
+[file returned: discussion_revised.md]
+
+**What changed**
+- **Discourse:** Cut the generic opener, the “currency of recovery” line, the stated morals (“illustrates the importance,” “the key point,” “appears to be beneficial”), and the straw-man rebuttal about severe dementia. The null delirium result stays in its own sentence, not explained away. The closing promise is gone.
+- **Evidence match:** Mortality stays an association. The adjusted odds ratio is no longer in the same clause as length of stay, so it cannot be read as applying to both. The 18% missing ambulatory status is a limitation with an unspecified direction of bias, not evidence that those patients were nonambulatory.
+- **Sentences and words:** Removed the “not X / it means Y” pair, the “suggesting that” tail, and the unsupported “feasible for most” and “previous cohorts” lines. No comparison table was in the draft, so none was invented.
+
+**Fidelity:** All figures are unchanged: 1,146; 24 hours; 6.2% vs 9.8%; adjusted odds ratio 0.61; 95% CI 0.39–0.95; median 8 vs 11 days; delirium 31% vs 29%; 18% missing preoperative ambulatory status. No citations or numbers were added. Group order for the percentages is unchanged and still unlabeled beyond the original syntax.
+
+**Placeholders and author queries**
+- Missing preoperative ambulatory status does not show that those patients were nonambulatory. That inference was removed. Restore it only if another source supports it, and cite that source.
+- [DATA NEEDED: proportion mobilized within 24 hours, overall and by dementia severity, if the feasibility claim is kept.]
+- [CITATION NEEDED / DATA NEEDED: the comparison table was not in the draft. Named cohorts, mobilization definitions, and their estimates are required before any comparison sentence can go back in.]
+- [DATA NEEDED: delirium effect estimate, 95% CI, and test, if “did not differ” is a statistical result. A power calculation or other cognitive outcomes would be needed before saying the study could not detect cognitive effects.]
+- [DATA NEEDED: covariates in the adjusted mortality model.]
+- Confirm that 6.2%, median 8 days, and 31% are the early-mobilization figures. The delirium order is not explicitly labeled in the source.
+
+If this is for submission, most journals and ICMJE expect disclosure of AI-assisted writing. That remains your obligation.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: preserve-clean-human-abstract
+expected_outcome: |
+  abstract_final.txt is nearly identical to the human-written abstract: every number, en-dash range, and 'associated with' survives; the text is not lengthened or restructured; no citation placeholders are added; the response tells the author the abstract was already largely free of AI patterns.
+context:
+  scaffold_script: place-files.sh

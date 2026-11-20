@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\"Studies have reported an up to threefold increase in DKA risk among patients receiving SGLT2 inhibitors.\" is kept with no citation or placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"Diagnosis was made approximately 14 hours after the first abnormal blood gas. The patient\u2019s initial nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The 'demonstrating the effectiveness of a multidisciplinary approach' line was removed; treatment and gap closure are reported only as facts."
+ },
+ "_cost": 0.014264
+}

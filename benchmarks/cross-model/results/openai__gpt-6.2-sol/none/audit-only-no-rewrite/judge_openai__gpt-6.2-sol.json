@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains audit findings and a suggested revision order, not replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Under \u201cHighest priority\u201d: \u201cIt does not establish that early norepinephrine \u2018prevents death.\u2019\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cStudies have shown that early norepinephrine improves survival\u201d is flagged as needing citations and more precision."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\u201cThe opening is broad and generic\u201d; \u201cevolving landscape of critical care\u201d is singled out."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\u201csuggests \u2026 may potentially be associated \u2026 in some patients\u201d is said to \u201cstack qualifiers.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit accepts the association and flags the causal leap to \u201cprevents death,\u201d not the association wording."
+ },
+ "07": {
+  "passed": false,
+  "evidence": "\u201cHighest priority\u201d labels the first three findings, but \u201cClarity and style\u201d is a topic heading and does not assign a priority level to the remaining findings."
+ },
+ "_cost": 0.0062835
+}

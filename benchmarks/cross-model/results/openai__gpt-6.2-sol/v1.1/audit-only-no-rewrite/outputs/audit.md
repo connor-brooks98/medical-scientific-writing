@@ -1,0 +1,24 @@
+# Audit of `introduction.txt`
+
+The main problem is the leap from a retrospective association to a claim that early norepinephrine prevents death. The draft also never states what the prospective study will test that the retrospective analysis could not answer.
+
+| Location | Quoted text | Pattern ID | Severity | Suggested fix |
+|---|---|---|---|---|
+| Paragraph 1, sentence 1 | “Sepsis remains a leading cause of death worldwide, representing a pivotal challenge in the evolving landscape of critical care.” | D6, S1, W1 | Major | Open with the decision the study examines: when to start norepinephrine in septic shock. If the global mortality ranking is necessary to the argument, cite it; otherwise, cut it. |
+| Paragraph 1, sentence 2 | “In recent years, there has been growing interest in the role of early vasopressor initiation.” | D2, D10 | Major | Cut the claim about growing interest. Use the space to establish what is known about timing and what remains uncertain. |
+| Paragraph 1, sentence 3 | “Studies have shown that early norepinephrine improves survival in septic shock.” | D2, S6 | Critical | Cite the studies that directly address survival and identify their designs, timing definitions, and comparators. Check whether they measured mortality or a different endpoint. Use causal language only if the evidence supports it. |
+| Paragraph 1, sentence 4 | “a growing body of evidence suggests that delayed vasopressor therapy may potentially be associated with worse outcomes in some patients” | D2, D9, S6, S13 | Major | Specify the drug or drug class, what counted as delayed, the population, and the outcome. Keep the claim only if it adds evidence distinct from the preceding sentence, and use one hedge sized to the study design. |
+| Paragraph 2, sentence 1 | “norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality (adjusted odds ratio, 0.78; 95% CI, 0.64–0.94)” | S13 | Major | Keep the association language, estimate, and confidence interval. Identify the comparison group; the reader cannot tell whether it included patients treated later, patients who never received norepinephrine, or both. Clarify whether this was prior published work, preliminary data, or a result from the present manuscript. Cite it if published; if it is a result of the present study, move it to Results. |
+| Paragraph 2, sentence 2 | “Early norepinephrine therefore prevents death in septic shock.” | D3, S6 | Critical | Remove the causal conclusion. Adjustment and a confidence interval that excludes 1 do not rule out residual confounding. Identify the specific uncertainty left by the retrospective analysis that the prospective design can address. |
+| Paragraph 2, sentence 3 | “To address this critical gap, we designed a comprehensive prospective study” | D4, S13, W1 | Major | Name the unresolved question and the actual design. “Prospective” describes when data are collected; it does not say whether treatment timing is assigned or observed. State the population, timing comparison, and primary outcome of the prospective study. |
+| Paragraph 2, sentence 3 | “will not only fill an important gap in the literature but also pave the way for improved outcomes” | D4, D5, S3 | Major | End with the study objective. The design alone cannot guarantee that the study will resolve the uncertainty or improve patient outcomes. |
+
+If this is headed for journal submission, check the journal’s disclosure policy. Most journals and ICMJE require disclosure of AI-assisted writing.
+
+## Five priorities for your rewrite
+
+1. Remove the claim that the retrospective analysis shows that early norepinephrine prevents death.
+2. Check the survival claim against the cited studies’ actual designs, comparators, and endpoints.
+3. Clarify the comparator and provenance of the 2,914-patient analysis.
+4. State the unresolved question and how the prospective design will address it.
+5. Cut the generic opening and promotional ending so the introduction starts with the timing decision and ends with the study objective.

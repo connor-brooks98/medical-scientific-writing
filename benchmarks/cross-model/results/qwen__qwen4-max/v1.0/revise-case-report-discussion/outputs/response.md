@@ -1,0 +1,26 @@
+I read this as a CARE-style case report Discussion + Conclusion for a clinical journal (journal unnamed, so I used prose paragraphs, sentence-case headings, no em dashes, and kept your reference [5] as the only citation). The Case Presentation is untouched, so the file below contains only the two sections you asked me to rewrite.
+
+[file returned: revised_discussion.md]
+
+**What changed**
+
+- **Discourse (D3, D8):** the diagnostic detour is now the center of the Discussion. Your Case Presentation documents a 14-hour delay after symptoms were attributed to ileus and opioids, but the old Discussion called the recognition "prompt." That contradiction is gone, and the delay is reported plainly rather than converted into a success story.
+- **Discourse (D1, D4, D5):** removed the three stated morals ("high index of suspicion," "valuable reminder," "must work together"), the claim that the outcome "demonstrat[ed] the effectiveness of a multidisciplinary approach" (one case cannot show that), and the "further research is needed" coda. The Conclusion now ends on the finding plus two specific actions.
+- **Discourse (D2):** "Studies have shown" and the "rare but potentially life-threatening" framing had no support, so both are flagged rather than kept as assertions or filled with invented numbers. Your three-fold figure survives as your claim, tagged for a citation.
+- **Discourse (D6):** cut the "evolving landscape of diabetes management" opener and the "revolutionized" clause; the paragraph now starts with the mechanism that explains this case.
+- **Sentences (S1, S6, S10):** removed the "-ing" tails ("highlighting the critical importance," "underscoring the need"), and recalibrated "this likely contributed to the development of euDKA" to what one patient can support. Named "we" where a clinical judgment is being proposed.
+- **Words (W1, W2, W5, W6):** garnered, evolving landscape, revolutionized, perfect storm, comprehensive, Notably, Furthermore, and the em dashes are gone; the SGLT2 mechanism is stated in plain terms.
+- **Length:** the revision runs about 490 words against roughly 300 in your draft. The growth is the restored diagnostic reasoning, the actual laboratory values, and the limits of inference from one case, not added interpretation. If your target journal caps the Discussion, tell me the limit and I will cut the mechanism sentences first.
+
+**Fidelity:** every number, unit, and the reference [5] in the revision comes from your draft (182 mg/dL, 7.12, 9 mmol/L, 24 mmol/L, 1.4 mmol/L, 6.8 mmol/L, 28/min, 14 hours, 38 hours, 3 days, POD 1, POD 2); nothing was added or dropped, and the three-fold risk claim is preserved with a citation tag.
+
+**Placeholders and author queries**
+
+1. `[CITATION NEEDED: incidence estimate or case series]` for euDKA as a complication of SGLT2 inhibitors. If you want to keep "rare," you need a denominator.
+2. `[CITATION NEEDED: design, population, effect estimate with 95% CI]` for the up to three-fold DKA risk. Please check whether your source reports DKA or euDKA specifically; they are not interchangeable, and the original sentence blurred them.
+3. `[CITATION NEEDED: perioperative precipitating factors]` for fasting and surgical stress.
+4. `[CITATION NEEDED: euDKA despite guideline-concordant interruption]` for the sentence questioning whether 3 days is enough. If you cannot support that question, delete the sentence rather than soften it; the FDA recommendation stands on its own.
+5. **Confirm reference [5] says 3 days for empagliflozin specifically.** I kept your wording and did not verify it, since I have no literature access here. The intervals differ across agents in this class, so this is worth checking against the current label.
+6. **Two interpretations are mine, not your data:** the proposed first-assessment ketone and blood gas testing (Discussion paragraph 2 and Conclusion), and the statement that drug effect and the 14-hour fast overlapped perioperatively. Keep, soften, or cut as you and your attending see fit.
+7. **Abbreviation:** DKA is used in the Case Presentation ("the diagnosis of euglycemic DKA") without expansion. Since you asked me to leave that section alone, I did not touch it, but spell out diabetic ketoacidosis at that first use.
+8. Most journals and ICMJE require disclosure of AI-assisted writing; add that statement per your target journal's policy.

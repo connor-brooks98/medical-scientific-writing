@@ -1,0 +1,24 @@
+[file returned: revised_discussion.md]
+
+I read this as a Discussion/Conclusion for a general clinical journal case report, with the target length close to your original. I left the Case Presentation untouched.
+
+**What changed**
+
+- **Discourse (D1, D4, D5):** cut the closing morals ("high index of suspicion", "valuable reminder", "clinicians, surgeons, and anesthesiologists must work together"), the unsupported claim that the outcome demonstrated "the effectiveness of a multidisciplinary approach", and the "further research is needed" coda. In their place: one specific action (measure beta-hydroxybutyrate when nausea and vomiting occur in a patient on an SGLT2 inhibitor) and one specific next study (POD 1 ketone screening in a prospective cohort).
+- **Discourse (D3):** restored the diagnostic detour, which is the teaching content here. Symptoms read as ileus and opioid effect, glucose 182 mg/dL, and a 14-hour gap between the first abnormal gas and the recorded diagnosis. Three limitations now stand on their own with no rebuttal sentence after them.
+- **Discourse (D6):** replaced the "garnered increasing attention in the evolving landscape" opener and "revolutionized" with the three indications and the mechanism, in two sentences.
+- **Sentences (S1, S2, S6):** deleted the -ing tails ("highlighting", "underscoring", "demonstrating"); "represents" became "is"; "this likely contributed" became "the timing is consistent with… but one patient cannot establish it", which is the strength a single case supports.
+- **Words (W1, W2, W5, W6):** removed "perfect storm", "critical importance", "comprehensive", "Notably", "Furthermore", and the one em dash. I kept "The FDA recommends…" in plain form with your citation.
+
+**Fidelity:** every number in your draft (182 mg/dL, pH 7.12, 9 mmol/L, 24 mmol/L, 6.8 mmol/L, 14 hours, 38 hours, POD 6, 3 days, three-fold), the [5] citation, and every claim in the original Discussion and Conclusion appear in the revision. Nothing was added. The revision is about 40 words longer than your draft, because the diagnostic timeline and the limitations were restored.
+
+**Placeholders and author queries**
+
+1. `[CITATION NEEDED]` — the three-fold risk of DKA. Your draft attributed this to "studies" without a citation. Please supply the primary source (a cohort study or meta-analysis rather than a review) or delete the figure.
+2. `[5]` — no reference list came with the draft. Confirm it is the current empagliflozin prescribing information and that the 3-day interval is quoted accurately from the version you cite.
+3. **Abbreviations.** "euDKA" and "SGLT2" are first used in the Case Presentation, but expanded in the Discussion. Most journals want the expansion at first use in the main text. I did not edit the Case Presentation as instructed, so either move the expansions there or keep the current arrangement if your target journal allows it.
+4. **Removed claim.** "Demonstrating the effectiveness of a multidisciplinary approach" was not supported by anything in the Case Presentation, which describes an ICU transfer and standard treatment. If a multidisciplinary process was actually documented, tell me and I will put it back with the specifics.
+5. **Glucose data.** If serial glucose values exist, adding them would answer the trajectory limitation directly. Only one value survives in the draft.
+6. **Disclosure.** Most journals and ICMJE require you to declare AI-assisted writing at submission. Check your target journal's policy and disclose the ChatGPT use; that obligation sits with you and your attending, not with the manuscript text.
+
+One judgment call for you and your attending: the final recommendation (measure ketones rather than assume ileus; operate at least 3 days after the last dose) is my reading of the case, not a fact stated in your draft. Soften or cut it if you would rather stay closer to the data.

@@ -1,0 +1,30 @@
+The revised letter is in `response_revised.md`. Each reply now opens with the decision and the location of the change, and the revision actions and numbers are unchanged.
+
+**What changed**
+- Discourse: Cut the repeated thanks, the lectures on attrition bias, endpoint design, and generalizability, and the restatement of each comment before the answer. Each reply now starts with what you decided.
+- Sentences: Named the actor (“We have added…”, “We have kept…”, “We have revised…”) and put the page and line locations with the action.
+- Words: Removed the sycophantic openers and evaluative wording (“insightful and valuable”, “excellent and thought-provoking”, “crucial”, “key”).
+
+**Fidelity:** Preserved 14 (4.1%), 17 (5.0%), Figure 1, the 90-day endpoint, both Discussion edits, and the page and line locations. No findings or revision actions were dropped or added.
+
+**Placeholders and author queries:** None in the letter. The new manuscript sentences are not quoted because they were not in the draft; paste them in if the journal asks. “Most readmissions after heart failure hospitalization occur within the first 90 days” still has no source here. If that sentence in Methods is unsupported, add a citation before you send it.
+
+Most journals and ICMJE expect disclosure of AI-assisted writing with the submission. That is your call to include, not something to put in the reviewer replies.
+
+<<<FILE: response_revised.md>>>
+# Response to Reviewers
+
+We thank the reviewers for their comments.
+
+**Reviewer 1, Comment 1:** The authors should report the number of patients lost to follow-up in each group.
+
+**Response:** We agree and have added the number of patients lost to follow-up in each group to the CONSORT diagram (Figure 1) and to the Results (page 9, lines 182–184): 14 patients (4.1%) in the intervention group and 17 patients (5.0%) in the control group. The original submission reported overall loss to follow-up but not by group.
+
+**Reviewer 1, Comment 2:** Please justify the choice of a 90-day primary endpoint rather than a 1-year endpoint.
+
+**Response:** We have kept the 90-day primary endpoint and added this rationale to the Methods (page 6, lines 121–125). Most readmissions after heart failure hospitalization occur within the first 90 days, and the intervention was designed to act during the transition period. A 1-year endpoint would have required a larger sample size that was not feasible within our funding.
+
+**Reviewer 2, Comment 1:** The discussion overstates the generalizability of the findings to all patients with heart failure.
+
+**Response:** We agree. The trial enrolled only patients with heart failure with reduced ejection fraction at a single academic center, and the original wording extended the findings too broadly. We have revised the Discussion to limit our conclusions to patients with heart failure with reduced ejection fraction treated at academic centers (page 14, lines 301–306). We have also added the single-center design as a limitation (page 15, lines 322–325).
+<<<END FILE>>>

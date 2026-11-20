@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "The draft says the estimates were \u201cclose to 1\u201d and both confidence intervals \u201cincluded 1,\u201d but does not plainly state that the outcomes did not differ or were not associated with PPI use."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use at admission was associated with a higher hazard of CDI\u201d; the draft makes no causal claim."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are \u201cthe 2012 meta-analysis by Kwok et al\u201d and \u201cFreedberg et al.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The draft reports \u201c1.21 (95% CI, 0.81-1.80) among women (P = .14 for interaction)\u201d and says the interaction analysis \u201cdid not establish that the association differed by sex.\u201d"
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All cohort numbers and estimates match the task; the odds ratio of \u201capproximately 1.74\u201d is attributed to Kwok et al as supplied."
+ },
+ "_cost": 0.0066285
+}

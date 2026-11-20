@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Findings give short fixes only (e.g., \"Delete. An association does not license 'prevents'.\"); no replacement paragraphs appear."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding 6: \"Integrity rule 3 (causal verb from observational data)\" rated \"Critical\", the highest level used."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Finding 3: \"D2 unnamed 'studies', no citation\"; Finding 4: \"D2 ... Name the evidence\" for 'a growing body of evidence'."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding 1: \"D6 generic preamble ... Fails the swap test\"; Finding 2 flags \"In recent years\"."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Finding 4: \"S6 stacked hedge ('may potentially') ... unspecified population\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Finding 5: \"The hedge here is correct ('was associated with')\"; the keep list also preserves it."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The Severity column assigns Major or Critical to all nine findings."
+ },
+ "_cost": 0.025664
+}

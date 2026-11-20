@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "All three responses open with the action or decision: \"We added group-specific losses...\", \"We retained the 90-day primary endpoint...\", \"We revised the Discussion...\". None opens with thanks or background."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The revised letter lists the same changes as the draft and nothing new: CONSORT/Results additions, Methods rationale, Discussion revision and single-center limitation. Page and line numbers are identical."
+ },
+ "_cost": 0.013792
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: audit-only-no-rewrite
+expected_outcome: |
+  audit.md is a findings list or table with locations, quoted text, pattern IDs or names, and severity, flags the causal claim from retrospective data as the most severe problem, flags the vague 'studies have shown' and generic opener, does not object to 'associated with' in the results sentence, and does not include a rewritten introduction.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Response 1 opens with background: \u201cOur original manuscript reported overall loss to follow-up but not by group.\u201d Response 3 opens with \u201cWe agree,\u201d without stating the change."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The same revisions are reported: added group counts, kept the 90-day endpoint and added its rationale, narrowed the conclusions, and added the single-center limitation. The citation placeholder does not claim a new revision."
+ },
+ "_cost": 0.0048735
+}

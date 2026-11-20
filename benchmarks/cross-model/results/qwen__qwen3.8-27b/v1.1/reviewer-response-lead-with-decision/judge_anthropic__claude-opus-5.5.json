@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "Responses open with \"We agree.\" (R1C1, R2C1) and \"We kept the 90-day primary endpoint and have added the rationale...\" (R1C2). These are decisions, not background or thanks, though \"We agree.\" alone only loosely matches \"agree and changed\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Only the draft's revisions are described (CONSORT/Results additions, Methods rationale, Discussion limits, limitation added). The [CITATION NEEDED] placeholder is an author query, not a claimed revision."
+ },
+ "_cost": 0.022044
+}

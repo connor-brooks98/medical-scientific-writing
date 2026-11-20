@@ -1,0 +1,14 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "provider_model": "deepseek/deepseek-v4.1-flash-1017",
+ "config": "v1.1",
+ "case": "audit-only-no-rewrite",
+ "seconds": 46.9,
+ "prompt_tokens": 27346,
+ "completion_tokens": 6164,
+ "cost_usd": 0.00550927328,
+ "finish_reason": "stop",
+ "files_returned": [
+  "audit.md"
+ ]
+}

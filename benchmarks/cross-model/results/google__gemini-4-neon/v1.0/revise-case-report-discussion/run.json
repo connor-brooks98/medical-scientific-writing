@@ -1,0 +1,14 @@
+{
+ "model": "google/gemini-4-neon",
+ "provider_model": "google/gemini-4-neon",
+ "config": "v1.0",
+ "case": "revise-case-report-discussion",
+ "seconds": 173.0,
+ "prompt_tokens": 26132,
+ "completion_tokens": 19662,
+ "cost_usd": 0.373326,
+ "finish_reason": "stop",
+ "files_returned": [
+  "revised_discussion.md"
+ ]
+}

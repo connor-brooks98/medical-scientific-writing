@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"Neither secondary outcome was associated with PPI use: 90-day all-cause mortality was 11.8% in users and 11.2% in nonusers\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"home PPI use was associated with CDI\"; causality only conditional (\"if the association is causal\"); the mechanism is \"untested here\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al 2012 and Freedberg et al 2015 are named; no other study or author appears"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"women (aHR, 1.21; 95% CI, 0.81-1.80)... P for interaction = .14\"; \"a sex-specific effect remains unestablished\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All draft numbers are supplied or correctly derived (4.1-2.6=1.5 pp; ~15/1000). Kwok OR 1.74 is attributed. Missing counts are placeholders."
+ },
+ "_cost": 0.02744
+}

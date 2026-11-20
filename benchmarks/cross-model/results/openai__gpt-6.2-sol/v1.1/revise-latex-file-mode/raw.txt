@@ -1,0 +1,28 @@
+<<<FILE: results.tex>>>
+\section{Results}
+\label{sec:results}
+
+A total of 2,418 patients met the inclusion criteria (Figure~\ref{fig:flow}). After propensity-score matching \cite{austin2011introduction}, baseline characteristics were similar between groups (Table~\ref{tab:baseline}).
+
+The primary outcome occurred in 142 patients (11.7\%) in the intervention group and 198 patients (16.4\%) in the control group (hazard ratio [HR] 0.69; 95\% confidence interval [CI] 0.56--0.86; $p = 0.001$). The estimated association was similar across all prespecified subgroups (Figure~\ref{fig:forest}).
+
+The adjusted model was
+\begin{equation}
+  \log h_i(t) = \log h_0(t) + \beta_1 \text{Treatment}_i + \boldsymbol{\gamma}^\top \mathbf{x}_i ,
+  \label{eq:cox}
+\end{equation}
+where $\mathbf{x}_i$ denotes the vector of baseline covariates listed in Table~\ref{tab:baseline} \cite{cox1972regression, therneau2000modeling}.
+
+All-cause mortality was 7.9\% in the intervention group and 8.6\% in the control group (HR 0.92; 95\% CI 0.70--1.21).
+<<<END FILE>>>
+
+What changed:
+- Removed filler and kept the baseline comparison separate from any judgment about the matching method.
+- Described the subgroup findings as associations, without implying a causal benefit.
+- Reported mortality directly and removed the safety claim, which the mortality estimate alone does not support.
+
+Fidelity: All numerical results, citations, labels, cross-references, and the equation were preserved. The LaTeX was checked by inspection, not compiled.
+
+Author query: Check that the forest plot supports “similar across all prespecified subgroups.” If that assessment is visual only, avoid implying that a formal interaction test was performed.
+
+For submission, follow the journal's AI-use disclosure policy; ICMJE and most journals require disclosure of AI-assisted writing.

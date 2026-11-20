@@ -1,0 +1,32 @@
+<<<FILE: response_revised.md>>>
+# Response to reviewers
+
+We thank the reviewers for their comments. Our point-by-point responses are below.
+
+**Reviewer 1, Comment 1:** The authors should report the number of patients lost to follow-up in each group.
+
+**Response:** We have added the number of patients lost to follow-up in each group to the CONSORT diagram (Figure 1) and to the Results (page 9, lines 182–184): 14 patients (4.1%) in the intervention group and 17 patients (5.0%) in the control group.
+
+**Reviewer 1, Comment 2:** Please justify the choice of a 90-day primary endpoint rather than a 1-year endpoint.
+
+**Response:** We have kept the 90-day endpoint and added the rationale to the Methods (page 6, lines 121–125). Most readmissions after heart failure hospitalization occur within the first 90 days, and the intervention was designed to act during this transition period. A 1-year endpoint would also have required a larger sample size than our funding allowed.
+
+**Reviewer 2, Comment 1:** The discussion overstates the generalizability of the findings to all patients with heart failure.
+
+**Response:** We agree. Our trial enrolled only patients with heart failure with reduced ejection fraction at a single academic center. We have revised the Discussion to limit our conclusions to this population treated at academic centers (page 14, lines 301–306) and added the single-center design as a limitation (page 15, lines 322–325).
+<<<END FILE>>>
+
+I have tightened the letter and saved the revision as `response_revised.md` (reducing the responses from 295 words to 151 words).
+
+### What changed
+- **Discourse (D10):** Cut generic textbook explanations ("Loss to follow-up is indeed an important consideration...", "The choice of endpoint is a crucial aspect of trial design...", "Generalizability is a key concern...") and throat-clearing phrases so each response leads directly with what you changed and where.
+- **Sentences (S4, S8):** Removed the reflexive triad ("biological plausibility, clinical relevance, and feasibility") and tightened phrasing while keeping active voice ("We have added...", "We have kept...", "We have revised...").
+- **Words and tone (W1, W4, W6, W8):** Replaced the three sycophantic per-comment praise openers ("sincerely thank... insightful and valuable", "excellent and thought-provoking", "important and valid") with one brief thank-you at the top of the letter, removed filler ("indeed", "Upon reflection", "crucial", "key"), and used sentence case for the title.
+
+### Fidelity
+All reviewer comments, revision actions, group counts and percentages (14 [4.1%] vs 17 [5.0%]), figure references (Figure 1), and page/line locations (page 9, lines 182–184; page 6, lines 121–125; page 14, lines 301–306; page 15, lines 322–325) are preserved unchanged.
+
+### Author queries
+- **Reviewer 1, Comment 2:** Confirm that the rationale added to Methods (page 6, lines 121–125) includes a citation supporting the claim that most readmissions after heart failure hospitalization occur within the first 90 days.
+- **Reviewer 2, Comment 1:** Check that "treated at academic centers" matches the exact wording in your revised Discussion (page 14, lines 301–306), since the trial itself was at a single academic center.
+- **Disclosure note:** If your target journal follows ICMJE guidelines, check whether AI-assisted editing requires disclosure at submission.

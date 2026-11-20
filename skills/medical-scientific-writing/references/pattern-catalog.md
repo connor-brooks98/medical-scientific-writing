@@ -9,7 +9,7 @@ Evidence labels:
 ## Contents
 
 - Layer D, discourse and structure: D1 to D11, plus the swap test
-- Layer S, sentences: S1 to S13
+- Layer S, sentences: S1 to S15
 - Layer W, words and marks: W1 to W9
 - Over-correction patterns: O1 to O6
 - A full worked example (case report Discussion)
@@ -132,6 +132,12 @@ Before:
 After:
 > Sleep duration under 6 hours was associated with higher systolic pressure.
 
+Closer after a finding:
+> Readmission fell from 21% to 14% after pharmacist-led discharge counselling. This illustrates the value of pharmacist involvement in transitions of care.
+
+After:
+> Readmission fell from 21% to 14% after pharmacist-led discharge counselling.
+
 Keep a second sentence only if it adds a mechanism, comparison, magnitude translation ("an HR of 0.65 means 35% fewer events"), or qualification.
 
 ### D10. Padding and negative space
@@ -194,6 +200,14 @@ Before: "SGLT2 inhibitors are not merely glucose-lowering agents; they are cardi
 After: "SGLT2 inhibitors lower glucose and also reduce heart failure hospitalization and kidney function decline (refs)."
 
 Also flag tailing negations ("...with no guesswork") and "It's not about X, it's about Y."
+
+Split across sentences:
+> A normal troponin does not mean myocardial injury has been excluded. It means injury has not yet been detected.
+
+After:
+> A single normal troponin within 3 hours of symptom onset does not exclude myocardial injury [CITATION NEEDED: serial-testing guideline].
+
+Keep a contrast when the negative half corrects a belief readers actually hold and both halves carry information, as in the After above.
 
 ### S4. Reflexive triads
 
@@ -289,13 +303,39 @@ Compression that omits an actor, comparator, condition, or outcome forces the re
 
 If the input lacks the missing element, ask with `[DATA NEEDED: outcome and comparator]`. Do not supply one.
 
+### S14. Staging and aphorism
+
+Watch for: "The key question is", "At its core", "The critical point is", "What really matters is", "Here's the thing", "the hard part is", "Importantly, the central issue is"; sayings that dress an ordinary point as a hidden truth ("Data are the new currency of medicine", "Adherence is the silent determinant of outcomes").
+
+The run-up announces a point instead of making it, and the saying adds no detail. Both survive vocabulary edits because no single word is a tell.
+
+Before:
+> At its core, the central question is whether earlier anticoagulation is safe. Timing is the hidden variable in stroke prevention.
+
+After:
+> We asked whether starting anticoagulation within 48 hours of ischemic stroke increased symptomatic intracranial hemorrhage compared with starting it at day 6 or later.
+
+### S15. Arguing with no one
+
+Watch for: "This is not to say", "To be clear", "We do not suggest that", "One might argue", "It may be tempting to", "A naive approach would be"; a rebuttal of a position, method, or misreading that no cited author or reviewer has put forward.
+
+The text defends itself against an objection that appears nowhere, usually a leftover from drafting. In a manuscript it reads as defensiveness (see D8), and it spends words on a claim the paper does not make.
+
+Before:
+> This is not to say that frailty scores are useless in younger patients. One might argue that a single cut-off is sufficient, but our findings suggest that age-specific thresholds may be preferable.
+
+After:
+> The Clinical Frailty Scale discriminated less well in patients under 65 (AUROC 0.66) than in those 65 and older (0.78), which supports evaluating age-specific thresholds.
+
+Keep an objection that a named study or a reviewer actually raised, and answer it in full.
+
 ---
 
 ## Layer W: words and marks
 
 ### W1. AI vocabulary
 
-Candidates (examine in context; they are not banned): delve, tapestry, landscape (abstract), realm, pivotal, crucial, paramount, intricate/intricacies, multifaceted, interplay, nuanced, holistic, foster, garner, showcase, underscore, highlight (verb), testament, leverage, utilize, robust (vague), comprehensive (vague), seamless, notable, meticulous, myriad, commendable, embark, navigate (figurative), unlock, harness, elucidate, shed light on, pave the way, a deeper understanding.
+Candidates (examine in context; they are not banned): delve, tapestry, landscape (abstract), realm, pivotal, crucial, paramount, intricate/intricacies, multifaceted, interplay, nuanced, holistic, foster, garner, showcase, underscore, highlight (verb), testament, leverage, utilize, robust (vague), comprehensive (vague), seamless, notable, meticulous, myriad, commendable, embark, navigate (figurative), unlock, harness, elucidate, shed light on, pave the way, a deeper understanding, bolstered, enduring, enhance, align with, key (adjective), deep dive, quietly.
 
 These words appear at elevated frequency in post-2023 scientific text and tend to co-occur. Replace with the plain word you mean: use (utilize), examine (delve into), important or a specific reason (crucial), show (showcase), or delete.
 
@@ -328,7 +368,7 @@ Logical connectives are not tells and should stay: however, although, whereas, t
 
 ### W6. Marks and formatting
 
-- **Em dashes:** replace all in manuscript prose by default. Parenthetical: commas. Aside: parentheses. Explanation or list: colon. Clause break: period or semicolon. (If the journal or author style uses em dashes, at most one per section.)
+- **Em dashes:** replace all in manuscript prose by default. Also replace spaced en dashes and double hyphens used as dashes. En dashes inside numeric ranges (1.12–1.96) and eponyms (Kaplan–Meier) are correct and stay. Parenthetical: commas. Aside: parentheses. Explanation or list: colon. Clause break: period or semicolon. (If the journal or author style uses em dashes, at most one per section.)
 - **Curly quotes** to straight quotes in plain-text and Markdown deliverables (keep whatever the author's word processor uses in .docx).
 - **Title Case Headings** to sentence case unless the journal requires otherwise.
 - **Boldface**: none in body prose except field conventions (bold vectors, required labels).
@@ -346,6 +386,14 @@ Logical connectives are not tells and should stay: however, although, whereas, t
 ### W8. Chatbot residue and sycophancy
 
 Remove: "Certainly!", "Great question", "I hope this helps", "Feel free to", "As an AI", "As of my knowledge cutoff", "This is indeed an important area", reviewer-response openers that praise the comment instead of answering it. A response to reviewers can thank once at the top; each response then states what was changed and where.
+
+Gap-filling guesses are the subtler form of residue: the text admits the record is silent and then fills the silence with something plausible.
+
+Before:
+> Information on the patient's alcohol use was not documented, suggesting it was not a significant factor. She likely had limited access to follow-up care given her rural residence.
+
+After:
+> The record did not document alcohol use or the patient's access to follow-up care. [AUTHORS: add if known]
 
 ### W9. Buzzword compounds
 

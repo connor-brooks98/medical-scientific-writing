@@ -1,0 +1,30 @@
+Your abstract does **not** sound AI-written, so I left all of your wording intact.
+
+It reads like standard, well-edited *JAMA* Network prose: it is concise, restrained, and free of the usual AI tells (inflated verbs like *underscore* or *elucidate*, filler transitions, or overblown concluding claims—your final sentence, *"Whether treating sleep apnea or extending sleep lowers AF risk would require trials,"* is notably understated and human). Rewriting clean biomedical prose just to try to outsmart an AI detector usually makes it clunkier—or paradoxically introduces more AI-like phrasing. (It's also worth keeping in mind that structured clinical abstracts are formulaic by design, which causes automated AI detectors to throw false positives on purely human-written papers; *JAMA* reviewers look at scientific rigor and consistency, not raw detector scores.)
+
+In `abstract_final.txt`, I made only two minor formatting adjustments to match *AMA Manual of Style* / *JAMA Cardiology* house style:
+- Changed `4,912` to `4912` (AMA style omits commas in 4-digit numbers).
+- Replaced the en-dashes in the confidence intervals (`1.08–1.54`, etc.) with hyphens (`1.08-1.54`), which is *JAMA* style.
+
+### A couple of *JAMA Cardiology* submission items to consider before submitting
+Since you are well under the 350-word limit (~208 words), you have room to add two details that *JAMA* editors routinely ask for in observational abstracts:
+1. **Participant demographics in `Results`:** *JAMA* instructions ask for basic baseline characteristics (e.g., mean or median age, sex distribution, and race/ethnicity if applicable) at the start of the Results section before the outcome findings.
+2. **Data analysis dates in `Design, Setting, and Participants`:** *JAMA* typically asks for the dates during which the statistical analysis was conducted (e.g., *"Data were analyzed from [Month Year] to [Month Year]."*).
+
+*(Optional: since `adjusted hazard ratio` appears 3 times, JAMA copyeditors may abbreviate it to `adjusted HR` after first use, though leaving it spelled out at submission is completely fine.)*
+
+<<<FILE: abstract_final.txt>>>
+Importance: Short sleep has been associated with cardiovascular disease, but its relationship with incident atrial fibrillation (AF) in older adults is uncertain.
+
+Objective: To examine whether self-reported sleep duration is associated with incident AF in adults aged 65 years or older.
+
+Design, Setting, and Participants: This prospective cohort study used data from 4912 community-dwelling adults without AF at baseline who were enrolled at 4 US sites between 2009 and 2012 and followed up through 2022.
+
+Exposure: Self-reported habitual sleep duration, categorized as 6 hours or less, 7 to 8 hours (reference), and 9 hours or more.
+
+Main Outcomes and Measures: Incident AF, ascertained from study electrocardiograms, hospital discharge codes, and Medicare claims.
+
+Results: During a median follow-up of 9.8 years, 781 participants developed AF. Compared with 7 to 8 hours, sleeping 6 hours or less was associated with a higher hazard of AF (adjusted hazard ratio, 1.29; 95% CI, 1.08-1.54), whereas sleeping 9 hours or more was not (adjusted hazard ratio, 1.07; 95% CI, 0.86-1.33). The association for short sleep was attenuated after adjustment for obstructive sleep apnea symptoms (adjusted hazard ratio, 1.18; 95% CI, 0.98-1.42).
+
+Conclusions and Relevance: In this cohort of older adults, short sleep was associated with incident AF, but the association was weaker after accounting for symptoms of sleep apnea. Whether treating sleep apnea or extending sleep lowers AF risk would require trials.
+<<<END FILE>>>

@@ -1,0 +1,28 @@
+Draft sections are below, written only from the numbers you supplied. I did not add event counts, person-time, or extra citations.
+
+<<<FILE: draft_sections.md>>>
+# Draft manuscript sections
+
+Draft for internal use. Statistics are taken from the analysis summary provided by the study team. Insert event counts (n/N) and person-time from the Cox models before submission. Citations below are limited to the two sources supplied; complete the reference list before submission.
+
+## Results
+
+Among 6214 adults aged 65 years or older hospitalized with community-acquired pneumonia from 2016 through 2023, 2377 (38.3%) were using a proton pump inhibitor (PPI) at admission and 3837 (61.7%) were not. Clostridioides difficile infection (CDI) within 90 days of discharge occurred in 4.1% of PPI users and 2.6% of nonusers (absolute difference, 1.5 percentage points). In a Cox proportional hazards model adjusted for age, sex, Charlson Comorbidity Index, hospitalization in the prior 12 months, and antibiotic class during the index stay, PPI use was associated with a higher hazard of 90-day CDI (adjusted hazard ratio [aHR], 1.48; 95% CI, 1.12-1.96). Ninety-day all-cause mortality was 11.8% among PPI users and 11.2% among nonusers (aHR, 1.03; 95% CI, 0.88-1.21). Thirty-day readmission occurred in 17.9% and 16.4%, respectively (aHR, 1.06; 95% CI, 0.94-1.20). In prespecified analyses of the primary outcome, the adjusted association was larger among men (aHR, 1.81; 95% CI, 1.24-2.64) than among women (aHR, 1.21; 95% CI, 0.81-1.80), but the interaction was not statistically significant (P = .14).
+
+## Discussion
+
+In this retrospective cohort of older adults admitted with community-acquired pneumonia, home PPI use recorded at admission was associated with a higher hazard of CDI within 90 days of discharge after adjustment for age, sex, comorbidity, recent hospitalization, and inpatient antibiotic class. The direction and approximate magnitude of this association are consistent with the meta-analysis by Kwok et al, which reported an odds ratio of about 1.74 for CDI among PPI users.1 Findings from Freedberg et al, linking PPI exposure to recurrent CDI, likewise suggest that acid suppression is associated with C. difficile risk beyond the initial episode.2 Because this cohort was restricted to patients hospitalized with pneumonia, inpatient antibiotic exposure was expected and was included in the model as antibiotic class; the incremental association observed here may therefore differ from estimates in populations with more heterogeneous antibiotic use.
+
+PPI use was not associated with 90-day all-cause mortality or 30-day readmission. Point estimates for both secondary outcomes were close to the null, and the confidence intervals included no association, which argues against the CDI finding being solely a marker of broadly worse outcomes among PPI users. The CDI association appeared stronger in men than in women, but the prespecified interaction test was not significant, so that difference should not be interpreted as established effect modification. These observational results do not establish that PPIs cause CDI. If the association is confirmed, it would support reviewing whether ongoing PPI therapy is still indicated at discharge in older adults treated for pneumonia. Any such inference should be weighed against the absolute difference in 90-day CDI (1.5 percentage points in unadjusted percentages) and against alternative explanations, including confounding by indication.
+
+## Limitations
+
+This study has several limitations. It was conducted in a single academic health system, and the findings may not generalize to other settings. PPI exposure was taken from medication reconciliation at admission only; dose, duration, inpatient continuation, and adherence were not known, so exposure misclassification is likely. CDI was identified from inpatient and outpatient laboratory results within this health system, and infections diagnosed elsewhere would have been missed. An additional 312 patients (5.0%) were excluded because medication reconciliation was missing. Although the models adjusted for age, sex, Charlson Comorbidity Index, hospitalization in the prior 12 months, and antibiotic class during the index stay, residual confounding remains possible, including confounding by the indication for PPI therapy and by antibiotic exposure after discharge, which was not in the model. The sex-stratified analyses should be interpreted cautiously given the nonsignificant interaction.
+
+## References cited in this draft
+
+1. Kwok et al, 2012 meta-analysis. Am J Gastroenterol. Reported odds ratio for PPI use and CDI of approximately 1.74 (complete bibliographic details to be added).
+2. Freedberg et al, 2015. Clin Infect Dis. PPI use associated with recurrent CDI (complete bibliographic details to be added).
+<<<END FILE>>>
+
+I kept the tone associative rather than causal, reported the sex interaction as nonsignificant (P = .14), and did not invent numerators. Before you submit, drop in event counts from the models, confirm the 312/5.0% exclusion denominator against the cohort flow, and finish the Kwok and Freedberg citations.

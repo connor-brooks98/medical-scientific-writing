@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: author-sample-voice
+expected_outcome: |
+  new_paragraph_revised.txt keeps all the numbers, removes the AI vocabulary and inflation, and matches the author's sample, including the author's em dashes and enumerating style, instead of applying the default no-em-dash rule.
+context:
+  scaffold_script: place-files.sh

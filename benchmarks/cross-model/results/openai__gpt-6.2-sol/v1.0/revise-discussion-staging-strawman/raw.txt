@@ -1,0 +1,20 @@
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+Among 1,146 patients with dementia who underwent hip fracture surgery, mobilization within 24 hours was associated with lower 30-day mortality than no mobilization within that window (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95). Median length of stay was 8 vs 11 days, and delirium occurred in 31% vs 29% of patients, respectively. The observed delirium rates alone do not establish whether early mobilization affects delirium risk.
+
+Patients who were well enough to mobilize soon after surgery may also have been more likely to survive and leave hospital sooner. Preoperative ambulatory status was undocumented for 18% of patients; lack of documentation does not establish that they were unable to walk. If preoperative mobility influenced both when patients mobilized and their outcomes, incomplete documentation limits our ability to assess that source of confounding.
+
+These findings do not establish the safety of early mobilization or show whether it was feasible for patients with severe dementia.
+<<<END FILE>>>
+
+**What changed**
+- Led with the cohort findings and kept the delirium result alongside mortality and length of stay.
+- Replaced the broad benefit claim with a specific explanation of how patients’ postoperative condition could influence both mobilization timing and outcomes.
+- Separated missing mobility documentation from inability to walk and removed the unsupported inference about participation among patients with severe dementia.
+
+**Fidelity:** All numerical data were preserved. No citations were added.
+
+**Author queries:** The draft refers to a comparison table that was not included. Restore the callout if the table will accompany the Discussion, and state how the findings compare with the cited cohorts. Confirm whether the comparison group included patients who never mobilized. If available, report the delirium effect estimate with its confidence interval.
+
+Before submission, check the journal’s disclosure policy. ICMJE and most journals require disclosure of AI-assisted writing.

@@ -1,0 +1,14 @@
+{
+ "model": "google/gemini-4-neon",
+ "provider_model": "google/gemini-4-neon",
+ "config": "v1.0",
+ "case": "revise-intro-no-citations",
+ "seconds": 118.2,
+ "prompt_tokens": 25633,
+ "completion_tokens": 14027,
+ "cost_usd": 0.287304,
+ "finish_reason": "stop",
+ "files_returned": [
+  "intro_revised.txt"
+ ]
+}

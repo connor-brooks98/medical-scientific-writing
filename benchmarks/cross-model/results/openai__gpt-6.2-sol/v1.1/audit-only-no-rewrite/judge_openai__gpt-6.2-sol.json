@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit gives sentence-level findings and rewrite priorities, with no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\u201cEarly norepinephrine therefore prevents death in septic shock\u201d is rated \u201cCritical,\u201d the highest severity used, with the instruction \u201cRemove the causal conclusion.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "For \u201cStudies have shown,\u201d the audit says, \u201cCite the studies that directly address survival and identify their designs, timing definitions, and comparators.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\u201cCut the generic opening\u201d and \u201cCut the claim about growing interest.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "For the sentence containing \u201cmay potentially be associated,\u201d the audit recommends using \u201cone hedge sized to the study design.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201cKeep the association language, estimate, and confidence interval.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every finding in the table has a Severity entry of \u201cMajor\u201d or \u201cCritical.\u201d"
+ },
+ "_cost": 0.006201
+}

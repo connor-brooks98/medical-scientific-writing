@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-astra",
+ "provider_model": "openai/gpt-6.2-astra",
+ "config": "v1.1",
+ "case": "draft-cohort-results-discussion",
+ "seconds": 17.3,
+ "prompt_tokens": 27643,
+ "completion_tokens": 874,
+ "cost_usd": 0.311384,
+ "finish_reason": "stop",
+ "files_returned": [
+  "draft_sections.md"
+ ]
+}

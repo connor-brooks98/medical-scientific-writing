@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"An up to three-fold increase in DKA risk has been reported... [CITATION NEEDED: study design, population, and effect estimate with 95% CI for the three-fold figure]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"Nausea, vomiting, and abdominal discomfort on postoperative day (POD) 1 were attributed to postoperative ileus and opioid analgesia\"; \"diagnosed on the morning of POD 2, approximately 14 hours after that first gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "No effectiveness claim; instead: \"A single case cannot separate the contribution of empagliflozin from that of fasting and surgical stress\""
+ },
+ "_cost": 0.023184
+}

@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit has only a findings table and a priority list. It contains no replacement paragraphs, and the fixes are instructions such as \"Remove the causal conclusion.\""
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"Early norepinephrine therefore prevents death in septic shock.\" is rated \"Critical\", the highest level used, and the fix says it \"describes an association.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "For \"Studies have shown...\" the audit says \"Cite the studies and identify their designs\". The \"growing body of evidence\" sentence is also flagged and asked to specify what was found."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Both opening sentences are flagged Major, e.g. \"Open with the timing of norepinephrine in septic shock\" and \"Replace the claim about growing interest.\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"Remove the stacked hedges.\" (on the 'may potentially be associated with ... in some patients' sentence)"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The row quoting this phrase asks only to name the comparison group and define shock onset. It does not ask to change the associational wording, and priority 1 says \"Keep the retrospective result in associational terms.\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every table row has a Severity value (Critical or Major), and there is a ranked list of five priorities."
+ },
+ "_cost": 0.025716
+}

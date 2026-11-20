@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Reviewer 2\u2019s response opens with \u201cWe agree that the original wording extended the findings too broadly,\u201d but does not state the change until the third sentence."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "All reported changes match the draft: group-specific loss to follow-up in Figure 1 and Results, the 90-day rationale in Methods, and narrower conclusions and a single-center limitation in Discussion."
+ },
+ "_cost": 0.005231
+}

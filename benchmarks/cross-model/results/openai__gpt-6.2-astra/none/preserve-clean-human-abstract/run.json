@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-astra",
+ "provider_model": "openai/gpt-6.2-astra",
+ "config": "none",
+ "case": "preserve-clean-human-abstract",
+ "seconds": 6.7,
+ "prompt_tokens": 528,
+ "completion_tokens": 427,
+ "cost_usd": 0.021304,
+ "finish_reason": "stop",
+ "files_returned": [
+  "abstract_final.txt"
+ ]
+}

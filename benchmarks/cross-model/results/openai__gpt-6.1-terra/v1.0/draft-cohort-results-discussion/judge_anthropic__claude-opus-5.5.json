@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "Hedged rather than plain: \"estimates ... were closer to the null, with confidence intervals that included both lower and higher rates\"; it never says they did not differ or were not associated."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"home PPI use at admission was associated with a higher rate\"; \"preclude a causal interpretation\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al. and Freedberg et al. are named, each with a [CITATION NEEDED] placeholder."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81-1.80) among women; the interaction was not statistically significant (P = .14)\"; \"did not provide evidence that the association differed\"."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numbers (6214, 2377, 3837, 4.1%, 2.6%, aHRs/CIs, 312, 5.0%) are supplied in the task; \"approximately 1.74-fold\" is attributed to Kwok."
+ },
+ "_cost": 0.022164
+}

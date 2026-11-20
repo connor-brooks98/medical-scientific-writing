@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\"The risk of DKA has been reported to be increased up to three-fold\" appears with no citation or placeholder. Softening it to \"has been reported\" still leaves an uncited claim in the text."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"the early postoperative nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia\"; \"The diagnosis was made approximately 14 hours after the first abnormal gas.\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The 'demonstrating the effectiveness of a multidisciplinary approach' claim is removed. The output only says management \"resulted in closure of the anion gap after 38 hours\"."
+ },
+ "_cost": 0.016352
+}

@@ -1,0 +1,166 @@
+{
+ "revise-case-report-discussion/with_skill": {
+  "04": [
+   true,
+   "'up to three-fold higher ... [CITATION NEEDED: source of the three-fold estimate]'"
+  ],
+  "05": [
+   true,
+   "Paragraph 3: attributed to ileus and opioid analgesia; diagnosed ~14 h later"
+  ],
+  "07": [
+   true,
+   "'a single case cannot separate its effect from that of fasting and surgical stress'"
+  ]
+ },
+ "revise-case-report-discussion/without_skill": {
+  "04": [
+   true,
+   "'up to three times higher ... [CITATION NEEDED]'"
+  ],
+  "05": [
+   true,
+   "Paragraph 2: attributed to ileus and opioids; ~14 h after first abnormal gas"
+  ],
+  "07": [
+   true,
+   "No efficacy claim"
+  ]
+ },
+ "draft-cohort-results-discussion/with_skill": {
+  "02": [
+   true,
+   "'PPI use was not significantly associated with either secondary outcome'"
+  ],
+  "03": [
+   true,
+   "'was associated with' throughout"
+  ],
+  "04": [
+   true,
+   "Freedberg 2013 [ADDED: verified] replacing the mismatched 2015 citation; other candidates kept out of text"
+  ],
+  "06": [
+   true,
+   "'we do not interpret the sex-specific estimates as evidence of effect modification'"
+  ],
+  "08": [
+   true,
+   "1.5 pp and ~20% derived and flagged; Kwok figures from verified source"
+  ]
+ },
+ "draft-cohort-results-discussion/without_skill": {
+  "02": [
+   true,
+   "'We found no association between PPI use and 90-day mortality or 30-day readmission'"
+  ],
+  "03": [
+   true,
+   "Association language throughout"
+  ],
+  "04": [
+   true,
+   "Freedberg 2013 verified, explained in notes; one [Suggested] verified reference"
+  ],
+  "06": [
+   true,
+   "Interaction not significant; no sex-specific claim"
+  ],
+  "08": [
+   true,
+   "Back-calculated counts in brackets labeled for replacement; literature figures from cited verified sources"
+  ]
+ },
+ "preserve-clean-human-abstract/with_skill": {
+  "07": [
+   true,
+   "'I went through the abstract and didn't change anything ... Changing it just to look busy would make it worse.'"
+  ]
+ },
+ "preserve-clean-human-abstract/without_skill": {
+  "07": [
+   true,
+   "'didn't change anything ... Nothing in it reads as AI-written.'"
+  ]
+ },
+ "reviewer-response-lead-with-decision/with_skill": {
+  "05": [
+   true,
+   "'We agree and have added...', 'We have kept the 90-day endpoint...', 'We agree that the original wording...'"
+  ],
+  "06": [
+   true,
+   "Same three changes as the draft; adds one [CITATION NEEDED] placeholder, no new revision"
+  ]
+ },
+ "reviewer-response-lead-with-decision/without_skill": {
+  "05": [
+   true,
+   "'We have added this.', 'We have kept the 90-day endpoint...', 'We agree and have revised...'"
+  ],
+  "06": [
+   true,
+   "Same three changes as the draft"
+  ]
+ },
+ "audit-only-no-rewrite/with_skill": {
+  "01": [
+   true,
+   "Findings table plus 'suggested fix' column; no rewritten paragraphs"
+  ],
+  "02": [
+   true,
+   "Finding 8: 'prevents death' Critical (highest severity)"
+  ],
+  "03": [
+   true,
+   "Findings 4 and 5 (D2)"
+  ],
+  "04": [
+   true,
+   "Findings 1 and 3 (D6)"
+  ],
+  "05": [
+   true,
+   "Finding 5: S6 stacked hedge"
+  ],
+  "06": [
+   true,
+   "'What is already fine': keeps 'was associated with'"
+  ],
+  "07": [
+   true,
+   "Severity column on all 13 findings"
+  ]
+ },
+ "audit-only-no-rewrite/without_skill": {
+  "01": [
+   true,
+   "Sentence-by-sentence critique; no rewritten paragraphs"
+  ],
+  "02": [
+   true,
+   "'The most serious error in the text'; High in cross-cutting table"
+  ],
+  "03": [
+   true,
+   "S3 and S4 vague attribution, no citations"
+  ],
+  "04": [
+   true,
+   "S1/S2 generic opener and throat-clearing"
+  ],
+  "05": [
+   true,
+   "S4: five stacked hedges"
+  ],
+  "06": [
+   true,
+   "S5 'correctly worded as an association'"
+  ],
+  "07": [
+   true,
+   "Cross-cutting table assigns High/Medium/Low to each issue"
+  ]
+ }
+}

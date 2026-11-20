@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"have been associated with up to a threefold higher risk of DKA [CITATION NEEDED: primary study or meta-analysis...]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"Diagnosis was delayed twice... her nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The effectiveness claim is removed. Output says \"From a single case, we cannot determine... whether earlier ketone testing would have shortened her intensive care stay.\""
+ },
+ "_cost": 0.020332
+}

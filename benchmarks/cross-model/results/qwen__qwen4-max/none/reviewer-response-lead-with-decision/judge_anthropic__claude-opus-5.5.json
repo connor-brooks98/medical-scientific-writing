@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "Each response opens with the decision: \"We have added loss to follow-up by group...\", \"We have kept the 90-day endpoint...\", and \"We agree.\" (a concession followed by the change). None opens with background or thanks."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Only the draft's revisions appear: the CONSORT/Results counts, the Methods rationale, the narrowed Discussion conclusions, and the single-center limitation. No new analysis or change is introduced."
+ },
+ "_cost": 0.017
+}

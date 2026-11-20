@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.1-terra",
+ "provider_model": "openai/gpt-6.1-terra",
+ "config": "none",
+ "case": "reviewer-response-lead-with-decision",
+ "seconds": 5.1,
+ "prompt_tokens": 671,
+ "completion_tokens": 357,
+ "cost_usd": 0.002456,
+ "finish_reason": "stop",
+ "files_returned": [
+  "response_revised.md"
+ ]
+}

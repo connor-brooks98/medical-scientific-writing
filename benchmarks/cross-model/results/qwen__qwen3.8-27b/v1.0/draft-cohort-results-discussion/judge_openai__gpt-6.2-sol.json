@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cNinety-day all-cause mortality ... and 30-day readmission ... were not associated with PPI use.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use was associated with a higher hazard of CDI\u201d; the discussion qualifies the proposed mechanism with \u201cif the association is causal.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are \u201cKwok et al [1]\u201d and \u201cFreedberg et al [2].\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201cwomen (aHR, 1.21; 95% CI, 0.81-1.80)\u201d; \u201cthe interaction was not statistically significant (*P* = .14), and a sex difference cannot be concluded.\u201d"
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The draft repeats the supplied \u201c312 patients (5.0%)\u201d; \u201c48% higher hazard\u201d is derived from the aHR of 1.48, and the pooled OR of 1.74 is attributed to Kwok et al."
+ },
+ "_cost": 0.008556
+}

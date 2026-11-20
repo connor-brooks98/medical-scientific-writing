@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "The claim is kept with no citation or placeholder: \"Observational data have reported up to a three-fold increase in DKA risk among patients receiving SGLT2 inhibitors.\" The missing reference is flagged only in the chat message, not in the file."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"The more instructive feature of this case is the delay in diagnosis... were reasonably attributed to postoperative ileus and opioid analgesia\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The \"demonstrating the effectiveness of a multidisciplinary approach\" line is removed. Management is described neutrally (\"Management followed the standard approach for euDKA\"), and the limitations paragraph notes the case \"does not establish causation.\""
+ },
+ "_cost": 0.02478
+}

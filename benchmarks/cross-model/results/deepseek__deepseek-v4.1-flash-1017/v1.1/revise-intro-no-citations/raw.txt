@@ -1,0 +1,40 @@
+<<<FILE: intro_revised.txt>>>
+Introduction
+
+Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia, and its prevalence rises with age. Adults aged 75 years and older have the highest prevalence and the highest stroke risk [CITATION NEEDED: age-specific prevalence and stroke risk in this age group]. Much of this AF is paroxysmal and asymptomatic, so clinic-based ECG recording misses it and detection requires prolonged monitoring [CITATION NEEDED: proportion of AF that is paroxysmal or asymptomatic]. Whether detecting AF earlier prevents stroke is being tested in randomized screening trials [CITATION NEEDED: the relevant trials, with their stroke outcomes].
+
+Consumer smartwatches record photoplethysmography (PPG) traces and, in some models, single-lead electrocardiograms (ECG); the device algorithm flags an irregular rhythm for review. Validation studies have reported high sensitivity and specificity, but they enrolled mainly younger, community-dwelling adults [CITATION NEEDED: named validation studies, with population, reference standard, sensitivity, and specificity]. Signal quality may be worse in the oldest patients. Tremor, peripheral vascular disease, and frequent ectopy are common in this group and degrade both PPG and single-lead ECG recordings [CITATION NEEDED: effect of these conditions on signal quality]. We found no validation study of smartwatch AF detection restricted to adults aged 75 years and older [DATA NEEDED: search of MEDLINE and Embase to a stated date, or replace with the narrower claim your search supports].
+
+We therefore did a prospective diagnostic accuracy study of a commercially available smartwatch [DATA NEEDED: make, model, algorithm version, and whether AF detection used PPG alone or PPG with single-lead ECG] for detecting AF in adults aged 75 years and older, with 14-day continuous patch monitoring as the reference standard. We report sensitivity and specificity with 95% CIs against that standard [DATA NEEDED: prespecified minimum acceptable sensitivity and specificity, if any]. These estimates show how well the device identifies AF in the age group with the highest prevalence, and how often it flags a rhythm that monitoring does not confirm [DATA NEEDED: any guideline threshold governing use of consumer devices for AF screening].
+<<<END FILE>>>
+
+**What changed**
+
+- **D6, D10:** removed the burden-of-disease preamble ("major global health burden, affecting millions") and the "growing interest in wearable devices" sentence. The Introduction now opens on AF in the age group you studied.
+- **D2:** "Studies have shown… high sensitivity and specificity" became a citation placeholder that asks for the population, reference standard, and the actual estimates. Same for the stroke-risk-benefit sentence.
+- **D3, integrity:** the claim that early detection "may lead to… reduced stroke risk" is not established, so it now reads as a question under test in randomized screening trials. Please check you are happy with that framing; it is the honest version, but it changes your original claim.
+- **D4, D5, D1:** deleted "To address this critical gap", "fills an important gap", "valuable insights", "pave the way", and "rapidly evolving field". The aim is now stated as what was done, and the final sentence states what the accuracy estimates will show.
+- **S1, S3, W1, W6:** removed the -ing tail on the comorbidity sentence, the em dashes, and the list of AI-favoured words (comprehensive, promising, landscape, transform, valuable, evolving). Kept your triad (tremor, peripheral vascular disease, ectopy) because all three are real signal-quality threats.
+- **S8:** sentence lengths now range from 9 to 33 words; the original ran 15 to 41 with a flat middle.
+
+**Fidelity:** every substantive element of your draft survives (AF as most common sustained arrhythmia, PPG and single-lead ECG, older adults under-studied, tremor/PVD/ectopy, prospective design, age 75+, commercially available device, 14-day patch reference standard). I added no numbers and no references. Prose is 228 words vs 223 in the original.
+
+**Placeholders you must fill**
+
+- Age-specific prevalence and stroke risk in adults 75+.
+- Proportion of AF that is paroxysmal/asymptomatic.
+- Randomized AF screening trials and their stroke outcomes.
+- Named smartwatch validation studies (population, reference standard, sensitivity, specificity).
+- Effect of tremor, PVD, and ectopy on PPG/single-lead ECG quality.
+- Literature-search statement supporting the "no validation study in 75+" gap, or a narrower gap claim.
+- Device make, model, algorithm version; PPG alone or PPG plus ECG.
+- Prespecified accuracy target, if you set one.
+- Any guideline threshold for consumer-device AF screening, or delete that final clause.
+
+**Author queries**
+
+1. Is "we found no validation study…" defensible from your search? If not, soften to "accuracy in this age group has not been established" and cite the closest studies.
+2. If your protocol prespecified sensitivity and specificity targets, name them; it strengthens the aim paragraph.
+3. Your draft implied screening benefit. Confirm you want the trial-question framing rather than a benefit claim.
+
+Most journals and ICMJE require disclosure of AI-assisted writing; add it to your submission statements.

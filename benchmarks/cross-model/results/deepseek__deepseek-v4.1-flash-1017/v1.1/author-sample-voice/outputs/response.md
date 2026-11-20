@@ -1,0 +1,17 @@
+[file returned: new_paragraph_revised.txt]
+
+I matched your sample's habits rather than the defaults: the "N findings deserve comment" opening, First/Second enumeration, one spaced em dash used for a specification (as you did with "within 30 days"), and short flat claim sentences mixed with one long result sentence.
+
+**What changed**
+- **Discourse:** removed the opening moral ("crucial importance… underscoring its pivotal role") and the closing one ("a testament to the value of targeting high-risk patients"). The paragraph now ends on the subgroup result and its evidential status, not on a recommendation.
+- **Discourse:** dropped "not only statistically significant but also clinically meaningful… a paradigm shift in transitions of care." The estimate and CI already carry significance, and "clinically meaningful" was asserted without a minimal important difference.
+- **Discourse:** the subgroup is now labelled a subgroup, with the interaction test flagged. Presenting it as a finding about targeting high-risk patients overstated what an unstratified comparison supports.
+- **Sentences:** deleted both -ing tails; replaced "serves as a testament" with a plain statement; one fact per sentence in the subgroup.
+- **Words:** removed Notably, Furthermore, Interestingly, crucial, pivotal, paradigm shift, testament, transitions of care.
+
+**Fidelity:** all numbers are unchanged (12 hospitals, 14.2%, 10.6%, -3.6 percentage points, 95% CI -5.9 to -1.3, 10 or more medications, -6.1 percentage points), and the design description (cluster-randomized trial) is intact. The revision is shorter than the original (~85 vs ~130 words). What was removed was evaluative language, not data.
+
+**Author queries**
+1. `[DATA NEEDED]` — the interaction P value for the medication-count subgroup, and whether it was prespecified. If that test is reported elsewhere in the paper, replace the placeholder with a cross-reference or cut the clause.
+2. If you have a prespecified minimal important difference, the "clinically meaningful" point can come back as a fact rather than an adjective: e.g., "the lower bound of the CI (-1.3 percentage points) exceeds our prespecified minimal important difference of X."
+3. One study-level reminder: most journals and ICMJE require disclosure of AI-assisted writing, so check the submission checklist.

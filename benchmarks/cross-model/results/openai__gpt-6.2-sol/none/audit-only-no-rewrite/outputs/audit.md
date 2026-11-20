@@ -1,0 +1,18 @@
+# Introduction audit
+
+## Highest priority
+
+1. **The causal conclusion exceeds the evidence.** The retrospective analysis found an association between norepinephrine initiation within one hour and lower adjusted odds of 28-day mortality. It does not establish that early norepinephrine “prevents death.” Adjustment and a confidence interval that excludes 1 do not rule out residual confounding, selection bias, or bias related to how shock onset and treatment timing were defined. Also, an odds ratio of 0.78 describes 22% lower adjusted *odds*, not necessarily a 22% lower risk.
+
+2. **The research gap is asserted, not identified.** “To address this critical gap” has no clear antecedent. The introduction first presents a survival benefit as established, then proposes a study without explaining what remains unknown. Identify the specific uncertainty the study is designed to address, and make sure the proposed design can answer it. A study being prospective does not, by itself, establish that it can answer a causal question.
+
+3. **The literature summary is too broad to support the premise.** “Studies have shown that early norepinephrine improves survival” needs citations and more precision about study design, the definition of “early,” and the outcomes measured. The next sentence is heavily hedged but gives no useful detail about which patients or outcomes it refers to. It also shifts from norepinephrine specifically to vasopressors generally. Clarify whether the sentences describe distinct findings or restate the same timing question.
+
+## Clarity and style
+
+- **The institutional result lacks a clear comparison.** The one-hour threshold is stated, but the reference group is not. Clarify whether the comparison was with later initiation, no initiation, or another group. If the analysis was published, cite it; if not, identify its status.
+- **The opening is broad and generic.** The global mortality claim needs a source. “Pivotal challenge in the evolving landscape of critical care” adds little and delays the focus on septic shock and treatment timing.
+- **The closing promises more than it explains.** “Comprehensive,” “fill an important gap,” and “pave the way for improved outcomes” do not tell readers what the study will test. State the objective and enough about the design to show how it addresses the uncertainty. Distinguish what the study will measure from any longer-term clinical impact.
+- **The prose alternates between overconfidence and excessive hedging.** “Prevents death” is too definitive, while “suggests … may potentially be associated … in some patients” stacks qualifiers without locating the uncertainty. Calibrate each claim to the evidence rather than adding or removing hedges indiscriminately.
+
+**Suggested revision order:** Define the study question first. Then align the literature summary and institutional finding with that question. Trim generic phrasing last.

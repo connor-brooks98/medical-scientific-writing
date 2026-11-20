@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "The draft says only \"Adjusted estimates for mortality and readmission were close to the null, and their confidence intervals included 1\". It never states plainly that these outcomes did not differ or were not associated with PPI use."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use was associated with a higher hazard of CDI\". Association language is used throughout, and no causal claim is made."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Kwok et al is the only prior study named in the draft. Freedberg was omitted, and no other study is named."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81-1.80) among women (P = .14 for interaction)\" and \"did not provide clear evidence that the association differed by sex\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The derived figures are correct: 38.3% and 61.7% (2,377/6,214 and 3,837/6,214) and the 1.5-point difference. The 1.74 OR is attributed to Kwok. The reference bibliographic details are consistent with the study."
+ },
+ "_cost": 0.026764
+}

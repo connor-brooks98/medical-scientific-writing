@@ -1,0 +1,11 @@
+## Discussion
+
+Our patient developed euglycemic DKA after an elective laparoscopic cholecystectomy while taking empagliflozin 10 mg daily. Although she was instructed to hold metformin on the morning of surgery, she took empagliflozin until the morning before the operation, contrary to the US Food and Drug Administration (FDA) recommendation to discontinue it at least 3 days before scheduled surgery [5]. That continued exposure, combined with a 14-hour preoperative fast and surgical stress, preceded her acidosis.
+
+Sodium-glucose cotransporter-2 (SGLT2) inhibitors have been associated with up to a threefold higher risk of DKA [CITATION NEEDED: primary study or meta-analysis supporting the threefold risk estimate, with design and population]. These drugs promote glycosuria, reduce insulin requirements, and increase ketogenesis, so perioperative fasting and reduced carbohydrate intake can precipitate ketoacidosis without marked hyperglycemia.
+
+Diagnosis was delayed twice during her postoperative course. On POD 1, her nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia; a capillary glucose of 182 mg/dL did not prompt ketone testing. Later that evening, tachypnea (respiratory rate 28/min) led to a venous blood gas showing high-anion-gap metabolic acidosis (pH 7.12, bicarbonate 9 mmol/L, anion gap 24 mmol/L) with a lactate of 1.4 mmol/L. Euglycemic DKA (serum beta-hydroxybutyrate 6.8 mmol/L) was not diagnosed until the morning of POD 2, approximately 14 hours after that first abnormal gas. Once intravenous insulin and 10% dextrose were started in the intensive care unit, the anion gap closed after 38 hours and empagliflozin was discontinued permanently. From a single case, we cannot determine how often preoperative SGLT2 inhibitor holds are missed or whether earlier ketone testing would have shortened her intensive care stay.
+
+## Conclusion
+
+Preoperative medication instructions for patients taking empagliflozin should specify stopping the drug at least 3 days before elective surgery. Postoperatively, nausea, vomiting, abdominal discomfort, tachypnea, or unexplained high-anion-gap metabolic acidosis in a patient with recent SGLT2 inhibitor use warrants serum ketone testing even without marked hyperglycemia.

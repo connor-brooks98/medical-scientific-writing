@@ -1,0 +1,13 @@
+Importance: Short sleep has been associated with cardiovascular disease, but its association with incident atrial fibrillation (AF) in older adults is uncertain.
+
+Objective: To examine the association between self-reported sleep duration and incident AF in adults aged 65 years or older.
+
+Design, Setting, and Participants: This prospective cohort study included 4,912 community-dwelling adults without AF at baseline. Participants enrolled at 4 US sites between 2009 and 2012 and were followed up through 2022.
+
+Exposure: Self-reported habitual sleep duration of 6 hours or less, 7 to 8 hours (reference), or 9 hours or more.
+
+Main Outcomes and Measures: Incident AF identified from study electrocardiograms, hospital discharge codes, and Medicare claims.
+
+Results: During a median follow-up of 9.8 years, 781 participants developed AF. Compared with 7 to 8 hours of sleep, the adjusted hazard ratio (HR) for incident AF was 1.29 (95% CI, 1.08–1.54) for 6 hours or less and 1.07 (95% CI, 0.86–1.33) for 9 hours or more. After further adjustment for obstructive sleep apnea symptoms, the HR for 6 hours or less was 1.18 (95% CI, 0.98–1.42).
+
+Conclusions and Relevance: In this cohort of older adults, sleeping 6 hours or less was associated with a higher hazard of incident AF than sleeping 7 to 8 hours. The association was weaker after adjustment for obstructive sleep apnea symptoms.

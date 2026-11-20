@@ -1,0 +1,1051 @@
+{
+  "metadata": {
+    "skill_name": "medical-scientific-writing",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-11-20T13:39:35Z",
+    "evals_run": [
+      "audit-only-no-rewrite",
+      "author-sample-voice",
+      "draft-cohort-results-discussion",
+      "preserve-clean-human-abstract",
+      "reviewer-response-lead-with-decision",
+      "revise-case-report-discussion",
+      "revise-discussion-staging-strawman",
+      "revise-intro-no-citations",
+      "revise-latex-file-mode"
+    ],
+    "runs_per_configuration": 1,
+    "model": "claude-opus-5-5"
+  },
+  "runs": [
+    {
+      "eval_id": "audit-only-no-rewrite",
+      "eval_name": "audit-only-no-rewrite",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 142.9,
+        "tokens": 135585,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "audit.md does not contain a rewritten version of the introduction (no full replacement paragraphs)",
+          "passed": true,
+          "evidence": "Findings table plus 'suggested fix' column; no rewritten paragraphs | auto: manual"
+        },
+        {
+          "text": "audit.md flags 'Early norepinephrine therefore prevents death' as an overclaim from retrospective data at the highest severity used",
+          "passed": true,
+          "evidence": "Finding 8: 'prevents death' Critical (highest severity) | auto: manual; 'prevents death' mentioned: True"
+        },
+        {
+          "text": "audit.md flags 'Studies have shown' and 'a growing body of evidence' as unsupported or vague attribution",
+          "passed": true,
+          "evidence": "Findings 4 and 5 (D2) | auto: manual"
+        },
+        {
+          "text": "audit.md flags the generic opening (leading cause of death worldwide / evolving landscape / in recent years)",
+          "passed": true,
+          "evidence": "Findings 1 and 3 (D6) | auto: manual"
+        },
+        {
+          "text": "audit.md flags 'may potentially be associated with ... in some patients' as stacked hedging",
+          "passed": true,
+          "evidence": "Finding 5: S6 stacked hedge | auto: manual"
+        },
+        {
+          "text": "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change",
+          "passed": true,
+          "evidence": "'What is already fine': keeps 'was associated with' | auto: manual"
+        },
+        {
+          "text": "audit.md assigns a severity level to each finding",
+          "passed": true,
+          "evidence": "Severity column on all 13 findings | auto: manual"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "author-sample-voice",
+      "eval_name": "author-sample-voice",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 90.7,
+        "tokens": 112497,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "new_paragraph_revised.txt contains at least one em dash, matching the author's sample",
+          "passed": true,
+          "evidence": "2 em dashes"
+        },
+        {
+          "text": "new_paragraph_revised.txt contains none of: 'Notably', 'highlight', 'crucial', 'underscoring', 'pivotal', 'paradigm shift', 'testament', 'Furthermore', 'Interestingly'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "every number in new_paragraph.txt appears in new_paragraph_revised.txt and no new numbers are added",
+          "passed": true,
+          "evidence": "lost []; added []"
+        },
+        {
+          "text": "new_paragraph_revised.txt does not contain 'not only'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "new_paragraph_revised.txt may keep causal language ('reduced') for the randomized primary result; it does not add hedges such as 'may have reduced' to that result",
+          "passed": true,
+          "evidence": "primary result not over-hedged"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "draft-cohort-results-discussion",
+      "eval_name": "draft-cohort-results-discussion",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 261.2,
+        "tokens": 168280,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "draft_sections.md reports every supplied hazard ratio with its 95% CI (primary, mortality, readmission, men, women) and the interaction p = 0.14",
+          "passed": true,
+          "evidence": "all 15 values present"
+        },
+        {
+          "text": "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not differ between PPI users and non-users",
+          "passed": true,
+          "evidence": "'PPI use was not significantly associated with either secondary outcome' | auto: manual"
+        },
+        {
+          "text": "draft_sections.md uses association language for the PPI-CDI relationship and never says PPI use increases, causes, or raises CDI risk as a finding of this study",
+          "passed": true,
+          "evidence": "'was associated with' throughout | auto: sentences with PPI + causal verb: []"
+        },
+        {
+          "text": "draft_sections.md names no study beyond Kwok 2012 and Freedberg except sources that were actually retrieved and verified (DOI given) and are flagged to the author as additions or replacements; no unverified study appears in the text",
+          "passed": true,
+          "evidence": "Freedberg 2013 [ADDED: verified] replacing the mismatched 2015 citation; other candidates kept out of text | auto: other 'et al' names: []; other years: ['2013']"
+        },
+        {
+          "text": "draft_sections.md Limitations names exposure measured only at admission, outcome ascertainment within one system, the single-system design, and the 312 excluded patients",
+          "passed": true,
+          "evidence": "{'admission-only exposure': True, 'within-system ascertainment': True, 'single system': True, '312 excluded': True}"
+        },
+        {
+          "text": "draft_sections.md reports the women subgroup estimate and the non-significant interaction without claiming the association is confined to men or consistent in both sexes",
+          "passed": true,
+          "evidence": "'we do not interpret the sex-specific estimates as evidence of effect modification' | auto: manual"
+        },
+        {
+          "text": "draft_sections.md contains no em dashes and none of: 'further research', 'more research is needed', 'highlights the importance', 'underscores', 'pave the way'",
+          "passed": true,
+          "evidence": "0 em dashes; none of the phrases found"
+        },
+        {
+          "text": "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivation of supplied numbers, or taken from a cited, verified source",
+          "passed": true,
+          "evidence": "1.5 pp and ~20% derived and flagged; Kwok figures from verified source | auto: numbers not in prompt (check derivations): ['0.58', '0.82', '1.16', '1.47', '1.5', '10.1038', '1011', '1019', '107', '108', '11', '14', '1794', '1801', '2.51', '2.85', '2012.108', '2013', '2013.333', '3', '3.70', '39', '5.44', '7', '85', '894']"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "preserve-clean-human-abstract",
+      "eval_name": "preserve-clean-human-abstract",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 61.5,
+        "tokens": 114858,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), showing light-touch editing",
+          "passed": true,
+          "evidence": "similarity 1.000"
+        },
+        {
+          "text": "abstract_final.txt word count is within 10% of abstract.txt",
+          "passed": true,
+          "evidence": "words 230 vs 230"
+        },
+        {
+          "text": "every number in abstract.txt appears in abstract_final.txt and no new numbers are added",
+          "passed": true,
+          "evidence": "lost []; added []"
+        },
+        {
+          "text": "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many occurrences as in abstract.txt)",
+          "passed": true,
+          "evidence": "'associated with' 4 vs 4"
+        },
+        {
+          "text": "abstract_final.txt keeps the three en-dash confidence-interval ranges (1.08\u20131.54, 0.86\u20131.33, 0.98\u20131.42) exactly",
+          "passed": true,
+          "evidence": "all three present"
+        },
+        {
+          "text": "abstract_final.txt contains no [CITATION NEEDED] or [DATA NEEDED] placeholders",
+          "passed": true,
+          "evidence": "0 placeholders"
+        },
+        {
+          "text": "the response tells the author the abstract had few or no AI-writing patterns rather than presenting a heavy rewrite",
+          "passed": true,
+          "evidence": "'I went through the abstract and didn't change anything ... Changing it just to look busy would make it worse.' | auto: manual: response says abstract was largely clean"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "reviewer-response-lead-with-decision",
+      "eval_name": "reviewer-response-lead-with-decision",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 71.0,
+        "tokens": 126659,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "response_revised.md is at least 25% shorter than response_draft.md in words",
+          "passed": true,
+          "evidence": "words 258 vs 377 (32% shorter)"
+        },
+        {
+          "text": "response_revised.md keeps every page and line reference from the draft (page 9 lines 182\u2013184, page 6 lines 121\u2013125, page 14 lines 301\u2013306, page 15 lines 322\u2013325) and Figure 1",
+          "passed": true,
+          "evidence": "all refs kept"
+        },
+        {
+          "text": "response_revised.md keeps the loss-to-follow-up numbers (14, 4.1%, 17, 5.0%)",
+          "passed": true,
+          "evidence": "kept"
+        },
+        {
+          "text": "response_revised.md contains none of: 'insightful', 'thought-provoking', 'excellent', 'sincerely thank', 'grateful'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "the first sentence of each of the three responses states the decision or action (added, kept, revised), not background or thanks",
+          "passed": true,
+          "evidence": "'We agree and have added...', 'We have kept the 90-day endpoint...', 'We agree that the original wording...' | auto: manual: first sentence of each response"
+        },
+        {
+          "text": "response_revised.md describes no revision that the draft did not describe",
+          "passed": true,
+          "evidence": "Same three changes as the draft; adds one [CITATION NEEDED] placeholder, no new revision | auto: manual: no invented changes"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-case-report-discussion",
+      "eval_name": "revise-case-report-discussion",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 164.9,
+        "tokens": 138911,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "revised_discussion.md contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "revised_discussion.md contains no number that does not appear in case_report_draft.md",
+          "passed": true,
+          "evidence": "numbers not in draft: []"
+        },
+        {
+          "text": "revised_discussion.md keeps the FDA recommendation to stop empagliflozin at least 3 days before surgery with its citation [5]",
+          "passed": true,
+          "evidence": "[5] present: True; FDA present: True"
+        },
+        {
+          "text": "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it is removed or marked with a citation placeholder",
+          "passed": true,
+          "evidence": "'up to three-fold higher ... [CITATION NEEDED: source of the three-fold estimate]' | auto: three-fold sentence: The risk of DKA has been reported to be up to three-fold higher in patients taking an SGLT2 inhibitor [CITATION NEEDED: source of the three-fold estimate]."
+        },
+        {
+          "text": "revised_discussion.md discusses the delayed diagnosis, including that early symptoms were attributed to ileus or opioids",
+          "passed": true,
+          "evidence": "Paragraph 3: attributed to ileus and opioid analgesia; diagnosed ~14 h later | auto: ileus mentioned: True; opioid mentioned: True"
+        },
+        {
+          "text": "revised_discussion.md contains none of: 'highlights the importance', 'valuable reminder', 'further research is needed', 'high index of suspicion', 'evolving landscape', 'revolutionized'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "revised_discussion.md does not claim the single case demonstrates the effectiveness of an approach or treatment",
+          "passed": true,
+          "evidence": "'a single case cannot separate its effect from that of fasting and surgical stress' | auto: 'demonstrat' occurrences: []"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-discussion-staging-strawman",
+      "eval_name": "revise-discussion-staging-strawman",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 126.9,
+        "tokens": 132650,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "discussion_revised.md contains none of: 'At its core', 'central question', 'currency of', 'The key point is'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "discussion_revised.md contains none of: 'This is not to say', 'One might argue'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "discussion_revised.md does not contain the split construction 'does not mean ... It means'",
+          "passed": true,
+          "evidence": "absent"
+        },
+        {
+          "text": "discussion_revised.md contains neither 'This illustrates' nor a closing 'Overall,' sentence",
+          "passed": true,
+          "evidence": "absent"
+        },
+        {
+          "text": "discussion_revised.md does not infer that patients with missing ambulatory status were nonambulatory ('likely nonambulatory' or 'suggesting' removed) and states only that the data were missing",
+          "passed": true,
+          "evidence": "no inference about missing ambulatory status"
+        },
+        {
+          "text": "discussion_revised.md does not contain 'The table below compares'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "every number in discussion.md appears in discussion_revised.md and no new numbers are added",
+          "passed": true,
+          "evidence": "lost []; added []"
+        },
+        {
+          "text": "discussion_revised.md describes the mortality result with association language ('associated with'), not a causal verb",
+          "passed": true,
+          "evidence": "assoc=True; causal=[]"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-intro-no-citations",
+      "eval_name": "revise-intro-no-citations",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 143.0,
+        "tokens": 137222,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "intro_revised.txt contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "intro_revised.txt contains no invented references: no author names, 'et al.', publication years, numbered citations, or named prior studies",
+          "passed": true,
+          "evidence": "et al: 0, years: [], numbered cites: [] (check named studies manually)"
+        },
+        {
+          "text": "intro_revised.txt marks claims that need support with at least two citation placeholders",
+          "passed": true,
+          "evidence": "7 placeholders"
+        },
+        {
+          "text": "intro_revised.txt contains no number that does not appear in intro_draft.txt",
+          "passed": true,
+          "evidence": "numbers not in draft (outside brackets): []"
+        },
+        {
+          "text": "intro_revised.txt keeps the study design details: prospective, adults aged 75 years and older, smartwatch, and 14-day continuous patch monitoring as the reference standard",
+          "passed": true,
+          "evidence": "{'prospective': True, '75': True, 'smartwatch': True, '14-day': True, 'patch': True}"
+        },
+        {
+          "text": "intro_revised.txt does not open with generic burden boilerplate ('millions of individuals worldwide', 'In recent years')",
+          "passed": true,
+          "evidence": "none of the phrases found; first sentence: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia, and older adults bear the greatest burden of the disease [CITATION NEEDED: age-specific AF prevalence]."
+        },
+        {
+          "text": "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an important gap', 'pave the way', 'critical gap', 'comprehensive'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraphs",
+          "passed": true,
+          "evidence": "words excluding [placeholders] 124 vs 220; paragraphs 3"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-latex-file-mode",
+      "eval_name": "revise-latex-file-mode",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 105.7,
+        "tokens": 132068,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "results.tex contains exactly the same multiset of \\label, \\ref, and \\cite commands (with identical keys) as the original",
+          "passed": true,
+          "evidence": "missing {}; extra {}"
+        },
+        {
+          "text": "the equation environment in results.tex is byte-identical to the original",
+          "passed": true,
+          "evidence": "equation byte-identical"
+        },
+        {
+          "text": "results.tex keeps the unspaced LaTeX en-dash ranges 0.56--0.86 and 0.70--1.21",
+          "passed": true,
+          "evidence": "ranges kept"
+        },
+        {
+          "text": "results.tex prose contains no spaced --- or -- used as a dash",
+          "passed": true,
+          "evidence": "0 spaced dashes"
+        },
+        {
+          "text": "results.tex contains none of: 'It is important to note', 'highlighting', 'underscoring', 'remarkably', 'crucial', 'serves as a testament', 'Furthermore'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "every number in the original results.tex appears in the revised results.tex",
+          "passed": true,
+          "evidence": "lost []"
+        },
+        {
+          "text": "results.tex has balanced braces and the same \\begin/\\end pairs as the original",
+          "passed": true,
+          "evidence": "braces balanced=True; begin/end same=True"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "audit-only-no-rewrite",
+      "eval_name": "audit-only-no-rewrite",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 81.1,
+        "tokens": 100354,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "audit.md does not contain a rewritten version of the introduction (no full replacement paragraphs)",
+          "passed": true,
+          "evidence": "Sentence-by-sentence critique; no rewritten paragraphs | auto: manual"
+        },
+        {
+          "text": "audit.md flags 'Early norepinephrine therefore prevents death' as an overclaim from retrospective data at the highest severity used",
+          "passed": true,
+          "evidence": "'The most serious error in the text'; High in cross-cutting table | auto: manual; 'prevents death' mentioned: True"
+        },
+        {
+          "text": "audit.md flags 'Studies have shown' and 'a growing body of evidence' as unsupported or vague attribution",
+          "passed": true,
+          "evidence": "S3 and S4 vague attribution, no citations | auto: manual"
+        },
+        {
+          "text": "audit.md flags the generic opening (leading cause of death worldwide / evolving landscape / in recent years)",
+          "passed": true,
+          "evidence": "S1/S2 generic opener and throat-clearing | auto: manual"
+        },
+        {
+          "text": "audit.md flags 'may potentially be associated with ... in some patients' as stacked hedging",
+          "passed": true,
+          "evidence": "S4: five stacked hedges | auto: manual"
+        },
+        {
+          "text": "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change",
+          "passed": true,
+          "evidence": "S5 'correctly worded as an association' | auto: manual"
+        },
+        {
+          "text": "audit.md assigns a severity level to each finding",
+          "passed": true,
+          "evidence": "Cross-cutting table assigns High/Medium/Low to each issue | auto: manual"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "author-sample-voice",
+      "eval_name": "author-sample-voice",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 47.5,
+        "tokens": 97607,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "new_paragraph_revised.txt contains at least one em dash, matching the author's sample",
+          "passed": true,
+          "evidence": "1 em dashes"
+        },
+        {
+          "text": "new_paragraph_revised.txt contains none of: 'Notably', 'highlight', 'crucial', 'underscoring', 'pivotal', 'paradigm shift', 'testament', 'Furthermore', 'Interestingly'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "every number in new_paragraph.txt appears in new_paragraph_revised.txt and no new numbers are added",
+          "passed": true,
+          "evidence": "lost []; added []"
+        },
+        {
+          "text": "new_paragraph_revised.txt does not contain 'not only'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "new_paragraph_revised.txt may keep causal language ('reduced') for the randomized primary result; it does not add hedges such as 'may have reduced' to that result",
+          "passed": true,
+          "evidence": "primary result not over-hedged"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "draft-cohort-results-discussion",
+      "eval_name": "draft-cohort-results-discussion",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 134.0,
+        "tokens": 120111,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "draft_sections.md reports every supplied hazard ratio with its 95% CI (primary, mortality, readmission, men, women) and the interaction p = 0.14",
+          "passed": true,
+          "evidence": "all 15 values present"
+        },
+        {
+          "text": "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not differ between PPI users and non-users",
+          "passed": true,
+          "evidence": "'We found no association between PPI use and 90-day mortality or 30-day readmission' | auto: manual"
+        },
+        {
+          "text": "draft_sections.md uses association language for the PPI-CDI relationship and never says PPI use increases, causes, or raises CDI risk as a finding of this study",
+          "passed": true,
+          "evidence": "Association language throughout | auto: sentences with PPI + causal verb: ['We found no association between PPI use and 90-day mortality or 30-day readmission, although the confidence intervals for both outcomes are compatible with mode']"
+        },
+        {
+          "text": "draft_sections.md names no study beyond Kwok 2012 and Freedberg except sources that were actually retrieved and verified (DOI given) and are flagged to the author as additions or replacements; no unverified study appears in the text",
+          "passed": true,
+          "evidence": "Freedberg 2013 verified, explained in notes; one [Suggested] verified reference | auto: other 'et al' names: []; other years: ['2013']"
+        },
+        {
+          "text": "draft_sections.md Limitations names exposure measured only at admission, outcome ascertainment within one system, the single-system design, and the 312 excluded patients",
+          "passed": true,
+          "evidence": "{'admission-only exposure': True, 'within-system ascertainment': True, 'single system': True, '312 excluded': True}"
+        },
+        {
+          "text": "draft_sections.md reports the women subgroup estimate and the non-significant interaction without claiming the association is confined to men or consistent in both sexes",
+          "passed": true,
+          "evidence": "Interaction not significant; no sex-specific claim | auto: manual"
+        },
+        {
+          "text": "draft_sections.md contains no em dashes and none of: 'further research', 'more research is needed', 'highlights the importance', 'underscores', 'pave the way'",
+          "passed": true,
+          "evidence": "0 em dashes; none of the phrases found"
+        },
+        {
+          "text": "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivation of supplied numbers, or taken from a cited, verified source",
+          "passed": true,
+          "evidence": "Back-calculated counts in brackets labeled for replacement; literature figures from cited verified sources | auto: numbers not in prompt (check derivations): ['0.58', '0.82', '1.16', '1.47', '1.5', '10.1038', '10.1053', '10.1093', '100', '101', '1011', '1019', '107', '108', '11', '14', '149', '1794', '1801', '2.51', '2.85', '2012.108', '2013', '2013.333', '2015.06.043', '21', '280', '281', '3', '3.70', '300000', '32', '38.3', '39', '4', '4.8', '42', '425', '426', '428', '430', '431', '48', '5', '5.44', '6', '628', '629', '631', '6526', '7', '8', '85', '883', '885', '894', '97', '98']"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "preserve-clean-human-abstract",
+      "eval_name": "preserve-clean-human-abstract",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 42.3,
+        "tokens": 97033,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), showing light-touch editing",
+          "passed": true,
+          "evidence": "similarity 1.000"
+        },
+        {
+          "text": "abstract_final.txt word count is within 10% of abstract.txt",
+          "passed": true,
+          "evidence": "words 230 vs 230"
+        },
+        {
+          "text": "every number in abstract.txt appears in abstract_final.txt and no new numbers are added",
+          "passed": true,
+          "evidence": "lost []; added []"
+        },
+        {
+          "text": "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many occurrences as in abstract.txt)",
+          "passed": true,
+          "evidence": "'associated with' 4 vs 4"
+        },
+        {
+          "text": "abstract_final.txt keeps the three en-dash confidence-interval ranges (1.08\u20131.54, 0.86\u20131.33, 0.98\u20131.42) exactly",
+          "passed": true,
+          "evidence": "all three present"
+        },
+        {
+          "text": "abstract_final.txt contains no [CITATION NEEDED] or [DATA NEEDED] placeholders",
+          "passed": true,
+          "evidence": "0 placeholders"
+        },
+        {
+          "text": "the response tells the author the abstract had few or no AI-writing patterns rather than presenting a heavy rewrite",
+          "passed": true,
+          "evidence": "'didn't change anything ... Nothing in it reads as AI-written.' | auto: manual: response says abstract was largely clean"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "reviewer-response-lead-with-decision",
+      "eval_name": "reviewer-response-lead-with-decision",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 37.0,
+        "tokens": 96686,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "response_revised.md is at least 25% shorter than response_draft.md in words",
+          "passed": true,
+          "evidence": "words 224 vs 377 (41% shorter)"
+        },
+        {
+          "text": "response_revised.md keeps every page and line reference from the draft (page 9 lines 182\u2013184, page 6 lines 121\u2013125, page 14 lines 301\u2013306, page 15 lines 322\u2013325) and Figure 1",
+          "passed": true,
+          "evidence": "all refs kept"
+        },
+        {
+          "text": "response_revised.md keeps the loss-to-follow-up numbers (14, 4.1%, 17, 5.0%)",
+          "passed": true,
+          "evidence": "kept"
+        },
+        {
+          "text": "response_revised.md contains none of: 'insightful', 'thought-provoking', 'excellent', 'sincerely thank', 'grateful'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "the first sentence of each of the three responses states the decision or action (added, kept, revised), not background or thanks",
+          "passed": true,
+          "evidence": "'We have added this.', 'We have kept the 90-day endpoint...', 'We agree and have revised...' | auto: manual: first sentence of each response"
+        },
+        {
+          "text": "response_revised.md describes no revision that the draft did not describe",
+          "passed": true,
+          "evidence": "Same three changes as the draft | auto: manual: no invented changes"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-case-report-discussion",
+      "eval_name": "revise-case-report-discussion",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 84.9,
+        "tokens": 102040,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "revised_discussion.md contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "revised_discussion.md contains no number that does not appear in case_report_draft.md",
+          "passed": true,
+          "evidence": "numbers not in draft: []"
+        },
+        {
+          "text": "revised_discussion.md keeps the FDA recommendation to stop empagliflozin at least 3 days before surgery with its citation [5]",
+          "passed": true,
+          "evidence": "[5] present: True; FDA present: True"
+        },
+        {
+          "text": "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it is removed or marked with a citation placeholder",
+          "passed": true,
+          "evidence": "'up to three times higher ... [CITATION NEEDED]' | auto: three-fold sentence: removed"
+        },
+        {
+          "text": "revised_discussion.md discusses the delayed diagnosis, including that early symptoms were attributed to ileus or opioids",
+          "passed": true,
+          "evidence": "Paragraph 2: attributed to ileus and opioids; ~14 h after first abnormal gas | auto: ileus mentioned: True; opioid mentioned: True"
+        },
+        {
+          "text": "revised_discussion.md contains none of: 'highlights the importance', 'valuable reminder', 'further research is needed', 'high index of suspicion', 'evolving landscape', 'revolutionized'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "revised_discussion.md does not claim the single case demonstrates the effectiveness of an approach or treatment",
+          "passed": true,
+          "evidence": "No efficacy claim | auto: 'demonstrat' occurrences: []"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-discussion-staging-strawman",
+      "eval_name": "revise-discussion-staging-strawman",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 60.5,
+        "tokens": 98918,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "discussion_revised.md contains none of: 'At its core', 'central question', 'currency of', 'The key point is'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "discussion_revised.md contains none of: 'This is not to say', 'One might argue'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "discussion_revised.md does not contain the split construction 'does not mean ... It means'",
+          "passed": true,
+          "evidence": "absent"
+        },
+        {
+          "text": "discussion_revised.md contains neither 'This illustrates' nor a closing 'Overall,' sentence",
+          "passed": true,
+          "evidence": "absent"
+        },
+        {
+          "text": "discussion_revised.md does not infer that patients with missing ambulatory status were nonambulatory ('likely nonambulatory' or 'suggesting' removed) and states only that the data were missing",
+          "passed": true,
+          "evidence": "no inference about missing ambulatory status"
+        },
+        {
+          "text": "discussion_revised.md does not contain 'The table below compares'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "every number in discussion.md appears in discussion_revised.md and no new numbers are added",
+          "passed": true,
+          "evidence": "lost []; added []"
+        },
+        {
+          "text": "discussion_revised.md describes the mortality result with association language ('associated with'), not a causal verb",
+          "passed": true,
+          "evidence": "assoc=True; causal=[]"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-intro-no-citations",
+      "eval_name": "revise-intro-no-citations",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.88,
+        "passed": 7,
+        "failed": 1,
+        "total": 8,
+        "time_seconds": 55.5,
+        "tokens": 98143,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "intro_revised.txt contains no em dash characters",
+          "passed": true,
+          "evidence": "0 em dashes"
+        },
+        {
+          "text": "intro_revised.txt contains no invented references: no author names, 'et al.', publication years, numbered citations, or named prior studies",
+          "passed": true,
+          "evidence": "et al: 0, years: [], numbered cites: [] (check named studies manually)"
+        },
+        {
+          "text": "intro_revised.txt marks claims that need support with at least two citation placeholders",
+          "passed": true,
+          "evidence": "8 placeholders"
+        },
+        {
+          "text": "intro_revised.txt contains no number that does not appear in intro_draft.txt",
+          "passed": true,
+          "evidence": "numbers not in draft (outside brackets): []"
+        },
+        {
+          "text": "intro_revised.txt keeps the study design details: prospective, adults aged 75 years and older, smartwatch, and 14-day continuous patch monitoring as the reference standard",
+          "passed": true,
+          "evidence": "{'prospective': True, '75': True, 'smartwatch': True, '14-day': True, 'patch': True}"
+        },
+        {
+          "text": "intro_revised.txt does not open with generic burden boilerplate ('millions of individuals worldwide', 'In recent years')",
+          "passed": true,
+          "evidence": "none of the phrases found; first sentence: Atrial fibrillation (AF) is the most common sustained arrhythmia in adults, and its prevalence rises steeply with age [REF]."
+        },
+        {
+          "text": "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an important gap', 'pave the way', 'critical gap', 'comprehensive'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraphs",
+          "passed": false,
+          "evidence": "words excluding [placeholders] 298 vs 220; paragraphs 4"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "revise-latex-file-mode",
+      "eval_name": "revise-latex-file-mode",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 47.9,
+        "tokens": 99089,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "results.tex contains exactly the same multiset of \\label, \\ref, and \\cite commands (with identical keys) as the original",
+          "passed": true,
+          "evidence": "missing {}; extra {}"
+        },
+        {
+          "text": "the equation environment in results.tex is byte-identical to the original",
+          "passed": true,
+          "evidence": "equation byte-identical"
+        },
+        {
+          "text": "results.tex keeps the unspaced LaTeX en-dash ranges 0.56--0.86 and 0.70--1.21",
+          "passed": true,
+          "evidence": "ranges kept"
+        },
+        {
+          "text": "results.tex prose contains no spaced --- or -- used as a dash",
+          "passed": true,
+          "evidence": "0 spaced dashes"
+        },
+        {
+          "text": "results.tex contains none of: 'It is important to note', 'highlighting', 'underscoring', 'remarkably', 'crucial', 'serves as a testament', 'Furthermore'",
+          "passed": true,
+          "evidence": "none of the phrases found"
+        },
+        {
+          "text": "every number in the original results.tex appears in the revised results.tex",
+          "passed": true,
+          "evidence": "lost []"
+        },
+        {
+          "text": "results.tex has balanced braces and the same \\begin/\\end pairs as the original",
+          "passed": true,
+          "evidence": "braces balanced=True; begin/end same=True"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 129.7556,
+        "stddev": 60.2953,
+        "min": 61.5,
+        "max": 261.2
+      },
+      "tokens": {
+        "mean": 133192.2222,
+        "stddev": 16180.6129,
+        "min": 112497,
+        "max": 168280
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.9867,
+        "stddev": 0.04,
+        "min": 0.88,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 65.6333,
+        "stddev": 30.4571,
+        "min": 37.0,
+        "max": 134.0
+      },
+      "tokens": {
+        "mean": 101109.0,
+        "stddev": 7319.7638,
+        "min": 96686,
+        "max": 120111
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.01",
+      "time_seconds": "+64.1",
+      "tokens": "+32083"
+    }
+  },
+  "notes": [
+    "Skill v1.1.0 (adds blader/humanizer v4 patterns and guards). 9 cases, Opus 5.5, with and without the skill.",
+    "Assertions are at ceiling: 63/63 with the skill, 62/63 without. The only baseline failure was the intro growing from 220 to 304 words.",
+    "No over-editing: on the clean human-written abstract both configurations returned it byte-identical and said so. All revisions kept every number.",
+    "Length is the clearest difference. Revisions with the skill changed length by -44% to +24%; without the skill, by -41% to +92%. The baseline expanded three of the seven revisions by 38-92% (staging discussion 199 to 382 words), adding interpretation and limitations the author never asked for.",
+    "Compared with v1.0 (round 2), v1.1 produced shorter revisions on the two shared revision cases (case report 327 to 308 words; intro 151 to 124), so the new guards did not cause over-editing.",
+    "New-pattern cases (staging/strawman, LaTeX, reviewer response, author voice, audit) were handled correctly by both configurations; Opus without the skill already avoids these tells when asked to revise. The skill's measurable effect on these cases is restraint in length and consistent placeholders."
+  ]
+}

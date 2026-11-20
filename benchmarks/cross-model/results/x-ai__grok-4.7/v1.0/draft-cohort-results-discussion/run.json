@@ -1,0 +1,14 @@
+{
+ "model": "x-ai/grok-4.7",
+ "provider_model": "x-ai/grok-4.7",
+ "config": "v1.0",
+ "case": "draft-cohort-results-discussion",
+ "seconds": 404.6,
+ "prompt_tokens": 26175,
+ "completion_tokens": 27530,
+ "cost_usd": 0.191226,
+ "finish_reason": "stop",
+ "files_returned": [
+  "draft_sections.md"
+ ]
+}

@@ -1,0 +1,20 @@
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia who underwent hip fracture surgery, 30-day mortality was lower among patients who mobilized within 24 hours of surgery than among those who mobilized later (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95). Median length of stay was also shorter in the early mobilization group (8 vs 11 days).
+
+Delirium incidence was 31% in the early mobilization group and 29% in the later mobilization group. We found no evidence of a difference between groups, but this comparison does not establish that early mobilization is safe or rule out other cognitive effects.
+
+Patients who were well enough to mobilize early may also have been more likely to survive and leave hospital sooner. Preoperative ambulatory status was not recorded for 18% of patients. We cannot assume that these patients were nonambulatory or determine how much differences in prefracture mobility contributed to the observed associations. The outcome comparisons also do not establish how often patients with severe dementia could participate in early physiotherapy.
+<<<END FILE>>>
+
+**What changed**
+- Led with the mortality and length-of-stay findings. The revision distinguishes those associations from a treatment benefit and names a plausible alternative explanation: patients in better postoperative condition may have mobilized sooner.
+- Kept the delirium result separate from the broader question of safety. Removed the unsupported inference that missing mobility records indicated inability to walk.
+- Removed the table callout because no comparison table accompanied the section. If it appears elsewhere in the manuscript, restore the reference using its table number.
+
+**Fidelity:** All numbers and reported outcome comparisons are preserved. No citations were supplied or added.
+
+**Author queries:** Confirm whether the comparator included patients who never mobilized; if so, “did not mobilize within 24 hours” is more accurate than “mobilized later.” To retain the feasibility claim, report how many eligible patients mobilized within 24 hours, with a denominator for the severe-dementia subgroup if making a claim about that group. A confidence interval for the delirium comparison would help readers judge which differences the data can exclude.
+
+For submission, disclose AI-assisted editing according to the journal’s policy.

@@ -1,0 +1,14 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "provider_model": "deepseek/deepseek-v4.1-flash-1017",
+ "config": "none",
+ "case": "revise-intro-no-citations",
+ "seconds": 15.2,
+ "prompt_tokens": 478,
+ "completion_tokens": 2238,
+ "cost_usd": 0.0008487,
+ "finish_reason": "stop",
+ "files_returned": [
+  "intro_revised.txt"
+ ]
+}

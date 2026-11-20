@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Audit is diagnosis only; it says \"No revised introduction, no suggested sentences\" and contains no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Section heading \"1. Causation claimed from association (most serious)\" quotes \"Early norepinephrine therefore prevents death\"."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"'Studies have shown' needs citations\"; \"growing body of evidence\" listed under Empty phrasing."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Flags \"pivotal challenge in the evolving landscape of critical care\", \"growing interest in the role of\", and says \"In recent years\" adds no information."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"'May potentially be associated ... in some patients' is stacked hedging.\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Treats \"associated with\" as correct association language, set against \"therefore prevents death\"; it is not marked for change."
+ },
+ "07": {
+  "passed": false,
+  "evidence": "Only \u00a71 has a label (\"most serious\"). The 5-item priority list does not cover every finding (e.g., undefined \"shock onset\"/\"early\", \u00a77 missing covariates and absolute risks), so there is no per-finding severity."
+ },
+ "_cost": 0.030416
+}

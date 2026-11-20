@@ -1,0 +1,27 @@
+I’ve put the audit in `audit.md` and left the introduction unchanged.
+
+<<<FILE: audit.md>>>
+# Introduction audit
+
+## 1. The causal conclusion exceeds the evidence
+
+The sentence reporting the institutional result is appropriately cautious: it describes an association and gives the estimate and confidence interval. The problem is the next sentence: “Early norepinephrine therefore prevents death in septic shock.” The adjusted odds ratio measures an association with the *odds* of 28-day death; it does not establish how many deaths, if any, the treatment prevented. Illness severity and response to initial resuscitation may influence both when clinicians start norepinephrine and whether patients survive. Adjustment does not rule out residual confounding.
+
+## 2. The evidence summary obscures what is known
+
+“Studies have shown that early norepinephrine improves survival” makes an uncited causal claim. The next sentence presents what sounds like the same comparison in reverse, but with several layers of qualification: “may potentially be associated” and “in some patients.” If the studies differ in design, patient population, timing threshold, or outcome, identify the difference that explains the change in confidence. Cite the mortality evidence directly and use causal language only where the design supports it.
+
+## 3. The timing comparison is unclear
+
+“Within 1 hour of shock onset” supplies a threshold but leaves two questions unanswered: what marked shock onset, and which patients formed the comparison group? Later initiation and no initiation are different comparators. A brief clarification would help readers interpret the estimate without requiring a full methods description. Also distinguish findings about norepinephrine from claims about vasopressors as a class.
+
+## 4. The prospective study lacks a stated purpose
+
+“This critical gap” has no clear referent, especially after the claim that early treatment prevents death. Identify the uncertainty that remains after the retrospective analysis, then specify the prospective study’s question, design, and primary outcome. Whether treatment timing is observed or assigned matters: prospective data collection alone does not resolve confounding. “Pave the way for improved outcomes” promises a benefit rather than stating what the study will test.
+
+## 5. Generic framing takes space from the clinical problem
+
+Support “a leading cause of death worldwide” with a current source and connect that broad sepsis burden to the narrower timing decision in septic shock. “Pivotal challenge,” “evolving landscape,” “growing interest,” and “comprehensive” add emphasis without giving readers a clinical or evidentiary reason to care. The final sentence also invokes a “gap” twice without naming it.
+
+**Revision priority:** Clarify the timing comparison and calibrate the mortality claim first. The uncertainty that remains should determine the study objective; polish the opening after that logic is in place.
+<<<END FILE>>>

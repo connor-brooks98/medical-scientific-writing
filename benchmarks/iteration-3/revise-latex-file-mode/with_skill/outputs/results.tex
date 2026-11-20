@@ -1,0 +1,15 @@
+\section{Results}
+\label{sec:results}
+
+A total of 2,418 patients met the inclusion criteria (Figure~\ref{fig:flow}). After propensity-score matching \cite{austin2011introduction}, baseline characteristics were well balanced between the groups (Table~\ref{tab:baseline}).
+
+The primary outcome occurred in 142 patients (11.7\%) in the intervention group and 198 patients (16.4\%) in the control group (hazard ratio [HR] 0.69; 95\% CI 0.56--0.86; $p = 0.001$). The association was consistent across all prespecified subgroups (Figure~\ref{fig:forest}).
+
+The adjusted model was specified as
+\begin{equation}
+  \log h_i(t) = \log h_0(t) + \beta_1 \text{Treatment}_i + \boldsymbol{\gamma}^\top \mathbf{x}_i ,
+  \label{eq:cox}
+\end{equation}
+where $\mathbf{x}_i$ denotes the vector of baseline covariates listed in Table~\ref{tab:baseline} \cite{cox1972regression, therneau2000modeling}.
+
+All-cause mortality, a secondary outcome, did not differ significantly between the groups (7.9\% versus 8.6\%; HR 0.92; 95\% CI 0.70--1.21). [DATA NEEDED: results for any other secondary outcomes]

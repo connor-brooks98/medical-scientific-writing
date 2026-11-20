@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.2-astra",
+ "provider_model": "openai/gpt-6.2-astra",
+ "config": "v1.0",
+ "case": "revise-intro-no-citations",
+ "seconds": 8.5,
+ "prompt_tokens": 25005,
+ "completion_tokens": 391,
+ "cost_usd": 0.26569,
+ "finish_reason": "stop",
+ "files_returned": [
+  "intro_revised.txt"
+ ]
+}

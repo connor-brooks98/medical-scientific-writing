@@ -1,0 +1,15 @@
+Here is the revised Discussion and Conclusion in a more conventional case-report tone. I kept the clinical facts and the existing FDA/citation reference, and I did not add new data.
+
+<<<FILE: revised_discussion.md>>>
+## Discussion
+
+Euglycemic diabetic ketoacidosis (euDKA) is a rare but potentially life-threatening complication of sodium-glucose cotransporter 2 (SGLT2) inhibitor therapy. SGLT2 inhibitors promote urinary glucose excretion, can reduce insulin requirements, and may enhance ketogenesis. In the perioperative setting, these effects may be compounded by surgical stress, prolonged fasting, and reduced carbohydrate intake. The risk of DKA has been reported to be increased up to three-fold in patients receiving SGLT2 inhibitors. Because marked hyperglycemia may be absent, the diagnosis can be delayed in patients who present with nonspecific symptoms such as nausea, vomiting, or malaise. Measuring ketones is particularly important in these patients when such symptoms occur.
+
+In this case, the early postoperative nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia. The capillary glucose was only mildly elevated at 182 mg/dL, which may have made a non-postoperative cause less apparent. The subsequent tachypnea and abnormal venous blood gas prompted evaluation, and the anion gap metabolic acidosis with markedly elevated beta-hydroxybutyrate supported the diagnosis of euDKA. The diagnosis was made approximately 14 hours after the first abnormal gas. The patient’s last empagliflozin dose was taken the morning before surgery, so the recommended 3-day holding period was not met. The FDA recommends that empagliflozin be discontinued at least 3 days before scheduled surgery [5]. This perioperative exposure, together with fasting and surgical stress, likely contributed to the development of euDKA.
+
+Management with intravenous insulin, concurrent 10% dextrose, fluid resuscitation, and potassium replacement resulted in closure of the anion gap after 38 hours. Empagliflozin was discontinued permanently. The case illustrates that postoperative patients taking SGLT2 inhibitors can develop ketoacidosis without marked hyperglycemia and that ketone testing should be considered when symptoms are not fully explained by expected postoperative complications.
+
+## Conclusion
+
+This case highlights the importance of maintaining a high index of suspicion for euDKA in postoperative patients taking SGLT2 inhibitors. Glucose values that are not markedly elevated do not exclude DKA. Clinicians, surgeons, and anesthesiologists should coordinate perioperative care, including adherence to SGLT2 inhibitor holding recommendations and a low threshold for ketone measurement when postoperative symptoms occur. Further research is needed to establish optimal strategies for preventing this potentially fatal complication.
+<<<END FILE>>>

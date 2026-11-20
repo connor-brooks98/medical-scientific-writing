@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"PPI use was not associated with 90-day all-cause mortality or 30-day readmission.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use was associated with a higher hazard of 90-day CDI\"; \"These observational results do not establish that PPIs cause CDI.\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al (2012, Am J Gastroenterol) and Freedberg et al (2015, Clin Infect Dis) are named; no other studies, authors, or trials appear."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"women (aHR, 1.21; 95% CI, 0.81-1.80), but the interaction was not statistically significant (P = .14)\"; \"should not be interpreted as established effect modification\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "Derived figures check out: 2377/6214 = 38.3%, 3837/6214 = 61.7%, 4.1% - 2.6% = 1.5 points. All other numbers are supplied in the task, and OR ~1.74 is attributed to Kwok. Event counts are left as placeholders."
+ },
+ "_cost": 0.026196
+}

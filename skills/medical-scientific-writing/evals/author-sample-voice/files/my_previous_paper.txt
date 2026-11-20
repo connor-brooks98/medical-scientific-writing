@@ -1,0 +1,3 @@
+Excerpt from our 2023 paper (Discussion, paragraph 2):
+
+Three findings deserve comment. First, the effect of the intervention on readmission was confined to patients discharged on weekdays — a pattern we did not anticipate and cannot fully explain. Weekend discharges in our hospital are handled by a smaller pharmacy team; reconciliation may simply have been less complete. Second, the benefit appeared early — within 30 days — and did not widen thereafter. Third, adherence measured by pill counts was high in both arms, which argues against adherence as the main pathway.

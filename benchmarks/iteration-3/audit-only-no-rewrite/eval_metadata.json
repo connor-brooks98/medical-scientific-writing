@@ -1,0 +1,13 @@
+{
+  "eval_name": "audit-only-no-rewrite",
+  "prompt": "Before I rewrite this intro myself, can you audit it and tell me what's wrong with it? Don't rewrite it, I want to do that part. Put the audit in audit.md.\n\nInput files: introduction.txt",
+  "assertions": [
+    "audit.md does not contain a rewritten version of the introduction (no full replacement paragraphs)",
+    "audit.md flags 'Early norepinephrine therefore prevents death' as an overclaim from retrospective data at the highest severity used",
+    "audit.md flags 'Studies have shown' and 'a growing body of evidence' as unsupported or vague attribution",
+    "audit.md flags the generic opening (leading cause of death worldwide / evolving landscape / in recent years)",
+    "audit.md flags 'may potentially be associated with ... in some patients' as stacked hedging",
+    "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change",
+    "audit.md assigns a severity level to each finding"
+  ]
+}

@@ -1,0 +1,4692 @@
+{
+ "deepseek__deepseek-v4.1-flash-1017": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md assigns a severity level to each finding :: F: All numbered issues sit under a single 'Major issues' heading with no differentiated tiers, including minor style items. / F: The \u201cMajor issues\u201d heading labe"
+   ],
+   "retried": false,
+   "cost": 0.001717572,
+   "seconds": 16.4,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.007116034,
+   "seconds": 56.5,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00550927328,
+   "seconds": 46.9,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.00055608,
+   "seconds": 7.0,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 87,
+    "length_change_pct": -14,
+    "similarity": 0.672,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00390608,
+   "seconds": 28.1,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 68,
+    "length_change_pct": -33,
+    "similarity": 0.619,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00415125,
+   "seconds": 27.3,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 65,
+    "length_change_pct": -36,
+    "similarity": 0.562,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00429444,
+   "seconds": 15.1,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.006149672,
+   "seconds": 58.1,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.008968338,
+   "seconds": 70.8,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: The message says \"I've lightly edited the abstract to keep it precise, natural,\" which describes light edits. It never t / P: The chat says \u201cI\u2019ve lightly edi"
+   ],
+   "retried": false,
+   "cost": 0.0013559,
+   "seconds": 8.5,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 235,
+    "length_change_pct": 2,
+    "similarity": 0.981,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.01800842,
+   "seconds": 94.9,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 242,
+    "length_change_pct": 5,
+    "similarity": 0.934,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0023871132,
+   "seconds": 37.3,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 232,
+    "length_change_pct": 1,
+    "similarity": 0.973,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: P: Each response opens with a decision: \"We now report loss to follow-up by group...\", \"We retained the 90-day primary endp / F: The third response opens with \u201c"
+   ],
+   "retried": false,
+   "cost": 0.00078497875,
+   "seconds": 4.7,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 210,
+    "length_change_pct": -44,
+    "similarity": 0.702,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: The Reviewer 1, Comment 2 response opens with \"We considered both endpoints during the design phase.\" That is background / F: Response 2 opens with backgroun"
+   ],
+   "retried": false,
+   "cost": 0.0057573,
+   "seconds": 10.2,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 248,
+    "length_change_pct": -34,
+    "similarity": 0.715,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: The Comment 2 response opens with background, \"The 90-day endpoint was chosen at the design stage.\" The decision (\"We ha / F: The first response opens with \u201c"
+   ],
+   "retried": false,
+   "cost": 0.00681854,
+   "seconds": 29.9,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 256,
+    "length_change_pct": -32,
+    "similarity": 0.663,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: \"The risk of diabetic ketoacidosis has been reported to be increased up to threefold in patients receiving SGLT2 inhibit / F: \u201cThe risk of diabetic ketoacido"
+   ],
+   "retried": false,
+   "cost": 0.00138264,
+   "seconds": 22.2,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 448,
+    "length_change_pct": 81,
+    "similarity": 0.352,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 3,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00649413,
+   "seconds": 68.4,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 380,
+    "length_change_pct": 53,
+    "similarity": 0.32,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.007971955,
+   "seconds": 71.1,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 378,
+    "length_change_pct": 52,
+    "similarity": 0.335,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md contains neither 'This illustrates' nor a closing 'Overall,' sentenc :: found ['. Overall,']",
+    "discussion_revised.md does not contain 'The table below compares' :: found: ['table below compares']"
+   ],
+   "retried": false,
+   "cost": 0.001311848,
+   "seconds": 12.1,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 255,
+    "length_change_pct": 28,
+    "similarity": 0.608,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "every number in discussion.md appears in discussion_revised.md and no new numbers are adde :: lost []; added ['80']",
+    "discussion_revised.md describes the mortality result with association language ('associate :: assoc=True; causal=['They do not establish that earlier mobilization is what lowered mortality.']"
+   ],
+   "retried": false,
+   "cost": 0.003669426,
+   "seconds": 54.7,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 293,
+    "length_change_pct": 47,
+    "similarity": 0.395,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 6,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md describes the mortality result with association language ('associate :: assoc=True; causal=['Adjustment accounted for the confounders that were measured, not for all of them, and this cohort cannot show that mobil']"
+   ],
+   "retried": false,
+   "cost": 0.00343765,
+   "seconds": 36.8,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 171,
+    "length_change_pct": -14,
+    "similarity": 0.454,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 4,
+   "total": 8,
+   "failed": [
+    "intro_revised.txt contains no em dash characters :: 2 em dashes",
+    "intro_revised.txt marks claims that need support with at least two citation placeholders :: 0 placeholders",
+    "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an impor :: found: ['promising', 'critical gap']",
+    "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraph :: words excluding [placeholders] 227 vs 220; paragraphs 3"
+   ],
+   "retried": false,
+   "cost": 0.0008487,
+   "seconds": 15.2,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 235,
+    "length_change_pct": 7,
+    "similarity": 0.559,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 4,
+    "em_dashes_out": 2,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00891918,
+   "seconds": 24.5,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 196,
+    "length_change_pct": -11,
+    "similarity": 0.468,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 8,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "intro_revised.txt contains no number that does not appear in intro_draft.txt :: numbers not in draft (outside brackets): ['95']"
+   ],
+   "retried": false,
+   "cost": 0.00744885,
+   "seconds": 28.2,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 219,
+    "length_change_pct": 0,
+    "similarity": 0.388,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 9,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "results.tex contains none of: 'It is important to note', 'highlighting', 'underscoring', ' :: found: ['underscoring']"
+   ],
+   "retried": false,
+   "cost": 0.0003915,
+   "seconds": 6.2,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 119,
+    "length_change_pct": -12,
+    "similarity": 0.937,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 3,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.004605135,
+   "seconds": 24.1,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 101,
+    "length_change_pct": -26,
+    "similarity": 0.837,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00280915,
+   "seconds": 27.4,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 104,
+    "length_change_pct": -24,
+    "similarity": 0.826,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "google__gemini-4-neon": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md assigns a severity level to each finding :: F: Only section 2 is labeled \"Critical\". Sections 3 and 4 are topical categories and the sentence-by-sentence audit has no  / F: \u201cCritical Scientific & Logical "
+   ],
+   "retried": false,
+   "cost": 0.057042,
+   "seconds": 31.2,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.199914,
+   "seconds": 70.0,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.192474,
+   "seconds": 58.2,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.097119,
+   "seconds": 53.1,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 65,
+    "length_change_pct": -36,
+    "similarity": 0.597,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 2,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.237756,
+   "seconds": 99.9,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 60,
+    "length_change_pct": -41,
+    "similarity": 0.572,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.234306,
+   "seconds": 88.9,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 59,
+    "length_change_pct": -42,
+    "similarity": 0.576,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "draft_sections.md contains no em dashes and none of: 'further research', 'more research is :: 2 em dashes; none of the phrases found"
+   ],
+   "retried": false,
+   "cost": 0.106017,
+   "seconds": 60.5,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.341034,
+   "seconds": 147.7,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.430419,
+   "seconds": 209.8,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt keeps the three en-dash confidence-interval ranges (1.08\u20131.54, 0.86\u20131.3 :: missing ['1.08\u20131.54', '0.86\u20131.33', '0.98\u20131.42']"
+   ],
+   "retried": false,
+   "cost": 0.080031,
+   "seconds": 42.4,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 227,
+    "length_change_pct": -1,
+    "similarity": 0.998,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.216333,
+   "seconds": 84.7,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 230,
+    "length_change_pct": 0,
+    "similarity": 1.0,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.198438,
+   "seconds": 62.8,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 230,
+    "length_change_pct": 0,
+    "similarity": 1.0,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Response to R1C2 opens with rationale, \"Most readmissions after heart failure hospitalization occur within the first 90  / F: The second response opens with "
+   ],
+   "retried": false,
+   "cost": 0.041079,
+   "seconds": 22.2,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 192,
+    "length_change_pct": -49,
+    "similarity": 0.664,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: P: Each response opens with a decision or action: \"We have added the number...\", \"We have kept the 90-day endpoint and adde / F: The third response opens with \u201c"
+   ],
+   "retried": false,
+   "cost": 0.174981,
+   "seconds": 56.2,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 221,
+    "length_change_pct": -41,
+    "similarity": 0.66,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Reviewer 2's response begins \"We agree.\" That sentence states agreement only; the action (\"we have revised the Discussio / F: The third response starts with "
+   ],
+   "retried": false,
+   "cost": 0.207366,
+   "seconds": 73.5,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 229,
+    "length_change_pct": -39,
+    "similarity": 0.657,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: \"Prior studies have reported up to a threefold increase in the risk of DKA\" is kept with no citation or placeholder. The / F: The file states, \u201cPrior studies"
+   ],
+   "retried": false,
+   "cost": 0.106539,
+   "seconds": 58.6,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 415,
+    "length_change_pct": 67,
+    "similarity": 0.405,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.373326,
+   "seconds": 173.0,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 331,
+    "length_change_pct": 33,
+    "similarity": 0.248,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.28797615,
+   "seconds": 143.1,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 307,
+    "length_change_pct": 24,
+    "similarity": 0.216,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.102813,
+   "seconds": 56.8,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 303,
+    "length_change_pct": 52,
+    "similarity": 0.386,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.365865,
+   "seconds": 167.9,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 212,
+    "length_change_pct": 7,
+    "similarity": 0.393,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 6,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.27039,
+   "seconds": 106.4,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 155,
+    "length_change_pct": -22,
+    "similarity": 0.408,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "intro_revised.txt contains no em dash characters :: 2 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.070467,
+   "seconds": 39.2,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 200,
+    "length_change_pct": -9,
+    "similarity": 0.542,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 2,
+    "placeholders_out": 7,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.287304,
+   "seconds": 118.2,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 113,
+    "length_change_pct": -49,
+    "similarity": 0.513,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.315774,
+   "seconds": 130.3,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 119,
+    "length_change_pct": -46,
+    "similarity": 0.531,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.052944,
+   "seconds": 28.5,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 98,
+    "length_change_pct": -28,
+    "similarity": 0.874,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.1606569,
+   "seconds": 87.2,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 102,
+    "length_change_pct": -25,
+    "similarity": 0.804,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.214551,
+   "seconds": 71.7,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 102,
+    "length_change_pct": -25,
+    "similarity": 0.764,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "openai__gpt-6.1-terra": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md assigns a severity level to each finding :: F: Only \"Main issues\" implies priority. \"Support and context\" and \"Style and structure\" are topical groupings, not severity / F: \u201cSupport and context\u201d and \u201cStyl"
+   ],
+   "retried": false,
+   "cost": 0.004459,
+   "seconds": 16.2,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change :: F: \"norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality\" gets its own row (S13,  / P: The finding asks to \u201cIdentify t"
+   ],
+   "retried": false,
+   "cost": 0.035543,
+   "seconds": 15.7,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.039713,
+   "seconds": 18.9,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.001416,
+   "seconds": 4.6,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 66,
+    "length_change_pct": -35,
+    "similarity": 0.583,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.0034919,
+   "seconds": 7.6,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 55,
+    "length_change_pct": -46,
+    "similarity": 0.582,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.0053991,
+   "seconds": 11.4,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 61,
+    "length_change_pct": -40,
+    "similarity": 0.607,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not diff :: F: Hedged rather than plain: \"The observed associations with 90-day mortality and 30-day readmission were closer to the nul / F: The draft says the estimates we",
+    "draft_sections.md contains no em dashes and none of: 'further research', 'more research is :: 0 em dashes; found: ['further research']"
+   ],
+   "retried": false,
+   "cost": 0.007885,
+   "seconds": 25.8,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not diff :: F: Hedged rather than plain: \"estimates ... were closer to the null, with confidence intervals that included both lower and / F: The draft says the estimates we"
+   ],
+   "retried": false,
+   "cost": 0.0099994,
+   "seconds": 31.8,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not diff :: F: Only hedged wording: \"The confidence intervals for the associations with 90-day mortality and 30-day readmission include / F: The draft says the confidence i"
+   ],
+   "retried": false,
+   "cost": 0.0097266,
+   "seconds": 26.2,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 5,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many  :: 'associated with' 3 vs 4",
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: The message says only \"I revised the abstract for clarity and natural phrasing while preserving the reported findings.\"  / F: The chat says \u201cI revised the ab"
+   ],
+   "retried": false,
+   "cost": 0.003018,
+   "seconds": 8.4,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 228,
+    "length_change_pct": -1,
+    "similarity": 0.929,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00475815,
+   "seconds": 8.3,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 231,
+    "length_change_pct": 0,
+    "similarity": 0.955,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00664035,
+   "seconds": 13.9,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 233,
+    "length_change_pct": 1,
+    "similarity": 0.961,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Reviewer 1, Comment 2 opens with \"We considered both endpoints during trial design.\" This is design background. The deci / F: \u201cWe considered both endpoints d"
+   ],
+   "retried": false,
+   "cost": 0.002456,
+   "seconds": 5.1,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 213,
+    "length_change_pct": -43,
+    "similarity": 0.709,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: R1C2 opens with \"We considered both endpoints during trial design.\" and R2C1 opens with \"The trial enrolled only patient / F: Responses 2 and 3 open with bac"
+   ],
+   "retried": false,
+   "cost": 0.0055219,
+   "seconds": 12.7,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 217,
+    "length_change_pct": -42,
+    "similarity": 0.701,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 6,
+   "total": 6,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0051241,
+   "seconds": 9.4,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 223,
+    "length_change_pct": -40,
+    "similarity": 0.629,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: \"Studies have reported an up to threefold increase in DKA risk among patients receiving SGLT2 inhibitors.\" is kept with  / F: \u201cStudies have reported an up to"
+   ],
+   "retried": false,
+   "cost": 0.003444,
+   "seconds": 8.7,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 214,
+    "length_change_pct": -14,
+    "similarity": 0.435,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 3,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00693565,
+   "seconds": 17.4,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 202,
+    "length_change_pct": -19,
+    "similarity": 0.318,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.00690285,
+   "seconds": 14.4,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 273,
+    "length_change_pct": 10,
+    "similarity": 0.37,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.002677,
+   "seconds": 8.9,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 208,
+    "length_change_pct": 5,
+    "similarity": 0.457,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md does not contain 'The table below compares' :: found: ['table below compares']"
+   ],
+   "retried": false,
+   "cost": 0.0060769,
+   "seconds": 17.6,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 195,
+    "length_change_pct": -2,
+    "similarity": 0.512,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0049241,
+   "seconds": 11.7,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 135,
+    "length_change_pct": -32,
+    "similarity": 0.489,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraph :: words excluding [placeholders] 148 vs 220; paragraphs 4"
+   ],
+   "retried": false,
+   "cost": 0.002516,
+   "seconds": 8.5,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 148,
+    "length_change_pct": -33,
+    "similarity": 0.519,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 3,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0051969,
+   "seconds": 15.3,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 145,
+    "length_change_pct": -34,
+    "similarity": 0.531,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 6,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0049291,
+   "seconds": 11.8,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 126,
+    "length_change_pct": -43,
+    "similarity": 0.52,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.002377,
+   "seconds": 5.3,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 102,
+    "length_change_pct": -25,
+    "similarity": 0.841,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0068844,
+   "seconds": 18.6,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 92,
+    "length_change_pct": -32,
+    "similarity": 0.823,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0060466,
+   "seconds": 13.3,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 106,
+    "length_change_pct": -22,
+    "similarity": 0.857,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "openai__gpt-6.2-astra": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md assigns a severity level to each finding :: F: No finding has a severity label. The \"Revision priority\" line ranks only the timing and mortality items first and the op / F: The closing \u201cRevision priority\u201d"
+   ],
+   "retried": false,
+   "cost": 0.025592,
+   "seconds": 14.4,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.28283,
+   "seconds": 18.3,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.30987,
+   "seconds": 17.5,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.010248,
+   "seconds": 3.3,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 87,
+    "length_change_pct": -14,
+    "similarity": 0.509,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.25817,
+   "seconds": 5.4,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 77,
+    "length_change_pct": -24,
+    "similarity": 0.55,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.28301,
+   "seconds": 5.1,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 68,
+    "length_change_pct": -33,
+    "similarity": 0.588,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not diff :: F: Hedged rather than plain: \"close to the null, although their confidence intervals did not exclude modest differences in  / F: The draft says the adjusted est"
+   ],
+   "retried": false,
+   "cost": 0.04012,
+   "seconds": 15.5,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.288344,
+   "seconds": 21.1,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.311384,
+   "seconds": 17.3,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 2,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.776",
+    "every number in abstract.txt appears in abstract_final.txt and no new numbers are added :: lost []; added ['1']",
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many  :: 'associated with' 2 vs 4",
+    "abstract_final.txt keeps the three en-dash confidence-interval ranges (1.08\u20131.54, 0.86\u20131.3 :: missing ['1.08\u20131.54', '0.86\u20131.33', '0.98\u20131.42']",
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: The chat message says only \"I tightened the wording and preserved the reported estimates\" and never tells the author tha / F: \u201cI tightened the wording and pr"
+   ],
+   "retried": false,
+   "cost": 0.021304,
+   "seconds": 6.7,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 252,
+    "length_change_pct": 10,
+    "similarity": 0.776,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 3,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.795",
+    "every number in abstract.txt appears in abstract_final.txt and no new numbers are added :: lost []; added ['1']",
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many  :: 'associated with' 2 vs 4",
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: The chat lists edits under \"What changed\" (split the timeline, made the comparisons explicit, replaced the closing sente / F: The chat lists edits under \u201cWha"
+   ],
+   "retried": false,
+   "cost": 0.0370252,
+   "seconds": 10.5,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 244,
+    "length_change_pct": 6,
+    "similarity": 0.795,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 4,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.804",
+    "every number in abstract.txt appears in abstract_final.txt and no new numbers are added :: lost []; added ['1']",
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many  :: 'associated with' 2 vs 4"
+   ],
+   "retried": false,
+   "cost": 0.0369228,
+   "seconds": 10.1,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 241,
+    "length_change_pct": 5,
+    "similarity": 0.804,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Reviewer 1, Comment 2 opens with \"We considered both endpoints during trial design.\" This is background. The decision (\" / F: Reviewer 1, Comment 2 opens wit"
+   ],
+   "retried": false,
+   "cost": 0.018288,
+   "seconds": 4.4,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 194,
+    "length_change_pct": -48,
+    "similarity": 0.629,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: R1C1 opens with background (\"The original submission reported only the overall loss to follow-up.\"), and R1C2 opens with / F: The first two responses open wi"
+   ],
+   "retried": false,
+   "cost": 0.267364,
+   "seconds": 5.7,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 208,
+    "length_change_pct": -44,
+    "similarity": 0.629,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 6,
+   "total": 6,
+   "failed": [],
+   "retried": false,
+   "cost": 0.292524,
+   "seconds": 5.0,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 195,
+    "length_change_pct": -48,
+    "similarity": 0.623,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: The file keeps \"studies have reported up to a threefold increase in risk\" with no citation or placeholder. The suggestio / F: The file states \u201cstudies have r"
+   ],
+   "retried": false,
+   "cost": 0.025872,
+   "seconds": 7.9,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 265,
+    "length_change_pct": 7,
+    "similarity": 0.356,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0464852,
+   "seconds": 11.7,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 293,
+    "length_change_pct": 18,
+    "similarity": 0.341,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.30956,
+   "seconds": 13.0,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 301,
+    "length_change_pct": 21,
+    "similarity": 0.295,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md describes the mortality result with association language ('associate :: assoc=False; causal=[]"
+   ],
+   "retried": false,
+   "cost": 0.016936,
+   "seconds": 6.4,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 213,
+    "length_change_pct": 7,
+    "similarity": 0.404,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md describes the mortality result with association language ('associate :: assoc=False; causal=[]"
+   ],
+   "retried": false,
+   "cost": 0.26925,
+   "seconds": 11.2,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 171,
+    "length_change_pct": -14,
+    "similarity": 0.461,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0314328,
+   "seconds": 8.8,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 151,
+    "length_change_pct": -24,
+    "similarity": 0.428,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.015288,
+   "seconds": 8.5,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 167,
+    "length_change_pct": -24,
+    "similarity": 0.437,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 7,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.26569,
+   "seconds": 8.5,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 122,
+    "length_change_pct": -45,
+    "similarity": 0.432,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 3,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.29233,
+   "seconds": 9.6,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 116,
+    "length_change_pct": -47,
+    "similarity": 0.347,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.018856,
+   "seconds": 4.6,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 100,
+    "length_change_pct": -26,
+    "similarity": 0.806,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.26759,
+   "seconds": 6.1,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 100,
+    "length_change_pct": -26,
+    "similarity": 0.748,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0336128,
+   "seconds": 7.3,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 95,
+    "length_change_pct": -30,
+    "similarity": 0.789,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "openai__gpt-6.2-sol": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md assigns a severity level to each finding :: P: Every finding sits in one of two ranked tiers: \"Highest priority\" (numbered 1\u20133) and \"Clarity and style\". / F: \u201cHighest priority\u201d labels the first three find"
+   ],
+   "retried": false,
+   "cost": 0.006998,
+   "seconds": 14.7,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.072516,
+   "seconds": 10.0,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.078416,
+   "seconds": 19.3,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.002322,
+   "seconds": 3.2,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 80,
+    "length_change_pct": -21,
+    "similarity": 0.542,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.0649125,
+   "seconds": 2.6,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 65,
+    "length_change_pct": -36,
+    "similarity": 0.58,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0089582,
+   "seconds": 11.5,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 66,
+    "length_change_pct": -35,
+    "similarity": 0.588,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not diff :: F: The draft says only \"Adjusted estimates for mortality and readmission were close to the null, and their confidence inter / F: \u201cAdjusted estimates for mortali"
+   ],
+   "retried": false,
+   "cost": 0.00918,
+   "seconds": 6.1,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not diff :: F: The draft hedges with \"adjusted estimates ... were close to 1, and both confidence intervals included 1.\" It never state / F: The draft says the estimates we"
+   ],
+   "retried": false,
+   "cost": 0.0154688,
+   "seconds": 11.6,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "draft_sections.md states plainly that 90-day mortality and 30-day readmission did not diff :: F: Hedged rather than plain: \"adjusted estimates for 90-day all-cause mortality and 30-day readmission were close to 1, wit / F: The draft says the estimates we"
+   ],
+   "retried": false,
+   "cost": 0.0771475,
+   "seconds": 5.3,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 3,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.772",
+    "abstract_final.txt word count is within 10% of abstract.txt :: words 260 vs 230",
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many  :: 'associated with' 2 vs 4",
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: Chat says \"I edited the abstract for clarity and flow\" and never tells the author the original had few or no AI-writing  / F: The chat says \u201cI edited the abs"
+   ],
+   "retried": false,
+   "cost": 0.005806,
+   "seconds": 4.0,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 260,
+    "length_change_pct": 13,
+    "similarity": 0.772,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 4,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.800",
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many  :: 'associated with' 2 vs 4",
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: The message says only \"edited for clarity and precision\" and lists changes. It never tells the author the abstract alrea / F: The chat says it \u201cedited for cl"
+   ],
+   "retried": false,
+   "cost": 0.0126163,
+   "seconds": 8.1,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 220,
+    "length_change_pct": -4,
+    "similarity": 0.8,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 5,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.794",
+    "abstract_final.txt keeps 'associated with' for the statistical findings (at least as many  :: 'associated with' 3 vs 4"
+   ],
+   "retried": false,
+   "cost": 0.0126307,
+   "seconds": 17.1,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 239,
+    "length_change_pct": 4,
+    "similarity": 0.794,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: R1C2 opens with background (\"We considered both endpoints when designing the trial.\") and R2C1 opens with background (\"T / F: Responses 2 and 3 open with bac"
+   ],
+   "retried": false,
+   "cost": 0.004832,
+   "seconds": 6.7,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 212,
+    "length_change_pct": -43,
+    "similarity": 0.669,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Two of the three responses open with background rather than the action taken: R1C1 starts \"The original submission repor / F: Responses 1 and 3 open with bac"
+   ],
+   "retried": false,
+   "cost": 0.069091,
+   "seconds": 10.8,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 223,
+    "length_change_pct": -40,
+    "similarity": 0.656,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 6,
+   "total": 6,
+   "failed": [],
+   "retried": false,
+   "cost": 0.074361,
+   "seconds": 6.4,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 210,
+    "length_change_pct": -44,
+    "similarity": 0.605,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 5,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md contains no number that does not appear in case_report_draft.md :: numbers not in draft: ['200']",
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: \"Studies have reported an up to threefold increase in DKA risk among patients receiving these agents.\" is kept with no c / F: \u201cStudies have reported an up to"
+   ],
+   "retried": false,
+   "cost": 0.006278,
+   "seconds": 4.2,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 287,
+    "length_change_pct": 16,
+    "similarity": 0.405,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.07013,
+   "seconds": 4.4,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 264,
+    "length_change_pct": 6,
+    "similarity": 0.379,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0767,
+   "seconds": 5.0,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 278,
+    "length_change_pct": 12,
+    "similarity": 0.418,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.004394,
+   "seconds": 3.0,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 221,
+    "length_change_pct": 11,
+    "similarity": 0.44,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0090538,
+   "seconds": 14.8,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 156,
+    "length_change_pct": -22,
+    "similarity": 0.399,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0102182,
+   "seconds": 14.4,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 169,
+    "length_change_pct": -15,
+    "similarity": 0.464,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.003632,
+   "seconds": 2.7,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 167,
+    "length_change_pct": -24,
+    "similarity": 0.485,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0102938,
+   "seconds": 6.8,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 113,
+    "length_change_pct": -49,
+    "similarity": 0.421,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0099982,
+   "seconds": 7.4,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 106,
+    "length_change_pct": -52,
+    "similarity": 0.405,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.004324,
+   "seconds": 4.9,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 100,
+    "length_change_pct": -26,
+    "similarity": 0.793,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0094488,
+   "seconds": 10.0,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 101,
+    "length_change_pct": -26,
+    "similarity": 0.785,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0106032,
+   "seconds": 12.4,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 99,
+    "length_change_pct": -27,
+    "similarity": 0.735,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "qwen__qwen3.8-27b": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 5,
+   "total": 7,
+   "failed": [
+    "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change :: F: Section '\"Lower 28-day mortality\" may be imprecise' with audit point 'Make sure the language matches the effect measure  / F: The audit flags \u201cLower 28-day m",
+    "audit.md assigns a severity level to each finding :: F: Only 'Major issues' is tiered. Paragraph notes, statistical issues and language issues have no severity or priority labe / F: The audit identifies a \u201cbiggest"
+   ],
+   "retried": false,
+   "cost": 0.01736688,
+   "seconds": 74.8,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0419571,
+   "seconds": 29.9,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0436091,
+   "seconds": 88.0,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0080036,
+   "seconds": 19.2,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 70,
+    "length_change_pct": -31,
+    "similarity": 0.687,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 2,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.0213058,
+   "seconds": 95.4,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 55,
+    "length_change_pct": -46,
+    "similarity": 0.621,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.0300365,
+   "seconds": 82.0,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 68,
+    "length_change_pct": -33,
+    "similarity": 0.523,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0231973,
+   "seconds": 124.2,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.05467038,
+   "seconds": 258.5,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0606855,
+   "seconds": 119.8,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: The message never says the original was already mostly free of AI patterns. It frames the edits as fixes: \"tightened a f / P: \u201cI tightened a few formulaic ph"
+   ],
+   "retried": false,
+   "cost": 0.0208974,
+   "seconds": 48.4,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 236,
+    "length_change_pct": 3,
+    "similarity": 0.905,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0416796,
+   "seconds": 20.3,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 230,
+    "length_change_pct": 0,
+    "similarity": 1.0,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.04727085,
+   "seconds": 27.9,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 235,
+    "length_change_pct": 2,
+    "similarity": 0.971,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Reviewer 1, Comment 2 response opens with \"We considered both a 90-day and a 1-year endpoint.\" That is background. The d / F: The second response opens with "
+   ],
+   "retried": false,
+   "cost": 0.004179,
+   "seconds": 5.7,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 212,
+    "length_change_pct": -43,
+    "similarity": 0.695,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Reviewer 1, Comment 1 response opens with background, not the action taken: \"Our original manuscript reported overall lo / F: Response 1 opens with backgroun"
+   ],
+   "retried": false,
+   "cost": 0.0154249,
+   "seconds": 59.5,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 248,
+    "length_change_pct": -34,
+    "similarity": 0.725,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: P: Responses open with \"We agree.\" (R1C1, R2C1) and \"We kept the 90-day primary endpoint and have added the rationale...\" ( / F: Reviewer 1, Comment 1 and Revie"
+   ],
+   "retried": false,
+   "cost": 0.02229818,
+   "seconds": 64.8,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 215,
+    "length_change_pct": -43,
+    "similarity": 0.638,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 5,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: \"The risk of DKA has been reported to be increased up to three-fold\" appears with no citation or placeholder. Softening  / F: The output retains \u201cincreased u",
+    "revised_discussion.md contains none of: 'highlights the importance', 'valuable reminder',  :: found: ['highlights the importance', 'further research is needed', 'high index of suspicion']"
+   ],
+   "retried": false,
+   "cost": 0.0124825,
+   "seconds": 26.4,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 360,
+    "length_change_pct": 45,
+    "similarity": 0.504,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 8,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.05626744,
+   "seconds": 153.1,
+   "finish": "length",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 372,
+    "length_change_pct": 50,
+    "similarity": 0.409,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 3,
+    "em_dashes_out": 0,
+    "placeholders_out": 3,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": true,
+   "cost": 0.043017772,
+   "seconds": 92.9,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 314,
+    "length_change_pct": 27,
+    "similarity": 0.377,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md contains none of: 'At its core', 'central question', 'currency of',  :: found: ['central question']",
+    "discussion_revised.md contains neither 'This illustrates' nor a closing 'Overall,' sentenc :: found ['. Overall,']"
+   ],
+   "retried": false,
+   "cost": 0.0095364,
+   "seconds": 24.0,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 273,
+    "length_change_pct": 37,
+    "similarity": 0.643,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 5,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md contains none of: 'At its core', 'central question', 'currency of',  :: found: ['central question']",
+    "discussion_revised.md does not infer that patients with missing ambulatory status were non :: found ['likely nonambulatory']",
+    "discussion_revised.md does not contain 'The table below compares' :: found: ['table below compares']"
+   ],
+   "retried": false,
+   "cost": 0.04129676,
+   "seconds": 109.6,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 245,
+    "length_change_pct": 23,
+    "similarity": 0.619,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": true,
+   "cost": 0.0153429,
+   "seconds": 25.9,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 198,
+    "length_change_pct": -1,
+    "similarity": 0.517,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 5,
+   "total": 8,
+   "failed": [
+    "intro_revised.txt marks claims that need support with at least two citation placeholders :: 0 placeholders",
+    "intro_revised.txt contains none of: 'promising', 'transform', 'landscape', 'fills an impor :: found: ['promising']",
+    "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraph :: words excluding [placeholders] 285 vs 220; paragraphs 4"
+   ],
+   "retried": false,
+   "cost": 0.00328275,
+   "seconds": 15.8,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 285,
+    "length_change_pct": 30,
+    "similarity": 0.479,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.03348495,
+   "seconds": 132.8,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 117,
+    "length_change_pct": -47,
+    "similarity": 0.549,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.03205524,
+   "seconds": 56.1,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 150,
+    "length_change_pct": -32,
+    "similarity": 0.534,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 6,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "results.tex contains none of: 'It is important to note', 'highlighting', 'underscoring', ' :: found: ['underscoring']"
+   ],
+   "retried": false,
+   "cost": 0.00496335,
+   "seconds": 2.6,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 121,
+    "length_change_pct": -11,
+    "similarity": 0.937,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 3,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0214603,
+   "seconds": 47.1,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 102,
+    "length_change_pct": -25,
+    "similarity": 0.839,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.02911892,
+   "seconds": 43.7,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 99,
+    "length_change_pct": -27,
+    "similarity": 0.881,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "qwen__qwen4-max": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md assigns a severity level to each finding :: F: Section 3 table rows (e.g., \"No adjustment covariates listed\") and Section 4 structural bullets (\"No funnel\", \"No object / F: Findings such as \u201cNo funnel\u201d an"
+   ],
+   "retried": false,
+   "cost": 0.020319075,
+   "seconds": 98.0,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change :: F: #9 quotes \"lower 28-day mortality (adjusted odds ratio...)\" and says \"An odds ratio describes odds, not mortality risk;  / F: Finding 9 flags \u201clower 28-day m"
+   ],
+   "retried": false,
+   "cost": 0.05609655,
+   "seconds": 84.8,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.06309843,
+   "seconds": 92.9,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "every number in new_paragraph.txt appears in new_paragraph_revised.txt and no new numbers  :: lost []; added ['28']"
+   ],
+   "retried": false,
+   "cost": 0.0101403,
+   "seconds": 42.2,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 148,
+    "length_change_pct": 47,
+    "similarity": 0.499,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 2,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "every number in new_paragraph.txt appears in new_paragraph_revised.txt and no new numbers  :: lost []; added ['1000', '36']"
+   ],
+   "retried": false,
+   "cost": 0.02674155,
+   "seconds": 111.2,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 77,
+    "length_change_pct": -24,
+    "similarity": 0.475,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.011652225,
+   "seconds": 38.1,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 78,
+    "length_change_pct": -23,
+    "similarity": 0.502,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "draft_sections.md contains no em dashes and none of: 'further research', 'more research is :: 14 em dashes; none of the phrases found",
+    "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivati :: P: All numbers are supplied or correctly derived: 6526 = 6214 + 312; 312/6526 = 4.8%; 2377/6214 = 38.3%; 1.5-point differen / F: The author queries request nume"
+   ],
+   "retried": false,
+   "cost": 0.032636775,
+   "seconds": 149.2,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 7,
+   "total": 8,
+   "failed": [
+    "every number in draft_sections.md is supplied in the prompt, a correct arithmetic derivati :: P: Derived numbers are correct: 4.1-2.6 = 1.5 points, \"15 additional CDI cases per 1000\", and \"up to about 20%\" from the 1. / F: The draft cites \u201cTable 2,\u201d a ta"
+   ],
+   "retried": false,
+   "cost": 0.031231725,
+   "seconds": 124.8,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.036744195,
+   "seconds": 143.1,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.843"
+   ],
+   "retried": false,
+   "cost": 0.0170715,
+   "seconds": 75.4,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 246,
+    "length_change_pct": 7,
+    "similarity": 0.843,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 5,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt keeps the three en-dash confidence-interval ranges (1.08\u20131.54, 0.86\u20131.3 :: missing ['1.08\u20131.54', '0.86\u20131.33', '0.98\u20131.42']",
+    "abstract_final.txt contains no [CITATION NEEDED] or [DATA NEEDED] placeholders :: 2 placeholders"
+   ],
+   "retried": false,
+   "cost": 0.018466575,
+   "seconds": 64.4,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 231,
+    "length_change_pct": 0,
+    "similarity": 0.88,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt contains no [CITATION NEEDED] or [DATA NEEDED] placeholders :: 2 placeholders"
+   ],
+   "retried": false,
+   "cost": 0.03461097,
+   "seconds": 122.5,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 247,
+    "length_change_pct": 7,
+    "similarity": 0.878,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 4,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: P: Each response opens with the decision: \"We have added loss to follow-up by group...\", \"We have kept the 90-day endpoint. / F: The third response opens with \u201c",
+    "response_revised.md describes no revision that the draft did not describe :: P: Only the draft's revisions appear: the CONSORT/Results counts, the Methods rationale, the narrowed Discussion conclusion / F: The draft limits conclusions to"
+   ],
+   "retried": false,
+   "cost": 0.005533275,
+   "seconds": 21.3,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 198,
+    "length_change_pct": -47,
+    "similarity": 0.65,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: P: R1C1 opens \"We have added group-specific loss to follow-up...\"; R1C2 opens \"...and kept 90 days\"; R2C1 opens \"We agree t / F: Reviewer 2\u2019s response opens wit"
+   ],
+   "retried": false,
+   "cost": 0.013199775,
+   "seconds": 37.5,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 238,
+    "length_change_pct": -36,
+    "similarity": 0.645,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 6,
+   "total": 6,
+   "failed": [],
+   "retried": false,
+   "cost": 0.011598075,
+   "seconds": 32.4,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 241,
+    "length_change_pct": -36,
+    "similarity": 0.632,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 4,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md contains no em dash characters :: 2 em dashes",
+    "revised_discussion.md contains no number that does not appear in case_report_draft.md :: numbers not in draft: ['200', '250']",
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: The claim is kept with no citation or placeholder: \"Observational data have reported up to a three-fold increase in DKA  / F: \u201cObservational data have report"
+   ],
+   "retried": false,
+   "cost": 0.013407825,
+   "seconds": 51.3,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 691,
+    "length_change_pct": 179,
+    "similarity": 0.29,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 3,
+    "em_dashes_out": 2,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md contains no number that does not appear in case_report_draft.md :: numbers not in draft: ['95']"
+   ],
+   "retried": false,
+   "cost": 0.036390225,
+   "seconds": 131.5,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 427,
+    "length_change_pct": 72,
+    "similarity": 0.194,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.021293775,
+   "seconds": 78.6,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 349,
+    "length_change_pct": 41,
+    "similarity": 0.321,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0165756,
+   "seconds": 72.6,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 839,
+    "length_change_pct": 322,
+    "similarity": 0.198,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 5,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0209931,
+   "seconds": 81.2,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 185,
+    "length_change_pct": -7,
+    "similarity": 0.447,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.019985625,
+   "seconds": 73.2,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 193,
+    "length_change_pct": -3,
+    "similarity": 0.424,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "intro_revised.txt contains no number that does not appear in intro_draft.txt :: numbers not in draft (outside brackets): ['12', '95']",
+    "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraph :: words excluding [placeholders] 476 vs 220; paragraphs 4"
+   ],
+   "retried": false,
+   "cost": 0.017565975,
+   "seconds": 80.0,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 478,
+    "length_change_pct": 117,
+    "similarity": 0.296,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 10,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.01316415,
+   "seconds": 47.9,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 133,
+    "length_change_pct": -40,
+    "similarity": 0.496,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.01758165,
+   "seconds": 66.5,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 142,
+    "length_change_pct": -35,
+    "similarity": 0.456,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 6,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.005293875,
+   "seconds": 19.7,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 107,
+    "length_change_pct": -21,
+    "similarity": 0.887,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.0134007,
+   "seconds": 42.9,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 109,
+    "length_change_pct": -20,
+    "similarity": 0.712,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.013966425,
+   "seconds": 44.8,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 97,
+    "length_change_pct": -29,
+    "similarity": 0.812,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "x-ai__grok-4.7": {
+  "audit-only-no-rewrite/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "audit.md assigns a severity level to each finding :: F: Only \u00a71 has a label (\"most serious\"). The 5-item priority list does not cover every finding (e.g., undefined \"shock onse / F: The causal overclaim is labeled"
+   ],
+   "retried": false,
+   "cost": 0.023952,
+   "seconds": 61.3,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.113172,
+   "seconds": 165.3,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "audit-only-no-rewrite/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.119398,
+   "seconds": 174.4,
+   "finish": "stop",
+   "files": [
+    "audit.md"
+   ]
+  },
+  "author-sample-voice/without_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.015472,
+   "seconds": 28.1,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 76,
+    "length_change_pct": -25,
+    "similarity": 0.624,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/old_skill": {
+   "passed": 4,
+   "total": 5,
+   "failed": [
+    "new_paragraph_revised.txt contains at least one em dash, matching the author's sample :: 0 em dashes"
+   ],
+   "retried": false,
+   "cost": 0.101152,
+   "seconds": 108.5,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 55,
+    "length_change_pct": -46,
+    "similarity": 0.595,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "author-sample-voice/with_skill": {
+   "passed": 5,
+   "total": 5,
+   "failed": [],
+   "retried": false,
+   "cost": 0.127658,
+   "seconds": 179.1,
+   "finish": "stop",
+   "files": [
+    "new_paragraph_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 101,
+    "words_out": 55,
+    "length_change_pct": -46,
+    "similarity": 0.579,
+    "pattern_hits_in": 10,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 1,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "draft-cohort-results-discussion/without_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": true,
+   "cost": 0.034164,
+   "seconds": 74.7,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.191226,
+   "seconds": 404.6,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "draft-cohort-results-discussion/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.252952,
+   "seconds": 454.9,
+   "finish": "stop",
+   "files": [
+    "draft_sections.md"
+   ]
+  },
+  "preserve-clean-human-abstract/without_skill": {
+   "passed": 4,
+   "total": 7,
+   "failed": [
+    "abstract_final.txt is at least 85% similar to abstract.txt (difflib character ratio), show :: similarity 0.848",
+    "every number in abstract.txt appears in abstract_final.txt and no new numbers are added :: lost []; added ['1']",
+    "the response tells the author the abstract had few or no AI-writing patterns rather than p :: F: The message says only \"I tightened a few stock phrases and the closing sentence.\" That frames the original as containing / P: \u201cI tightened a few stock phrase"
+   ],
+   "retried": false,
+   "cost": 0.01902,
+   "seconds": 37.8,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 236,
+    "length_change_pct": 3,
+    "similarity": 0.848,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.127068,
+   "seconds": 170.8,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 230,
+    "length_change_pct": 0,
+    "similarity": 1.0,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "preserve-clean-human-abstract/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.14605,
+   "seconds": 209.9,
+   "finish": "stop",
+   "files": [
+    "abstract_final.txt"
+   ],
+   "metrics": {
+    "words_in": 230,
+    "words_out": 231,
+    "length_change_pct": 0,
+    "similarity": 0.983,
+    "pattern_hits_in": 0,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/without_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: F: Reviewer 2 response opens with background, not the action taken: \"The trial enrolled only patients with heart failure wi / F: The third response opens with e"
+   ],
+   "retried": false,
+   "cost": 0.0061,
+   "seconds": 6.6,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 191,
+    "length_change_pct": -49,
+    "similarity": 0.642,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/old_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: P: Each response opens with a decision or action: \"We have added the number...\", \"We kept the 90-day primary endpoint.\", \"W / F: The third response opens with \u201c"
+   ],
+   "retried": false,
+   "cost": 0.103456,
+   "seconds": 103.2,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 247,
+    "length_change_pct": -34,
+    "similarity": 0.698,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "reviewer-response-lead-with-decision/with_skill": {
+   "passed": 5,
+   "total": 6,
+   "failed": [
+    "the first sentence of each of the three responses states the decision or action (added, ke :: P: Each response opens with a decision rather than background or thanks: \"We agree and have added...\", \"We have kept the 90 / F: The third response opens with \u201c"
+   ],
+   "retried": false,
+   "cost": 0.118376,
+   "seconds": 138.6,
+   "finish": "stop",
+   "files": [
+    "response_revised.md"
+   ],
+   "metrics": {
+    "words_in": 374,
+    "words_out": 250,
+    "length_change_pct": -33,
+    "similarity": 0.694,
+    "pattern_hits_in": 3,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/without_skill": {
+   "passed": 6,
+   "total": 7,
+   "failed": [
+    "revised_discussion.md does not present the uncited 'up to three-fold' DKA risk as fact; it :: F: \"Studies have reported up to a three-fold higher risk of diabetic ketoacidosis\" is kept without a citation or a [CITATIO / F: \u201cStudies have reported up to a "
+   ],
+   "retried": false,
+   "cost": 0.03369,
+   "seconds": 64.8,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 443,
+    "length_change_pct": 79,
+    "similarity": 0.313,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 1,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.20799,
+   "seconds": 405.2,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 423,
+    "length_change_pct": 71,
+    "similarity": 0.309,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 2,
+    "em_dashes_out": 0,
+    "placeholders_out": 2,
+    "numbers_lost": []
+   }
+  },
+  "revise-case-report-discussion/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": true,
+   "cost": 0.235768,
+   "seconds": 344.2,
+   "finish": "stop",
+   "files": [
+    "revised_discussion.md"
+   ],
+   "metrics": {
+    "words_in": 248,
+    "words_out": 346,
+    "length_change_pct": 40,
+    "similarity": 0.227,
+    "pattern_hits_in": 21,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 1,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/without_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "discussion_revised.md contains none of: 'At its core', 'central question', 'currency of',  :: found: ['central question']",
+    "discussion_revised.md contains neither 'This illustrates' nor a closing 'Overall,' sentenc :: found ['. Overall,']"
+   ],
+   "retried": false,
+   "cost": 0.012168,
+   "seconds": 25.8,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 318,
+    "length_change_pct": 60,
+    "similarity": 0.577,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 3,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.140034,
+   "seconds": 202.2,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 97,
+    "length_change_pct": -51,
+    "similarity": 0.446,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-discussion-staging-strawman/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.156994,
+   "seconds": 293.0,
+   "finish": "stop",
+   "files": [
+    "discussion_revised.md"
+   ],
+   "metrics": {
+    "words_in": 199,
+    "words_out": 154,
+    "length_change_pct": -23,
+    "similarity": 0.462,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/without_skill": {
+   "passed": 6,
+   "total": 8,
+   "failed": [
+    "intro_revised.txt marks claims that need support with at least two citation placeholders :: 0 placeholders",
+    "intro_revised.txt is shorter than intro_draft.txt in words and has at most three paragraph :: words excluding [placeholders] 257 vs 220; paragraphs 3"
+   ],
+   "retried": false,
+   "cost": 0.018928,
+   "seconds": 45.7,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 263,
+    "length_change_pct": 20,
+    "similarity": 0.389,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/old_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.249142,
+   "seconds": 468.3,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 106,
+    "length_change_pct": -52,
+    "similarity": 0.448,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 5,
+    "numbers_lost": []
+   }
+  },
+  "revise-intro-no-citations/with_skill": {
+   "passed": 8,
+   "total": 8,
+   "failed": [],
+   "retried": false,
+   "cost": 0.17015,
+   "seconds": 374.0,
+   "finish": "stop",
+   "files": [
+    "intro_revised.txt"
+   ],
+   "metrics": {
+    "words_in": 220,
+    "words_out": 136,
+    "length_change_pct": -38,
+    "similarity": 0.382,
+    "pattern_hits_in": 13,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 4,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/without_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.015868,
+   "seconds": 25.2,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 107,
+    "length_change_pct": -21,
+    "similarity": 0.87,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/old_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.090742,
+   "seconds": 86.1,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 95,
+    "length_change_pct": -30,
+    "similarity": 0.779,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  },
+  "revise-latex-file-mode/with_skill": {
+   "passed": 7,
+   "total": 7,
+   "failed": [],
+   "retried": false,
+   "cost": 0.11897,
+   "seconds": 166.2,
+   "finish": "stop",
+   "files": [
+    "results.tex"
+   ],
+   "metrics": {
+    "words_in": 136,
+    "words_out": 102,
+    "length_change_pct": -25,
+    "similarity": 0.801,
+    "pattern_hits_in": 11,
+    "pattern_hits_out": 0,
+    "em_dashes_out": 0,
+    "placeholders_out": 0,
+    "numbers_lost": []
+   }
+  }
+ },
+ "_judge_agreement": {
+  "agree": 417,
+  "total": 432
+ }
+}

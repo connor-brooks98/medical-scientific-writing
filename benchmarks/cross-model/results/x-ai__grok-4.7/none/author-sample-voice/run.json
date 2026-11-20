@@ -1,0 +1,14 @@
+{
+ "model": "x-ai/grok-4.7",
+ "provider_model": "x-ai/grok-4.7",
+ "config": "none",
+ "case": "author-sample-voice",
+ "seconds": 28.1,
+ "prompt_tokens": 1691,
+ "completion_tokens": 2303,
+ "cost_usd": 0.015472,
+ "finish_reason": "stop",
+ "files_returned": [
+  "new_paragraph_revised.txt"
+ ]
+}

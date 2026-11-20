@@ -6,7 +6,7 @@ manual.json (in the iteration dir): {"<case>/<config>": {"<assertion prefix>": [
 """
 import json, os, re, sys, glob
 
-EVALS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../skills/medical-scientific-writing/evals")
+EVALS = "/home/claude/medical-scientific-writing/evals"
 NUM = re.compile(r"(?<![A-Za-z])\d+(?:[.,]\d+)*")
 
 
@@ -43,8 +43,9 @@ def grade_case1(out):
     r["01"] = (n == 0, f"{n} em dashes")
     extra = sorted(nums(t) - nums(src))
     r["02"] = (not extra, f"numbers not in draft: {extra}")
-    ok = "[5]" in t and re.search(r"\b3\b|three", t) is not None and "FDA" in t
-    r["03"] = (ok, f"[5] present: {'[5]' in t}; FDA present: {'FDA' in t}")
+    fda = "FDA" in t or "Food and Drug Administration" in t
+    ok = "[5]" in t and re.search(r"\b3\b|three", t) is not None and fda
+    r["03"] = (ok, f"[5] present: {'[5]' in t}; FDA present: {fda}")
     m = re.search(r"[^.]*three-fold[^.]*\.?", t, re.I)
     r["04"] = (None, f"three-fold sentence: {m.group(0).strip() if m else 'removed'}")
     r["05"] = (None, f"ileus mentioned: {'ileus' in t.lower()}; opioid mentioned: {'opioid' in t.lower()}")

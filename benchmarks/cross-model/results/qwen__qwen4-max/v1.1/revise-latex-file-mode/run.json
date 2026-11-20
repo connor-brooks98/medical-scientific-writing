@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen4-max",
+ "provider_model": "qwen/qwen4-max",
+ "config": "v1.1",
+ "case": "revise-latex-file-mode",
+ "seconds": 44.8,
+ "prompt_tokens": 28840,
+ "completion_tokens": 2571,
+ "cost_usd": 0.013966425,
+ "finish_reason": "stop",
+ "files_returned": [
+  "results.tex"
+ ]
+}

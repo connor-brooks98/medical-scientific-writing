@@ -1,0 +1,7 @@
+Introduction
+
+Atrial fibrillation (AF) is more common at older ages [CITATION NEEDED: age-specific AF prevalence]. Smartwatches can detect possible AF using photoplethysmography (PPG) or single-lead electrocardiography (ECG). Prior studies have reported high sensitivity and specificity for smartwatch algorithms [CITATION NEEDED: validation studies, with device, reference standard, and accuracy estimates].
+
+Evidence on smartwatch accuracy specifically in adults aged 75 years and older is limited [CITATION NEEDED: age-specific evidence from smartwatch validation studies]. Tremor and peripheral vascular disease may affect signal quality, whereas frequent ectopy may complicate rhythm classification [CITATION NEEDED: effects on smartwatch signal quality and AF classification]. Whether smartwatch screening reduces stroke risk is a separate question from whether the watch accurately detects AF.
+
+In this prospective study, we evaluated the diagnostic accuracy of a commercially available smartwatch for detecting AF in adults aged 75 years and older, using 14-day continuous patch monitoring as the reference standard.

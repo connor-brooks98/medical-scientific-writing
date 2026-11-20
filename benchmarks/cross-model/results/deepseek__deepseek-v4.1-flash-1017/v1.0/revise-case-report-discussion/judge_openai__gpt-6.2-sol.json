@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "The three-fold estimate is flagged with \u201c[CITATION NEEDED: source of the three-fold estimate].\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Symptoms were \u201cattributed to ileus and opioid analgesia,\u201d and diagnosis came \u201cabout 14 hours after the first abnormal gas.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The revision reports that \u201cthe anion gap closed after 38 hours\u201d without claiming that the case demonstrates treatment effectiveness."
+ },
+ "_cost": 0.0014911
+}

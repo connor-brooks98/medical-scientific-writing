@@ -1,0 +1,12 @@
+I treated this as a Discussion paragraph and matched the 2023 excerpt: numbered points, plain verbs, no moral at the end. Most journals and ICMJE expect AI-assisted writing to be disclosed at submission.
+
+[file returned: new_paragraph_revised.txt]
+
+**What changed**
+- Discourse: cut the importance moral, the paradigm-shift coda, and the “testament” sentence. Left the trial result and the 10-or-more-medications result, in the First/Second shape you use when a paragraph has more than one point.
+- Sentences: dropped “not only… but also” and the -ing tails. One em dash, used the way you set off a short qualifier.
+- Words: removed Notably, Furthermore, Interestingly, crucial, pivotal, and the other praise language. “Reduced” stays, because this is the randomized comparison.
+
+**Fidelity:** 12 hospitals, 30 days, 14.2% to 10.6%, risk difference −3.6 percentage points (95% CI −5.9 to −1.3), and the −6.1 percentage point difference in patients taking 10 or more medications are unchanged. No new numbers.
+
+**Queries:** The source had no p value, no minimal important difference, and no CI or interaction test for the subgroup, so I did not keep “statistically significant,” “clinically meaningful,” or the claim that this shows the value of targeting high-risk patients. Send those figures if you want that sentence back in your wording.

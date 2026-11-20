@@ -1,0 +1,14 @@
+{
+ "model": "x-ai/grok-4.7",
+ "provider_model": "x-ai/grok-4.7",
+ "config": "v1.1",
+ "case": "revise-latex-file-mode",
+ "seconds": 166.2,
+ "prompt_tokens": 28660,
+ "completion_tokens": 10563,
+ "cost_usd": 0.11897,
+ "finish_reason": "stop",
+ "files_returned": [
+  "results.tex"
+ ]
+}

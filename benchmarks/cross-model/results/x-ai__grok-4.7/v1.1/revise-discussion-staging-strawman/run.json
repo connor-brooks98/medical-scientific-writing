@@ -1,0 +1,14 @@
+{
+ "model": "x-ai/grok-4.7",
+ "provider_model": "x-ai/grok-4.7",
+ "config": "v1.1",
+ "case": "revise-discussion-staging-strawman",
+ "seconds": 293.0,
+ "prompt_tokens": 28598,
+ "completion_tokens": 20281,
+ "cost_usd": 0.156994,
+ "finish_reason": "stop",
+ "files_returned": [
+  "discussion_revised.md"
+ ]
+}

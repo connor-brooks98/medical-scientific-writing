@@ -1,0 +1,12 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "provider_model": "qwen/qwen3.8-27b",
+ "config": "v1.1",
+ "case": "revise-discussion-staging-strawman",
+ "seconds": 44.4,
+ "prompt_tokens": 28777,
+ "completion_tokens": 24000,
+ "cost_usd": 0.08494965,
+ "finish_reason": "length",
+ "files_returned": []
+}

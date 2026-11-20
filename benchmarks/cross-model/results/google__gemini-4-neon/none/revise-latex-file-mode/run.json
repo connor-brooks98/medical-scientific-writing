@@ -1,0 +1,14 @@
+{
+ "model": "google/gemini-4-neon",
+ "provider_model": "google/gemini-4-neon",
+ "config": "none",
+ "case": "revise-latex-file-mode",
+ "seconds": 28.5,
+ "prompt_tokens": 563,
+ "completion_tokens": 3417,
+ "cost_usd": 0.052944,
+ "finish_reason": "stop",
+ "files_returned": [
+  "results.tex"
+ ]
+}

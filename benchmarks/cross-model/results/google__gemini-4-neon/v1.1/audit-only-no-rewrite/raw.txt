@@ -1,0 +1,50 @@
+<<<FILE: audit.md>>>
+# Audit of `introduction.txt`
+
+Assumption: This draft is the Introduction to an original clinical manuscript describing a prospective study of early norepinephrine in septic shock (136 words, 2 paragraphs).
+
+## Findings
+
+| Location | Quoted text | Pattern ID | Severity | Suggested fix |
+|---|---|---|---|---|
+| P2, S2 | "Early norepinephrine therefore prevents death in septic shock." | S6 / Integrity Rule 3 (causal overclaim) | **Critical** | Delete this inference or reframe it as an untested hypothesis. A retrospective observational association ("was associated with") cannot establish prevention because of confounding; this sentence also contradicts the claim in S3 that a critical gap remains. |
+| P1, S3 | "Studies have shown that early norepinephrine improves survival in septic shock." | D2, S6 / Integrity Rules 1 & 3 | **Critical** | Name the specific studies, designs, populations, and effect sizes, and add citations (`[CITATION NEEDED]`). Use "improves survival" only if citing randomized trials of survival; if the cited studies are observational, change to "was associated with lower mortality." |
+| P1, S4 | "a growing body of evidence suggests that delayed vasopressor therapy may potentially be associated with worse outcomes in some patients." | D2 / Integrity Rule 1 | **Critical** | Replace "a growing body of evidence" with named, cited studies (`[CITATION NEEDED]`), and specify which outcomes worsened and in which patients. |
+| P2, S1 | "In a retrospective analysis of 2,914 patients with septic shock at our institution, norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality (adjusted odds ratio, 0.78; 95% CI, 0.64–0.94)." | Integrity Rule 1, Section placement | **Critical** | Add a citation if this institutional analysis is already published (`[CITATION NEEDED]`), or label it explicitly as unpublished preliminary data. If these are results from the current manuscript, move them out of the Introduction and into Results. |
+| P2, S1 | "norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality" | S13 (compressed meaning) | **Major** | State the comparator (e.g., compared with initiation after 1 hour) and, if helpful for clinical context, the baseline or group mortality rates and key adjustment variables. |
+| P1, S1 | "Sepsis remains a leading cause of death worldwide," | D6 (generic preamble) | **Major** | Cut the boilerplate opener (it fails the swap test and could start any sepsis paper). Open directly with the specific clinical problem in septic shock: timing of vasopressor initiation and its mortality burden, with a cited figure if you include epidemiology. |
+| P1, S1 | ", representing a pivotal challenge in the evolving landscape of critical care." | S1 (-ing tail), S2 (copula avoidance) | **Major** | Delete the `-ing` tail; it adds no factual content beyond the first clause. |
+| P1, S2 | "In recent years, there has been growing interest in the role of early vasopressor initiation." | D6 (generic preamble) | **Major** | Cut this stock transition and move straight to what specific clinical studies or guidelines currently show about early vasopressor timing. |
+| P1, S4 | "suggests that delayed vasopressor therapy may potentially be associated with worse outcomes in some patients." | S6 (stacked hedging), D9 (restatement), S13 (vague) | **Major** | Remove the restatement of S3 unless this sentence introduces distinct evidence (such as a specific delay threshold or organ-failure outcome). If kept, reduce the stacked hedges ("suggests", "may", "potentially", "be associated with") to a single hedge calibrated to the study design. |
+| P2, S3 | "To address this critical gap, we designed a comprehensive prospective study" | D4 (study-as-hero), S13 (missing specifics), Introduction structure | **Major** | State the actual gap before claiming to address it (for example, residual confounding or immortal-time bias in retrospective cohorts, or lack of prospective data on a specific timing threshold). Then state your concrete aim or hypothesis, exact study design (randomized trial vs prospective cohort), population, comparator, and primary outcome. |
+| P2, S3 | "that will not only fill an important gap in the literature but also pave the way for improved outcomes." | S3 (negative parallelism), D5 (reassuring coda), D4, D9 | **Major** | Delete this clause. It uses a "not only ... but also" template, repeats "gap" from earlier in the same sentence, and ends on a promotional promise ("pave the way"). End on the specific question and design instead. |
+| P1, S1 | "pivotal ... evolving landscape" | W1 (AI vocabulary) | **Minor** | Remove both terms (they disappear if you cut the `-ing` tail). |
+| P1, S2 | "there has been" | W4 / S9 (clutter) | **Minor** | Avoid expletive openings ("there has been") when rewriting; lead with a concrete subject and verb. |
+| P1, S4 | "Furthermore," | W5 (rationed connective) | **Minor** | Drop the mechanical additive opener; connect sentences through specific evidence rather than stacking generic claims. |
+| P1, S2–S4 | "early vasopressor initiation" / "early norepinephrine" / "delayed vasopressor therapy" | S5 (terminology drift) | **Minor** | Pick consistent terminology: distinguish explicitly between vasopressors as a class and norepinephrine specifically, rather than alternating without explanation. |
+| P2, S3 | "critical", "comprehensive", "important" | W1, W2 (promotional adjectives) | **Minor** | Delete evaluative adjectives and let the design details carry the weight. |
+
+## What already works (keep when you rewrite)
+
+- **P2, S1** uses the right evidence-matched verb ("was associated with") for a retrospective analysis, includes concrete numbers (`2,914 patients`, `adjusted odds ratio, 0.78; 95% CI, 0.64–0.94`), and uses a proper en dash in the numeric range (`0.64–0.94`).
+- Paragraph 2's sentence lengths vary naturally, and the draft avoids em dashes and decorative formatting.
+
+## Five revisions that would most improve this Introduction
+
+1. **Remove the causal leap from retrospective data (P2, S2) and align every verb with study design (P1, S3).** Replace "Early norepinephrine therefore prevents death in septic shock" with the limitation of observational data (such as confounding by indication or unmeasured severity) that motivates a prospective study. Verify that any prior work cited in P1 uses observational verbs unless it is an RCT.
+2. **Name an explicit gap before introducing your study (between P2, S1 and P2, S3).** Right now the draft claims early norepinephrine improves survival and prevents death, then abruptly invokes "this critical gap" without ever stating what is unknown. State the specific methodological or knowledge gap (e.g., retrospective confounding, unclear time cutoff, or lack of prospective evaluation) and why it matters clinically.
+3. **Replace vague, uncited allusions in Paragraph 1 with specific, cited evidence.** Cut the boilerplate opening two sentences (P1, S1–S2) and the redundant fourth sentence (P1, S4), and anchor the background in named prior studies or guidelines with their designs, populations, timing thresholds, and citations.
+4. **Clarify the institutional 2,914-patient analysis (P2, S1).** Add its citation (or state that it is unpublished preliminary data from your centre), specify the comparator group (e.g., norepinephrine started after 1 hour), and confirm it is prior work rather than a result of the current study.
+5. **Rewrite the closing sentence (P2, S3) into a concrete objective statement.** Drop the "not only ... but also" structure, "fill an important gap", and "pave the way for improved outcomes". State what your study tests, its exact prospective design, the patient population, the intervention and comparator, and the primary outcome.
+
+*(Note: If AI assistance is used in drafting or editing the final manuscript, most journals and ICMJE require disclosure at submission.)*
+<<<END FILE>>>
+
+I have completed the audit and placed it in `audit.md`, without rewriting your introduction.
+
+The main issues are structural and evidentiary rather than just word choice:
+- **Causal overclaiming and logical contradiction:** Paragraph 2 jumps from a retrospective association (`aOR 0.78`) straight to "therefore prevents death", and Paragraph 1 uses a causal verb ("improves survival") without citing any randomized trial. Both also undercut your rationale for a prospective study.
+- **Missing gap and study specifics:** The draft invokes "this critical gap" twice in the final sentence without ever identifying what is unknown, and closes on a promotional "not only ... but also ... pave the way" template instead of stating the study's actual hypothesis, design, comparator, and primary outcome.
+- **Uncited, generic opening:** Paragraph 1 opens with boilerplate ("leading cause of death worldwide", "pivotal challenge in the evolving landscape", "In recent years, there has been growing interest") followed by two uncited vague allusions ("Studies have shown", "a growing body of evidence") that restate each other.
+
+Paragraph 2, Sentence 1 is the strongest part of the draft (correct observational verb, concrete numbers and CI), though it still needs a citation (or framing as unpublished preliminary data) and an explicit comparator. The full findings table and top five prioritized revisions are in `audit.md`.

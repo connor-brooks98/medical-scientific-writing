@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cPPI use at admission was not associated with either 90-day all-cause mortality or 30-day all-cause readmission.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use at admission was associated with a higher hazard of 90-day CDI\u201d; the draft explicitly says the findings \u201cdo not establish that PPI use causes CDI.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only named prior studies are the \u201c2012 meta-analysis by Kwok et al\u201d and \u201cFreedberg et al\u201d; the mechanism claim is marked \u201c[CITATION NEEDED].\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201c1.21 (95% CI, 0.81-1.80) among women\u201d; the interaction was \u201cnot statistically significant\u201d (P = .14), and the draft does not claim a sex-specific association."
+ },
+ "08": {
+  "passed": false,
+  "evidence": "The author queries request numerators for \u201call four outcomes,\u201d but the task supplies only three outcomes: CDI, mortality, and readmission."
+ },
+ "_cost": 0.0143135
+}

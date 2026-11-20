@@ -1,0 +1,20 @@
+I tightened the prose without touching any commands, labels, refs, citations, math, or numbers. Main edits: dropped the filler and hype ("It is important to note", "Notably", "remarkably", "underscoring the crucial role", "serves as a testament"), removed the unsupported claim about early intervention, made the dash usage consistent, and rephrased the mortality comparison so it states what the confidence interval actually supports rather than asserting safety.
+
+<<<FILE: results.tex>>>
+\section{Results}
+\label{sec:results}
+
+A total of 2,418 patients met the inclusion criteria (Figure~\ref{fig:flow}). Baseline characteristics are presented in Table~\ref{tab:baseline}; the groups were well balanced after propensity-score matching \cite{austin2011introduction}.
+
+The primary outcome occurred in 142 patients (11.7\%) in the intervention group and 198 patients (16.4\%) in the control group (hazard ratio [HR] 0.69; 95\% CI 0.56--0.86; $p = 0.001$). The effect was consistent across all prespecified subgroups (Figure~\ref{fig:forest}).
+
+The adjusted model was specified as
+\begin{equation}
+  \log h_i(t) = \log h_0(t) + \beta_1 \text{Treatment}_i + \boldsymbol{\gamma}^\top \mathbf{x}_i ,
+  \label{eq:cox}
+\end{equation}
+where $\mathbf{x}_i$ denotes the vector of baseline covariates listed in Table~\ref{tab:baseline} \cite{cox1972regression, therneau2000modeling}.
+
+Secondary outcomes showed a similar pattern: all-cause mortality was 7.9\% versus 8.6\% (HR 0.92; 95\% CI 0.70--1.21), a difference that was not statistically significant.
+
+<<<END FILE>>>

@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "That exposure was not associated with 90-day all-cause mortality or with 30-day readmission."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "PPI use was associated with a higher hazard of CDI."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are Kwok et al (2012) and Freedberg et al (2015)."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "1.21 (95% CI, 0.81\u20131.80) in women; the interaction with sex was 'not statistically significant (P = .14).'"
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The draft preserves the supplied figures, including '312 patients (5.0%),' and attributes 'approximately 1.74' to Kwok et al."
+ },
+ "_cost": 0.0069475
+}

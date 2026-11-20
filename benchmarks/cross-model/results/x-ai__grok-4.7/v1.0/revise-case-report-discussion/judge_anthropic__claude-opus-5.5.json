@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"has been reported as up to three-fold higher ... [CITATION NEEDED: source, population, and comparator for the three-fold estimate]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"The surgical team attributed her nausea, vomiting, and abdominal discomfort on postoperative day (POD) 1 to postoperative ileus and opioid analgesia... diagnosed on the morning of POD 2, approximately 14 hours after that gas.\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Effectiveness claim removed; output states \"This case does not show whether earlier treatment would have changed her course.\""
+ },
+ "_cost": 0.020568
+}

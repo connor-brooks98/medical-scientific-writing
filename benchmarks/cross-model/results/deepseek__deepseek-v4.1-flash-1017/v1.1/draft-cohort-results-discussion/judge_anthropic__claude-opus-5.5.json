@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"Neither secondary outcome differed between groups: 90-day all-cause mortality was 11.8% vs 11.2%...\" and \"neither mortality nor readmission differed\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use at admission was associated with a higher rate of CDI\"; the draft never says PPIs increase or cause CDI as this study's finding, and it raises confounding by indication."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al [1] and Freedberg et al [2] are named; the mechanism claim carries \"[CITATION NEEDED: mechanism]\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"women (aHR, 1.21; 95% CI, 0.81-1.80); the interaction test was not statistically significant (P = 0.14)\"; \"we read it as an imprecise subgroup estimate rather than confirmed effect modification\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The numbers are either supplied or correctly derived (6,526 = 6,214+312; 312/6,526 = 4.8%; 1.5 percentage points = 4.1\u22122.6). The 1.74 is attributed to Kwok as supplied. No event counts are invented."
+ },
+ "_cost": 0.031656
+}

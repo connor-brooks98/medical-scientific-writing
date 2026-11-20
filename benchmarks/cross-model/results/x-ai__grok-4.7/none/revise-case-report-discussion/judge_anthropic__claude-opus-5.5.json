@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\"Studies have reported up to a three-fold higher risk of diabetic ketoacidosis\" is kept without a citation or a [CITATION NEEDED] placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"nausea, vomiting, and abdominal discomfort were attributed to ileus and opioid analgesia\" and \"the absence of marked hyperglycemia likely contributed to the delay\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The \"demonstrating the effectiveness\" claim was removed; the output says \"One case does not establish the best way to prevent this.\""
+ },
+ "_cost": 0.016192
+}

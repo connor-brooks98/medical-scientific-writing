@@ -1,0 +1,5 @@
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia who underwent hip fracture surgery, mobilization within 24 hours of surgery was associated with lower 30-day mortality than no mobilization within that interval (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95). Median length of stay was 8 vs 11 days. Delirium occurred in 31% of patients mobilized within 24 hours and 29% of those not mobilized within that interval. These rates do not rule out an association with delirium or establish whether early mobilization is associated with other cognitive outcomes.
+
+Table [DATA NEEDED: table number] compares these findings with those of previous cohorts. Patients who were well enough to mobilize soon after surgery may already have had a lower risk of death and a shorter expected stay. Preoperative ambulatory status was not recorded for 18% of patients. Missing documentation does not establish that these patients were nonambulatory, and incomplete information on mobility limits assessment of confounding. The observed associations do not establish that early mobilization reduces mortality or shortens hospital stay.

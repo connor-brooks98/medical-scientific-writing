@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "\u201cObservational data have reported up to a three-fold increase in DKA risk\u201d remains in the file without a citation or placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Early symptoms \u201cwere reasonably attributed to postoperative ileus and opioid analgesia,\u201d and \u201capproximately 14 hours elapsed\u201d between the first abnormal blood gas and diagnosis."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The rewrite reports that \u201cthe anion gap closed after 38 hours\u201d without claiming that this outcome demonstrates treatment effectiveness."
+ },
+ "_cost": 0.0071935
+}

@@ -1,0 +1,36 @@
+I have written the audit to `audit.md` without rewriting your draft. The main issues are structural and evidentiary rather than just wording: a causal claim drawn from a retrospective analysis, uncited generic claims about prior studies, an unstated gap that contradicts the earlier assertions, and an unspecified study design and objective at the end.
+
+One quick note for when you submit: if AI tools are used to draft or edit text for a journal submission, most journals and ICMJE guidelines require disclosing that use.
+
+<<<FILE: audit.md>>>
+# Audit of `introduction.txt`
+
+*Reading assumed: Introduction for a prospective clinical study manuscript (or study protocol, given the future tense in the final sentence).*
+
+**What works:** Paragraph 2, Sentence 1 uses an evidence-matched verb ("was associated with") for a retrospective study and reports an adjusted effect estimate with a 95% CI. Once its citation or preliminary-data status is clarified, that sentence structure is worth keeping.
+
+## Findings
+
+| Location | Quoted text | Pattern ID | Severity | Suggested fix |
+|---|---|---|---|---|
+| P1, S1 | "Sepsis remains a leading cause of death worldwide," | D6 | Major | Cut this generic preamble (it fails the swap test and could open any sepsis paper), or replace it with a specific, cited septic shock mortality figure and narrow immediately to vasopressor timing. |
+| P1, S1 | ", representing a pivotal challenge in the evolving landscape of critical care." | S1, S2, W1 | Minor | Delete this participatory `-ing` tail, copula avoidance ("representing"), and AI vocabulary ("pivotal", "evolving landscape"). End the sentence on a concrete fact. |
+| P1, S2 | "In recent years, there has been growing interest in the role of early vasopressor initiation." | D6, D10, W4 | Major | Delete. This is generic padding with a weak "there has been" opener; move directly to what prior studies actually tested and found. |
+| P1, S3 | "Studies have shown that early norepinephrine improves survival in septic shock." | D2, Evidence / S6, Integrity rule 1 | Critical | Name and cite the specific study or studies (design, population, effect size). Use a causal verb ("improves") only if citing randomized trials for mortality; otherwise match the verb to observational evidence (e.g., "was associated with"). |
+| P1, S4 | "Furthermore," | W5 | Minor | Remove this mechanical additive opener once S3 and S4 are consolidated; use a logical connective only where a real contrast or progression exists. |
+| P1, S4 | "a growing body of evidence suggests that delayed vasopressor therapy may potentially be associated with worse outcomes in some patients." | D2, D9, S6 | Major | Cut the restatement of S3 or replace it with a distinct, cited finding naming the outcomes and patient group. Remove the stacked hedges ("suggests ... may potentially be associated with") and keep a single hedge matched to the study design. |
+| P1, S2–S4 | "early vasopressor initiation" / "early norepinephrine" / "delayed vasopressor therapy" | S5 | Minor | Use one consistent term throughout so the reader knows whether the focus is norepinephrine specifically or vasopressors as a class. |
+| P2, S1 | "In a retrospective analysis of 2,914 patients with septic shock at our institution, norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality (adjusted odds ratio, 0.78; 95% CI, 0.64–0.94)." | Integrity rule 1, D2 | Critical | Add a citation if this institutional study is published, or state explicitly that it is unpublished preliminary data (including dates). |
+| P2, S2 | "Early norepinephrine therefore prevents death in septic shock." | Evidence / S6 (Integrity rule 3) | Critical | Delete this causal overclaim. A retrospective observational analysis cannot establish that norepinephrine "prevents" death, and stating that it does contradicts the need for a prospective study. Replace it with the specific limitation of the retrospective evidence (such as residual confounding or timing bias). |
+| P2, S3 | "To address this critical gap, ... fill an important gap in the literature" | Section structure, D4, D9 | Major | State the actual gap before claiming to address it—neither paragraph explains what remains unknown or why existing studies are insufficient. Cut the study-as-hero phrasing and the repeated word "gap". |
+| P2, S3 | "we designed a comprehensive prospective study" | S13, W1, Tense | Major | Replace vague "comprehensive prospective study" with the specific design (randomized trial vs. prospective cohort), population, exposure or intervention timing, comparator, and primary outcome. Drop "comprehensive". Match the verb tense to the document type (past tense for a completed paper; future tense only for a protocol or proposal). |
+| P2, S3 | "that will not only fill an important gap in the literature but also pave the way for improved outcomes." | D5, S3, W1 | Major | Remove the negative parallelism ("not only ... but also") and promotional coda ("pave the way for improved outcomes"). End the Introduction on the specific study objective or hypothesis. |
+
+## Five revisions that would most improve this piece
+
+1. **Remove the causal overclaim from retrospective data and calibrate prior claims to study design (P2, S2; P1, S3).** Delete "Early norepinephrine therefore prevents death in septic shock," which overstates an observational odds ratio and undercuts the rationale for a new study. In P1, S3, use "improves" only if you cite randomized trial evidence for survival; otherwise switch to observational wording.
+2. **Define the actual gap (between P2, S1 and P2, S3).** Before saying you are addressing a gap, state specifically what existing evidence—including your institutional cohort—leaves unresolved (for example, confounding by indication, immortal time bias, lack of prospective timing capture, or lack of randomized evidence).
+3. **Replace vague allusions with named, cited specifics and clarify the provenance of the institutional cohort (P1, S3–S4; P2, S1).** Replace "Studies have shown" and "a growing body of evidence" with cited studies, their designs, populations, and outcomes; drop P1, S4 if it merely repeats S3 in reverse; and either cite the 2,914-patient institutional analysis or identify it as unpublished preliminary data.
+4. **State the concrete aim and design in the closing sentence (P2, S3).** Replace "a comprehensive prospective study" and the "pave the way" coda with your specific study design, target population, vasopressor-timing exposure or intervention, comparator, and primary outcome, using past tense if the study is already completed.
+5. **Strip the generic opening and sentence-level AI tells (P1, S1–S2, S4).** Cut the global-burden opener, "growing interest" filler, `-ing` tail, stacked hedges ("suggests ... may potentially be associated with"), and inflated vocabulary ("pivotal", "evolving landscape", "comprehensive", "pave the way"), and standardize on one term for the exposure.
+<<<END FILE>>>

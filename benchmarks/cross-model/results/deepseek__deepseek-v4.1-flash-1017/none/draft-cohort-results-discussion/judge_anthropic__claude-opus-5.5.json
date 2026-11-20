@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"Secondary outcomes were not significantly associated with PPI use\" and \"no significant associations were observed for 90-day all-cause mortality or 30-day readmission\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"home PPI use at admission was associated with a higher risk of CDI\"; the mechanism is hedged (\"may increase susceptibility\"), and the draft says the results \"do not establish causality\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior studies named are Kwok et al (2012 meta-analysis) and Freedberg et al; no other authors or trials appear"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81-1.80) among women; the test for interaction was not statistically significant (P = .14)\" and \"hypothesis-generating rather than evidence of effect modification\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All figures are supplied in the task or correctly derived (2,377/6,214 = 38.3%; 3,837/6,214 = 61.7%); the 5.0% exclusion and the Kwok OR of 1.74 match the task"
+ },
+ "_cost": 0.0261
+}

@@ -1,0 +1,14 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "provider_model": "deepseek/deepseek-v4.1-flash-1017",
+ "config": "none",
+ "case": "preserve-clean-human-abstract",
+ "seconds": 8.5,
+ "prompt_tokens": 546,
+ "completion_tokens": 2002,
+ "cost_usd": 0.0013559,
+ "finish_reason": "stop",
+ "files_returned": [
+  "abstract_final.txt"
+ ]
+}

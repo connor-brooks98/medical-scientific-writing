@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The suggested fixes give directions, such as \u201cState the gap (#11) and refer to it,\u201d without supplying replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding #16 is rated Critical, the highest severity used: \u201cA retrospective single-centre association cannot support \u2018prevents.\u2019\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Finding #6 flags \u201ca growing body of evidence suggests\u201d as \u201cUnnamed evidence with no citation.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding #1 says the opening burden claim \u201ccould open any sepsis paper.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Finding #7 calls \u201cmay potentially be associated with\u201d \u201cTwo or three hedges stacked on one claim.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit identifies \u201cwas associated with lower 28-day mortality\u201d as wording that correctly matches the design."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The Severity column assigns Minor, Major, or Critical to all 23 findings."
+ },
+ "_cost": 0.0116625
+}

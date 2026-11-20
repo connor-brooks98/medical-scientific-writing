@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit contains only findings, sentence notes and a checklist. No replacement paragraphs are given."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Listed under 'Major issues' (the only tier used) as '2. **Causal overreach.**'. The sentence notes add: 'major causal overstatement and non sequitur'."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "'\"Studies have shown...\" does not identify the studies'; '\"A growing body of evidence\" is vague and unsupported without citations.'"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "'\"Pivotal challenge in the evolving landscape of critical care\" is vague and clich\u00e9d'; '\"In recent years, there has been growing interest\" is filler'"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "'\"May potentially be associated\" is redundant hedging.'; '\"Some patients\" is vague'"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "'association is appropriately worded here'"
+ },
+ "07": {
+  "passed": false,
+  "evidence": "All numbered issues sit under a single 'Major issues' heading with no differentiated tiers, including minor style items. The sentence-level notes carry no severity or priority labels."
+ },
+ "_cost": 0.026956
+}

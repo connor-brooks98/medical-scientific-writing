@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit gives suggested actions, not full replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding 1 is rated Critical: \u201cA single retrospective adjusted odds ratio cannot support \u2018prevents death\u2019.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Finding 2 calls \u201cStudies have shown\u201d an \u201cunattributed causal claim.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding 10 says the opening \u201ccould open any critical-care paper.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Finding 6 labels the phrase \u201cstacked hedges\u201d and says to \u201cStrip the hedge stack to one hedge.\u201d"
+ },
+ "06": {
+  "passed": false,
+  "evidence": "Finding 9 flags \u201clower 28-day mortality\u201d and advises the author to \u201creword the outcome claim\u201d unless event rates are added."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The Severity column assigns a level to all 16 findings."
+ },
+ "_cost": 0.0108835
+}

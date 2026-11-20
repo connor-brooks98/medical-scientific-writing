@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cWe found no clear association with 90-day all-cause mortality or 30-day readmission.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cHome PPI use at admission was associated with a higher adjusted hazard of CDI.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only prior study named is \u201cthe 2012 meta-analysis by Kwok et al.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201c1.21 (95% CI, 0.81-1.80) in women (P = .14 for interaction)\u201d; the draft says the interaction test did not support a difference by sex."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All reported numbers match the task, including Kwok\u2019s approximate OR of 1.74; the \u201c1.5 percentage points\u201d difference is correctly derived from 4.1% minus 2.6%."
+ },
+ "_cost": 0.0065585
+}

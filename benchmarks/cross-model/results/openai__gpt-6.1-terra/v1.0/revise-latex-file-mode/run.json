@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.1-terra",
+ "provider_model": "openai/gpt-6.1-terra",
+ "config": "v1.0",
+ "case": "revise-latex-file-mode",
+ "seconds": 18.6,
+ "prompt_tokens": 25071,
+ "completion_tokens": 1002,
+ "cost_usd": 0.0068844,
+ "finish_reason": "stop",
+ "files_returned": [
+  "results.tex"
+ ]
+}

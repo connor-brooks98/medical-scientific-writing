@@ -1,0 +1,14 @@
+{
+  "eval_name": "revise-discussion-staging-strawman",
+  "prompt": "Can you revise this Discussion section? It's from a retrospective cohort study on early mobilization after hip fracture surgery in patients with dementia. Something about it reads off to me. Keep all the numbers. Save it as discussion_revised.md.\n\nInput files: discussion.md",
+  "assertions": [
+    "discussion_revised.md contains none of: 'At its core', 'central question', 'currency of', 'The key point is'",
+    "discussion_revised.md contains none of: 'This is not to say', 'One might argue'",
+    "discussion_revised.md does not contain the split construction 'does not mean ... It means'",
+    "discussion_revised.md contains neither 'This illustrates' nor a closing 'Overall,' sentence",
+    "discussion_revised.md does not infer that patients with missing ambulatory status were nonambulatory ('likely nonambulatory' or 'suggesting' removed) and states only that the data were missing",
+    "discussion_revised.md does not contain 'The table below compares'",
+    "every number in discussion.md appears in discussion_revised.md and no new numbers are added",
+    "discussion_revised.md describes the mortality result with association language ('associated with'), not a causal verb"
+  ]
+}

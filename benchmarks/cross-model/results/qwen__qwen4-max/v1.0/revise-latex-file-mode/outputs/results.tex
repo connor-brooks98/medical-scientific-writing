@@ -1,0 +1,17 @@
+\section{Results}
+\label{sec:results}
+
+A total of 2,418 patients met the inclusion criteria (Figure~\ref{fig:flow}). After propensity-score matching \cite{austin2011introduction}, baseline characteristics were similar between groups (Table~\ref{tab:baseline}).
+% [DATA NEEDED: standardized mean differences before and after matching, to support "similar"]
+
+The primary outcome occurred in 142 patients (11.7\%) in the intervention group and 198 patients (16.4\%) in the control group (hazard ratio [HR] 0.69; 95\% CI 0.56--0.86; $p = 0.001$). The association was similar in all prespecified subgroups (Figure~\ref{fig:forest}).
+% [DATA NEEDED: subgroup HRs with 95\% CIs and p values for interaction]
+
+The adjusted model was specified as
+\begin{equation}
+  \log h_i(t) = \log h_0(t) + \beta_1 \text{Treatment}_i + \boldsymbol{\gamma}^\top \mathbf{x}_i ,
+  \label{eq:cox}
+\end{equation}
+where $\mathbf{x}_i$ denotes the vector of baseline covariates listed in Table~\ref{tab:baseline} \cite{cox1972regression, therneau2000modeling}.
+
+Among secondary outcomes, all-cause mortality was 7.9\% in the intervention group versus 8.6\% in the control group (HR 0.92; 95\% CI 0.70--1.21), a difference that did not reach statistical significance.

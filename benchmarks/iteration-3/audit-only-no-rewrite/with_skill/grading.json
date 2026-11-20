@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "audit.md does not contain a rewritten version of the introduction (no full replacement paragraphs)",
+      "passed": true,
+      "evidence": "Findings table plus 'suggested fix' column; no rewritten paragraphs | auto: manual"
+    },
+    {
+      "text": "audit.md flags 'Early norepinephrine therefore prevents death' as an overclaim from retrospective data at the highest severity used",
+      "passed": true,
+      "evidence": "Finding 8: 'prevents death' Critical (highest severity) | auto: manual; 'prevents death' mentioned: True"
+    },
+    {
+      "text": "audit.md flags 'Studies have shown' and 'a growing body of evidence' as unsupported or vague attribution",
+      "passed": true,
+      "evidence": "Findings 4 and 5 (D2) | auto: manual"
+    },
+    {
+      "text": "audit.md flags the generic opening (leading cause of death worldwide / evolving landscape / in recent years)",
+      "passed": true,
+      "evidence": "Findings 1 and 3 (D6) | auto: manual"
+    },
+    {
+      "text": "audit.md flags 'may potentially be associated with ... in some patients' as stacked hedging",
+      "passed": true,
+      "evidence": "Finding 5: S6 stacked hedge | auto: manual"
+    },
+    {
+      "text": "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change",
+      "passed": true,
+      "evidence": "'What is already fine': keeps 'was associated with' | auto: manual"
+    },
+    {
+      "text": "audit.md assigns a severity level to each finding",
+      "passed": true,
+      "evidence": "Severity column on all 13 findings | auto: manual"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

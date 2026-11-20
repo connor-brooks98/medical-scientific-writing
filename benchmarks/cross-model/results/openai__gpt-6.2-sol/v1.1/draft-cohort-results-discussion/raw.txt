@@ -1,0 +1,21 @@
+<<<FILE: draft_sections.md>>>
+## Results
+
+Among 6214 adults aged 65 years or older admitted with community-acquired pneumonia, 2377 had documented home proton pump inhibitor (PPI) use at admission and 3837 did not. Within 90 days after discharge, *Clostridioides difficile* infection (CDI) occurred in 4.1% of PPI users and 2.6% of nonusers (adjusted hazard ratio [HR], 1.48; 95% CI, 1.12-1.96). The Cox model adjusted for age, sex, Charlson Comorbidity Index, hospitalization in the prior 12 months, and antibiotic class during the index admission. For PPI users vs nonusers, 90-day all-cause mortality was 11.8% vs 11.2% (adjusted HR, 1.03; 95% CI, 0.88-1.21), and 30-day readmission was 17.9% vs 16.4% (adjusted HR, 1.06; 95% CI, 0.94-1.20). In prespecified analyses of CDI by sex, the adjusted HR was 1.81 (95% CI, 1.24-2.64) among men and 1.21 (95% CI, 0.81-1.80) among women (P = .14 for interaction).
+
+## Discussion
+
+In this retrospective cohort of older adults hospitalized with community-acquired pneumonia, documented home PPI use at admission was associated with a higher hazard of CDI within 90 days after discharge. The adjusted estimates for 90-day all-cause mortality and 30-day readmission were close to 1, with confidence intervals that included 1. Although the CDI point estimate was higher among men than among women, the interaction test did not establish a difference by sex.
+
+The direction of the CDI association was consistent with the 2012 meta-analysis by Kwok et al., which reported a pooled odds ratio of approximately 1.74 for PPI use and CDI [CITATION NEEDED: full reference for Kwok et al., *Am J Gastroenterol*, 2012]. Freedberg et al. examined recurrent CDI, a distinct outcome from CDI after pneumonia hospitalization [CITATION NEEDED: verify the finding and full reference for Freedberg et al., *Clin Infect Dis*, 2015]. Because PPI use was measured at admission, this study does not estimate whether continuing or stopping a PPI at discharge changes subsequent CDI risk.
+
+### Limitations
+
+This study was conducted in a single academic health system from 2016 to 2023. CDI was ascertained from inpatient and outpatient laboratory records within that system, so infections diagnosed elsewhere were missed. This could bias the association in either direction if out-of-system testing differed by PPI use. Admission medication reconciliation did not establish PPI duration, adherence, or use after discharge. We excluded 312 patients (5.0%) with missing medication reconciliation, which could have introduced selection bias if missingness was related to both PPI use and CDI risk. Residual confounding, including by the indication for PPI use, could also account for part of the observed association.
+<<<END FILE>>>
+
+Before submission:
+
+- Confirm whether 6214 is the analytic cohort after exclusions and specify the denominator for the 312 exclusions (5.0%). The exposure counts sum to 6214, but if 312 patients were excluded from an initial cohort of 6526, the exclusion percentage would be 4.8%.
+- Verify the exact pooled estimate and full citation for Kwok et al. I left the direction of the Freedberg finding unstated pending verification because the supplied description may not match the cited paper.
+- Follow JAMA Network Open’s instructions for disclosing AI-assisted drafting.

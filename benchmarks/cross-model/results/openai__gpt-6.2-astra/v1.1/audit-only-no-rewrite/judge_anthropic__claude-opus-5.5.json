@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "audit.md has only a findings table and a revision list. There are no replacement paragraphs, and the fixes are instructions such as \"Remove the causal conclusion.\""
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"Early norepinephrine therefore prevents death in septic shock.\" is tagged \"S6 (causal overclaim)\" at Critical, the highest severity the audit uses."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"Studies have shown that early norepinephrine improves survival\" is tagged \"D2 (unnamed evidence)\" with the fix \"Identify and cite the studies.\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"Sepsis remains a leading cause of death worldwide\" and \"there has been growing interest\" are tagged \"D6 (generic preamble)\"."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"may potentially be associated with worse outcomes in some patients\" is tagged \"S6 (stacked hedges)\", noting \"'May potentially' resolves neither ambiguity.\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The row quoting this sentence asks only to name the reference group and says \"Keep the cohort size, timing threshold, endpoint, estimate, and CI.\" It does not ask to change the 'associated with' wording, and a later row treats that sentence as already stating the finding."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every table row has a Severity value of Critical or Major."
+ },
+ "_cost": 0.02594
+}

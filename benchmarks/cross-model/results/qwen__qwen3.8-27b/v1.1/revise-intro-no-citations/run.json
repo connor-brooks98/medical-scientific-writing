@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "provider_model": "qwen/qwen3.8-27b",
+ "config": "v1.1",
+ "case": "revise-intro-no-citations",
+ "seconds": 56.1,
+ "prompt_tokens": 28770,
+ "completion_tokens": 15474,
+ "cost_usd": 0.03205524,
+ "finish_reason": "stop",
+ "files_returned": [
+  "intro_revised.txt"
+ ]
+}

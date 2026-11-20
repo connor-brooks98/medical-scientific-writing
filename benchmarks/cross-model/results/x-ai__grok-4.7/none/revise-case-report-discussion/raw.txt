@@ -1,0 +1,19 @@
+I rewrote only the Discussion and Conclusion in a plainer case-report voice and left every clinical fact as written. I did not add citations, numbers, or mechanisms that were not already in the draft.
+
+<<<FILE: revised_discussion.md>>>
+# Discussion and Conclusion (revised)
+
+## Discussion
+
+Euglycemic diabetic ketoacidosis (euDKA) is an uncommon but potentially life-threatening complication of sodium-glucose cotransporter-2 (SGLT2) inhibitor therapy. These drugs, used for type 2 diabetes and also for heart failure and chronic kidney disease, promote glycosuria, reduce insulin requirements, and increase ketogenesis. Around an operation, that physiology lines up with surgical stress, prolonged fasting, and low carbohydrate intake, which are the usual precipitants.
+
+Studies have reported up to a three-fold higher risk of diabetic ketoacidosis in patients taking an SGLT2 inhibitor. The glucose is often not markedly elevated, so the diagnosis is delayed if no one checks ketones. Nausea, vomiting, or malaise in a patient on one of these agents should prompt a ketone measurement, not a glucose alone. That is the practical reason for a perioperative holding plan.
+
+The FDA recommends that empagliflozin be discontinued at least 3 days before scheduled surgery [5]. Our patient took her last 10 mg dose the morning before surgery and had fasted for 14 hours. Metformin was held; empagliflozin was not. The cholecystectomy was uncomplicated. On postoperative day 1, nausea, vomiting, and abdominal discomfort were attributed to ileus and opioid analgesia, and the capillary glucose was 182 mg/dL. That evening she was tachypneic, with a respiratory rate of 28/min. Venous blood gas showed pH 7.12, bicarbonate 9 mmol/L, and an anion gap of 24 mmol/L. Lactate was 1.4 mmol/L. Serum beta-hydroxybutyrate was 6.8 mmol/L, and euDKA was diagnosed on the morning of postoperative day 2, about 14 hours after the first abnormal gas. Continuing the drug until the day before surgery likely contributed, and the absence of marked hyperglycemia likely contributed to the delay.
+
+She was transferred to the intensive care unit and treated with an intravenous insulin infusion and concurrent 10% dextrose, with fluid resuscitation and potassium replacement. The anion gap closed after 38 hours. Empagliflozin was stopped and not restarted. She was discharged on postoperative day 6 on metformin and basal insulin.
+
+## Conclusion
+
+This case is a reminder to suspect euDKA in a postoperative patient taking an SGLT2 inhibitor, including when the glucose is not high. A glucose of 182 mg/dL did not exclude ketoacidosis here, and a normal glucose would not have excluded it either. Empagliflozin was continued until the day before surgery rather than stopped at least 3 days prior, as the FDA recommends, and severe acidosis followed. Surgeons, anesthesiologists, and the medical team need a shared plan for holding these drugs and for measuring ketones when such a patient becomes acidotic or simply unwell. One case does not establish the best way to prevent this. Further work is still needed, because the complication can be fatal.
+<<<END FILE>>>

@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-6.1-terra",
+ "provider_model": "openai/gpt-6.1-terra",
+ "config": "none",
+ "case": "preserve-clean-human-abstract",
+ "seconds": 8.4,
+ "prompt_tokens": 528,
+ "completion_tokens": 498,
+ "cost_usd": 0.003018,
+ "finish_reason": "stop",
+ "files_returned": [
+  "abstract_final.txt"
+ ]
+}

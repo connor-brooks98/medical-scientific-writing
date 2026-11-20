@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"The reported risk of DKA in patients taking these drugs is up to three-fold higher [CITATION NEEDED: primary source for the three-fold estimate...]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"The diagnosis was made about 14 hours after the first abnormal blood gas... nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The effectiveness claim was removed. The output states \"In a single patient we cannot separate the contribution of the drug from that of the fast and the operation\"."
+ },
+ "_cost": 0.021388
+}

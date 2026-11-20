@@ -1,0 +1,9 @@
+## Discussion
+
+In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of hip fracture surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and shorter length of stay (median 8 vs 11 days). Delirium incidence did not differ between groups (31% vs 29%) [DATA NEEDED: adjusted estimate and 95% CI, or p value, for delirium], although this study could not rule out other cognitive effects.
+
+Table [DATA NEEDED: table number] compares our findings with previous cohorts [CITATION NEEDED: brief prose synthesis of key prior cohorts, naming designs, populations, and main estimates]. Among all patients, [DATA NEEDED: percentage and n/N] were mobilized within 24 hours; early physiotherapy was therefore feasible for most patients, including those with severe dementia [DATA NEEDED: stratified proportion for severe dementia, or delete clause if unmeasured].
+
+Because this was a retrospective cohort, residual confounding by baseline frailty, dementia severity, or acute illness may explain part of the observed associations. Patients in better clinical condition are more likely both to be mobilized within 24 hours and to survive, so observational estimates may overstate any effect of early mobilization. Preoperative ambulatory status was also unrecorded for 18% of patients, which limits adjustment for prefracture function [DATA NEEDED: how missing ambulatory status was handled in the adjusted model].
+
+Mobilization within 24 hours was associated with lower 30-day mortality and shorter length of stay, without a difference in delirium. Prospective cohorts that record prefracture mobility and dementia severity, or randomized trials of early mobilization protocols, are needed to determine whether early mobilization reduces mortality and length of stay in patients with dementia.

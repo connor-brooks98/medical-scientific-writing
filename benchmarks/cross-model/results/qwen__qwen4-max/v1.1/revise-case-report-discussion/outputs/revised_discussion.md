@@ -1,0 +1,13 @@
+# Euglycemic Diabetic Ketoacidosis After Laparoscopic Cholecystectomy in a Patient Taking Empagliflozin: A Case Report
+
+## Discussion
+
+Our patient developed ketoacidosis on the first day after laparoscopic cholecystectomy with a capillary glucose of 182 mg/dL while taking empagliflozin. Sodium-glucose cotransporter-2 (SGLT2) inhibitors promote glycosuria and lower insulin requirements while increasing ketogenesis, so ketoacidosis can develop before glucose rises to the range that usually triggers testing. The reported risk of DKA in patients taking these drugs is up to three-fold higher [CITATION NEEDED: primary source for the three-fold estimate, with study design, population, and comparator]. The incidence of euglycemic DKA (euDKA) and the number of published perioperative cases are also unstated here [CITATION NEEDED: incidence estimate, and 2 to 3 named perioperative case reports or series giving the agent, interval between last dose and surgery, and glucose at presentation].
+
+The diagnosis was made about 14 hours after the first abnormal blood gas. On postoperative day (POD) 1, nausea, vomiting, and abdominal discomfort were attributed to postoperative ileus and opioid analgesia, and capillary glucose was 182 mg/dL. Tachypnea at 28/min that evening prompted a venous blood gas: pH 7.12, bicarbonate 9 mmol/L, and an anion gap of 24 mmol/L. Lactate was 1.4 mmol/L, so lactic acidosis did not account for the gap. Serum beta-hydroxybutyrate was 6.8 mmol/L, and euDKA was diagnosed on the morning of POD 2. Each of these findings had a plausible postoperative explanation on its own; the glucose was the one that pointed away from the diagnosis.
+
+The FDA recommends stopping empagliflozin at least 3 days before scheduled surgery [5]. Our patient took her last dose on the morning before surgery, roughly 1 day before the operation, and then fasted for 14 hours. She recovered with intravenous insulin and concurrent 10% dextrose, and the anion gap closed after 38 hours; empagliflozin was discontinued permanently. In a single patient we cannot separate the contribution of the drug from that of the fast and the operation, and we cannot say whether a 3-day hold would have prevented the event.
+
+## Conclusion
+
+A capillary glucose of 182 mg/dL did not exclude ketoacidosis in this patient taking empagliflozin after cholecystectomy. In a postoperative patient taking an SGLT2 inhibitor, nausea, vomiting, or unexplained tachypnea should prompt a blood gas and a beta-hydroxybutyrate measurement before the symptoms are attributed to ileus or opioid analgesia. Empagliflozin should be stopped at least 3 days before elective surgery [5].

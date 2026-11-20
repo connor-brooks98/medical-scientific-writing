@@ -1,0 +1,13 @@
+<<<FILE: revised_discussion.md>>>
+## Discussion
+
+Euglycemic diabetic ketoacidosis (euDKA) is an uncommon but potentially life-threatening complication of sodium–glucose cotransporter 2 (SGLT2) inhibitor therapy. Studies have reported an up to threefold increase in DKA risk among patients receiving these agents. SGLT2 inhibitors promote urinary glucose excretion, lower insulin requirements, and favor ketone production. In the perioperative setting, surgical stress, prolonged fasting, and reduced carbohydrate intake can further contribute to ketogenesis without marked hyperglycemia.
+
+In this case, nausea, vomiting, and abdominal discomfort on postoperative day 1 were initially attributed to ileus and opioid analgesia. The capillary glucose concentration was 182 mg/dL. After the patient developed tachypnea, a venous blood gas demonstrated high–anion gap metabolic acidosis. A serum beta-hydroxybutyrate concentration of 6.8 mmol/L established the diagnosis of euDKA approximately 14 hours after the first abnormal blood gas. The overlap with common postoperative symptoms and the absence of marked hyperglycemia illustrate why serum ketones should be measured when a patient taking an SGLT2 inhibitor develops otherwise unexplained high–anion gap metabolic acidosis.
+
+The US Food and Drug Administration recommends withholding empagliflozin for at least 3 days before scheduled surgery [5]. This patient took her last dose the morning before surgery and fasted for 14 hours preoperatively. The shorter withholding interval likely contributed to euDKA in the setting of fasting and surgical stress. The anion gap closed after 38 hours of treatment with intravenous insulin, concurrent dextrose, fluid resuscitation, and potassium replacement.
+
+## Conclusion
+
+A glucose concentration below 200 mg/dL does not exclude DKA in a postoperative patient taking an SGLT2 inhibitor. Unexplained high–anion gap metabolic acidosis in this setting should prompt serum ketone measurement. Before elective surgery, the perioperative team should confirm that empagliflozin has been withheld for at least 3 days.
+<<<END FILE>>>

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: revise-latex-file-mode
+expected_outcome: |
+  results.tex is edited in place: every LaTeX command, label, reference, citation key, math expression, and the equation environment are byte-identical; unspaced '--' ranges stay; prose AI patterns (it is important to note, the spaced --- and -- dashes, highlighting/underscoring tails, Notably/remarkably, crucial, Furthermore, serves as a testament) are removed.
+context:
+  scaffold_script: place-files.sh

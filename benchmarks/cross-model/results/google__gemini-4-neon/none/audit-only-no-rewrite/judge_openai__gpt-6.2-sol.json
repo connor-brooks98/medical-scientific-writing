@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The sentence-by-sentence audit quotes the original and critiques it; the checklist supplies no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Under \u201cCritical Scientific & Logical Flaws,\u201d the audit calls \u201ctherefore prevents death\u201d an unjustified causal leap from retrospective data."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "The audit flags \u201cunnamed studies\u201d and lists \u201cMissing citations\u201d under \u201cStudies have shown.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The audit lists \u201cthe evolving landscape of critical care\u201d and \u201cIn recent years, there has been growing interest in...\u201d as clich\u00e9 filler."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "The audit says the clause \u201cstacks five qualifiers\u201d and calls \u201cmay\u201d and \u201cpotentially\u201d redundant."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The audit criticizes the causal conclusion, not \u201cwas associated with lower 28-day mortality,\u201d and recommends keeping the data \u201cproperly framed as associative.\u201d"
+ },
+ "07": {
+  "passed": false,
+  "evidence": "\u201cCritical Scientific & Logical Flaws\u201d marks one severity tier, but the other findings are grouped by topic without severity or priority levels."
+ },
+ "_cost": 0.009556
+}

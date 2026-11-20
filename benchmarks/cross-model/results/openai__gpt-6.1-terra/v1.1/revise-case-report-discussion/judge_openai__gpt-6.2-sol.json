@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\u201cup to three-fold higher\u201d is qualified by \u201c[CITATION NEEDED: risk estimate and comparator].\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Symptoms \u201cwere attributed to ileus and opioid analgesia\u201d; diagnosis followed \u201capproximately 14 hours after the first abnormal blood gas.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "\u201cThe anion gap closed after 38 hours\u201d reports the outcome without claiming it demonstrates treatment effectiveness."
+ },
+ "_cost": 0.0013683
+}

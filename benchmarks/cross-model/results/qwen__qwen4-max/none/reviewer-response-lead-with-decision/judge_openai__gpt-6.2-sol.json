@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "The third response opens with \u201cWe agree.\u201d It does not state what was changed until the third sentence."
+ },
+ "06": {
+  "passed": false,
+  "evidence": "The draft limits conclusions to patients treated \u201cat academic centers.\u201d The revision says \u201cthat population,\u201d referring to patients enrolled \u201cat a single academic center,\u201d which narrows the stated scope."
+ },
+ "_cost": 0.0049935
+}

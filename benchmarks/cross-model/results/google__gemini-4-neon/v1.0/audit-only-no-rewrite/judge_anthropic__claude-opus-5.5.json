@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit is a findings table plus a list of revisions. It contains short suggested phrasings such as \"was associated with\" but no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "P2, S2 \"Early norepinephrine therefore prevents death\" is rated \"Critical\" and called a \"causal overclaim\" from \"A retrospective observational analysis\". Critical is the highest severity the audit uses."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "P1, S3 \"Studies have shown\" gets \"Name and cite the specific study or studies\". Revision 3 says to replace \"Studies have shown\" and \"a growing body of evidence\" with cited studies."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"Sepsis remains a leading cause of death worldwide\" is flagged as D6 Major, \"generic preamble\". \"evolving landscape\" and \"growing interest\" are also flagged."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"Remove the stacked hedges (\"suggests ... may potentially be associated with\")\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"What works: ... uses an evidence-matched verb (\"was associated with\")\". The P2, S1 finding addresses only citation status, not the wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The findings table has a Severity column, and every row is labeled Critical, Major, or Minor."
+ },
+ "_cost": 0.023556
+}

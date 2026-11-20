@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": false,
+  "evidence": "Chat says \"I edited the abstract for clarity and flow\" and never tells the author the original had few or no AI-writing patterns. The output is a substantial rewrite of nearly every section, not a light or no-edit pass."
+ },
+ "_cost": 0.008288
+}

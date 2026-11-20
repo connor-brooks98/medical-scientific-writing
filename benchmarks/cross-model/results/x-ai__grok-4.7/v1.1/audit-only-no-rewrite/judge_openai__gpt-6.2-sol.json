@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file gives findings and revision directions, not replacement paragraphs: \u201cState the actual unknown, then the aim.\u201d"
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Rated \u201cCritical,\u201d the highest severity used: \u201cAn adjusted odds ratio from a retrospective cohort does not show that norepinephrine prevents death.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cSupport or remove both external claims (\u2018Studies have shown\u2019, \u2018a growing body of evidence\u2019).\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\u201cCut this opening. It could start any sepsis paper and is uncited.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\u201c\u2018Suggests\u2019, \u2018may\u2019, and \u2018potentially\u2019 are stacked hedges.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201cKeep \u2018was associated with\u2019; that verb matches a retrospective analysis.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every Findings row has a Severity entry: \u201cMajor,\u201d \u201cMinor,\u201d or \u201cCritical.\u201d"
+ },
+ "_cost": 0.007061
+}

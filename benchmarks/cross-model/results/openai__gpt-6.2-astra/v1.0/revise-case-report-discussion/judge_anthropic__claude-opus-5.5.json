@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "The claim is kept with a placeholder: \"up to a three-fold increase in DKA risk [CITATION NEEDED: risk estimate, study population, and comparator]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"the surgical team attributed the patient's nausea, vomiting, and abdominal discomfort to ileus and opioid analgesia\" and diagnosis came \"approximately 14 hours after the first abnormal blood gas\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The effectiveness claim was removed. The output only states \"Her anion gap closed after 38 hours\" and makes no claim about effectiveness."
+ },
+ "_cost": 0.02134
+}

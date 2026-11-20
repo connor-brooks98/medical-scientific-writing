@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Findings table gives only short fixes (e.g., \"End the sentence at the fact.\"); there are no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Row 9: \"Early norepinephrine therefore prevents death in septic shock.\" is rated **Critical**, the highest level used, as a \"Causal verb from a single-centre retrospective association\"."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Row 4: \"No named study, design, population, effect size, or citation\". Row 6: \"Vague allusion with no citation\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Row 1: \"Generic disease-burden opener\". Row 3: \"Second consecutive generic sentence; 'growing interest' names no study\"."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Row 6: \"stacked hedge ('may potentially'); unspecified population ('some patients')\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Says to keep \"the verb 'was associated with' ... (correct for the design)\". Row 8 raises only the placement of the statistics: \"The verb is correct; keep it.\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Severity column filled for all 13 rows (Major/Minor/Critical)."
+ },
+ "_cost": 0.027096
+}

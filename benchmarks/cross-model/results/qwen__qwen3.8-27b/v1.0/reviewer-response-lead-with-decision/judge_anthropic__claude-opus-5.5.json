@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Reviewer 1, Comment 1 response opens with background, not the action taken: \"Our original manuscript reported overall loss to follow-up but not by group.\" The other two open correctly (\"We kept the 90-day endpoint.\" / \"We agree.\")."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "All described changes match the draft: by-group counts added to Figure 1 and Results, rationale added to Methods, Discussion narrowed, single-center limitation added. The [CITATION NEEDED] is a placeholder, not a claimed revision."
+ },
+ "_cost": 0.015224
+}

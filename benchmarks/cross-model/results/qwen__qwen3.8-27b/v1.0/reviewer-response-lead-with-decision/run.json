@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "provider_model": "qwen/qwen3.8-27b",
+ "config": "v1.0",
+ "case": "reviewer-response-lead-with-decision",
+ "seconds": 59.5,
+ "prompt_tokens": 26392,
+ "completion_tokens": 5953,
+ "cost_usd": 0.0154249,
+ "finish_reason": "stop",
+ "files_returned": [
+  "response_revised.md"
+ ]
+}

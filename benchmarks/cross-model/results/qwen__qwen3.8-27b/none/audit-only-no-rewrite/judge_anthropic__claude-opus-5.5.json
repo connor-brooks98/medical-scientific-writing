@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "No replacement paragraphs. The audit gives only issue lists, a logical-sequence outline and a rewrite checklist."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Under 'Major issues' #1 Causal overclaiming: 'This is the biggest problem.' Bottom line: 'The most urgent issue to correct is the causal claim that early norepinephrine \"prevents death\"'"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "'Studies have shown...' flagged as 'Overconfident'. 'growing body of evidence' listed under 'Vague and generic language' as filler."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Flags '\"evolving landscape of critical care\" is filler' and '\"growing interest\" is vague'"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "'\"may potentially\" is redundant.' and '\"some patients\" is vague.'"
+ },
+ "06": {
+  "passed": false,
+  "evidence": "Section '\"Lower 28-day mortality\" may be imprecise' with audit point 'Make sure the language matches the effect measure being reported.'"
+ },
+ "07": {
+  "passed": false,
+  "evidence": "Only 'Major issues' is tiered. Paragraph notes, statistical issues and language issues have no severity or priority labels."
+ },
+ "_cost": 0.038256
+}

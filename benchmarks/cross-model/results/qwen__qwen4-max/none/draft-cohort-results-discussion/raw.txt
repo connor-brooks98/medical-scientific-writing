@@ -1,0 +1,84 @@
+Below is the draft. Before you read it, three framing decisions I made that you should sign off on:
+
+1. **The sex subgroup finding is written as null.** Men aHR 1.81 (1.24–2.64) vs women 1.21 (0.81–1.80) with interaction *P* = .14 is not evidence that PPI-associated CDI risk differs by sex — the CIs overlap substantially and the formal test is negative. I wrote it as "no statistically significant effect modification by sex," with the subgroup estimates presented as imprecise and hypothesis-generating. A reviewer at JAMA Network Open will flag a sex-specific claim immediately, so I'd resist the temptation to build a paragraph around it.
+2. **The two secondary outcomes are reported as no association, not as "trends."** Mortality aHR 1.03 (0.88–1.21) and readmission 1.06 (0.94–1.20) are centered on the null. I also added that these are not evidence of equivalence/safety, since the CIs still admit modest harm.
+3. **I did not insert the Kwok pooled OR.** I cite the direction of that finding qualitatively and left the effect estimate as a verify-before-insertion item. I can't confirm the ~1.74 figure or its CI from memory, and an unverified number in a Discussion comparison is a needless risk. Same for the Freedberg citation details.
+
+Two data items need your input: exact event counts for each outcome (I left `[XX]` placeholders rather than back-calculating from rounded percentages), and the denominator for the exclusion percentage — 312/6214 = 5.0%, but 312/6526 screened = 4.8%. If 6214 is the post-exclusion analytic cohort, the flow sentence should say 4.8% of those screened.
+
+I also flagged two analytic questions in the file that likely belong in Limitations regardless of how you answer them: death as a competing risk for 90-day CDI (with ~11–12% mortality, a cause-specific Cox HR isn't a risk ratio), and whether patients with prior CDI were excluded — that matters a lot for how you position against Freedberg's *recurrent* CDI population.
+
+<<<FILE: draft_sections.md>>>
+# Draft manuscript sections — Home PPI use at admission and 90-day *C difficile* infection in older adults hospitalized with community-acquired pneumonia
+
+**Target journal:** JAMA Network Open (Original Investigation)
+**Status:** Internal draft. Bracketed `[XX]` fields are placeholders for values not yet supplied. Citation markers `[1]`, `[2]` are placeholders to be converted to superscript numerals per JAMA style. See "Author queries" at the end — several items must be resolved before this text is submission-ready.
+
+---
+
+## Results
+
+### Primary and secondary outcomes
+
+Of 6526 adults aged 65 years or older admitted with community-acquired pneumonia between 2016 and 2023, 312 (4.8%) were excluded for missing medication reconciliation, leaving an analytic cohort of 6214 patients, of whom 2377 (38.3%) were using a proton pump inhibitor (PPI) at admission and 3837 (61.7%) were not. *Clostridioides difficile* infection (CDI) within 90 days of discharge occurred in [XX] of 2377 PPI users (4.1%) and [XX] of 3837 nonusers (2.6%), an absolute difference of 1.5 percentage points. In a Cox proportional hazards model adjusted for age, sex, Charlson comorbidity index, hospitalization in the preceding 12 months, and antibiotic class received during the index admission, home PPI use at admission was associated with a higher hazard of 90-day CDI (adjusted hazard ratio [aHR], 1.48; 95% CI, 1.12-1.96). Neither secondary outcome was associated with PPI use: 90-day all-cause mortality occurred in [XX] PPI users (11.8%) and [XX] nonusers (11.2%) (aHR, 1.03; 95% CI, 0.88-1.21), and 30-day all-cause readmission occurred in [XX] PPI users (17.9%) and [XX] nonusers (16.4%) (aHR, 1.06; 95% CI, 0.94-1.20). In prespecified subgroup analyses of the primary outcome, the adjusted hazard ratio was 1.81 (95% CI, 1.24-2.64) among men and 1.21 (95% CI, 0.81-1.80) among women; the test for interaction by sex was not statistically significant (*P* for interaction = .14), and the confidence intervals for the two subgroups overlapped. These subgroup estimates are therefore imprecise and do not provide evidence that the association between PPI use and CDI differs by sex.
+
+> *Placement note:* the cohort-flow sentence above is normally the opening of the first Results paragraph, following Table 1 baseline characteristics. If you already have a separate cohort/baseline paragraph, delete that sentence here and begin at "*Clostridioides difficile* infection (CDI) within 90 days of discharge…".
+
+---
+
+## Discussion
+
+### Paragraph 1 — Principal findings
+
+In this retrospective cohort study of 6214 adults aged 65 years or older hospitalized with community-acquired pneumonia at a single academic health system, home use of a PPI at the time of admission was associated with a 48% higher adjusted hazard of *C difficile* infection within 90 days of discharge. The absolute difference was small (4.1% vs 2.6%; 1.5 percentage points), and the association persisted after adjustment for age, sex, comorbidity burden, recent hospitalization, and antibiotic class administered during the index admission. In contrast, PPI use at admission was not associated with either 90-day all-cause mortality or 30-day all-cause readmission; both estimates were close to the null, although their confidence intervals do not exclude modest differences in either direction, so these results should not be read as establishing the absence of an association. Prespecified subgroup analysis did not demonstrate statistically significant effect modification by sex. Because exposure was measured observationally and at a single time point, these findings describe an association and do not establish that PPI use causes CDI, nor do they support a change in prescribing practice on their own; they are most usefully interpreted as adding to the body of evidence that motivates prospective evaluation of PPI deprescribing around acute hospitalization in older adults.
+
+### Paragraph 2 — Comparison with prior literature
+
+The direction of our primary finding is consistent with prior observational evidence linking gastric acid suppression to CDI. A 2012 meta-analysis by Kwok et al[1] reported increased odds of CDI among PPI users [VERIFY: insert pooled OR and 95% CI directly from the source], and Freedberg et al[2] reported an association between PPI use and recurrent CDI in a population with prior infection [VERIFY: insert effect estimate, design, and population]. Two distinctions limit direct numerical comparison. First, our outcome was CDI ascertained in a general population of older adults hospitalized with pneumonia, whereas the recurrent-CDI population studied by Freedberg et al[2] is enriched for susceptibility to CDI; associations observed in that setting need not carry the same magnitude in a population without established prior infection. Second, our estimate is a cause-specific hazard ratio over a 90-day postdischarge window and is not on the same scale as the odds ratios reported in much of the earlier literature, so the apparently smaller magnitude here should not be interpreted as a weaker effect. A plausible mechanism — reduced gastric acid barrier permitting survival of ingested vegetative forms and spores, with downstream disruption of the colonic microbiota [CITATION NEEDED] — is compatible with our findings but cannot be tested with these data. Our null findings for mortality and readmission are also compatible with an exposure whose principal downstream consequence in this window is a specific, relatively uncommon infectious outcome rather than a broad increase in short-term mortality or health care utilization; the confidence intervals for those outcomes are wide relative to the 1.5–percentage-point difference observed for CDI, and the study was not designed to detect small differences in these competing endpoints.
+
+---
+
+### Limitations
+
+This study has several limitations. First, PPI exposure was ascertained only from medication reconciliation at admission; we had no information on dose, duration of therapy, indication, adherence, or continued use after discharge, and over-the-counter PPI use among recorded nonusers could not be captured. Any resulting exposure misclassification would most plausibly be nondifferential and bias the estimate toward the null, but its direction cannot be established with these data. Second, CDI was identified only from inpatient and outpatient laboratory results within our health system; infections diagnosed elsewhere would have been missed, and if care-seeking or stool-testing patterns differed by PPI status — for example, if PPI-associated diarrhea prompted more frequent testing — ascertainment could have been differential. We also lacked data on the clinical indication for testing. Third, residual confounding is likely. Although we adjusted for age, sex, Charlson comorbidity index, prior hospitalization, and index-stay antibiotic class, we did not account for indication for acid suppression, pneumonia severity, frailty or functional status, prior CDI history, corticosteroid or other concomitant medications, antibiotic duration and cumulative spectrum, or residence in a postacute care facility; confounding by indication and by overall illness severity remains a plausible alternative explanation for the observed association. Fourth, 312 patients (4.8% of those screened) were excluded because medication reconciliation was missing, and if that missingness was related to both PPI use and CDI risk, selection bias is possible. Fifth, death occurred in approximately 11% to 12% of the cohort within 90 days and acts as a competing risk for CDI; our cause-specific hazard ratios should not be interpreted as risk ratios, and a competing-risk analysis was not performed [CONFIRM]. Sixth, the proportional hazards assumption was not formally verified [CONFIRM], and the subgroup analyses were based on smaller numbers with correspondingly wide confidence intervals and no adjustment for multiple comparisons. Finally, this was a single academic health system cohort of adults aged 65 years or older admitted with community-acquired pneumonia, which limits generalizability to other care settings, younger populations, and patients without acute pneumonia.
+
+---
+
+## Author queries — resolve before submission
+
+**Data and numbers**
+1. **Event counts.** Provide exact numerators for all four outcomes (CDI, mortality, readmission, by exposure group). From the rounded percentages, CDI is approximately 97/2377 and 100/3837 — please confirm rather than adopt. All `[XX]` fields must be filled; JAMA expects n/N (%) alongside percentages.
+2. **Exclusion denominator.** 312/6214 = 5.0%, but 312/6526 = 4.8%. The draft assumes 6214 is the *post*-exclusion analytic cohort and 6526 were screened. Confirm which is correct and adjust the flow sentence (and the CONSORT-style flow diagram, if used).
+3. **Missing covariate data.** How were missing values in the adjustment covariates handled (complete case, multiple imputation, missing indicator)? This belongs in Methods and may need a Limitations sentence.
+4. **Baseline table.** Table 1 is referenced implicitly but not supplied. Note whether PPI users were older / had higher Charlson scores; if imbalance is substantial, reviewers will press on residual confounding.
+
+**Outcome and exposure definition**
+5. **Was prior CDI excluded?** If patients with a history of CDI were included, our outcome mixes incident and recurrent infection, which materially changes the comparison with Freedberg et al in Discussion paragraph 2. Please confirm and, if available, report a sensitivity analysis restricted to patients without prior CDI.
+6. **Window start.** The outcome is "within 90 days of discharge." Were CDI events diagnosed *during* the index admission excluded, and were they counted anywhere? State explicitly in Methods.
+7. **CDI definition.** Laboratory ascertainment needs a case definition (NAAT alone vs toxin EIA vs two-step algorithm; treatment-linked confirmation). NAAT-only ascertainment can capture colonization, which is a real misclassification concern here and should be named in Limitations if applicable.
+8. **Readmission definition.** All-cause, any acute care hospital in the system, or index hospital only? Same out-of-system capture problem as CDI.
+
+**Analysis**
+9. **Competing risks.** Was a Fine-Gray or cumulative-incidence analysis run? With ~11–12% 90-day mortality, at least a sensitivity analysis would strengthen the paper. The Limitations text currently states none was performed — update if incorrect.
+10. **Proportional hazards.** Report Schoenfeld residual testing or log-log plots, or acknowledge as unverified. Update the Limitations sentence accordingly.
+11. **Antibiotic adjustment.** "Antibiotic class during the index stay" — was this a set of indicator variables, a count, or a high-risk-class flag? CDI risk is strongly antibiotic-driven, and reviewers will want granularity (number of agents, days of therapy, anaerobic coverage).
+12. **Subgroup specification.** Confirm the sex subgroups were prespecified in a registered or dated analysis plan, and list *all* prespecified subgroups (not only sex) in a forest plot. Reporting only the subgroup with the widest apparent split invites a selective-reporting criticism.
+13. **E-value or quantitative bias analysis.** Optional but increasingly expected for a single-exposure observational association of this size (aHR 1.48). An E-value would let you state how strong unmeasured confounding would need to be to explain the result.
+
+**References**
+14. **Kwok et al, 2012, Am J Gastroenterol.** Verify full citation, the pooled estimate, its 95% CI, and which comparison it refers to (PPI alone vs PPI plus antibiotics are reported separately in that literature). The ~1.74 figure supplied could not be verified and was deliberately not inserted.
+15. **Freedberg et al, 2015, Clin Infect Dis.** Verify authors, title, year, and effect estimate, and confirm the population was recurrent CDI. Adjust Discussion paragraph 2 if the design differs from what is currently described.
+16. **Additional citations needed.** Two references will not support a JAMA Network Open Discussion. Minimum additions: (a) mechanism/microbiome evidence for the acid-suppression hypothesis; (b) at least one study reporting CDI risk in hospitalized or older adult cohorts specifically; (c) IDSA/SHEA CDI guidance and/or AGA PPI best-practice advice for the clinical-context sentences; (d) a PPI deprescribing reference to support the closing sentence of Discussion paragraph 1. I have not fabricated placeholders for these — they need to be pulled and read.
+
+---
+
+## Framing notes (internal, not for the manuscript)
+
+- **Sex subgroup.** Men 1.81 (1.24–2.64) and women 1.21 (0.81–1.80) with interaction *P* = .14 is the classic "difference in significance is not significance of the difference" situation. The manuscript should not claim a sex-specific effect, should not describe the male subgroup as the "driver" of the overall result, and should not use the female point estimate to argue absence of risk in women. Current text does none of these. If a sex-specific hypothesis is genuinely of interest, it needs a dedicated, adequately powered study framed as hypothesis-generating.
+- **Secondary outcomes.** Both are null-centered. Avoid "trend toward," "borderline," "directionally consistent," and "numerically higher." The draft instead states no association and notes the CIs do not establish equivalence — this is the defensible reading.
+- **Causal language.** Throughout, "associated with," not "increased risk of," "led to," or "PPI use caused." The aHR is a hazard ratio, not a risk ratio; text says "hazard."
+- **Absolute vs relative.** The 1.5–percentage-point absolute difference is reported next to the 48% relative figure so readers are not left with the relative number alone. Do not convert this to a number-needed-to-harm; that requires a causal assumption the design does not support.
+- **Clinical implications.** The draft explicitly declines to recommend a prescribing change. Given single-system exposure measurement at one time point plus plausible confounding by indication, a deprescribing recommendation would outrun the evidence.
+<<<END FILE>>>
+
+Happy to draft the third Discussion paragraph (mechanism/clinical context) and a one-sentence Conclusion once you've settled queries 5, 9, and 14 — the prior-CDI question in particular could change how paragraph 2 reads.

@@ -1,0 +1,7 @@
+{
+ "07": {
+  "passed": true,
+  "evidence": "The chat message opens with \"There was very little to fix,\" lists the AI patterns the abstract lacks, and says \"I made four small edits and left the rest alone.\" This tells the author the edits were light, not a heavy rewrite."
+ },
+ "_cost": 0.011752
+}

@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Responses 1 and 3 open with background: \u201cThe original submission reported only overall loss to follow-up\u201d and \u201cThe trial enrolled only patients \u2026 at a single academic center.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The letter preserves the draft\u2019s changes: group counts in Figure 1 and the Results, the rationale in the Methods, and narrower conclusions and a single-center limitation in the Discussion."
+ },
+ "_cost": 0.0040935
+}

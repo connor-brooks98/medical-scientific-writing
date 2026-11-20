@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The file contains a findings table and revision advice, with no full replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding 6 marks \u201cEarly norepinephrine therefore prevents death\u201d as \u201cCritical,\u201d the highest severity used, and identifies a \u201ccausal verb from observational data.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Finding 3 flags \u201cunnamed \u2018studies\u2019, no citation\u201d and states that \u201cthe claim has no support.\u201d"
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding 1 labels the opening a \u201cgeneric preamble\u201d and says it \u201ccould open any critical-care paper.\u201d"
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Finding 4 identifies a \u201cstacked hedge (\u2018may potentially\u2019)\u201d and recommends one hedge instead."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Finding 5 says \u201cThe hedge here is correct (\u2018was associated with\u2019),\u201d and the keep list explicitly preserves it."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The \u201cSeverity\u201d column assigns every finding (1\u20139) either \u201cMajor\u201d or \u201cCritical.\u201d"
+ },
+ "_cost": 0.0078035
+}

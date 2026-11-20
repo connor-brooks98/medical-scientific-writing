@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Response to R1C2 opens with rationale, \"Most readmissions after heart failure hospitalization occur within the first 90 days...\"; the decision \"We have kept the 90-day endpoint\" only comes in the second sentence."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "All changes (CONSORT/Results loss-to-follow-up numbers, Methods rationale, Discussion narrowing, single-center limitation) and their page/line references match the draft; nothing new is added."
+ },
+ "_cost": 0.014112
+}

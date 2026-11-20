@@ -1,0 +1,19 @@
+[file returned: response_revised.md]
+
+Tightened from about 330 to about 185 words, with every change, number, and page/line reference preserved.
+
+**What changed**
+- **Sycophancy (W8):** Deleted the three per-response praise openers ("insightful and valuable", "excellent and thought-provoking", "important and valid point", "greatly helped us"); added a single one-line thank-you at the top, as these letters conventionally run.
+- **Restatements of the reviewer's point (D9/D10):** Cut the boilerplate that argued the comment was valid ("Loss to follow-up is indeed an important consideration...", "Generalizability is a key concern for any single-center trial", "The choice of endpoint is a crucial aspect of trial design...") and the design facts the reviewers already know (single-center, HFrEF-only enrollment).
+- **Decision-first structure:** Each response now opens with what you did and where, followed only by the reasoning (section-guide rule for reviewer responses).
+- **Defensive framing (D8):** "Upon reflection, we agree that this information would be helpful to readers" became "We agree."
+- **Filler (W4):** Removed "We carefully considered both 90-day and 1-year endpoints during the design phase" and "therefore"; the stated reasons do that work.
+- **Vocabulary (W1/W2):** Removed crucial, key, carefully, sincerely.
+
+**Fidelity:** All numbers, percentages, the Figure 1 reference, and all page/line citations (9, 182–184; 6, 121–125; 14, 301–306; 15, 322–325) are unchanged, and each revision you actually made is reported exactly as before.
+
+**Placeholders and author queries**
+- `[CITATION NEEDED: source for the 90-day readmission estimate]` in the Reviewer 1, Comment 2 response: "Most readmissions occur within the first 90 days" is a checkable claim with no source in the draft. Cite it here or point to the reference already in the new Methods text (page 6, lines 121–125).
+- If you would rather concede the endpoint question more explicitly, the first sentence could become "We kept the 90-day primary endpoint, for the reasons below." The current wording already leads with the decision, so I left it as is.
+
+One housekeeping note: since this letter is headed for submission, check whether your journal or ICMJE requires stating that AI assistance was used in preparing the response; if so, one sentence at the end covers it.

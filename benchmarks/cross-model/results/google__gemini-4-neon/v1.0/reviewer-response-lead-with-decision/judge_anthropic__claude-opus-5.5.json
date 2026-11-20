@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": true,
+  "evidence": "Each response opens with a decision or action: \"We have added the number...\", \"We have kept the 90-day endpoint and added the rationale...\", and \"We agree.\" None opens with background or thanks."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "All described changes (CONSORT/Results counts, Methods rationale, Discussion narrowed, single-center limitation) appear in the draft. No new analysis or revision is introduced."
+ },
+ "_cost": 0.016988
+}

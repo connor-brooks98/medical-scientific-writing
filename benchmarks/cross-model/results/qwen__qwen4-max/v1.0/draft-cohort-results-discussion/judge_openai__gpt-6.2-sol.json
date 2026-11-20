@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cNeither secondary outcome was associated with PPI use,\u201d followed by 90-day mortality and 30-day readmission."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\u201cPPI use at admission was associated with CDI\u201d; the Discussion does not claim causation."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "The only named prior studies are Kwok et al. (2012) and Freedberg et al. (2015)."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\u201c1.21 (95% CI, 0.81-1.80) in women, with no evidence of effect modification by sex (P for interaction = .14).\u201d"
+ },
+ "08": {
+  "passed": false,
+  "evidence": "The draft cites \u201cTable 2,\u201d a table number not supplied in the task; the chat confirms it was assumed."
+ },
+ "_cost": 0.0084685
+}

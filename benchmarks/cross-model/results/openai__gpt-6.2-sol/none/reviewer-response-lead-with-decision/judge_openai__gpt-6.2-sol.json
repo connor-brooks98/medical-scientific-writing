@@ -1,0 +1,11 @@
+{
+ "05": {
+  "passed": false,
+  "evidence": "Responses 2 and 3 open with background: \u201cWe considered both endpoints when designing the trial\u201d and \u201cThe trial enrolled only patients \u2026 at one academic center.\u201d"
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The draft already describes adding the follow-up counts, retaining the 90-day endpoint and adding its rationale, narrowing the conclusions, and adding the single-center limitation."
+ },
+ "_cost": 0.0037835
+}

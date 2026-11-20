@@ -1,0 +1,12 @@
+{
+  "eval_name": "reviewer-response-lead-with-decision",
+  "prompt": "My PI says our response-to-reviewers letter is way too long and sounds like a chatbot wrote it. Can you tighten it up? Don't change what we actually did in the revision. Save as response_revised.md.\n\nInput files: response_draft.md",
+  "assertions": [
+    "response_revised.md is at least 25% shorter than response_draft.md in words",
+    "response_revised.md keeps every page and line reference from the draft (page 9 lines 182\u2013184, page 6 lines 121\u2013125, page 14 lines 301\u2013306, page 15 lines 322\u2013325) and Figure 1",
+    "response_revised.md keeps the loss-to-follow-up numbers (14, 4.1%, 17, 5.0%)",
+    "response_revised.md contains none of: 'insightful', 'thought-provoking', 'excellent', 'sincerely thank', 'grateful'",
+    "the first sentence of each of the three responses states the decision or action (added, kept, revised), not background or thanks",
+    "response_revised.md describes no revision that the draft did not describe"
+  ]
+}

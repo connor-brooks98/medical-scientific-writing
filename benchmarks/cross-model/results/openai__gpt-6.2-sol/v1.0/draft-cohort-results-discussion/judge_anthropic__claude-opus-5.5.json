@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": false,
+  "evidence": "The draft hedges with \"adjusted estimates ... were close to 1, and both confidence intervals included 1.\" It never states plainly that mortality and readmission did not differ or were not associated with PPI use."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"home PPI use at admission was associated with a higher hazard of CDI\". The draft has no causal claims such as increases, causes, or raises."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only \"Kwok et al\" and \"Freedberg et al\" are named. No other study, author, or trial appears."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Reports \"1.21 (95% CI, 0.81-1.80) among women (P = .14 for interaction)\" and says \"the interaction analysis did not establish that the association differed by sex.\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numbers come from the task (6214, 2377, 3837, 312, rates, aHRs, CIs, P = .14), and Kwok's \"approximately 1.74\" is attributed as the task supplied it. No invented statistics."
+ },
+ "_cost": 0.022988
+}

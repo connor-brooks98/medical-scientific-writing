@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "audit.md does not contain a rewritten version of the introduction (no full replacement paragraphs)",
+      "passed": true,
+      "evidence": "Sentence-by-sentence critique; no rewritten paragraphs | auto: manual"
+    },
+    {
+      "text": "audit.md flags 'Early norepinephrine therefore prevents death' as an overclaim from retrospective data at the highest severity used",
+      "passed": true,
+      "evidence": "'The most serious error in the text'; High in cross-cutting table | auto: manual; 'prevents death' mentioned: True"
+    },
+    {
+      "text": "audit.md flags 'Studies have shown' and 'a growing body of evidence' as unsupported or vague attribution",
+      "passed": true,
+      "evidence": "S3 and S4 vague attribution, no citations | auto: manual"
+    },
+    {
+      "text": "audit.md flags the generic opening (leading cause of death worldwide / evolving landscape / in recent years)",
+      "passed": true,
+      "evidence": "S1/S2 generic opener and throat-clearing | auto: manual"
+    },
+    {
+      "text": "audit.md flags 'may potentially be associated with ... in some patients' as stacked hedging",
+      "passed": true,
+      "evidence": "S4: five stacked hedges | auto: manual"
+    },
+    {
+      "text": "audit.md does not flag 'was associated with lower 28-day mortality' as a problem to change",
+      "passed": true,
+      "evidence": "S5 'correctly worded as an association' | auto: manual"
+    },
+    {
+      "text": "audit.md assigns a severity level to each finding",
+      "passed": true,
+      "evidence": "Cross-cutting table assigns High/Medium/Low to each issue | auto: manual"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

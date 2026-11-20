@@ -1,0 +1,11 @@
+Revised for clarity, more cautious causal language, and better handling of the missing-data and delirium interpretations. All numbers are retained.
+
+<<<FILE: discussion_revised.md>>>
+## Discussion
+
+This study examined whether early mobilization after hip fracture surgery was associated with 30-day mortality, length of stay, and delirium in patients with dementia. In this retrospective cohort of 1,146 patients with dementia, mobilization within 24 hours of surgery was associated with lower 30-day mortality (6.2% vs 9.8%; adjusted odds ratio, 0.61; 95% CI, 0.39–0.95) and shorter length of stay (median 8 vs 11 days). These findings support the potential value of early mobilization in this vulnerable population, although the observational design precludes causal inference.
+
+The association does not imply that delayed mobilization is always harmful. Patients with severe dementia may be assumed to be unable to participate in early physiotherapy, but our data do not directly measure participation; nonetheless, they suggest that early mobilization was feasible for many patients. Delirium incidence did not differ between the early and delayed mobilization groups (31% vs 29%). This absence of a difference should be interpreted cautiously: it may reflect limited statistical power or incomplete capture, and delirium was not the primary outcome. Thus, the null finding does not rule out cognitive effects.
+
+The table below compares our findings with previous cohorts. Preoperative ambulatory status was missing for 18% of patients, which may introduce residual confounding; therefore, the results should be interpreted with this limitation in mind. Overall, early mobilization was associated with better outcomes in this cohort. These findings support the feasibility and potential benefit of early mobilization in patients with dementia after hip fracture surgery, but prospective or randomized studies are needed to confirm causality.
+<<<END FILE>>>

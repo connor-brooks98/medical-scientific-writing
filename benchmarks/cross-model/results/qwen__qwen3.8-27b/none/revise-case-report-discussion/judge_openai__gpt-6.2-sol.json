@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": false,
+  "evidence": "The output retains \u201cincreased up to three-fold\u201d without a citation or citation placeholder."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Early symptoms were \u201cattributed to postoperative ileus and opioid analgesia,\u201d and diagnosis occurred \u201capproximately 14 hours after the first abnormal gas.\u201d"
+ },
+ "07": {
+  "passed": true,
+  "evidence": "The output reports \u201cclosure of the anion gap after 38 hours\u201d without claiming that this single case demonstrates treatment effectiveness."
+ },
+ "_cost": 0.0054035
+}

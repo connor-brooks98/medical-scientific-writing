@@ -1,0 +1,15 @@
+{
+ "04": {
+  "passed": true,
+  "evidence": "\"the reported risk of diabetic ketoacidosis (DKA) is up to threefold higher [CITATION NEEDED: risk estimate, comparator, and study population]\""
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"diagnosed on postoperative day 2, approximately 14 hours after the first blood gas... initially attributed the patient's nausea, vomiting, and abdominal discomfort to postoperative ileus and opioid analgesia\""
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Only reports \"The anion gap closed after 38 hours of treatment...\" and makes no effectiveness claim; the multidisciplinary-approach sentence was removed"
+ },
+ "_cost": 0.01662
+}

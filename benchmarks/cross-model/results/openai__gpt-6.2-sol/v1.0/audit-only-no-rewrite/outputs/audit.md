@@ -1,0 +1,24 @@
+# Introduction audit
+
+The main problem is the jump from an association in a retrospective analysis to a claim that early norepinephrine prevents death. The introduction also does not identify what remains unknown or what the prospective study was designed to answer.
+
+| Location | Quoted text | Pattern ID | Severity | Suggested fix |
+|---|---|---|---|---|
+| Paragraph 1, sentence 1 | “Sepsis remains a leading cause of death worldwide, representing a pivotal challenge in the evolving landscape of critical care.” | D6, W1 | Major | Open with the timing of norepinephrine in septic shock. Keep the global mortality claim only if it helps motivate that question and you can cite it. |
+| Paragraph 1, sentence 2 | “In recent years, there has been growing interest in the role of early vasopressor initiation.” | D2, D6 | Major | Replace the claim about growing interest with the specific timing question. Use “norepinephrine” if that is the drug under study; “vasopressor initiation” implies a broader scope. |
+| Paragraph 1, sentence 3 | “Studies have shown that early norepinephrine improves survival in septic shock.” | D2, S6 | Critical | Cite the studies and identify their designs, timing definitions, comparators, and outcomes. “Improves survival” requires evidence that supports a causal claim; if the cited evidence is observational, report the association instead. |
+| Paragraph 1, sentence 4 | “Furthermore, a growing body of evidence suggests that delayed vasopressor therapy may potentially be associated with worse outcomes in some patients.” | D2, D9, S6, S13 | Major | As written, this appears to repeat the preceding claim from the opposite direction. Keep it only if it adds distinct evidence. If it does, specify what counted as delayed, which patients and outcomes were studied, and what the study found. Remove the stacked hedges. |
+| Paragraph 2, sentence 1 | “norepinephrine started within 1 hour of shock onset was associated with lower 28-day mortality” | S13 | Major | Name the comparison group; the reader cannot tell whether it received norepinephrine later, never received it, or included both. Clarify how shock onset was defined. If the estimate is from a separate analysis, cite it or identify it as unpublished; if it is a result of the study being reported, move it to Results. |
+| Paragraph 2, sentence 2 | “Early norepinephrine therefore prevents death in septic shock.” | D3, S6 | Critical | Remove the causal conclusion. The adjusted odds ratio of 0.78 (95% CI, 0.64–0.94) describes an association with 28-day mortality. Adjustment does not rule out residual confounding, and an odds ratio does not tell readers how many deaths would be prevented. |
+| Paragraph 2, sentence 3 | “To address this critical gap, we designed a comprehensive prospective study” | D4, S13, W1 | Major | State the unresolved question before presenting the study. Then specify the prospective design, population, timing comparison, and primary outcome. “Prospective” describes when data are collected; it does not say whether treatment timing was assigned or observed. |
+| Paragraph 2, sentence 3 | “will not only fill an important gap in the literature but also pave the way for improved outcomes.” | D4, D5, S3, W1 | Major | End with the study objective or hypothesis. The design and the retrospective result do not establish that the prospective study will improve patient outcomes. |
+
+## Five revisions to prioritize
+
+1. Remove the claim that early norepinephrine prevents death. Keep the retrospective result in associational terms.
+2. Replace the two vague literature claims with cited findings. Distinguish randomized evidence from observational evidence and check whether the studies use the same definitions of “early.”
+3. Identify the retrospective comparison group and define shock onset. Make clear whether the analysis is prior evidence or a result of the present study.
+4. Name the question that remains unanswered, then state the prospective study's design and primary objective.
+5. Cut the generic opening and promotional ending. Use that space for the timing question and why the answer matters in septic shock.
+
+If this is for journal submission, check the journal's AI-use policy; ICMJE and most journals require disclosure of AI-assisted writing.

@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\u201cPPI use was not associated with 90-day all-cause mortality\u201d or \u201c30-day readmission.\u201d"
+ },
+ "03": {
+  "passed": true,
+  "evidence": "The study finding is stated as \u201chome PPI use was associated with a higher hazard of 90-day CDI,\u201d not as a causal effect."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al (2012) and Freedberg et al (2015) are named; other references appear as \u201c[CITATION NEEDED]\u201d placeholders."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "Women: \u201c1.21 (95% CI, 0.81\u20131.80)\u201d; the interaction was \u201cnot statistically significant (P = .14)\u201d and the data \u201cdo not establish a sex-specific difference.\u201d"
+ },
+ "08": {
+  "passed": true,
+  "evidence": "The draft uses supplied figures, attributes the approximate odds ratio of 1.74 to Kwok et al, and leaves unknown event counts as \u201c[DATA NEEDED: n].\u201d"
+ },
+ "_cost": 0.009131
+}

@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "The audit has five diagnostic findings and no replacement paragraphs. It says \"Don't rewrite\" was respected, and the chat confirms \"left the introduction unchanged.\""
+ },
+ "02": {
+  "passed": true,
+  "evidence": "Finding #1 is \"The causal conclusion exceeds the evidence\" (\"Adjustment does not rule out residual confounding\"). It is listed first, and the revision priority says \"calibrate the mortality claim first.\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"'Studies have shown that early norepinephrine improves survival' makes an uncited causal claim.\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Finding #5 flags \"a leading cause of death worldwide,\" \"evolving landscape,\" and \"growing interest\" as generic framing."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "\"with several layers of qualification: 'may potentially be associated' and 'in some patients.'\""
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"The sentence reporting the institutional result is appropriately cautious: it describes an association\""
+ },
+ "07": {
+  "passed": false,
+  "evidence": "No finding has a severity label. The \"Revision priority\" line ranks only the timing and mortality items first and the opening last, leaving findings 2 and 4 without an explicit level."
+ },
+ "_cost": 0.02462
+}

@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"Neither secondary outcome was associated with PPI use\"; Discussion: \"PPI use at admission was not associated with either 90-day all-cause mortality or 30-day all-cause readmission\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"was associated with a higher hazard of 90-day CDI\" and \"these findings describe an association and do not establish that PPI use causes CDI\""
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al and Freedberg et al are cited. The other evidence needs are left as \"[CITATION NEEDED]\" or as generic items to pull (e.g., \"IDSA/SHEA CDI guidance\"), with no specific other study or author named."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81-1.80) among women; the test for interaction by sex was not statistically significant (P for interaction = .14)... do not provide evidence that the association... differs by sex\""
+ },
+ "08": {
+  "passed": true,
+  "evidence": "All numbers are supplied or correctly derived: 6526 = 6214 + 312; 312/6526 = 4.8%; 2377/6214 = 38.3%; 1.5-point difference; 48% from HR 1.48. Event counts are left as [XX], and the Kwok OR was not inserted."
+ },
+ "_cost": 0.048176
+}

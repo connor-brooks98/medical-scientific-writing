@@ -1,0 +1,14 @@
+{
+ "model": "x-ai/grok-4.7",
+ "provider_model": "x-ai/grok-4.7",
+ "config": "v1.1",
+ "case": "revise-intro-no-citations",
+ "seconds": 374.0,
+ "prompt_tokens": 28606,
+ "completion_tokens": 25863,
+ "cost_usd": 0.17015,
+ "finish_reason": "stop",
+ "files_returned": [
+  "intro_revised.txt"
+ ]
+}

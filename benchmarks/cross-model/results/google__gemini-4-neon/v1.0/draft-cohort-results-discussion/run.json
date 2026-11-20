@@ -1,0 +1,14 @@
+{
+ "model": "google/gemini-4-neon",
+ "provider_model": "google/gemini-4-neon",
+ "config": "v1.0",
+ "case": "draft-cohort-results-discussion",
+ "seconds": 147.7,
+ "prompt_tokens": 25783,
+ "completion_tokens": 17579,
+ "cost_usd": 0.341034,
+ "finish_reason": "stop",
+ "files_returned": [
+  "draft_sections.md"
+ ]
+}

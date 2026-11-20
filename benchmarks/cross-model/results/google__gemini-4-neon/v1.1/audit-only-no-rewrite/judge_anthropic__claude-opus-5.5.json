@@ -1,0 +1,31 @@
+{
+ "01": {
+  "passed": true,
+  "evidence": "Findings give directives only, e.g. \"Delete this clause\" and \"State what your study tests\". There are no replacement paragraphs."
+ },
+ "02": {
+  "passed": true,
+  "evidence": "\"Early norepinephrine therefore prevents death in septic shock.\" is tagged \"S6 / Integrity Rule 3 (causal overclaim)\" at \"**Critical**\", the highest level used."
+ },
+ "03": {
+  "passed": true,
+  "evidence": "Both phrases are flagged D2 / Integrity Rule 1: \"Name the specific studies... add citations\" and \"Replace 'a growing body of evidence' with named, cited studies\"."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "\"Sepsis remains a leading cause of death worldwide,\" is tagged \"D6 (generic preamble)\", and the \"In recent years, there has been growing interest\" sentence is also flagged."
+ },
+ "05": {
+  "passed": true,
+  "evidence": "Tagged \"S6 (stacked hedging)\" with the fix: \"reduce the stacked hedges ('suggests', 'may', 'potentially', 'be associated with') to a single hedge\"."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "The verb is praised: \"uses the right evidence-matched verb ('was associated with')\". The one finding that quotes this phrase only asks to add a comparator, not to change the wording."
+ },
+ "07": {
+  "passed": true,
+  "evidence": "Every row in the findings table has a Severity value: Critical, Major or Minor."
+ },
+ "_cost": 0.03564
+}

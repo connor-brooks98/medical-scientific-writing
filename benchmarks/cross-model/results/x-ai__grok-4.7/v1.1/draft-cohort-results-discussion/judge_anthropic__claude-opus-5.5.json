@@ -1,0 +1,23 @@
+{
+ "02": {
+  "passed": true,
+  "evidence": "\"That exposure was not associated with 90-day all-cause mortality or with 30-day readmission\""
+ },
+ "03": {
+  "passed": true,
+  "evidence": "\"PPI use was associated with a higher hazard of CDI\"; the draft has no causal verbs such as increases, causes, or raises."
+ },
+ "04": {
+  "passed": true,
+  "evidence": "Only Kwok et al and Freedberg et al are named; the references carry [CITATION NEEDED] placeholders."
+ },
+ "06": {
+  "passed": true,
+  "evidence": "\"1.21 (95% CI, 0.81\u20131.80) in women (interaction P = .14)\"; the Discussion says \"the prespecified interaction with sex was not statistically significant\"."
+ },
+ "08": {
+  "passed": true,
+  "evidence": "Every number in the draft comes from the task. The 1.74 is attributed to Kwok with a caveat. (The chat's 5.0%-of-6,240 claim is wrong, since 312/6,214 \u2248 5.0%, but it is not in the draft.)"
+ },
+ "_cost": 0.02494
+}

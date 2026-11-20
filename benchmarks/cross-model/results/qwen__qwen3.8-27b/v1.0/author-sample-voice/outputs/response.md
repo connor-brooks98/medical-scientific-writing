@@ -1,0 +1,18 @@
+[file returned: new_paragraph_revised.txt]
+
+Saved as `new_paragraph_revised.txt`. I read your 2023 excerpt first and matched its register: open on the finding, state numbers plainly, interpret with restraint, no evaluation of your own results.
+
+**What changed**
+- **Discourse:** Deleted the opening moral ("crucial importance... pivotal role... underscoring"). Its only fact is the intervention's name, which now sits in the results sentence where it belongs.
+- **Advocacy:** Cut "not only statistically significant but also clinically meaningful" and "a paradigm shift in transitions of care." The CI already shows significance, and "meaningful" had no threshold behind it.
+- **Subgroup sentence:** Kept your targeting point but dropped "Interestingly" and "serves as a testament"; the "which argues for..." construction mirrors your "which argues against adherence as the main pathway" from the 2023 paper.
+- **Openers:** Notably/Furthermore/Interestingly removed; the paragraph now starts on the result, the way your excerpt does.
+- Went from 97 words to about 54. Nothing added, no content restructured beyond the above.
+
+**Fidelity:** every number and estimate (12 hospitals; 14.2% to 10.6%; -3.6; -5.9 to -1.3; 30 days; 10 or more; -6.1) is preserved unchanged; none were added.
+
+**Author queries**
+1. "Clinically meaningful" — if you have a prespecified minimal important difference, send it and I'll restore that clause with the number. Otherwise I'd leave it out.
+2. If the paragraph needs a line on what this means for transitions of care, tell me and I'll write one in your voice; I didn't invent one.
+
+One housekeeping note, since this is headed for submission: ICMJE and most journals require a statement disclosing AI-assisted writing if it was used on the manuscript.

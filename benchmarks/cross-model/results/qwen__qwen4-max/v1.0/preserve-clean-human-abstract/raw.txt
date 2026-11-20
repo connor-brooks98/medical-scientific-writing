@@ -1,0 +1,36 @@
+I read it as a JAMA Cardiology structured abstract for an observational cohort study. Honest verdict first: this does not read as machine-generated. The verbs match the design, the null exposure category is reported with the same plainness as the positive one, the attenuation is disclosed rather than buried, and there is no moral or promise-shaped ending. Those are exactly the discourse-level features that distinguish human expert prose, and yours are already right. I made a light edit rather than a rewrite.
+
+<<<FILE: abstract_final.txt>>>
+Importance: Short sleep has been associated with cardiovascular disease, but its relationship with incident atrial fibrillation (AF) in older adults is uncertain.
+
+Objective: To examine whether self-reported sleep duration is associated with incident AF in adults aged 65 years or older.
+
+Design, Setting, and Participants: This prospective cohort study included 4912 community-dwelling adults without AF at baseline who were enrolled at 4 US sites [DATA NEEDED: cohort name] between 2009 and 2012 and followed up through 2022.
+
+Exposure: Self-reported habitual sleep duration, categorized as 6 hours or less, 7 to 8 hours (reference), and 9 hours or more.
+
+Main Outcomes and Measures: Incident AF, ascertained from study electrocardiograms, hospital discharge codes, and Medicare claims.
+
+Results: Among 4912 participants [DATA NEEDED: mean (SD) age and number (%) of women], 781 developed AF during a median follow-up of 9.8 years. Compared with 7 to 8 hours, sleep duration of 6 hours or less was associated with a higher hazard of AF (adjusted hazard ratio, 1.29; 95% CI, 1.08-1.54); sleep duration of 9 hours or more was not (adjusted hazard ratio, 1.07; 95% CI, 0.86-1.33). After further adjustment for obstructive sleep apnea symptoms, the association for short sleep was attenuated (adjusted hazard ratio, 1.18; 95% CI, 0.98-1.42).
+
+Conclusions and Relevance: In this cohort of older adults, short sleep was associated with incident AF, but the association was attenuated after adjustment for obstructive sleep apnea symptoms. Whether treating sleep apnea or extending sleep lowers AF risk requires randomized trials.
+<<<END FILE>>>
+
+**What changed**
+
+- **Discourse (D2, D3):** named the cohort as a placeholder rather than leaving "4 US sites" anonymous, and moved the participant count into Results so the denominator sits with the event count. Nothing was added to the interpretation; the attenuation and the null long-sleep result keep their original prominence.
+- **Sentences (S5, S7):** one term per concept ("sleep duration of 6 hours or less" matches the Exposure categories; "obstructive sleep apnea symptoms" in both places, not "symptoms of sleep apnea"). Replaced the "whereas" clause join with a semicolon so the two exposure categories read as a parallel pair, and led Results with the finding rather than the follow-up duration.
+- **Words and marks (W6):** en dashes in the CIs changed to hyphens and "4,912" to "4912", per AMA/JAMA number and range style. Check these against the current JAMA Cardiology instructions, which override my defaults.
+- **Not changed, deliberately:** the Importance sentence, the Objective, the exposure definitions, the outcome ascertainment, and the closing trials sentence. They are specific and calibrated; editing them would only homogenize your voice.
+
+**Fidelity:** all numbers (4912, 781, 9.8 years, 2009-2012, 2022, all three hazard ratios and CIs), all categories, and all findings are preserved; only formatting changed. Length is essentially unchanged outside the placeholders.
+
+**Placeholders and author queries**
+
+1. `[DATA NEEDED: cohort name]` — JAMA abstracts name the cohort or study in Design.
+2. `[DATA NEEDED: mean (SD) age and number (%) of women]` — JAMA Results sections open with participant age and sex; confirm against the journal's current instructions and delete the placeholders (not the sentence structure) once filled.
+3. The attenuated estimate (1.18; 95% CI, 0.98-1.42) has a confidence interval that includes 1. Your conclusion says "attenuated," which is accurate; consider whether you want to state explicitly that the interval no longer excludes the null, so a reader does not carry the 1.29 forward. Your call, not mine.
+4. Whether sleep apnea symptoms confound or mediate the association cannot be separated by this design. If a reviewer will raise it, one clause in the Discussion is the place; I did not add it to the abstract.
+5. Confirm the abstract word limit and whether the journal wants "Exposure" or "Exposures."
+
+One submission note, mentioned once: JAMA and ICMJE require disclosure of AI assistance in writing, so state the editing help in the acknowledgments or the designated field as the journal directs. I can't predict what any detector will say, and neither should you rely on one; the defense here is that the abstract is specific, symmetric, and matched to your design, which it already was.
